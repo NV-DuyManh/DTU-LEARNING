@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u00D4n Thi\\Demo12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A52CEDBE-8B1D-470E-A62A-C56FCF64C8E1}|Demo12\\Demo12.csproj|f:\\\u00F4n thi\\demo12\\demo12\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A52CEDBE-8B1D-470E-A62A-C56FCF64C8E1}|Demo12\\Demo12.csproj|solutionrelative:demo12\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A52CEDBE-8B1D-470E-A62A-C56FCF64C8E1}|Demo12\\Demo12.csproj|f:\\\u00F4n thi\\demo12\\demo12\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A52CEDBE-8B1D-470E-A62A-C56FCF64C8E1}|Demo12\\Demo12.csproj|solutionrelative:demo12\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 187,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\\u00D4n Thi\\Demo12\\Demo12\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Demo12\\MainWindow.xaml",
+              "ToolTip": "F:\\\u00D4n Thi\\Demo12\\Demo12\\MainWindow.xaml",
+              "RelativeToolTip": "Demo12\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-14T00:24:38.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\\u00D4n Thi\\Demo12\\Demo12\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Demo12\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\\u00D4n Thi\\Demo12\\Demo12\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Demo12\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T00:24:37.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

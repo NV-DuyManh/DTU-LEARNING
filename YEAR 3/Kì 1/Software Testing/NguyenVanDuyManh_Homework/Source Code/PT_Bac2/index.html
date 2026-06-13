@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quadratic Equation | Bhaskara</title>
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="content">
+        <div class="terms-container">
+          <div>
+            <label for="term-a">A</label>
+            <input
+              id="term-a"
+              class="terms"
+              name="term-a"
+              type="number"
+              value="1"
+            />
+          </div>
+
+          <div>
+            <label for="term-b">B</label>
+            <input
+              id="term-b"
+              class="terms"
+              name="term-b"
+              type="number"
+              value="2"
+            />
+          </div>
+
+          <div>
+            <label for="term-c">C</label>
+            <input
+              id="term-c"
+              class="terms"
+              name="term-c"
+              type="number"
+              value="-3"
+            />
+          </div>
+        </div>
+
+        <div class="results-container">
+          <div id="area-results">
+            <div id="root1-area">
+              <label for="root-1">ROOT 1</label><br />
+              <input id="root-1" name="root-1" type="text" disabled />
+            </div>
+
+            <div id="root2-area">
+              <label for="root-2">ROOT 2</label><br />
+              <input id="root-2" name="root-2" type="text" disabled />
+            </div>
+
+            <div id="delta-area">
+              <label for="delta">DELTA</label><br />
+              <input id="delta" name="delta" type="text" disabled />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/quadraticEquation.js"></script>
+  </body>
+</html>

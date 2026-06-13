@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Thi LTUD\\QLVatTu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A77F73CA-8659-47DB-A19B-8A88940C31DA}|QLVatTu\\QLVatTu.csproj|f:\\thi ltud\\qlvattu\\qlvattu\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77F73CA-8659-47DB-A19B-8A88940C31DA}|QLVatTu\\QLVatTu.csproj|solutionrelative:qlvattu\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77F73CA-8659-47DB-A19B-8A88940C31DA}|QLVatTu\\QLVatTu.csproj|F:\\Thi LTUD\\QLVatTu\\qlvattu\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77F73CA-8659-47DB-A19B-8A88940C31DA}|QLVatTu\\QLVatTu.csproj|solutionrelative:qlvattu\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77F73CA-8659-47DB-A19B-8A88940C31DA}|QLVatTu\\QLVatTu.csproj|f:\\thi ltud\\qlvattu\\qlvattu\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A77F73CA-8659-47DB-A19B-8A88940C31DA}|QLVatTu\\QLVatTu.csproj|solutionrelative:qlvattu\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77F73CA-8659-47DB-A19B-8A88940C31DA}|QLVatTu\\QLVatTu.csproj|f:\\thi ltud\\qlvattu\\qlvattu\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A77F73CA-8659-47DB-A19B-8A88940C31DA}|QLVatTu\\QLVatTu.csproj|solutionrelative:qlvattu\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "F:\\Thi LTUD\\QLVatTu\\QLVatTu\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "QLVatTu\\Model1.Context.tt",
+              "ToolTip": "F:\\Thi LTUD\\QLVatTu\\QLVatTu\\Model1.Context.tt",
+              "RelativeToolTip": "QLVatTu\\Model1.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-07T06:44:28.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "F:\\Thi LTUD\\QLVatTu\\QLVatTu\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "QLVatTu\\Model1.Context.cs",
+              "ToolTip": "F:\\Thi LTUD\\QLVatTu\\QLVatTu\\Model1.Context.cs",
+              "RelativeToolTip": "QLVatTu\\Model1.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T06:44:23.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Thi LTUD\\QLVatTu\\QLVatTu\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QLVatTu\\MainWindow.xaml",
+              "ToolTip": "F:\\Thi LTUD\\QLVatTu\\QLVatTu\\MainWindow.xaml",
+              "RelativeToolTip": "QLVatTu\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-07T06:15:53.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Thi LTUD\\QLVatTu\\QLVatTu\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QLVatTu\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\Thi LTUD\\QLVatTu\\QLVatTu\\MainWindow.xaml.cs",
+              "RelativeToolTip": "QLVatTu\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T06:15:50.882Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

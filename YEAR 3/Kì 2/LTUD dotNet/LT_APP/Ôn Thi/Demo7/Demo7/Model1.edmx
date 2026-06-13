@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QLVatTuModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="NHASANXUAT">
+          <Key>
+            <PropertyRef Name="MaNSX" />
+          </Key>
+          <Property Name="MaNSX" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TenNSX" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="VATTU">
+          <Key>
+            <PropertyRef Name="MaVatTu" />
+          </Key>
+          <Property Name="MaVatTu" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TenVatTu" Type="nvarchar" MaxLength="50" />
+          <Property Name="NgaySanXuat" Type="date" />
+          <Property Name="MaNSX" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_VATTU_ToTable">
+          <End Role="NHASANXUAT" Type="Self.NHASANXUAT" Multiplicity="0..1" />
+          <End Role="VATTU" Type="Self.VATTU" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHASANXUAT">
+              <PropertyRef Name="MaNSX" />
+            </Principal>
+            <Dependent Role="VATTU">
+              <PropertyRef Name="MaNSX" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QLVatTuModelStoreContainer">
+          <EntitySet Name="NHASANXUAT" EntityType="Self.NHASANXUAT" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VATTU" EntityType="Self.VATTU" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_VATTU_ToTable" Association="Self.FK_VATTU_ToTable">
+            <End Role="NHASANXUAT" EntitySet="NHASANXUAT" />
+            <End Role="VATTU" EntitySet="VATTU" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QLVatTuModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="NHASANXUAT">
+          <Key>
+            <PropertyRef Name="MaNSX" />
+          </Key>
+          <Property Name="MaNSX" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenNSX" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="VATTU" Relationship="Self.FK_VATTU_ToTable" FromRole="NHASANXUAT" ToRole="VATTU" />
+        </EntityType>
+        <EntityType Name="VATTU">
+          <Key>
+            <PropertyRef Name="MaVatTu" />
+          </Key>
+          <Property Name="MaVatTu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenVatTu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NgaySanXuat" Type="DateTime" Precision="0" />
+          <Property Name="MaNSX" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="NHASANXUAT" Relationship="Self.FK_VATTU_ToTable" FromRole="VATTU" ToRole="NHASANXUAT" />
+        </EntityType>
+        <Association Name="FK_VATTU_ToTable">
+          <End Role="NHASANXUAT" Type="Self.NHASANXUAT" Multiplicity="0..1" />
+          <End Role="VATTU" Type="Self.VATTU" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NHASANXUAT">
+              <PropertyRef Name="MaNSX" />
+            </Principal>
+            <Dependent Role="VATTU">
+              <PropertyRef Name="MaNSX" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QLVatTuEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="NHASANXUAT" EntityType="Self.NHASANXUAT" />
+          <EntitySet Name="VATTU" EntityType="Self.VATTU" />
+          <AssociationSet Name="FK_VATTU_ToTable" Association="Self.FK_VATTU_ToTable">
+            <End Role="NHASANXUAT" EntitySet="NHASANXUAT" />
+            <End Role="VATTU" EntitySet="VATTU" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QLVatTuModelStoreContainer" CdmEntityContainer="QLVatTuEntities">
+          <EntitySetMapping Name="NHASANXUAT">
+            <EntityTypeMapping TypeName="QLVatTuModel.NHASANXUAT">
+              <MappingFragment StoreEntitySet="NHASANXUAT">
+                <ScalarProperty Name="MaNSX" ColumnName="MaNSX" />
+                <ScalarProperty Name="TenNSX" ColumnName="TenNSX" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VATTU">
+            <EntityTypeMapping TypeName="QLVatTuModel.VATTU">
+              <MappingFragment StoreEntitySet="VATTU">
+                <ScalarProperty Name="MaVatTu" ColumnName="MaVatTu" />
+                <ScalarProperty Name="TenVatTu" ColumnName="TenVatTu" />
+                <ScalarProperty Name="NgaySanXuat" ColumnName="NgaySanXuat" />
+                <ScalarProperty Name="MaNSX" ColumnName="MaNSX" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

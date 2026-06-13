@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Thi LTUD\\QUANLYTUYENSINH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC53B86F-2296-479D-A6F7-8EA2060F4400}|QUANLYTUYENSINH\\QUANLYTUYENSINH.csproj|F:\\Thi LTUD\\QUANLYTUYENSINH\\quanlytuyensinh\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EC53B86F-2296-479D-A6F7-8EA2060F4400}|QUANLYTUYENSINH\\QUANLYTUYENSINH.csproj|solutionrelative:quanlytuyensinh\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__THI_LTUD_QUANLYTUYENSINH_QUANLYTUYENSINH_BIN_DEBUG_QUANLYTUYENSINH.MDF/True/SqlTable/dbo.THISINH.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__THI_LTUD_QUANLYTUYENSINH_QUANLYTUYENSINH_QUANLYTUYENSINH.MDF/True/SqlTable/dbo.THISINH.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC53B86F-2296-479D-A6F7-8EA2060F4400}|QUANLYTUYENSINH\\QUANLYTUYENSINH.csproj|F:\\Thi LTUD\\QUANLYTUYENSINH\\quanlytuyensinh\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC53B86F-2296-479D-A6F7-8EA2060F4400}|QUANLYTUYENSINH\\QUANLYTUYENSINH.csproj|solutionrelative:quanlytuyensinh\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC53B86F-2296-479D-A6F7-8EA2060F4400}|QUANLYTUYENSINH\\QUANLYTUYENSINH.csproj|F:\\Thi LTUD\\QUANLYTUYENSINH\\quanlytuyensinh\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC53B86F-2296-479D-A6F7-8EA2060F4400}|QUANLYTUYENSINH\\QUANLYTUYENSINH.csproj|solutionrelative:quanlytuyensinh\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__THI_LTUD_QUANLYTUYENSINH_QUANLYTUYENSINH_QUANLYTUYENSINH.MDF/True/SqlTable/dbo.NGANHHOC.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC53B86F-2296-479D-A6F7-8EA2060F4400}|QUANLYTUYENSINH\\QUANLYTUYENSINH.csproj|F:\\Thi LTUD\\QUANLYTUYENSINH\\quanlytuyensinh\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EC53B86F-2296-479D-A6F7-8EA2060F4400}|QUANLYTUYENSINH\\QUANLYTUYENSINH.csproj|solutionrelative:quanlytuyensinh\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.THISINH.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__THI_LTUD_QUANLYTUYENSINH_QUANLYTUYENSINH_BIN_DEBUG_QUANLYTUYENSINH.MDF/True/SqlTable/dbo.THISINH.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__THI_LTUD_QUANLYTUYENSINH_QUANLYTUYENSINH_BIN_DEBUG_QUANLYTUYENSINH.MDF/True/SqlTable/dbo.THISINH.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-04T07:43:34.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Thi LTUD\\QUANLYTUYENSINH\\QUANLYTUYENSINH\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QUANLYTUYENSINH\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\Thi LTUD\\QUANLYTUYENSINH\\QUANLYTUYENSINH\\MainWindow.xaml.cs",
+              "RelativeToolTip": "QUANLYTUYENSINH\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAmwIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T06:56:37.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.NGANHHOC.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__THI_LTUD_QUANLYTUYENSINH_QUANLYTUYENSINH_QUANLYTUYENSINH.MDF/True/SqlTable/dbo.NGANHHOC.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__THI_LTUD_QUANLYTUYENSINH_QUANLYTUYENSINH_QUANLYTUYENSINH.MDF/True/SqlTable/dbo.NGANHHOC.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-04T07:21:40.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "F:\\Thi LTUD\\QUANLYTUYENSINH\\QUANLYTUYENSINH\\App.config",
+              "RelativeDocumentMoniker": "QUANLYTUYENSINH\\App.config",
+              "ToolTip": "F:\\Thi LTUD\\QUANLYTUYENSINH\\QUANLYTUYENSINH\\App.config",
+              "RelativeToolTip": "QUANLYTUYENSINH\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-04T07:29:07.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "F:\\Thi LTUD\\QUANLYTUYENSINH\\QUANLYTUYENSINH\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "QUANLYTUYENSINH\\Model1.Context.tt",
+              "ToolTip": "F:\\Thi LTUD\\QUANLYTUYENSINH\\QUANLYTUYENSINH\\Model1.Context.tt",
+              "RelativeToolTip": "QUANLYTUYENSINH\\Model1.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-04T07:28:35.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.THISINH.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__THI_LTUD_QUANLYTUYENSINH_QUANLYTUYENSINH_QUANLYTUYENSINH.MDF/True/SqlTable/dbo.THISINH.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/F__THI_LTUD_QUANLYTUYENSINH_QUANLYTUYENSINH_QUANLYTUYENSINH.MDF/True/SqlTable/dbo.THISINH.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-04T07:22:49.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Thi LTUD\\QUANLYTUYENSINH\\QUANLYTUYENSINH\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QUANLYTUYENSINH\\MainWindow.xaml",
+              "ToolTip": "F:\\Thi LTUD\\QUANLYTUYENSINH\\QUANLYTUYENSINH\\MainWindow.xaml",
+              "RelativeToolTip": "QUANLYTUYENSINH\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-04T06:56:37.801Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

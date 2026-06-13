@@ -1,0 +1,60 @@
+﻿<Window x:Class="QLVatTu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QLVatTu"
+        mc:Ignorable="d"
+        Title="Quản Lý Vật Tư" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <GroupBox Header="Thông tin vật tư" Margin="10,10,10,0" VerticalAlignment="Top" Height="190" BorderBrush="#FFCCCCCC">
+            <Canvas>
+                <Label Content="ID Vat Tu:" Canvas.Left="20" Canvas.Top="10"/>
+
+                <Label Content="Ma Vat Tu:" Canvas.Left="20" Canvas.Top="45"/>
+                <TextBox x:Name="txtMaVT" Text="X03" Height="25" Width="100" Canvas.Left="110" Canvas.Top="45" VerticalContentAlignment="Center"/>
+
+                <Label Content="Ten Vat Tu:" Canvas.Left="20" Canvas.Top="80"/>
+                <TextBox x:Name="txtTenVT" Text="Xo Loai 3" Height="25" Width="100" Canvas.Left="110" Canvas.Top="80" VerticalContentAlignment="Center"/>
+
+                <DatePicker x:Name="dpNgaySX" Canvas.Left="260" Canvas.Top="10" Width="120" SelectedDate="03/03/2023"/>
+
+                <Label Content="Nam Het Han:" Canvas.Left="450" Canvas.Top="10"/>
+                <TextBox x:Name="txtNamHH" Text="2026" Height="25" Width="80" Canvas.Left="550" Canvas.Top="10" VerticalContentAlignment="Center"/>
+
+                <Button Content="Đếm" Canvas.Left="550" Canvas.Top="45" Width="50" Height="25"/>
+                <TextBox Text="6" Height="25" Width="50" Canvas.Left="610" Canvas.Top="45" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+
+                <ComboBox x:Name="cboNhaSX" Canvas.Left="550" Canvas.Top="80" Width="110" Height="25" SelectedIndex="0">
+                    <ComboBoxItem Content="Vinh Phát"/>
+                    <ComboBoxItem Content="Cát Tường"/>
+                    <ComboBoxItem Content="Minh Vũ"/>
+                </ComboBox>
+
+                <Button x:Name="btnThem" Content="Thêm" Width="80" Height="30" Canvas.Left="30" Canvas.Top="130" Background="#FFE6E6E6"/>
+                <Button x:Name="btnSua" Content="Sửa" Width="80" Height="30" Canvas.Left="120" Canvas.Top="130" Background="#FFE6E6E6"/>
+
+                <Button x:Name="btnXoa" Content="Xoá" Width="80" Height="30" Canvas.Left="550" Canvas.Top="130" Background="#FFE6E6E6"/>
+                <Button x:Name="btnLoad" Content="Load Lại" Width="100" Height="30" Canvas.Left="640" Canvas.Top="130" Background="#FFE6E6E6"/>
+            </Canvas>
+        </GroupBox>
+
+        <DataGrid x:Name="dgVatTu" Margin="10,210,10,10" 
+                  AutoGenerateColumns="False" 
+                  CanUserAddRows="False"
+                  SelectionMode="Single"
+                  GridLinesVisibility="All"
+                  HorizontalGridLinesBrush="LightGray"
+                  VerticalGridLinesBrush="LightGray">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã Vật Tư" Width="*" Binding="{Binding MaVT}"/>
+                <DataGridTextColumn Header="Tên Vật Tư" Width="1.5*" Binding="{Binding TenVT}"/>
+                <DataGridTextColumn Header="Ngày Sản Xuất" Width="1.5*" Binding="{Binding NgaySX}"/>
+                <DataGridTextColumn Header="Năm Hết Hạn" Width="*" Binding="{Binding NamHH}"/>
+                <DataGridTextColumn Header="Mã Nhà SX" Width="*" Binding="{Binding MaNSX}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

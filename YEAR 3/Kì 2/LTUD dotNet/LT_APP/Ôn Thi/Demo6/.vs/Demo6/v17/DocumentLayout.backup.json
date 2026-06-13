@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u00D4n Thi\\Demo6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E2F8E4-377B-4D29-9F98-D2D56C7C4B21}|Demo6\\Demo6.csproj|f:\\\u00F4n thi\\demo6\\demo6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A7E2F8E4-377B-4D29-9F98-D2D56C7C4B21}|Demo6\\Demo6.csproj|solutionrelative:demo6\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 187,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\\u00D4n Thi\\Demo6\\Demo6\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Demo6\\MainWindow.xaml",
+              "ToolTip": "F:\\\u00D4n Thi\\Demo6\\Demo6\\MainWindow.xaml*",
+              "RelativeToolTip": "Demo6\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-12T08:30:18.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

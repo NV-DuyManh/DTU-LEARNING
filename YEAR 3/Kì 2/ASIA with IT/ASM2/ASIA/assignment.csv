@@ -1,0 +1,1001 @@
+Customer ID,Age,Gender,Job,Annual Income,Account Creation Date,Last Login Time,Purchase Frequency,Average Purchase Price,Most Purchased Category,App Usage Frequency,Preferred Payment Method,Marketing Opt-In,Recent Purchase Date,Promotion Response,Preferred Brand
+1,29,Female,Healthcare,34141,2022-08-10,2024-05-05 5:53,28,170.98,Luxury,2.02,Mobile,FALSE,2023-09-07,1,Gucci
+2,56,Female,Services,113758,2022-12-02,2024-05-04 21:54,14,32.43,Kids,3.67,Credit Card,FALSE,2024-02-22,1,Gucci
+3,65,Male,Finance,63664,2022-02-20,2024-05-08 2:29,20,430.29,Men's Clothing,4.54,Credit Card,FALSE,2024-03-17,0,Gucci
+4,55,Female,Technology,172320,2021-02-12,2024-05-06 1:27,29,364.82,Sports,2.52,Credit Card,TRUE,2023-12-22,1,Double Flag
+5,62,Female,Services,86148,2023-07-24,2024-05-05 4:02,7,38.4,Shoes,0.61,Mobile,TRUE,2024-04-26,0,Double Flag
+6,63,Male,Healthcare,125373,2020-03-21,2024-05-03 16:35,25,204.05,Men's Clothing,1.86,Credit Card,TRUE,2023-05-21,0,Nike
+7,24,Female,Education,171702,2020-12-15,2024-05-02 8:29,18,129.58,Bags/Accessories,2.55,Virtual Account,FALSE,2023-11-17,1,Gucci
+8,35,Female,Services,166037,2019-07-22,2024-05-01 16:50,26,110.02,Sports,2.16,Virtual Account,FALSE,2024-02-26,1,Daks
+9,34,Female,Technology,,2023-02-19,2024-05-06 21:28,22,162.98,Golf,0.14,Credit Card,FALSE,2023-10-29,1,Double Flag
+10,63,Male,Education,171002,2022-08-23,2024-05-04 14:36,17,411.58,Shoes,3.86,Virtual Account,TRUE,2023-08-25,0,Gucci
+11,69,Male,Services,115052,2020-02-03,2024-05-07 6:22,14,387.2,Beauty,4.42,Virtual Account,FALSE,2023-06-08,0,Nike
+12,24,Female,Technology,67916,2022-05-16,2024-05-01 22:40,4,455.53,Women's Clothing,1.81,Virtual Account,TRUE,2024-01-08,0,Gucci
+13,63,Female,Services,85539,2021-07-26,2024-05-01 8:37,0,112.77,Sports,3.91,Credit Card,TRUE,2023-05-11,0,Double Flag
+14,65,Male,Services,197022,2020-07-07,2024-05-02 14:44,23,317.32,Shoes,0.92,Virtual Account,FALSE,2023-06-28,1,Gucci
+15,19,Female,Services,163544,2019-08-03,2024-05-07 6:20,9,268.25,Golf,3.76,Mobile,TRUE,2024-04-01,1,Hazzys
+16,41,Female,Finance,75492,2023-10-10,2024-05-07 4:54,15,272.62,Luxury,4.15,Virtual Account,TRUE,2023-07-12,1,Gucci
+17,53,Male,Education,65732,2023-06-15,2024-05-06 14:20,7,364.39,Women's Clothing,0.49,Credit Card,TRUE,2023-06-15,1,Hazzys
+18,53,Male,Services,135340,2021-02-10,2024-05-07 2:35,5,129.17,Luxury,4.08,Mobile,FALSE,2023-05-20,1,Nike
+19,32,Female,Education,106875,2019-10-23,2024-05-09 4:44,25,256.53,Shoes,3.19,Mobile,FALSE,2023-06-17,0,Double Flag
+20,48,Male,Healthcare,180555,2020-09-13,2024-05-08 20:52,5,486.2,Shoes,0.12,Virtual Account,FALSE,2023-09-18,1,Gucci
+21,18,Female,Finance,72542,2020-02-03,2024-05-08 11:33,18,415.94,Beauty,0.56,Virtual Account,FALSE,2024-01-02,1,Hazzys
+22,25,Female,Services,79859,2023-02-07,2024-05-05 17:15,4,163.57,Bags/Accessories,4.99,App,TRUE,2024-01-14,1,Gucci
+23,62,Female,Education,191123,2023-08-17,2024-05-05 20:27,21,174.42,Bags/Accessories,4.22,Credit Card,TRUE,2023-09-02,1,Double Flag
+24,65,Female,Technology,102790,2022-05-27,2024-05-05 20:33,7,488.22,Bags/Accessories,0.56,App,TRUE,2024-04-27,0,Nike
+25,19,Male,Healthcare,131642,2019-06-03,2024-05-02 13:22,12,359,Women's Clothing,0.45,Virtual Account,FALSE,2023-07-17,0,Double Flag
+26,40,Male,Education,63676,2023-07-31,2024-05-07 19:21,20,451.91,Sports,2.91,Mobile,TRUE,2023-08-19,1,Nike
+27,18,Female,Services,133411,2020-01-05,2024-05-09 4:48,5,328.43,Women's Clothing,1.01,Credit Card,TRUE,2024-02-24,0,Hazzys
+28,42,Female,Education,99180,2019-09-05,2024-05-06 8:25,9,101.67,Women's Clothing,3.68,Virtual Account,FALSE,2024-03-12,1,Hazzys
+29,39,Female,Finance,102862,2024-01-15,2024-05-04 12:06,24,471.02,Bags/Accessories,0.79,Virtual Account,FALSE,2023-11-24,0,Hazzys
+30,69,Male,Services,54536,2024-01-04,2024-05-02 15:07,28,341.71,Sports,1.09,Credit Card,FALSE,2024-02-04,1,Nike
+31,38,Female,Healthcare,79753,2021-08-30,2024-05-05 3:51,9,468.76,Luxury,2.59,Mobile,FALSE,2023-10-16,1,Gucci
+32,27,Female,Education,106387,2020-02-14,2024-05-08 9:12,29,290.15,Sports,4.35,Virtual Account,TRUE,2023-11-12,0,Nike
+33,41,Male,Education,88034,2024-01-17,2024-05-04 11:53,14,224.79,Sports,2.56,App,FALSE,2023-10-15,1,Gucci
+34,25,Male,Healthcare,193386,2019-12-23,2024-05-02 10:37,27,167.03,Bags/Accessories,2.15,App,FALSE,2023-06-07,0,Daks
+35,40,Female,Technology,140470,2020-10-30,2024-05-03 14:42,8,21.97,Bags/Accessories,1.15,Mobile,TRUE,2023-09-23,0,Hazzys
+36,27,Female,Services,111972,2023-03-10,2024-05-05 20:26,8,325.26,Golf,3.59,Mobile,TRUE,2023-07-10,1,Daks
+37,61,Female,Finance,186487,2023-12-17,2024-05-06 23:55,4,104,Sports,1.01,Virtual Account,TRUE,2024-03-24,1,Daks
+38,27,Male,Services,199470,2021-06-04,2024-05-01 21:11,16,102.05,Kids,3.37,App,TRUE,2023-10-10,1,Gucci
+39,49,Male,Healthcare,32554,2020-11-05,2024-05-06 0:02,25,168.8,Bags/Accessories,4.29,Virtual Account,TRUE,2023-11-18,0,Gucci
+40,40,Female,Education,155143,2023-06-24,2024-05-08 9:19,18,164.65,Beauty,1.43,Mobile,FALSE,2023-09-12,1,Daks
+41,60,Female,Finance,86095,2020-07-30,2024-05-05 16:02,0,108.33,Sports,4.73,App,TRUE,2023-12-21,1,Daks
+42,68,Female,Education,179855,2020-05-12,2024-05-03 17:34,13,348.23,Golf,2.28,Virtual Account,TRUE,2023-12-19,0,Hazzys
+43,36,Female,Education,139724,2022-08-22,2024-05-05 2:52,10,91.74,Kids,2.57,Credit Card,FALSE,2023-05-15,1,Double Flag
+44,54,Female,Healthcare,187928,2021-07-05,2024-05-07 11:12,28,211.08,Luxury,1.95,Virtual Account,FALSE,2023-11-20,1,Nike
+45,65,Male,Healthcare,44115,2023-05-30,2024-05-03 15:09,27,357.57,Kids,4.2,Credit Card,TRUE,2023-09-16,1,Nike
+46,22,Male,Healthcare,47927,2022-12-28,2024-05-05 14:43,28,24.39,Men's Clothing,1.24,Virtual Account,TRUE,2023-09-03,0,Gucci
+47,23,Male,Healthcare,94780,2021-06-25,2024-05-05 12:15,13,345.21,Bags/Accessories,2.92,Mobile,TRUE,2023-10-20,1,Nike
+48,20,Female,Healthcare,35283,2023-04-22,2024-05-08 1:07,23,34.9,Luxury,0.27,Virtual Account,FALSE,2024-04-11,1,Double Flag
+49,49,Male,Healthcare,177963,2024-01-04,2024-05-03 0:15,19,90.76,Bags/Accessories,2.7,Credit Card,TRUE,2023-07-02,1,Gucci
+50,35,Female,Healthcare,150482,2023-03-21,2024-05-03 2:29,7,495.12,Golf,2.75,Mobile,TRUE,2024-03-14,1,Gucci
+51,59,Female,Education,135912,2020-10-18,2024-05-05 2:28,0,202.09,Beauty,1.21,Virtual Account,TRUE,2023-08-17,1,Nike
+52,24,Female,Services,131344,2019-09-30,2024-05-04 15:08,4,439,Kids,0.33,App,FALSE,2023-10-08,0,Hazzys
+53,51,Female,Education,83346,2021-02-27,2024-05-07 16:25,10,266.33,Luxury,3.22,Credit Card,TRUE,2024-01-03,0,Double Flag
+54,26,Female,Finance,196692,2022-10-06,2024-05-02 6:42,13,180.9,Luxury,0.3,App,TRUE,2024-03-31,1,Gucci
+55,67,Female,Education,53193,2020-10-22,2024-05-05 8:10,21,142.16,Kids,1.53,App,FALSE,2023-11-15,0,Daks
+56,48,Male,Services,192761,2023-02-08,2024-05-05 6:16,5,416.11,Shoes,1.11,Credit Card,FALSE,2023-08-07,1,Nike
+57,39,Female,Technology,149299,2019-07-18,2024-05-03 3:02,22,162.29,Golf,2.63,Credit Card,FALSE,2023-11-04,1,Double Flag
+58,57,Male,Finance,151873,2022-08-20,2024-05-06 9:07,18,232.28,Beauty,1.61,App,TRUE,2023-10-02,0,Nike
+59,62,Male,Services,104247,2021-12-04,2024-05-06 18:51,14,256.02,Luxury,4.86,Virtual Account,TRUE,2023-12-03,1,Nike
+60,29,Female,Technology,112391,2019-11-22,2024-05-07 4:32,26,296.19,Kids,1.29,Credit Card,TRUE,2023-07-07,0,Hazzys
+61,57,Male,Education,,2020-09-08,2024-05-01 19:32,28,283.85,Luxury,2.84,App,TRUE,2023-08-26,0,Nike
+62,35,Male,Healthcare,152118,2023-07-21,2024-05-03 23:23,28,37.88,Golf,3.94,Mobile,TRUE,2023-11-10,0,Hazzys
+63,24,Female,Technology,134898,2022-10-10,2024-05-08 2:47,18,34.62,Bags/Accessories,2.92,Credit Card,FALSE,2024-01-04,0,Double Flag
+64,42,Male,Services,158725,2023-06-19,2024-05-05 1:58,27,194.65,Golf,2.64,App,FALSE,2023-05-24,0,Gucci
+65,48,Female,Healthcare,44899,2022-07-03,2024-05-09 5:14,23,469.33,Bags/Accessories,1.51,App,TRUE,2023-11-16,1,Gucci
+66,67,Male,Services,117197,2021-05-06,2024-05-02 10:07,10,496.39,Women's Clothing,2.98,App,FALSE,2023-06-04,0,Nike
+67,54,Female,Healthcare,190115,2024-04-09,2024-05-01 21:29,5,119.19,Golf,4.48,Mobile,TRUE,2023-11-28,0,Gucci
+68,21,Male,Education,110297,2021-05-11,2024-05-06 13:48,4,163.81,Men's Clothing,2.17,App,TRUE,2023-10-21,0,Hazzys
+69,48,Female,Education,143829,2020-10-04,2024-05-08 19:22,29,25.41,Women's Clothing,2.62,Virtual Account,TRUE,2024-01-16,1,Hazzys
+70,35,Female,Finance,196736,2019-10-06,2024-05-06 6:06,1,110.16,Kids,2.64,Credit Card,TRUE,2023-07-29,0,Daks
+71,26,Male,Education,38851,2022-08-10,2024-05-04 18:46,3,144.51,Beauty,3.12,App,FALSE,2023-07-22,0,Nike
+72,35,Male,Services,86459,2021-09-05,2024-05-08 12:55,19,189.29,Women's Clothing,3.07,Mobile,TRUE,2023-08-23,1,Double Flag
+73,53,Female,Services,105565,2024-02-26,2024-05-05 5:04,15,150.47,Kids,3.61,Credit Card,FALSE,2023-08-28,0,Double Flag
+74,65,Female,Services,148591,2022-11-05,2024-05-04 23:29,5,482.25,Bags/Accessories,4.37,App,FALSE,2024-02-11,1,Daks
+75,59,Female,Healthcare,91034,2023-03-05,2024-05-04 1:52,3,408.02,Sports,3.65,App,TRUE,2024-03-04,0,Gucci
+76,18,Female,Education,67178,2022-06-20,2024-05-08 10:58,2,467.52,Men's Clothing,4.84,Credit Card,FALSE,2023-12-13,1,Gucci
+77,32,Male,Services,119704,2020-04-17,2024-05-04 16:47,18,340.45,Men's Clothing,4.54,Mobile,FALSE,2023-11-02,0,Gucci
+78,40,Female,Technology,36044,2021-07-28,2024-05-01 7:28,10,385.91,Beauty,2.44,App,FALSE,2023-11-04,0,Daks
+79,20,Female,Services,94940,2021-05-22,2024-05-05 12:09,10,498.55,Men's Clothing,1.6,Mobile,FALSE,2024-03-10,0,Double Flag
+80,40,Female,Education,36020,2021-11-14,2024-05-05 12:23,1,204.81,Kids,2.2,Virtual Account,TRUE,2024-03-29,0,Daks
+81,61,Male,Education,61617,2023-05-17,2024-05-05 12:42,0,432.37,Luxury,4.87,Credit Card,TRUE,2023-08-21,0,Gucci
+82,59,Male,Healthcare,122633,2020-10-21,2024-05-07 22:22,11,433.01,Men's Clothing,0.38,Credit Card,TRUE,2024-02-04,1,Nike
+83,49,Male,Healthcare,42800,2021-09-27,2024-05-06 4:10,1,492.13,Luxury,4.48,Virtual Account,TRUE,2023-06-20,0,Hazzys
+84,30,Male,Technology,153961,2021-07-13,2024-05-03 1:41,28,328.81,Bags/Accessories,4.49,Credit Card,FALSE,2024-01-20,1,Gucci
+85,23,Female,Technology,198616,2022-01-18,2024-05-03 5:58,26,363.22,Shoes,4.93,Virtual Account,FALSE,2024-02-08,1,Daks
+86,55,Male,Finance,161344,2019-08-25,2024-05-07 15:35,19,319.79,Golf,0.14,Virtual Account,TRUE,2023-05-20,1,Double Flag
+87,24,Male,Technology,113345,2021-12-31,2024-05-05 2:26,12,114.26,Shoes,4.27,Mobile,TRUE,2024-02-07,0,Nike
+88,48,Female,Healthcare,47195,2021-07-25,2024-05-03 12:46,16,195.81,Women's Clothing,2.63,App,FALSE,2023-12-03,0,Hazzys
+89,38,Female,Healthcare,136847,2023-04-16,2024-05-05 23:01,13,262.84,Sports,1.6,Mobile,TRUE,2023-05-23,0,Daks
+90,20,Female,Technology,126666,2020-05-06,2024-05-06 14:25,11,331.4,Shoes,0.01,App,TRUE,2024-04-10,0,Gucci
+91,61,Male,Finance,164037,2021-04-23,2024-05-01 16:11,17,480.92,Women's Clothing,4.8,Credit Card,FALSE,2023-08-20,1,Double Flag
+92,58,Male,Technology,78262,2022-02-01,2024-05-03 13:05,18,314.18,Beauty,1.67,Credit Card,FALSE,2023-12-10,0,Nike
+93,64,Male,Education,85150,2021-02-13,2024-05-04 10:27,17,424.93,Women's Clothing,4.36,Credit Card,TRUE,2024-04-16,1,Daks
+94,18,Female,Technology,131378,2023-12-08,2024-05-02 11:12,17,63.62,Kids,3.08,App,TRUE,2024-01-11,0,Daks
+95,51,Female,Finance,126532,2022-10-15,2024-05-05 11:08,12,440.13,Luxury,2.24,Mobile,FALSE,2023-08-15,1,Nike
+96,67,Female,Finance,132547,2021-08-10,2024-05-08 12:12,19,330.35,Kids,2.02,Credit Card,FALSE,2024-02-01,0,Hazzys
+97,50,Male,Education,71412,2020-08-16,2024-05-03 11:51,11,82.85,Luxury,4.03,Virtual Account,FALSE,2024-04-11,0,Double Flag
+98,61,Male,Technology,133310,2023-07-04,2024-05-04 11:00,14,200.19,Golf,0.63,Mobile,TRUE,2024-01-30,1,Hazzys
+99,20,Female,Technology,55179,2022-03-25,2024-05-05 10:05,12,304.4,Bags/Accessories,4.91,App,FALSE,2024-03-21,0,Double Flag
+100,35,Male,Technology,39814,2023-02-18,2024-05-04 11:40,23,309.8,Bags/Accessories,1.5,Credit Card,FALSE,2024-04-11,0,Hazzys
+101,32,Female,Services,162657,2019-10-20,2024-05-05 11:17,18,2608.7,Men's Clothing,0.15,App,FALSE,2023-05-31,0,Hazzys
+102,59,Male,Finance,46115,2021-09-10,2024-05-06 12:19,23,319.57,Kids,0.5,Mobile,TRUE,2024-04-11,0,Double Flag
+103,20,Female,Finance,162353,2023-07-27,2024-05-02 10:20,24,90.51,Sports,0.63,Credit Card,TRUE,2024-02-12,0,Nike
+104,47,Female,Finance,87579,2022-03-02,2024-05-09 7:01,9,262.76,Bags/Accessories,1.52,Credit Card,TRUE,2024-01-21,0,Hazzys
+105,26,Male,Technology,79882,2020-01-12,2024-05-07 18:33,4,28.49,Bags/Accessories,1.89,Credit Card,TRUE,2024-01-25,0,Nike
+106,32,Male,Education,104292,2020-08-18,2024-05-04 1:11,20,175.08,Men's Clothing,3.03,Credit Card,FALSE,2023-06-05,1,Double Flag
+107,52,Male,Services,32262,2023-12-27,2024-05-04 15:32,12,196.45,Shoes,0,App,FALSE,2023-06-02,1,Hazzys
+108,31,Male,Education,146062,2022-10-10,2024-05-05 8:23,18,498.84,Luxury,4.24,Virtual Account,FALSE,2024-03-30,0,Hazzys
+109,66,Female,Technology,191804,2023-11-08,2024-05-01 8:20,19,348.45,Luxury,2.08,Credit Card,FALSE,2024-04-12,1,Gucci
+110,28,Female,Technology,50893,2020-10-19,2024-05-08 1:35,3,236.82,Shoes,2.84,Virtual Account,TRUE,2024-01-05,0,Double Flag
+111,28,Female,Healthcare,96845,2020-11-12,2024-05-04 6:11,23,468.5,Men's Clothing,4.47,Credit Card,TRUE,2023-09-26,1,Hazzys
+112,55,Male,Healthcare,70039,2023-07-16,2024-05-06 18:08,8,423.39,Beauty,3.85,Credit Card,TRUE,2023-06-30,1,Daks
+113,51,Female,Technology,156246,2024-01-05,2024-05-03 22:40,7,352.44,Beauty,1.1,App,FALSE,2024-01-22,1,Hazzys
+114,69,Female,Healthcare,91221,2020-06-11,2024-05-04 18:17,11,400.02,Golf,0.04,Virtual Account,TRUE,2024-02-25,0,Nike
+115,66,Female,Finance,143038,2019-09-11,2024-05-01 17:03,24,72.31,Kids,4.7,Credit Card,FALSE,2023-07-27,1,Gucci
+116,65,Female,Services,69331,2024-03-28,2024-05-06 15:55,7,449.62,Bags/Accessories,0.29,Mobile,TRUE,2024-04-19,0,Daks
+117,21,Male,Technology,94146,2022-07-23,2024-05-03 11:49,18,231.87,Beauty,3.89,Virtual Account,FALSE,2023-09-14,0,Hazzys
+118,24,Female,Finance,104621,2021-01-07,2024-05-06 4:43,28,345.77,Shoes,0.1,Virtual Account,FALSE,2024-04-18,1,Daks
+119,22,Female,Technology,156289,2020-06-12,2024-05-02 12:40,4,156.74,Sports,4.15,App,FALSE,2023-08-02,0,Nike
+120,20,Male,Healthcare,185281,2020-08-24,2024-05-01 8:57,2,146.26,Sports,0.38,Credit Card,TRUE,2023-07-09,1,Gucci
+121,52,Female,Technology,185395,2022-12-23,2024-05-07 5:35,11,747.3,Bags/Accessories,4.69,App,FALSE,2023-05-20,1,Double Flag
+122,31,Female,Healthcare,34487,2021-10-11,2024-05-07 8:45,5,487.42,Bags/Accessories,4.41,App,FALSE,2023-10-27,1,Hazzys
+123,21,Male,Healthcare,93370,2020-10-25,2024-05-01 8:11,6,386.09,Golf,4.16,Virtual Account,FALSE,2024-04-09,0,Hazzys
+124,59,Male,Healthcare,31470,2020-08-22,2024-05-04 16:17,3,31.18,Golf,0.79,Credit Card,FALSE,2023-09-09,0,Gucci
+125,38,Female,Services,146189,2019-11-21,2024-05-05 6:00,10,377.85,Sports,0.51,Virtual Account,TRUE,2023-11-19,0,Nike
+126,62,Male,Finance,130273,2022-06-20,2024-05-06 5:02,10,178.93,Luxury,1.75,Virtual Account,TRUE,2023-08-05,1,Double Flag
+127,21,Male,Education,110433,2019-06-29,2024-05-07 2:02,27,160.54,Golf,1.41,Credit Card,FALSE,2024-04-01,1,Double Flag
+128,47,Male,Finance,179967,2019-07-11,2024-05-08 14:35,14,229.2,Bags/Accessories,4.84,Mobile,FALSE,2024-03-28,1,Gucci
+129,42,Female,Healthcare,77570,2020-04-16,2024-05-01 20:55,4,243.62,Kids,4.2,Mobile,FALSE,2024-02-16,1,Hazzys
+130,22,Male,Technology,52426,2021-09-27,2024-05-01 1:43,6,270.4,Luxury,4.26,Credit Card,TRUE,2023-10-19,1,Hazzys
+131,59,Female,Education,190023,2022-06-09,2024-05-03 2:38,10,276.63,Bags/Accessories,1.54,Credit Card,FALSE,2023-08-26,0,Double Flag
+132,43,Male,Healthcare,111981,2023-02-21,2024-05-05 0:28,17,77.17,Golf,2.18,Credit Card,TRUE,2023-09-19,1,Double Flag
+133,27,Male,Healthcare,47980,2022-12-01,2024-05-08 1:32,15,63.09,Golf,0.44,Credit Card,TRUE,2023-08-27,0,Hazzys
+134,39,Male,Finance,132714,2022-10-07,2024-05-05 3:06,6,99.03,Beauty,2.03,Credit Card,FALSE,2023-05-30,1,Daks
+135,49,Male,Healthcare,71703,2021-11-01,2024-05-03 1:08,26,73.35,Kids,0.88,App,FALSE,2023-06-01,0,Hazzys
+136,56,Male,Healthcare,182584,2020-07-26,2024-05-04 18:12,19,367.24,Kids,3.96,Mobile,FALSE,2023-05-29,1,Nike
+137,41,Male,Education,35802,2024-03-03,2024-05-03 17:54,3,477.3,Bags/Accessories,2.02,Mobile,TRUE,2023-10-28,1,Gucci
+138,33,Male,Services,49148,2019-12-21,2024-05-02 1:23,28,411.48,Kids,0.09,Credit Card,TRUE,2024-03-14,0,Nike
+139,19,Male,Healthcare,60472,2020-12-03,2024-05-07 19:10,12,20.83,Bags/Accessories,2.5,Mobile,FALSE,2023-10-02,1,Double Flag
+140,19,Female,Services,136415,2024-03-02,2024-05-08 12:45,12,286.25,Women's Clothing,4.33,Virtual Account,FALSE,2024-03-15,1,Nike
+141,56,Male,Technology,128876,2022-04-06,2024-05-05 9:47,5,362.35,Sports,2.61,Virtual Account,FALSE,2023-12-02,0,Daks
+142,26,Female,Services,44639,2022-09-02,2024-05-06 20:01,28,470.07,Luxury,1.35,App,TRUE,2023-11-09,1,Gucci
+143,55,Male,Technology,138311,2023-09-22,2024-05-05 1:07,5,319.8,Sports,0.21,Virtual Account,FALSE,2023-07-16,1,Gucci
+144,36,Female,Education,118432,2022-07-29,2024-05-03 23:12,18,205.89,Beauty,0.01,Credit Card,FALSE,2023-12-13,1,Gucci
+145,38,Female,Healthcare,,2022-12-22,2024-05-01 15:13,11,87.05,Kids,4.61,Virtual Account,FALSE,2024-02-17,1,Daks
+146,19,Female,Technology,168438,2022-10-19,2024-05-03 18:02,5,58.98,Bags/Accessories,4.63,App,TRUE,2023-05-26,0,Nike
+147,36,Female,Services,193436,2023-04-02,2024-05-02 15:10,27,471.24,Women's Clothing,2.84,Virtual Account,TRUE,2023-09-03,0,Daks
+148,49,Female,Services,113820,2020-06-25,2024-05-02 7:16,6,421.27,Golf,3.02,Virtual Account,TRUE,2023-07-03,1,Nike
+149,53,Female,Finance,87270,2020-02-04,2024-05-01 7:31,7,107.06,Kids,1.37,App,FALSE,2023-06-19,1,Double Flag
+150,60,Female,Services,97073,2021-10-12,2024-05-02 2:22,11,226.69,Luxury,0.7,Credit Card,TRUE,2024-02-19,0,Gucci
+151,35,Male,Education,124121,2019-09-03,2024-05-05 17:45,24,33.31,Men's Clothing,4.93,App,TRUE,2023-12-31,1,Daks
+152,43,Female,Healthcare,161061,2022-06-19,2024-05-06 20:16,24,406.27,Bags/Accessories,1.27,Mobile,FALSE,2024-01-01,1,Double Flag
+153,56,Female,Education,45276,2019-11-21,2024-05-04 5:41,7,447.67,Golf,3.71,Mobile,FALSE,2023-11-26,1,Nike
+154,56,Male,Technology,139602,2021-10-12,2024-05-06 2:50,29,193.63,Men's Clothing,4.22,Credit Card,FALSE,2023-09-14,0,Double Flag
+155,32,Female,Technology,188284,2019-08-26,2024-05-07 22:21,21,170.5,Golf,2.19,Mobile,TRUE,2024-02-16,1,Hazzys
+156,23,Female,Technology,151588,2019-07-19,2024-05-06 2:04,19,408.28,Beauty,4.14,Credit Card,FALSE,2023-08-14,1,Gucci
+157,19,Male,Services,38772,2021-02-12,2024-05-08 17:16,24,146.74,Sports,1.52,Virtual Account,TRUE,2023-09-28,0,Gucci
+158,67,Male,Education,183356,2023-10-01,2024-05-05 6:16,4,169.7,Golf,1.41,Virtual Account,TRUE,2024-04-10,1,Daks
+159,65,Male,Services,88046,2024-01-01,2024-05-06 22:14,6,459.72,Sports,1.16,Virtual Account,TRUE,2023-10-11,1,Double Flag
+160,44,Female,Technology,108727,2022-05-17,2024-05-03 13:19,21,27.84,Sports,3.37,App,TRUE,2023-12-20,0,Hazzys
+161,32,Female,Education,130871,2020-05-18,2024-05-07 14:42,15,302.17,Men's Clothing,4.6,Credit Card,TRUE,2023-08-01,1,Double Flag
+162,62,Female,Healthcare,122133,2023-11-22,2024-05-08 20:10,2,311.39,Beauty,0.05,Mobile,TRUE,2023-08-03,0,Nike
+163,41,Male,Education,146488,2024-03-20,2024-05-08 4:20,9,88.81,Golf,2.15,Mobile,TRUE,2024-02-06,0,Hazzys
+164,37,Male,Education,95843,2019-10-30,2024-05-06 17:25,11,467.17,Luxury,0.1,Mobile,FALSE,2023-07-23,1,Double Flag
+165,56,Male,Finance,93530,2021-07-09,2024-05-03 18:56,11,405.62,Luxury,0.94,Credit Card,FALSE,2023-07-16,1,Daks
+166,29,Male,Services,109610,2020-07-11,2024-05-02 13:29,10,373.82,Kids,0.46,Virtual Account,FALSE,2023-12-29,1,Hazzys
+167,68,Female,Education,97458,2022-05-04,2024-05-03 17:38,2,42.87,Golf,4.42,App,TRUE,2023-09-12,1,Daks
+168,61,Male,Services,181604,2022-11-17,2024-05-09 1:17,12,407.36,Men's Clothing,4.86,App,TRUE,2023-06-01,1,Nike
+169,57,Female,Healthcare,191765,2020-02-19,2024-05-04 8:20,16,140.3,Beauty,4.81,Mobile,FALSE,2024-04-11,0,Gucci
+170,68,Male,Finance,107764,2022-03-20,2024-05-08 13:28,15,79.57,Sports,3.93,Credit Card,TRUE,2023-12-18,1,Double Flag
+171,57,Female,Healthcare,64402,2023-01-01,2024-05-07 2:43,16,132.44,Shoes,4.04,Mobile,TRUE,2023-09-30,0,Gucci
+172,24,Female,Services,47141,2023-08-11,2024-05-08 5:16,6,209.31,Men's Clothing,3.9,Credit Card,TRUE,2023-07-26,1,Nike
+173,63,Male,Finance,163308,2021-08-06,2024-05-08 6:10,9,37.11,Bags/Accessories,3.74,App,TRUE,2024-01-16,0,Daks
+174,65,Female,Healthcare,158269,2019-11-24,2024-05-08 21:37,27,88.56,Men's Clothing,0.31,Mobile,TRUE,2023-12-23,0,Nike
+175,63,Male,Education,157955,2021-05-06,2024-05-07 18:57,7,110.01,Kids,3.69,App,FALSE,2023-06-01,0,Nike
+176,44,Female,Services,128394,2022-06-18,2024-05-02 9:33,12,164.96,Shoes,0.67,Credit Card,TRUE,2023-08-28,1,Nike
+177,45,Male,Technology,92469,2020-01-20,2024-05-05 16:46,13,487.79,Men's Clothing,4.4,App,TRUE,2023-08-18,0,Double Flag
+178,29,Female,Technology,113612,2021-10-05,2024-05-06 8:37,14,144.96,Bags/Accessories,4.66,App,FALSE,2024-04-20,0,Double Flag
+179,47,Male,Finance,143380,2021-05-22,2024-05-04 20:35,6,172.26,Kids,4.01,Credit Card,FALSE,2024-04-20,1,Gucci
+180,21,Female,Finance,87687,2022-06-07,2024-05-05 6:57,18,342.37,Men's Clothing,3.35,Virtual Account,FALSE,2023-10-01,1,Hazzys
+181,62,Female,Finance,91248,2024-01-22,2024-05-04 2:27,10,224.4,Women's Clothing,1.41,App,FALSE,2023-11-06,1,Nike
+182,32,Male,Technology,122611,2023-12-05,2024-05-06 11:06,5,398.73,Bags/Accessories,1.94,Credit Card,TRUE,2024-03-05,1,Hazzys
+183,23,Male,Technology,47006,2024-02-08,2024-05-02 7:21,14,461.64,Luxury,0.65,Mobile,TRUE,2024-04-14,0,Daks
+184,53,Female,Education,62735,2021-01-13,2024-05-06 18:13,16,283.26,Sports,1.77,App,TRUE,2023-12-12,0,Nike
+185,20,Male,Services,144822,2022-06-07,2024-05-06 5:19,3,256.51,Golf,2.11,Virtual Account,FALSE,2024-02-25,1,Daks
+186,68,Male,Services,31179,2020-08-08,2024-05-07 22:54,18,358.57,Kids,0.3,Credit Card,TRUE,2023-07-20,0,Nike
+187,67,Female,Technology,98902,2020-09-02,2024-05-06 21:00,15,258.38,Women's Clothing,1.25,App,TRUE,2023-12-12,1,Daks
+188,52,Female,Finance,30897,2023-01-08,2024-05-05 17:23,26,459.15,Shoes,3.84,Mobile,FALSE,2024-02-15,1,Nike
+189,27,Female,Healthcare,141851,2021-06-16,2024-05-08 16:06,27,253.42,Kids,2.89,App,TRUE,2023-06-02,1,Nike
+190,51,Female,Healthcare,47192,2020-10-12,2024-05-06 8:02,0,198.1,Beauty,1.37,Virtual Account,FALSE,2023-08-16,1,Gucci
+191,55,Female,Finance,110327,2022-04-24,2024-05-07 14:14,3,358.54,Beauty,2.87,Credit Card,TRUE,2023-06-02,0,Daks
+192,37,Female,Finance,95403,2020-11-26,2024-05-01 2:30,18,419.52,Golf,4.67,Mobile,TRUE,2023-07-08,1,Hazzys
+193,65,Female,Services,167715,2019-11-03,2024-05-05 3:05,26,398.89,Luxury,2.31,Mobile,TRUE,2023-07-29,1,Hazzys
+194,69,Female,Healthcare,160932,2022-03-27,2024-05-03 10:13,27,387.83,Golf,2.83,Mobile,TRUE,2023-10-06,0,Daks
+195,28,Female,Technology,131808,2020-10-21,2024-05-08 21:53,17,297.35,Bags/Accessories,2.26,Mobile,FALSE,2023-12-03,1,Double Flag
+196,57,Male,Finance,62171,2020-05-08,2024-05-05 9:25,17,162.28,Men's Clothing,3.54,App,TRUE,2023-08-12,0,Daks
+197,67,Female,Technology,30285,2023-07-04,2024-05-09 3:09,2,469.15,Beauty,1.03,Mobile,FALSE,2024-03-28,1,Hazzys
+198,53,Female,Healthcare,90633,2021-07-12,2024-05-03 8:57,3,34.42,Sports,4.24,Mobile,FALSE,2023-11-18,0,Daks
+199,41,Female,Technology,199874,2021-07-12,2024-05-08 9:30,9,397.54,Shoes,2.88,Credit Card,FALSE,2024-01-05,1,Double Flag
+200,40,Female,Technology,135537,2022-08-27,2024-05-08 15:32,14,55.88,Bags/Accessories,4.64,Credit Card,TRUE,2024-02-17,1,Hazzys
+201,69,Male,Education,92761,2021-01-03,2024-05-09 0:16,24,249.28,Sports,2.7,Mobile,TRUE,2023-10-30,1,Gucci
+202,19,Male,Healthcare,135761,2022-02-02,2024-05-05 1:12,26,241.39,Men's Clothing,0.92,Virtual Account,TRUE,2023-07-25,1,Nike
+203,27,Female,Healthcare,134260,2022-12-28,2024-05-07 23:13,15,195.02,Women's Clothing,2.19,App,TRUE,2024-03-05,0,Double Flag
+204,53,Male,Finance,75693,2021-08-13,2024-05-04 12:58,28,129.11,Kids,3.54,Credit Card,TRUE,2024-02-22,1,Daks
+205,21,Female,Technology,37640,2022-08-14,2024-05-04 8:51,14,197.34,Golf,4.56,Credit Card,TRUE,2023-07-16,0,Daks
+206,20,Female,Technology,72665,2020-03-02,2024-05-02 22:44,17,238.39,Beauty,4.93,Virtual Account,FALSE,2024-04-01,1,Nike
+207,19,Female,Healthcare,32351,2019-11-10,2024-05-05 8:57,0,306.73,Luxury,4.03,Virtual Account,FALSE,2024-05-06,0,Gucci
+208,46,Male,Education,122023,2022-10-12,2024-05-01 1:25,3,235.59,Beauty,4.35,Credit Card,TRUE,2023-09-15,0,Daks
+209,53,Male,Finance,83534,2021-02-26,2024-05-03 14:32,9,478.38,Sports,2.64,Credit Card,TRUE,2023-07-09,1,Hazzys
+210,32,Female,Services,48220,2020-04-07,2024-05-05 19:08,19,200.9,Bags/Accessories,1.43,App,TRUE,2024-04-12,1,Hazzys
+211,47,Female,Technology,123399,2022-07-30,2024-05-07 13:26,20,428.68,Golf,3.72,Mobile,TRUE,2023-07-30,0,Daks
+212,23,Female,Education,38635,2020-06-07,2024-05-06 6:31,14,318.64,Kids,4.35,Virtual Account,TRUE,2023-09-14,1,Hazzys
+213,44,Male,Technology,42917,2021-08-18,2024-05-05 7:40,2,339.6,Men's Clothing,2.84,Credit Card,FALSE,2023-05-24,0,Gucci
+214,21,Male,Finance,133651,2023-11-16,2024-05-07 7:01,6,290.87,Bags/Accessories,4.85,Credit Card,TRUE,2024-02-01,0,Nike
+215,22,Male,Healthcare,71012,2021-05-16,2024-05-07 23:07,14,219.32,Golf,0.28,Mobile,FALSE,2023-07-07,0,Daks
+216,18,Female,Technology,51885,2020-08-11,2024-05-07 7:44,18,269.43,Women's Clothing,0.92,Virtual Account,TRUE,2024-02-05,0,Hazzys
+217,55,Female,Technology,136302,2024-02-09,2024-05-06 22:39,28,120.25,Luxury,3.55,App,FALSE,2024-05-07,0,Hazzys
+218,66,Male,Technology,51373,2023-03-07,2024-05-06 2:46,29,477.87,Women's Clothing,4.57,Virtual Account,TRUE,2024-03-09,1,Hazzys
+219,64,Female,Education,183157,2020-03-06,2024-05-07 8:15,5,89.1,Bags/Accessories,3.88,Virtual Account,TRUE,2024-05-01,0,Double Flag
+220,26,Male,Education,63508,2024-02-13,2024-05-06 11:27,13,114.95,Men's Clothing,0.19,App,TRUE,2023-07-31,0,Daks
+221,58,Male,Education,91845,2023-12-17,2024-05-01 21:14,13,128.24,Shoes,3.74,Virtual Account,TRUE,2024-04-03,0,Gucci
+222,45,Female,Healthcare,91804,2019-06-24,2024-05-02 20:23,12,442.77,Beauty,0.13,Credit Card,FALSE,2023-11-19,0,Daks
+223,69,Male,Education,198144,2022-11-22,2024-05-08 11:57,26,248,Bags/Accessories,3.29,App,FALSE,2024-04-21,1,Gucci
+224,54,Female,Services,57097,2021-12-21,2024-05-09 7:13,12,72.62,Luxury,0.83,App,TRUE,2024-02-10,0,Gucci
+225,31,Female,Finance,159170,2020-05-05,2024-05-06 18:10,11,301.94,Luxury,3.73,Mobile,FALSE,2023-11-07,1,Gucci
+226,37,Male,Education,100720,2020-02-13,2024-05-02 17:25,1,278.65,Shoes,2.23,Mobile,TRUE,2023-10-11,1,Nike
+227,68,Male,Education,91164,2023-09-28,2024-05-07 21:45,16,426.76,Golf,3.1,App,TRUE,2023-08-03,0,Gucci
+228,63,Male,Healthcare,130133,2019-10-24,2024-05-02 6:37,12,103.38,Men's Clothing,4.66,Credit Card,FALSE,2023-09-24,0,Double Flag
+229,19,Male,Technology,139859,2020-09-11,2024-05-06 18:47,22,121.7,Luxury,2.64,Credit Card,TRUE,2023-08-14,1,Hazzys
+230,45,Male,Education,40053,2021-03-26,2024-05-01 13:18,18,77.03,Sports,0.53,App,TRUE,2024-05-04,1,Double Flag
+231,31,Male,Finance,169235,2020-10-01,2024-05-08 10:07,24,78.76,Luxury,1.19,App,FALSE,2024-03-15,1,Daks
+232,57,Female,Healthcare,120190,2021-11-15,2024-05-06 3:13,25,163.99,Sports,1.7,Virtual Account,TRUE,2024-01-28,1,Nike
+233,49,Male,Healthcare,121084,2024-04-07,2024-05-06 9:20,24,281.59,Women's Clothing,3.04,App,TRUE,2024-05-01,1,Double Flag
+234,49,Female,Healthcare,45484,2021-08-01,2024-05-03 16:07,0,356.56,Sports,0.45,Virtual Account,TRUE,2023-12-29,1,Nike
+235,44,Male,Services,146581,2022-07-18,2024-05-06 22:39,21,140.05,Luxury,4.08,Virtual Account,FALSE,2023-05-10,1,Double Flag
+236,64,Male,Technology,121441,2021-08-19,2024-05-02 16:39,24,360.92,Shoes,4.76,App,FALSE,2023-07-28,1,Hazzys
+237,64,Male,Healthcare,92259,2022-02-03,2024-05-07 13:14,28,172.09,Men's Clothing,3.71,Mobile,FALSE,2024-03-13,1,Double Flag
+238,28,Male,Technology,148233,2019-11-11,2024-05-01 10:38,24,495.1,Bags/Accessories,4.29,Credit Card,TRUE,2023-10-18,1,Nike
+239,68,Male,Services,130707,2022-10-08,2024-05-07 7:56,11,90.51,Sports,2.83,Mobile,FALSE,2024-02-28,1,Hazzys
+240,41,Female,Services,49054,2020-09-30,2024-05-07 6:57,19,481.44,Golf,1.51,Virtual Account,FALSE,2023-08-18,0,Nike
+241,32,Male,Services,123530,2022-02-18,2024-05-05 22:05,17,64.8,Shoes,1.47,Mobile,FALSE,2023-08-25,1,Daks
+242,19,Female,Technology,100896,2020-07-30,2024-05-02 10:12,10,101.81,Men's Clothing,0.41,Virtual Account,TRUE,2023-11-16,1,Nike
+243,34,Male,Healthcare,189290,2023-02-18,2024-05-07 5:21,7,153.64,Women's Clothing,3.16,Mobile,FALSE,2024-01-12,0,Gucci
+244,67,Male,Services,81243,2019-08-31,2024-05-01 9:01,12,366.91,Golf,2.26,Credit Card,TRUE,2024-04-12,1,Gucci
+245,22,Female,Technology,91693,2019-08-11,2024-05-06 3:55,12,225.02,Sports,3.54,Virtual Account,FALSE,2023-12-23,1,Gucci
+246,22,Male,Finance,134551,2022-06-16,2024-05-08 8:27,5,243.27,Bags/Accessories,2.09,Virtual Account,FALSE,2023-12-07,1,Nike
+247,24,Male,Services,134837,2020-06-26,2024-05-06 17:01,8,439.29,Shoes,3.54,App,FALSE,2023-08-12,0,Double Flag
+248,24,Male,Services,108981,2020-07-14,2024-05-04 17:51,16,290.52,Luxury,2.71,Mobile,TRUE,2024-03-05,0,Double Flag
+249,65,Male,Education,128535,2019-07-03,2024-05-03 20:47,0,327.39,Golf,3.3,Credit Card,FALSE,2023-11-22,1,Double Flag
+250,62,Male,Technology,144331,2020-05-24,2024-05-04 11:37,24,283.8,Golf,0.91,Credit Card,TRUE,2023-09-01,0,Double Flag
+251,63,Female,Healthcare,45620,2021-10-05,2024-05-08 14:17,16,194.12,Shoes,4.27,Mobile,TRUE,2023-07-21,1,Hazzys
+252,31,Female,Education,64225,2022-12-18,2024-05-04 7:10,28,206.76,Beauty,4.88,Credit Card,TRUE,2024-03-14,1,Gucci
+253,30,Female,Finance,159005,2022-09-05,2024-05-01 15:15,28,277.47,Shoes,4.64,App,TRUE,2023-12-02,1,Daks
+254,49,Female,Education,104270,2021-11-03,2024-05-07 17:45,13,97.46,Men's Clothing,3.83,Credit Card,FALSE,2023-12-15,0,Double Flag
+255,50,Male,Education,178527,2021-01-08,2024-05-06 20:15,5,228.14,Beauty,4.34,App,FALSE,2023-12-01,0,Double Flag
+256,56,Male,Healthcare,192083,2020-02-27,2024-05-01 7:55,3,315.9,Luxury,3.82,Mobile,TRUE,2023-11-24,1,Daks
+257,23,Female,Services,63354,2019-11-07,2024-05-01 9:06,4,151.85,Bags/Accessories,0.46,Mobile,TRUE,2024-01-10,1,Double Flag
+258,32,Female,Technology,61900,2024-01-26,2024-05-04 1:14,6,264,Beauty,3.24,App,TRUE,2023-07-11,0,Daks
+259,34,Male,Technology,191512,2023-06-10,2024-05-04 23:07,2,337.26,Kids,4.22,Virtual Account,TRUE,2024-03-20,0,Gucci
+260,22,Male,Healthcare,71540,2019-06-08,2024-05-05 15:42,21,300.5,Shoes,4.76,App,FALSE,2024-02-12,0,Daks
+261,52,Female,Technology,102424,2023-06-27,2024-05-08 0:37,20,453.6,Sports,1.12,Mobile,FALSE,2024-01-23,0,Nike
+262,32,Male,Services,101133,2019-07-10,2024-05-03 2:23,6,234.56,Women's Clothing,4.68,Credit Card,FALSE,2024-04-28,0,Gucci
+263,34,Male,Education,71139,2020-07-06,2024-05-06 1:02,17,356.58,Men's Clothing,3.46,Mobile,TRUE,2023-08-26,0,Daks
+264,46,Male,Education,95369,2021-06-12,2024-05-02 20:53,15,463.54,Beauty,1.95,Mobile,FALSE,2024-03-05,0,Hazzys
+265,62,Female,Technology,44095,2023-03-31,2024-05-01 7:15,1,105.61,Women's Clothing,1.1,Virtual Account,FALSE,2024-02-12,1,Nike
+266,49,Female,Finance,112904,2020-07-05,2024-05-01 19:43,26,75.41,Beauty,0.19,App,FALSE,2024-04-19,1,Double Flag
+267,36,Female,Healthcare,141363,2022-04-09,2024-05-04 20:04,20,218.45,Men's Clothing,4.24,Credit Card,FALSE,2023-05-15,1,Double Flag
+268,59,Male,Healthcare,54242,2021-06-02,2024-05-03 3:34,24,219.83,Beauty,2.32,Mobile,FALSE,2023-09-16,0,Gucci
+269,57,Female,Services,178781,2023-07-24,2024-05-06 9:32,12,225.73,Luxury,4.8,App,FALSE,2023-12-05,1,Nike
+270,61,Female,Healthcare,112159,2021-05-31,2024-05-04 19:43,7,127.55,Women's Clothing,3.66,Virtual Account,FALSE,2023-06-24,1,Nike
+271,43,Female,Technology,56557,2022-04-16,2024-05-06 18:42,9,70.3,Golf,1.32,Credit Card,TRUE,2024-03-08,1,Double Flag
+272,35,Male,Education,62760,2024-01-11,2024-05-01 0:54,9,447.27,Kids,0.77,Virtual Account,FALSE,2023-07-24,1,Daks
+273,34,Male,Education,82350,2024-01-21,2024-05-08 11:03,16,43.94,Women's Clothing,2.57,Virtual Account,TRUE,2024-05-01,0,Nike
+274,41,Male,Education,76817,2020-06-20,2024-05-04 19:18,3,197.26,Golf,3.99,Mobile,FALSE,2023-06-13,1,Gucci
+275,69,Male,Healthcare,178776,2022-06-03,2024-05-05 19:27,29,51.71,Kids,0.77,App,TRUE,2024-05-08,0,Daks
+276,47,Female,Education,111918,2021-03-19,2024-05-04 18:09,29,198.57,Bags/Accessories,2.6,Mobile,FALSE,2023-10-14,0,Daks
+277,26,Female,Healthcare,109646,2020-06-19,2024-05-05 12:13,2,99.96,Bags/Accessories,3.55,Credit Card,FALSE,2024-04-19,0,Double Flag
+278,19,Male,Services,160583,2021-06-05,2024-05-05 20:52,22,326.81,Golf,1.95,Virtual Account,FALSE,2023-05-21,0,Double Flag
+279,38,Male,Finance,199575,2023-07-07,2024-05-05 14:44,26,123.66,Shoes,3.44,Credit Card,FALSE,2023-11-11,0,Daks
+280,36,Female,Technology,83878,2020-04-30,2024-05-05 15:41,18,120.06,Golf,4.28,Mobile,TRUE,2023-12-10,0,Nike
+281,28,Female,Education,190739,2020-06-27,2024-05-04 11:16,7,343.86,Bags/Accessories,4.33,Credit Card,FALSE,2023-05-30,0,Nike
+282,52,Female,Finance,69618,2024-05-06,2024-05-02 21:53,18,55.11,Sports,0.15,Credit Card,FALSE,2023-11-24,0,Daks
+283,50,Male,Education,77038,2020-08-25,2024-05-04 15:41,16,455.95,Bags/Accessories,1.17,Virtual Account,FALSE,2023-09-08,0,Hazzys
+284,39,Female,Technology,197435,2023-07-08,2024-05-06 4:21,13,113.87,Golf,2.45,Credit Card,TRUE,2023-12-04,1,Gucci
+285,60,Female,Healthcare,85559,2019-06-03,2024-05-07 20:04,6,281.17,Kids,3.32,Mobile,TRUE,2024-02-06,1,Daks
+286,47,Male,Finance,82582,2021-03-07,2024-05-03 13:59,22,315.24,Shoes,2.61,App,FALSE,2024-03-22,1,Gucci
+287,18,Female,Technology,156479,2023-09-22,2024-05-02 7:34,20,203.4,Women's Clothing,2.59,Mobile,FALSE,2023-09-30,1,Daks
+288,19,Female,Finance,70905,2022-04-12,2024-05-06 8:38,11,73.88,Beauty,3.51,Credit Card,TRUE,2023-09-03,0,Hazzys
+289,43,Male,Finance,108956,2020-06-14,2024-05-09 7:12,29,85.52,Beauty,2.77,App,TRUE,2023-06-10,1,Nike
+290,23,Female,Technology,183741,2021-06-12,2024-05-01 20:51,13,296.38,Beauty,1.54,App,FALSE,2024-05-08,0,Gucci
+291,37,Male,Services,136151,2023-06-02,2024-05-04 21:30,2,158.66,Luxury,1.26,Virtual Account,FALSE,2023-10-14,1,Double Flag
+292,57,Female,Technology,161452,2020-05-23,2024-05-07 20:04,20,417.47,Beauty,3.97,Mobile,FALSE,2023-11-09,1,Double Flag
+293,53,Female,Technology,147425,2019-07-27,2024-05-01 12:05,4,166.45,Shoes,0.88,App,FALSE,2023-09-09,1,Gucci
+294,19,Male,Technology,178618,2020-05-24,2024-05-01 10:08,4,228.59,Shoes,0.82,App,TRUE,2024-02-12,1,Daks
+295,23,Female,Healthcare,102414,2024-04-30,2024-05-07 22:25,8,316.97,Bags/Accessories,4.98,Credit Card,FALSE,2024-01-22,1,Gucci
+296,31,Male,Education,55662,2021-06-13,2024-05-05 5:46,10,303.81,Women's Clothing,3.4,Mobile,FALSE,2023-10-25,0,Nike
+297,42,Male,Education,164812,2022-02-16,2024-05-06 8:33,15,323.57,Golf,1.02,Credit Card,TRUE,2023-07-08,1,Gucci
+298,61,Female,Services,115526,2020-07-23,2024-05-03 21:33,9,395.31,Men's Clothing,0.11,Mobile,TRUE,2023-10-10,0,Gucci
+299,55,Female,Education,86560,2022-11-29,2024-05-07 20:10,6,315.57,Luxury,1.66,App,FALSE,2023-08-28,1,Gucci
+300,23,Female,Finance,86474,2023-03-10,2024-05-03 6:56,28,179.25,Luxury,4.32,Virtual Account,FALSE,2023-06-11,0,Gucci
+301,23,Female,Education,84201,2019-07-20,2024-05-05 11:05,24,125.7,Women's Clothing,4.26,Credit Card,FALSE,2024-02-12,1,Hazzys
+302,30,Male,Technology,73102,2020-04-10,2024-05-01 20:14,22,451.14,Kids,4.62,Credit Card,FALSE,2024-04-18,1,Double Flag
+303,67,Male,Technology,46873,2022-04-22,2024-05-08 1:38,28,29.46,Men's Clothing,0.04,App,TRUE,2023-09-03,0,Daks
+304,60,Male,Healthcare,34275,2022-09-24,2024-05-03 12:46,18,25.41,Shoes,2.36,Mobile,FALSE,2023-10-25,0,Hazzys
+305,27,Male,Healthcare,95803,2022-03-08,2024-05-04 16:26,29,255.11,Beauty,3.79,Virtual Account,FALSE,2023-09-27,1,Daks
+306,45,Male,Technology,130400,2022-10-27,2024-05-01 7:09,8,348.56,Luxury,3.2,Mobile,FALSE,2024-03-25,1,Hazzys
+307,50,Female,Technology,84405,2023-06-11,2024-05-03 16:18,4,460.58,Luxury,0.35,Credit Card,TRUE,2023-12-15,1,Daks
+308,38,Female,Technology,185484,2022-06-17,2024-05-07 17:20,21,241.44,Sports,2.48,Virtual Account,TRUE,2023-10-02,0,Hazzys
+309,61,Female,Services,109329,2019-07-13,2024-05-09 6:17,10,344.59,Luxury,4.36,App,FALSE,2023-08-18,0,Gucci
+310,60,Female,Finance,155700,2023-11-16,2024-05-05 12:49,27,310.46,Luxury,4.25,Credit Card,FALSE,2023-07-22,0,Daks
+311,67,Male,Education,160962,2023-09-05,2024-05-06 5:44,24,110.05,Men's Clothing,4.47,Mobile,TRUE,2024-03-05,1,Hazzys
+312,27,Female,Services,70977,2019-06-15,2024-05-07 3:21,17,163.6,Golf,3.22,Virtual Account,FALSE,2024-02-25,1,Nike
+313,59,Male,Technology,197733,2022-01-28,2024-05-02 12:13,25,260.2,Men's Clothing,3.99,Credit Card,FALSE,2024-03-30,1,Double Flag
+314,47,Male,Education,50319,2020-11-06,2024-05-06 16:33,16,333.57,Kids,3.77,Mobile,TRUE,2024-03-25,1,Hazzys
+315,57,Female,Healthcare,175748,2021-01-12,2024-05-08 6:44,22,272.05,Luxury,3.35,Virtual Account,TRUE,2024-01-21,1,Gucci
+316,60,Male,Finance,87818,2021-04-03,2024-05-06 21:12,3,165.9,Shoes,3.02,Credit Card,TRUE,2023-12-29,1,Double Flag
+317,32,Female,Education,52829,2020-01-03,2024-05-05 18:34,1,395.55,Beauty,3.45,Credit Card,FALSE,2023-11-19,1,Daks
+318,57,Male,Education,124905,2022-08-13,2024-05-01 12:03,5,396.1,Men's Clothing,4.63,App,TRUE,2023-08-17,1,Gucci
+319,20,Female,Healthcare,31954,2021-01-08,2024-05-02 21:05,15,455.8,Bags/Accessories,4.19,Credit Card,FALSE,2023-09-21,1,Double Flag
+320,67,Male,Healthcare,72040,2021-04-02,2024-05-03 22:20,2,117.77,Shoes,2.75,Credit Card,FALSE,2023-12-07,1,Gucci
+321,46,Female,Technology,196008,2019-12-02,2024-05-01 0:45,2,176.47,Kids,4.68,Credit Card,TRUE,2023-12-16,1,Daks
+322,42,Female,Technology,158898,2023-12-14,2024-05-01 13:20,17,380.91,Luxury,3.87,Credit Card,TRUE,2024-04-22,1,Hazzys
+323,57,Female,Education,158747,2020-07-25,2024-05-08 12:44,20,441.51,Bags/Accessories,4.76,Virtual Account,FALSE,2023-11-10,1,Daks
+324,41,Female,Services,48886,2019-11-24,2024-05-03 1:35,17,494.58,Bags/Accessories,1.08,Credit Card,FALSE,2023-09-03,0,Nike
+325,66,Female,Finance,198453,2023-05-21,2024-05-06 19:02,16,295.73,Women's Clothing,1.28,Virtual Account,FALSE,2023-07-15,0,Daks
+326,69,Male,Finance,138685,2021-09-05,2024-05-07 17:00,12,208.36,Women's Clothing,1.22,Mobile,TRUE,2023-07-27,1,Hazzys
+327,69,Male,Technology,40846,2020-03-30,2024-05-02 14:03,12,157,Golf,4.54,Virtual Account,TRUE,2023-05-22,1,Double Flag
+328,19,Male,Finance,112013,2021-07-16,2024-05-04 16:07,1,392.24,Men's Clothing,4.86,Credit Card,TRUE,2023-10-27,1,Double Flag
+329,39,Male,Education,196774,2022-11-24,2024-05-01 21:53,10,313.86,Luxury,4.58,Virtual Account,TRUE,2023-11-15,0,Hazzys
+330,21,Male,Finance,89527,2024-05-03,2024-05-09 6:47,5,339.32,Beauty,1.5,Credit Card,TRUE,2023-06-19,1,Daks
+331,53,Male,Finance,160452,2021-07-18,2024-05-06 7:43,13,446.42,Women's Clothing,2.52,Credit Card,TRUE,2024-01-06,0,Daks
+332,36,Male,Education,,2019-07-30,2024-05-07 14:02,2,478.63,Men's Clothing,2.66,Credit Card,TRUE,2024-02-19,0,Nike
+333,25,Male,Education,145596,2023-08-07,2024-05-03 23:47,12,119.95,Men's Clothing,1.58,Credit Card,FALSE,2024-04-30,1,Gucci
+334,66,Male,Services,31087,2022-05-01,2024-05-09 3:33,1,401.33,Sports,2.35,Mobile,TRUE,2023-12-24,1,Gucci
+335,46,Female,Services,94191,2021-10-19,2024-05-06 3:54,17,127.69,Men's Clothing,4.38,App,FALSE,2023-06-29,0,Gucci
+336,53,Male,Services,181182,2020-06-25,2024-05-04 6:08,8,100.82,Women's Clothing,0.66,Virtual Account,FALSE,2023-05-18,1,Double Flag
+337,58,Male,Finance,30740,2022-12-10,2024-05-03 21:43,8,381.51,Golf,1.27,Mobile,TRUE,2024-01-20,0,Gucci
+338,43,Female,Education,50488,2021-09-22,2024-05-08 3:38,23,158.37,Bags/Accessories,4.54,App,TRUE,2024-01-01,1,Nike
+339,32,Female,Healthcare,139105,2023-05-03,2024-05-03 12:36,9,183.68,Bags/Accessories,4.32,App,FALSE,2024-02-01,1,Gucci
+340,21,Male,Technology,178548,2023-02-03,2024-05-05 17:03,6,213.06,Luxury,3.09,Credit Card,FALSE,2023-07-25,0,Hazzys
+341,43,Female,Services,127498,2020-05-22,2024-05-07 10:50,4,384.59,Shoes,4.33,Mobile,FALSE,2023-07-12,1,Gucci
+342,48,Female,Services,100823,2021-10-07,2024-05-05 18:27,10,479.32,Shoes,3.89,Virtual Account,TRUE,2023-10-16,0,Daks
+343,21,Female,Education,199870,2020-10-28,2024-05-03 14:25,12,302.8,Shoes,4.32,Mobile,FALSE,2024-02-01,1,Hazzys
+344,64,Male,Education,167528,2024-01-29,2024-05-02 0:28,24,318.63,Kids,3.3,Virtual Account,TRUE,2024-02-19,0,Double Flag
+345,54,Female,Services,171686,2023-08-17,2024-05-06 4:06,7,180.38,Men's Clothing,4.45,Mobile,TRUE,2024-04-10,0,Nike
+346,30,Female,Education,,2021-03-11,2024-05-08 10:14,16,492.33,Bags/Accessories,0.54,App,TRUE,2023-12-02,0,Nike
+347,45,Female,Finance,111944,2019-11-15,2024-05-09 0:43,14,453.82,Bags/Accessories,0.22,Credit Card,TRUE,2023-10-02,1,Hazzys
+348,65,Female,Services,61571,2024-04-23,2024-05-06 1:13,20,304.68,Beauty,4.08,Mobile,FALSE,2024-03-03,0,Daks
+349,61,Female,Finance,97795,2022-10-16,2024-05-02 12:57,12,199.38,Kids,3.76,Mobile,FALSE,2024-05-01,0,Nike
+350,42,Male,Technology,111560,2020-09-08,2024-05-03 18:15,15,33.17,Women's Clothing,4.78,Credit Card,TRUE,2023-11-02,1,Hazzys
+351,32,Male,Services,81729,2023-08-08,2024-05-03 4:46,17,470.24,Beauty,3.82,App,FALSE,2024-02-13,1,Hazzys
+352,67,Female,Finance,189728,2021-09-17,2024-05-07 6:06,20,209.34,Luxury,0.18,Mobile,TRUE,2024-03-12,1,Gucci
+353,59,Male,Finance,174435,2021-06-24,2024-05-02 12:38,21,394.18,Beauty,0.52,Credit Card,FALSE,2023-07-25,1,Daks
+354,37,Male,Healthcare,122933,2021-10-11,2024-05-04 0:06,6,251.47,Sports,0.61,Credit Card,FALSE,2023-09-15,0,Hazzys
+355,39,Male,Education,34304,2022-02-24,2024-05-05 0:53,12,174.49,Beauty,0.6,App,FALSE,2024-02-09,0,Hazzys
+356,52,Female,Services,173426,2022-01-17,2024-05-04 21:23,8,244.62,Women's Clothing,4.81,Credit Card,TRUE,2023-10-06,0,Gucci
+357,48,Female,Education,148278,2019-07-19,2024-05-01 6:41,16,284.18,Men's Clothing,4.62,Mobile,TRUE,2024-02-06,0,Hazzys
+358,69,Female,Technology,97964,2021-02-19,2024-05-01 21:10,11,386.68,Beauty,3.49,App,FALSE,2023-07-24,0,Double Flag
+359,23,Male,Services,180426,2019-08-01,2024-05-04 18:18,26,171.7,Golf,0.72,App,FALSE,2024-05-07,1,Hazzys
+360,23,Female,Finance,187849,2023-07-11,2024-05-02 14:33,2,243.04,Shoes,1.61,Credit Card,TRUE,2023-07-21,1,Gucci
+361,31,Male,Technology,41096,2020-10-01,2024-05-01 13:40,25,223.7,Sports,2.28,Mobile,TRUE,2024-05-05,1,Hazzys
+362,48,Female,Healthcare,77408,2021-06-13,2024-05-06 9:51,17,35.12,Golf,1.63,Virtual Account,TRUE,2023-06-04,0,Nike
+363,69,Female,Technology,53951,2021-01-10,2024-05-01 2:10,10,448.96,Bags/Accessories,0.73,Virtual Account,FALSE,2023-12-23,0,Hazzys
+364,66,Male,Technology,43967,2021-05-01,2024-05-07 23:02,0,179.95,Golf,3.9,App,FALSE,2024-04-20,1,Gucci
+365,60,Female,Healthcare,39064,2023-09-26,2024-05-04 22:11,17,3527.9,Golf,4.4,Credit Card,FALSE,2023-12-11,0,Nike
+366,29,Male,Services,147408,2022-01-02,2024-05-03 7:48,26,260.94,Kids,3.43,Credit Card,FALSE,2024-03-19,1,Hazzys
+367,46,Male,Services,185380,2020-09-22,2024-05-09 1:36,28,487.46,Sports,3.29,App,FALSE,2023-07-07,1,Daks
+368,54,Female,Education,56397,2022-03-17,2024-05-03 23:35,12,146.55,Golf,4.56,Mobile,TRUE,2023-12-25,1,Hazzys
+369,31,Male,Services,185079,2021-08-11,2024-05-04 16:50,25,226.4,Beauty,3.84,Mobile,FALSE,2023-09-08,1,Hazzys
+370,61,Male,Education,168997,2021-10-15,2024-05-04 23:37,20,30.82,Women's Clothing,0.67,Credit Card,TRUE,2023-08-13,1,Double Flag
+371,45,Male,Services,43877,2021-11-06,2024-05-01 13:35,21,182.28,Luxury,3.97,App,FALSE,2024-01-25,1,Nike
+372,30,Male,Technology,134506,2020-03-30,2024-05-02 20:18,19,444.74,Men's Clothing,1.24,Credit Card,TRUE,2023-07-07,0,Daks
+373,59,Female,Education,111936,2019-07-05,2024-05-02 22:00,16,441.87,Luxury,3.7,Credit Card,TRUE,2023-11-15,0,Gucci
+374,53,Male,Technology,,2022-07-06,2024-05-06 2:56,16,396.18,Luxury,2.39,App,FALSE,2024-03-13,1,Double Flag
+375,63,Female,Healthcare,131384,2022-11-14,2024-05-07 15:33,23,271.37,Women's Clothing,3.24,Virtual Account,FALSE,2023-07-14,0,Double Flag
+376,36,Female,Education,139613,2021-12-04,2024-05-04 0:06,23,459.92,Women's Clothing,1.92,Virtual Account,TRUE,2023-09-24,1,Double Flag
+377,42,Female,Healthcare,100284,2020-01-20,2024-05-05 3:37,23,4694.6,Men's Clothing,0.16,App,TRUE,2024-03-16,0,Gucci
+378,27,Male,Services,169544,2022-04-27,2024-05-07 15:53,17,144.53,Women's Clothing,4.72,Mobile,TRUE,2023-07-02,0,Double Flag
+379,29,Female,Finance,49086,2024-04-29,2024-05-04 17:08,28,158.08,Sports,3.06,Mobile,FALSE,2024-03-27,1,Hazzys
+380,42,Male,Technology,156402,2021-10-21,2024-05-08 15:29,15,257.82,Shoes,1.6,Virtual Account,FALSE,2023-11-10,1,Double Flag
+381,43,Female,Services,30264,2023-07-09,2024-05-02 15:48,27,62.49,Women's Clothing,3.95,Credit Card,TRUE,2024-02-23,0,Nike
+382,58,Male,Technology,144033,2022-12-03,2024-05-02 21:42,10,165.86,Golf,0.64,Mobile,TRUE,2024-03-26,1,Gucci
+383,30,Female,Services,164573,2019-11-01,2024-05-01 17:58,26,418.46,Men's Clothing,3.86,App,TRUE,2023-07-01,1,Daks
+384,30,Male,Finance,123650,2020-06-02,2024-05-09 4:42,28,251.71,Women's Clothing,3.48,App,FALSE,2023-11-06,1,Nike
+385,60,Male,Technology,62306,2022-06-26,2024-05-02 0:17,27,253.6,Kids,2.91,Virtual Account,FALSE,2024-01-16,0,Hazzys
+386,61,Male,Education,160810,2022-05-25,2024-05-05 9:12,28,353.8,Bags/Accessories,3.53,Mobile,TRUE,2024-03-17,0,Nike
+387,45,Male,Healthcare,73550,2021-12-13,2024-05-05 23:53,26,313.58,Women's Clothing,3.43,Virtual Account,FALSE,2023-06-19,0,Daks
+388,21,Male,Finance,150903,2021-12-02,2024-05-08 6:08,4,328.03,Shoes,0.79,Credit Card,TRUE,2024-02-27,1,Nike
+389,41,Male,Services,92431,2020-07-21,2024-05-07 21:19,11,173.6,Bags/Accessories,3.5,Mobile,TRUE,2023-06-26,1,Daks
+390,49,Male,Technology,67643,2022-04-13,2024-05-04 1:18,15,195.25,Women's Clothing,2.96,App,FALSE,2024-04-20,1,Nike
+391,61,Male,Healthcare,112039,2023-04-23,2024-05-01 1:17,14,387.76,Sports,1.14,Mobile,FALSE,2024-03-13,0,Gucci
+392,28,Male,Education,45410,2021-10-05,2024-05-09 0:28,17,76.92,Sports,3.68,Virtual Account,FALSE,2024-03-17,0,Nike
+393,29,Male,Services,198300,2019-08-28,2024-05-08 23:18,25,343.43,Women's Clothing,3.79,Mobile,TRUE,2023-10-19,1,Daks
+394,50,Female,Finance,53108,2023-01-09,2024-05-03 14:41,29,252.02,Golf,2.12,Virtual Account,FALSE,2024-03-30,0,Nike
+395,68,Male,Finance,111916,2020-02-06,2024-05-07 5:26,12,300.07,Men's Clothing,0.62,Credit Card,FALSE,2024-02-14,0,Hazzys
+396,44,Male,Services,43071,2022-08-07,2024-05-07 0:02,19,494.65,Women's Clothing,0.28,Mobile,FALSE,2023-05-19,1,Nike
+397,57,Male,Education,198386,2020-05-04,2024-05-05 8:37,20,178.99,Women's Clothing,1.87,Virtual Account,FALSE,2023-11-09,0,Double Flag
+398,49,Male,Services,30807,2021-09-26,2024-05-02 2:20,23,143.69,Men's Clothing,0.62,Virtual Account,TRUE,2023-07-25,0,Nike
+399,65,Male,Education,74074,2020-09-13,2024-05-04 10:02,23,69.23,Bags/Accessories,0.02,App,FALSE,2024-04-15,0,Double Flag
+400,44,Female,Services,,2021-09-30,2024-05-07 12:42,14,362.84,Sports,1.66,App,FALSE,2024-02-26,1,Gucci
+401,31,Male,Services,177339,2020-11-21,2024-05-05 11:09,23,299.65,Kids,0.04,App,TRUE,2024-02-10,0,Daks
+402,66,Female,Services,140274,2023-04-04,2024-05-07 1:20,27,227.62,Golf,4.03,Credit Card,TRUE,2024-01-03,0,Nike
+403,61,Male,Services,,2020-08-12,2024-05-02 20:55,25,497.19,Men's Clothing,2.42,Mobile,FALSE,2024-04-20,0,Nike
+404,32,Male,Technology,81471,2019-07-20,2024-05-03 6:21,12,195.02,Beauty,0.94,Credit Card,FALSE,2023-09-04,1,Hazzys
+405,63,Male,Healthcare,58032,2021-12-19,2024-05-04 9:56,0,449.67,Luxury,2.48,Credit Card,TRUE,2024-02-14,1,Gucci
+406,48,Female,Finance,110407,2020-10-22,2024-05-04 18:18,2,317.74,Shoes,2.82,Mobile,FALSE,2023-08-26,1,Daks
+407,66,Male,Technology,150083,2019-07-25,2024-05-04 15:03,0,267.73,Golf,4.36,Virtual Account,FALSE,2024-03-29,0,Hazzys
+408,36,Female,Technology,151459,2022-03-07,2024-05-09 2:39,28,444,Kids,3.29,Mobile,FALSE,2023-06-14,0,Double Flag
+409,38,Female,Finance,199586,2021-04-14,2024-05-03 22:20,9,4482.5,Beauty,0.92,Mobile,TRUE,2023-08-29,1,Gucci
+410,60,Male,Services,65660,2019-08-06,2024-05-04 1:10,17,309.32,Bags/Accessories,1.99,Mobile,FALSE,2023-10-24,0,Hazzys
+411,52,Female,Technology,76267,2022-10-13,2024-05-02 0:37,14,273.06,Bags/Accessories,0.57,Mobile,TRUE,2023-07-28,0,Daks
+412,28,Female,Healthcare,100119,2020-06-05,2024-05-01 19:38,29,475.25,Kids,1.99,Virtual Account,FALSE,2023-09-02,1,Hazzys
+413,35,Female,Healthcare,82139,2020-09-17,2024-05-07 14:01,19,483.19,Golf,3.37,Credit Card,TRUE,2023-09-15,1,Double Flag
+414,46,Male,Healthcare,60747,2021-12-07,2024-05-07 8:42,29,493.54,Shoes,1.5,Credit Card,FALSE,2023-11-14,0,Nike
+415,48,Female,Finance,121449,2022-04-12,2024-05-03 6:00,17,490.15,Golf,4.03,Mobile,FALSE,2023-07-10,0,Gucci
+416,24,Female,Finance,66019,2023-09-09,2024-05-09 2:34,4,100.45,Kids,3.12,Mobile,TRUE,2024-04-19,1,Daks
+417,45,Male,Technology,139409,2021-09-15,2024-05-02 15:00,15,242.22,Shoes,4.87,Credit Card,TRUE,2023-10-26,1,Nike
+418,67,Male,Services,155440,2023-05-17,2024-05-02 12:17,23,400.39,Sports,0.96,Virtual Account,TRUE,2023-07-07,1,Gucci
+419,29,Male,Services,154360,2021-08-04,2024-05-01 21:57,26,102.27,Golf,3.72,Mobile,FALSE,2023-08-01,0,Double Flag
+420,38,Male,Finance,73130,2020-10-07,2024-05-06 20:22,16,368.36,Kids,2.07,Virtual Account,TRUE,2023-05-22,0,Double Flag
+421,31,Male,Finance,72184,2023-03-29,2024-05-03 11:53,20,68.24,Luxury,5,App,FALSE,2023-07-01,0,Double Flag
+422,37,Male,Services,120977,2023-04-25,2024-05-04 3:38,25,255.91,Women's Clothing,1.27,App,TRUE,2024-03-04,1,Gucci
+423,37,Male,Education,61137,2023-12-22,2024-05-08 19:51,27,385.35,Kids,4.91,Mobile,TRUE,2023-10-15,0,Hazzys
+424,66,Female,Healthcare,101384,2021-05-03,2024-05-06 0:55,23,383.27,Men's Clothing,0.62,Credit Card,TRUE,2023-11-12,1,Gucci
+425,37,Female,Technology,,2023-12-12,2024-05-05 20:52,4,452.04,Luxury,3.43,App,FALSE,2024-02-24,1,Hazzys
+426,20,Female,Finance,198499,2020-09-12,2024-05-06 6:59,12,172.35,Bags/Accessories,4.31,Virtual Account,TRUE,2024-04-12,1,Nike
+427,62,Male,Technology,,2019-07-26,2024-05-03 3:02,25,223.19,Sports,0.38,Mobile,TRUE,2023-07-30,1,Double Flag
+428,35,Female,Healthcare,172114,2021-12-19,2024-05-06 21:51,0,219.79,Men's Clothing,0.9,App,TRUE,2023-05-12,0,Gucci
+429,51,Male,Finance,129419,2021-04-29,2024-05-04 13:28,7,107.92,Women's Clothing,1.68,App,TRUE,2024-01-31,1,Double Flag
+430,25,Female,Services,87244,2021-05-02,2024-05-06 21:45,27,390.31,Shoes,2.96,Virtual Account,TRUE,2023-06-07,0,Daks
+431,42,Female,Healthcare,120461,2020-04-13,2024-05-08 6:44,5,417.41,Shoes,4.36,Mobile,TRUE,2024-01-23,0,Gucci
+432,27,Female,Finance,,2021-10-24,2024-05-01 18:29,20,334.68,Shoes,4.13,Mobile,TRUE,2023-12-14,1,Gucci
+433,51,Male,Services,57258,2021-09-12,2024-05-08 13:59,15,239.45,Men's Clothing,1.94,Credit Card,TRUE,2023-07-11,0,Double Flag
+434,55,Female,Education,75787,2021-11-09,2024-05-08 10:52,22,131.45,Men's Clothing,2.77,Credit Card,FALSE,2024-02-17,0,Gucci
+435,51,Male,Finance,89058,2022-01-07,2024-05-05 21:17,18,241.61,Shoes,3.25,Mobile,FALSE,2023-05-11,0,Nike
+436,32,Male,Services,133766,2022-02-24,2024-05-08 17:21,15,85.56,Bags/Accessories,2.94,App,FALSE,2024-02-23,0,Daks
+437,46,Female,Education,177453,2023-05-09,2024-05-06 4:27,12,163.51,Sports,1.34,Mobile,TRUE,2023-07-13,1,Hazzys
+438,46,Female,Healthcare,122978,2023-04-08,2024-05-03 13:55,13,52.55,Luxury,2.01,App,FALSE,2023-07-15,1,Daks
+439,65,Female,Finance,148687,2023-12-01,2024-05-05 15:46,20,62.7,Sports,0.8,Credit Card,TRUE,2023-08-24,0,Hazzys
+440,21,Female,Finance,104623,2021-07-08,2024-05-01 1:58,5,382.14,Sports,1.9,App,TRUE,2023-08-24,0,Hazzys
+441,65,Male,Finance,48454,2023-09-23,2024-05-01 11:11,0,378.49,Bags/Accessories,0.56,Mobile,TRUE,2023-11-07,0,Double Flag
+442,64,Male,Education,163325,2020-01-24,2024-05-05 9:10,18,372.56,Bags/Accessories,0.29,Virtual Account,TRUE,2024-03-08,0,Double Flag
+443,60,Female,Education,,2020-09-01,2024-05-05 18:26,24,414.08,Beauty,1.15,Mobile,FALSE,2023-10-28,1,Gucci
+444,68,Male,Finance,135043,2020-01-07,2024-05-08 19:02,20,90.86,Kids,2.37,Mobile,TRUE,2024-02-21,1,Daks
+445,22,Male,Technology,162801,2021-06-13,2024-05-02 19:05,27,186.68,Kids,1.39,Mobile,FALSE,2024-04-13,0,Daks
+446,35,Female,Finance,35385,2019-10-23,2024-05-02 20:49,12,483.75,Men's Clothing,4.54,Credit Card,TRUE,2024-01-19,1,Hazzys
+447,29,Male,Services,37754,2019-11-14,2024-05-03 19:34,20,342.28,Luxury,0.55,Mobile,TRUE,2023-10-09,0,Nike
+448,33,Female,Healthcare,97805,2022-06-07,2024-05-07 18:27,10,458.65,Sports,1.77,Mobile,TRUE,2023-09-28,0,Gucci
+449,57,Male,Technology,140131,2020-11-16,2024-05-08 23:54,4,412.95,Sports,3.54,App,FALSE,2023-05-13,1,Double Flag
+450,35,Female,Finance,159605,2020-04-21,2024-05-09 5:08,29,356.15,Men's Clothing,3.44,Virtual Account,TRUE,2023-05-23,1,Hazzys
+451,40,Male,Education,51733,2023-05-28,2024-05-02 17:11,7,400.89,Sports,4.79,App,FALSE,2024-04-15,0,Gucci
+452,25,Female,Finance,173155,2024-04-07,2024-05-04 5:16,9,313.37,Shoes,0.36,Virtual Account,FALSE,2024-05-01,0,Gucci
+453,58,Female,Finance,79687,2021-12-09,2024-05-03 15:57,9,269.65,Golf,2.52,Virtual Account,FALSE,2023-10-27,1,Daks
+454,40,Female,Technology,81803,2020-07-04,2024-05-05 23:03,3,301.68,Beauty,0.06,Mobile,FALSE,2023-08-31,0,Daks
+455,43,Male,Finance,159893,2019-08-25,2024-05-05 18:47,29,392.28,Shoes,4.38,Virtual Account,FALSE,2023-09-24,0,Daks
+456,56,Male,Technology,102526,2021-09-12,2024-05-02 19:03,14,100.22,Beauty,1.21,Mobile,FALSE,2023-11-07,0,Daks
+457,67,Male,Technology,53033,2020-03-27,2024-05-01 12:26,24,295.72,Shoes,4.44,Credit Card,FALSE,2023-09-08,0,Daks
+458,33,Female,Finance,172265,2020-05-12,2024-05-04 12:04,21,354.09,Shoes,4.84,Credit Card,TRUE,2023-06-26,0,Gucci
+459,64,Female,Finance,45794,2022-06-19,2024-05-04 18:06,19,437.35,Beauty,0.82,App,TRUE,2024-04-28,0,Daks
+460,65,Male,Healthcare,111840,2023-12-25,2024-05-06 1:31,6,367.29,Women's Clothing,4.97,App,FALSE,2023-11-04,0,Hazzys
+461,20,Female,Technology,174332,2023-08-26,2024-05-01 13:58,16,164.68,Kids,3.13,Credit Card,TRUE,2024-03-05,0,Gucci
+462,52,Male,Finance,98440,2020-03-26,2024-05-02 16:42,24,488.03,Luxury,2.38,Mobile,FALSE,2023-08-11,0,Hazzys
+463,51,Female,Services,157038,2019-07-04,2024-05-02 7:03,20,93.2,Bags/Accessories,1.59,Credit Card,FALSE,2024-01-31,0,Hazzys
+464,49,Female,Education,64001,2019-07-15,2024-05-06 1:30,2,428.38,Women's Clothing,4.81,Credit Card,TRUE,2023-11-29,0,Daks
+465,27,Female,Education,56873,2021-10-30,2024-05-03 11:43,1,480.14,Shoes,4.53,Credit Card,FALSE,2024-02-25,1,Hazzys
+466,33,Female,Technology,33709,2020-12-27,2024-05-06 0:54,14,74.06,Golf,2.25,Credit Card,FALSE,2023-06-13,0,Hazzys
+467,40,Male,Services,68734,2021-08-21,2024-05-04 20:16,10,212.77,Women's Clothing,0.5,Virtual Account,TRUE,2023-08-20,1,Hazzys
+468,44,Female,Technology,97469,2024-02-11,2024-05-05 10:46,16,90.22,Women's Clothing,1.63,App,FALSE,2024-01-19,0,Daks
+469,26,Female,Education,58426,2023-10-14,2024-05-03 5:55,5,438.87,Luxury,3.83,App,FALSE,2024-01-18,0,Daks
+470,42,Male,Healthcare,124998,2020-05-24,2024-05-06 13:05,17,351.6,Bags/Accessories,1.28,Credit Card,TRUE,2024-03-12,0,Gucci
+471,57,Male,Finance,33355,2023-07-29,2024-05-06 9:16,22,397,Sports,1.97,Mobile,FALSE,2023-11-11,0,Nike
+472,55,Male,Technology,93350,2020-06-21,2024-05-02 14:59,29,32.46,Bags/Accessories,1.25,App,TRUE,2024-01-05,0,Double Flag
+473,68,Female,Technology,,2021-12-26,2024-05-08 9:09,8,430.93,Luxury,1.53,App,TRUE,2023-11-07,1,Hazzys
+474,41,Female,Technology,167390,2022-11-21,2024-05-03 19:57,18,336.48,Bags/Accessories,3.19,Credit Card,TRUE,2024-03-08,1,Gucci
+475,55,Male,Healthcare,117019,2022-03-02,2024-05-02 13:06,13,265.61,Beauty,2.7,Virtual Account,FALSE,2023-09-15,1,Daks
+476,41,Male,Education,159132,2023-03-17,2024-05-02 14:46,14,85.5,Golf,2.44,Mobile,TRUE,2023-06-16,1,Hazzys
+477,58,Male,Finance,112467,2020-05-08,2024-05-08 16:18,15,442.84,Golf,4.56,Mobile,FALSE,2023-07-28,1,Double Flag
+478,31,Male,Finance,105489,2021-06-13,2024-05-03 21:01,24,56.05,Beauty,1.89,Virtual Account,FALSE,2023-10-01,0,Gucci
+479,50,Male,Healthcare,160692,2022-08-11,2024-05-09 2:13,18,92.96,Shoes,3.03,App,FALSE,2024-03-23,1,Double Flag
+480,67,Female,Healthcare,31520,2023-12-23,2024-05-06 9:01,11,405.06,Bags/Accessories,2.48,App,TRUE,2023-12-28,1,Nike
+481,25,Male,Services,128381,2020-02-20,2024-05-01 16:51,11,374.72,Beauty,0.22,App,FALSE,2024-01-12,1,Hazzys
+482,56,Male,Services,112250,2020-01-26,2024-05-06 1:12,14,352.36,Luxury,1.98,Mobile,FALSE,2024-02-24,1,Nike
+483,32,Female,Finance,62749,2022-09-25,2024-05-04 13:05,24,61.9,Beauty,1.67,Mobile,TRUE,2023-10-26,1,Gucci
+484,37,Female,Technology,119072,2022-05-08,2024-05-08 18:24,26,117.66,Sports,1.54,Virtual Account,FALSE,2023-10-15,1,Nike
+485,68,Female,Healthcare,98875,2020-04-13,2024-05-03 13:39,10,308.77,Beauty,1.58,Mobile,FALSE,2024-04-06,0,Daks
+486,18,Female,Education,75220,2021-12-25,2024-05-06 0:01,25,248.99,Golf,0.06,App,TRUE,2023-12-13,0,Nike
+487,52,Male,Healthcare,176631,2020-12-12,2024-05-01 22:08,16,399.82,Men's Clothing,2.55,Credit Card,TRUE,2024-03-27,1,Double Flag
+488,49,Female,Education,177785,2020-03-04,2024-05-06 2:07,9,491.1,Men's Clothing,2.27,App,TRUE,2023-05-16,1,Hazzys
+489,48,Male,Education,150802,2019-05-26,2024-05-01 13:25,23,490.58,Kids,0.22,Mobile,TRUE,2024-02-21,1,Gucci
+490,41,Female,Healthcare,44920,2021-10-23,2024-05-06 13:29,16,97.73,Beauty,4.45,Mobile,FALSE,2024-05-03,0,Gucci
+491,56,Male,Education,183189,2023-08-08,2024-05-06 19:45,20,218.25,Luxury,3.75,App,FALSE,2023-12-16,1,Gucci
+492,35,Male,Services,53374,2019-11-16,2024-05-08 7:57,22,405.51,Bags/Accessories,4.18,Credit Card,TRUE,2023-10-06,0,Daks
+493,55,Female,Education,55768,2019-06-12,2024-05-02 21:12,7,447.96,Luxury,0.76,Credit Card,TRUE,2023-09-09,1,Gucci
+494,46,Male,Finance,188532,2023-12-16,2024-05-04 0:14,8,375.94,Bags/Accessories,1.61,App,FALSE,2023-11-05,0,Gucci
+495,43,Male,Healthcare,52981,2020-08-02,2024-05-03 13:11,22,129.64,Beauty,0.45,Credit Card,TRUE,2024-02-25,1,Double Flag
+496,28,Male,Services,44767,2023-11-16,2024-05-03 16:39,29,303.66,Kids,3.73,Credit Card,FALSE,2024-03-29,0,Hazzys
+497,44,Male,Healthcare,146867,2020-01-15,2024-05-02 9:23,7,314.33,Bags/Accessories,4.41,Virtual Account,TRUE,2024-01-02,0,Daks
+498,63,Male,Technology,,2024-01-04,2024-05-06 8:10,5,181.26,Beauty,0.9,App,FALSE,2024-02-04,1,Gucci
+499,42,Male,Technology,80430,2022-08-01,2024-05-06 10:53,0,243.02,Golf,2.21,Credit Card,FALSE,2024-02-28,1,Hazzys
+500,33,Male,Services,167205,2023-01-27,2024-05-07 20:15,24,437.4,Kids,2.69,Mobile,TRUE,2023-11-22,1,Double Flag
+501,45,Female,Education,160928,2020-07-08,2024-05-03 23:37,24,83.89,Bags/Accessories,3.54,Virtual Account,FALSE,2024-01-07,1,Nike
+502,21,Female,Technology,147815,2020-07-03,2024-05-06 12:10,17,299.38,Golf,4.31,App,TRUE,2024-04-10,1,Gucci
+503,69,Male,Finance,39763,2022-11-18,2024-05-03 8:11,19,466.8,Sports,4.07,Virtual Account,TRUE,2024-01-14,0,Gucci
+504,23,Male,Finance,72846,2019-06-16,2024-05-05 13:04,2,404.88,Luxury,0.26,Virtual Account,FALSE,2023-12-25,1,Gucci
+505,43,Male,Services,43264,2021-12-06,2024-05-02 0:18,25,353.78,Men's Clothing,0.99,Virtual Account,FALSE,2024-04-20,0,Hazzys
+506,20,Male,Technology,188003,2023-06-04,2024-05-02 9:02,28,364.26,Sports,0.64,Virtual Account,TRUE,2023-08-20,0,Double Flag
+507,61,Female,Services,49822,2021-08-28,2024-05-07 18:03,16,396.56,Sports,3.57,Mobile,TRUE,2024-04-02,0,Double Flag
+508,34,Male,Finance,43842,2023-01-03,2024-05-01 22:06,1,469.3,Luxury,0.34,App,FALSE,2023-09-20,0,Hazzys
+509,57,Female,Services,161815,2019-12-14,2024-05-05 17:50,9,224.49,Men's Clothing,1.82,Virtual Account,TRUE,2023-07-09,1,Hazzys
+510,40,Male,Education,148087,2024-02-25,2024-05-05 4:03,25,95.42,Shoes,3.52,Mobile,FALSE,2023-08-14,1,Hazzys
+511,60,Male,Education,181611,2021-04-04,2024-05-02 15:50,5,245.68,Shoes,1.59,App,TRUE,2023-09-19,0,Daks
+512,66,Female,Technology,149174,2019-07-16,2024-05-04 10:54,22,446.62,Luxury,0.96,App,TRUE,2023-09-06,0,Hazzys
+513,57,Female,Education,131238,2021-06-20,2024-05-08 10:11,21,278.94,Golf,0.26,Credit Card,TRUE,2024-01-06,0,Hazzys
+514,24,Male,Services,52696,2021-04-05,2024-05-03 2:40,3,39.7,Sports,0.73,Virtual Account,TRUE,2023-07-03,1,Daks
+515,30,Female,Education,34306,2021-05-08,2024-05-03 19:40,19,430.52,Women's Clothing,2.63,Mobile,TRUE,2023-10-12,1,Hazzys
+516,20,Female,Finance,142847,2023-10-16,2024-05-03 2:28,24,425.57,Luxury,3.46,App,FALSE,2023-10-13,0,Gucci
+517,32,Male,Technology,35070,2023-04-16,2024-05-03 12:27,14,24.24,Beauty,1.5,Virtual Account,TRUE,2023-10-22,1,Hazzys
+518,36,Male,Education,40813,2020-06-20,2024-05-07 17:37,29,157.39,Women's Clothing,0.21,Credit Card,TRUE,2024-01-17,0,Nike
+519,46,Female,Healthcare,93836,2022-05-09,2024-05-03 0:33,5,106.01,Shoes,2.02,Mobile,FALSE,2024-04-02,1,Hazzys
+520,25,Male,Education,89582,2022-03-14,2024-05-05 1:14,5,322.65,Luxury,4.32,Mobile,TRUE,2023-11-16,0,Gucci
+521,46,Female,Finance,167372,2020-08-11,2024-05-01 2:27,22,333.6,Men's Clothing,1.45,Mobile,FALSE,2024-02-09,0,Gucci
+522,52,Female,Services,172051,2021-04-18,2024-05-02 23:56,0,169.16,Luxury,0.79,Credit Card,FALSE,2023-07-24,0,Nike
+523,40,Female,Education,117886,2020-04-04,2024-05-05 10:49,21,394.43,Luxury,0.74,Mobile,TRUE,2024-03-17,1,Daks
+524,27,Male,Education,85628,2020-12-09,2024-05-03 17:29,8,103.57,Beauty,3.98,Credit Card,FALSE,2023-10-05,0,Daks
+525,27,Female,Healthcare,160082,2020-11-21,2024-05-03 23:55,25,455.78,Women's Clothing,4.19,Credit Card,TRUE,2024-03-28,1,Daks
+526,57,Male,Finance,170283,2024-03-01,2024-05-01 8:33,12,88.63,Golf,2.6,App,FALSE,2023-06-04,1,Daks
+527,26,Female,Healthcare,111766,2021-04-18,2024-05-05 21:54,12,359.46,Golf,2.44,Mobile,FALSE,2024-05-03,1,Nike
+528,28,Male,Education,98991,2019-09-28,2024-05-07 8:16,22,264.44,Shoes,4.79,Virtual Account,FALSE,2023-12-01,0,Double Flag
+529,41,Female,Healthcare,198021,2023-12-24,2024-05-02 18:05,2,258.31,Men's Clothing,3.3,Mobile,FALSE,2023-05-19,1,Hazzys
+530,30,Male,Services,41329,2023-08-30,2024-05-01 7:36,13,282.42,Sports,0.54,Virtual Account,TRUE,2023-08-02,1,Daks
+531,20,Male,Education,186308,2023-04-22,2024-05-07 23:24,17,408.26,Men's Clothing,3.14,Credit Card,TRUE,2023-07-27,0,Daks
+532,50,Female,Education,158071,2023-12-15,2024-05-08 19:50,8,282.56,Beauty,3.59,App,FALSE,2023-06-15,0,Hazzys
+533,25,Female,Education,166200,2019-08-13,2024-05-01 17:55,13,338.74,Beauty,1.82,Mobile,FALSE,2023-05-13,1,Gucci
+534,30,Male,Finance,127025,2022-10-11,2024-05-03 16:37,1,408.23,Women's Clothing,4.51,App,FALSE,2023-05-10,0,Gucci
+535,26,Female,Services,79139,2022-12-16,2024-05-07 6:00,24,211.34,Golf,2.09,Virtual Account,FALSE,2024-04-09,1,Double Flag
+536,49,Male,Services,144676,2023-07-30,2024-05-07 4:28,10,362.57,Sports,3.34,Virtual Account,FALSE,2023-11-09,0,Hazzys
+537,31,Male,Services,156015,2020-01-31,2024-05-02 17:28,29,261.24,Golf,1.04,Mobile,FALSE,2024-01-15,1,Daks
+538,26,Female,Education,172161,2023-12-26,2024-05-05 4:06,22,322.37,Luxury,4.85,Mobile,FALSE,2023-06-21,1,Daks
+539,59,Male,Technology,153579,2023-04-23,2024-05-08 10:35,14,315.67,Kids,4.04,Virtual Account,TRUE,2023-06-17,0,Double Flag
+540,55,Female,Healthcare,123963,2023-02-14,2024-05-01 19:30,10,248.23,Kids,1.89,App,TRUE,2023-09-30,0,Hazzys
+541,67,Male,Education,88662,2022-03-17,2024-05-01 6:50,27,111.44,Kids,0.23,App,TRUE,2023-05-28,0,Double Flag
+542,43,Male,Finance,51697,2021-08-27,2024-05-03 9:49,28,489.28,Bags/Accessories,1.7,Credit Card,FALSE,2024-04-09,0,Gucci
+543,41,Female,Finance,179496,2020-04-09,2024-05-01 15:43,23,216.84,Sports,3.6,Credit Card,FALSE,2023-08-23,0,Gucci
+544,61,Female,Healthcare,173012,2020-07-17,2024-05-05 22:41,3,377.95,Sports,4.03,Credit Card,FALSE,2024-03-26,0,Double Flag
+545,35,Female,Healthcare,53406,2023-11-17,2024-05-07 14:08,26,235.29,Shoes,3.46,Virtual Account,FALSE,2023-06-03,0,Hazzys
+546,50,Female,Services,69207,2019-12-27,2024-05-07 23:34,7,165.2,Men's Clothing,4.64,App,TRUE,2024-02-17,0,Nike
+547,42,Male,Healthcare,167867,2022-08-01,2024-05-02 14:45,6,476.61,Sports,0.68,Mobile,FALSE,2024-04-06,0,Double Flag
+548,64,Female,Technology,47850,2022-10-01,2024-05-07 9:06,3,215.33,Men's Clothing,4.97,Mobile,TRUE,2024-04-15,1,Hazzys
+549,48,Male,Finance,176429,2019-07-24,2024-05-02 14:06,14,90.66,Kids,2.35,App,FALSE,2024-05-05,0,Daks
+550,47,Female,Services,170016,2021-02-18,2024-05-07 14:33,23,124.37,Men's Clothing,3.8,App,FALSE,2024-05-02,0,Double Flag
+551,33,Female,Technology,30719,2023-09-07,2024-05-05 5:20,15,474.86,Bags/Accessories,4.98,App,FALSE,2024-03-28,0,Double Flag
+552,35,Male,Technology,75852,2020-02-05,2024-05-01 21:13,29,479.31,Kids,4.17,Credit Card,FALSE,2023-09-13,0,Double Flag
+553,43,Female,Healthcare,115600,2023-06-28,2024-05-02 13:08,12,260.89,Beauty,4.8,App,TRUE,2024-04-11,0,Double Flag
+554,65,Female,Healthcare,49894,2024-04-01,2024-05-02 1:53,26,183.96,Beauty,1.33,Virtual Account,FALSE,2023-11-14,1,Gucci
+555,25,Male,Technology,178583,2019-07-22,2024-05-09 5:20,10,70.35,Golf,0.8,Credit Card,FALSE,2024-04-10,0,Gucci
+556,69,Male,Services,45577,2021-09-13,2024-05-04 3:23,12,318.22,Shoes,3.67,App,FALSE,2024-03-29,1,Double Flag
+557,36,Male,Finance,182825,2021-09-10,2024-05-02 15:02,22,142.82,Sports,3.98,Credit Card,TRUE,2024-03-02,0,Nike
+558,27,Male,Services,70298,2021-12-24,2024-05-02 12:56,19,50.63,Kids,2.92,App,TRUE,2024-01-10,1,Nike
+559,26,Female,Technology,128999,2022-09-02,2024-05-07 8:33,0,462.96,Shoes,1.84,Credit Card,TRUE,2024-02-21,1,Nike
+560,28,Male,Healthcare,63031,2024-03-25,2024-05-06 6:03,24,61.16,Women's Clothing,0.34,Virtual Account,TRUE,2024-03-29,1,Hazzys
+561,31,Male,Technology,72933,2020-06-24,2024-05-07 12:40,14,258.81,Women's Clothing,3.96,Virtual Account,FALSE,2024-01-02,1,Double Flag
+562,50,Male,Technology,151383,2022-08-11,2024-05-09 0:35,17,471.38,Golf,0.32,App,FALSE,2024-04-23,0,Daks
+563,63,Female,Technology,44299,2021-11-27,2024-05-07 2:52,11,318.62,Shoes,3.28,Mobile,FALSE,2023-06-25,1,Gucci
+564,68,Male,Technology,139591,2022-01-28,2024-05-06 14:23,14,351.08,Golf,0.01,Credit Card,FALSE,2024-01-26,1,Daks
+565,45,Male,Healthcare,173280,2022-05-29,2024-05-03 21:58,29,114.34,Sports,1.76,App,TRUE,2023-06-28,1,Daks
+566,66,Male,Healthcare,136985,2019-07-06,2024-05-08 9:42,22,189.69,Golf,2.21,Virtual Account,FALSE,2023-05-12,0,Hazzys
+567,61,Male,Technology,153224,2024-03-04,2024-05-08 13:19,11,357.82,Sports,3.49,Mobile,TRUE,2024-04-06,1,Hazzys
+568,47,Male,Finance,92402,2021-10-31,2024-05-04 11:42,28,188.41,Women's Clothing,0.9,App,TRUE,2024-01-08,0,Hazzys
+569,62,Female,Healthcare,170975,2019-05-27,2024-05-02 12:35,4,225.25,Kids,4.57,Credit Card,TRUE,2024-03-26,0,Hazzys
+570,69,Female,Education,105394,2024-01-13,2024-05-06 23:05,5,152.08,Men's Clothing,4.48,Credit Card,TRUE,2023-12-16,0,Nike
+571,63,Male,Services,121628,2022-10-06,2024-05-08 22:13,7,213.24,Kids,2.51,App,TRUE,2023-11-09,1,Double Flag
+572,20,Female,Services,176794,2023-11-01,2024-05-02 0:23,15,158.86,Shoes,2.87,Mobile,TRUE,2024-04-28,0,Daks
+573,49,Male,Education,158739,2019-10-05,2024-05-06 1:51,21,449.41,Men's Clothing,0.78,Virtual Account,TRUE,2023-08-13,1,Hazzys
+574,42,Female,Finance,43104,2023-05-13,2024-05-08 4:23,21,286.69,Sports,3.48,Mobile,TRUE,2023-10-23,1,Gucci
+575,62,Male,Services,142642,2023-04-10,2024-05-01 3:38,9,440.19,Golf,4.32,App,TRUE,2023-05-31,1,Gucci
+576,43,Female,Healthcare,184738,2023-12-02,2024-05-07 9:23,19,272.28,Sports,2.4,Virtual Account,FALSE,2023-05-16,1,Double Flag
+577,67,Female,Technology,106089,2021-06-10,2024-05-05 14:09,25,178.94,Shoes,4.23,App,TRUE,2024-04-08,0,Hazzys
+578,45,Male,Education,54430,2021-04-17,2024-05-06 23:41,19,479.67,Shoes,4.09,App,TRUE,2024-04-28,0,Nike
+579,32,Male,Services,98582,2022-04-06,2024-05-05 17:06,23,245.25,Shoes,0.86,Mobile,TRUE,2023-06-17,0,Nike
+580,54,Male,Services,98697,2021-02-25,2024-05-06 16:47,7,450.67,Luxury,3.43,Credit Card,TRUE,2024-01-07,1,Gucci
+581,56,Female,Education,126143,2019-07-22,2024-05-05 9:28,18,469.07,Sports,1.37,App,FALSE,2023-09-11,1,Daks
+582,69,Male,Technology,134383,2023-10-21,2024-05-03 19:08,4,462.73,Beauty,2.63,Mobile,TRUE,2023-07-12,1,Hazzys
+583,41,Female,Technology,85818,2021-12-21,2024-05-04 4:10,21,351.13,Luxury,2.44,Virtual Account,FALSE,2023-06-26,1,Nike
+584,55,Female,Finance,149538,2020-01-22,2024-05-07 14:52,0,376.71,Kids,3.79,Credit Card,TRUE,2023-11-10,0,Gucci
+585,44,Female,Finance,144470,2021-05-26,2024-05-08 0:48,25,217.74,Kids,4.95,Credit Card,FALSE,2024-01-24,1,Gucci
+586,23,Male,Technology,82029,2020-05-07,2024-05-08 15:20,0,372.45,Kids,3.45,App,TRUE,2023-07-03,1,Daks
+587,24,Female,Finance,115410,2021-03-08,2024-05-06 0:40,1,41.69,Bags/Accessories,3.84,App,FALSE,2023-08-17,1,Hazzys
+588,63,Female,Education,75064,2022-04-07,2024-05-08 4:08,5,366,Bags/Accessories,1.27,Credit Card,FALSE,2023-09-25,1,Gucci
+589,26,Female,Healthcare,37760,2020-09-28,2024-05-08 16:13,2,449.38,Women's Clothing,4.03,Credit Card,FALSE,2023-11-01,1,Hazzys
+590,30,Male,Education,170774,2019-12-04,2024-05-01 15:04,13,486.27,Beauty,4.77,App,TRUE,2023-07-01,0,Hazzys
+591,44,Female,Services,41722,2023-01-19,2024-05-01 18:40,20,142.96,Bags/Accessories,2.46,App,TRUE,2023-06-28,1,Gucci
+592,69,Male,Education,88770,2019-07-11,2024-05-08 7:29,18,212.69,Men's Clothing,1.74,App,TRUE,2023-06-22,1,Daks
+593,22,Male,Technology,185457,2022-09-22,2024-05-01 7:38,11,246.15,Bags/Accessories,1.08,App,FALSE,2024-04-04,1,Gucci
+594,62,Female,Education,151789,2023-07-07,2024-05-03 0:52,6,320.01,Women's Clothing,0.37,Credit Card,FALSE,2024-03-03,1,Nike
+595,29,Male,Technology,,2024-02-25,2024-05-07 0:29,1,346.2,Golf,3.78,Virtual Account,TRUE,2024-03-16,1,Hazzys
+596,69,Male,Technology,161840,2020-11-04,2024-05-01 15:44,22,299.02,Beauty,1.48,Virtual Account,TRUE,2023-07-15,1,Nike
+597,61,Female,Finance,189461,2019-09-24,2024-05-03 18:11,20,121.31,Men's Clothing,3.07,App,FALSE,2023-08-05,1,Double Flag
+598,32,Female,Finance,141127,2019-09-26,2024-05-02 15:01,27,78.72,Luxury,1.93,App,FALSE,2024-01-30,0,Nike
+599,69,Male,Education,42236,2021-12-28,2024-05-01 22:52,0,344.74,Bags/Accessories,4.96,Credit Card,FALSE,2024-01-22,1,Hazzys
+600,33,Female,Finance,151240,2024-03-12,2024-05-02 6:40,27,381.8,Shoes,0.41,Mobile,TRUE,2024-02-24,1,Daks
+601,48,Female,Services,154922,2022-03-01,2024-05-05 11:34,16,40.58,Shoes,0.6,Credit Card,FALSE,2024-02-13,0,Double Flag
+602,49,Male,Finance,136512,2024-01-22,2024-05-02 23:58,19,143.78,Golf,2.37,Credit Card,FALSE,2023-08-11,0,Double Flag
+603,63,Female,Technology,138138,2023-04-06,2024-05-01 18:39,22,364.05,Luxury,0.1,App,FALSE,2024-03-02,1,Hazzys
+604,49,Male,Finance,112924,2022-06-08,2024-05-08 12:43,3,400.6,Bags/Accessories,0.96,App,TRUE,2024-02-25,0,Hazzys
+605,53,Male,Education,124970,2024-03-14,2024-05-07 11:56,13,243.12,Golf,2.75,App,TRUE,2024-04-28,1,Daks
+606,63,Male,Healthcare,55208,2023-06-21,2024-05-01 6:13,29,115.22,Bags/Accessories,1.28,Virtual Account,TRUE,2023-11-21,1,Nike
+607,21,Female,Technology,190929,2023-05-25,2024-05-01 3:48,10,390.84,Men's Clothing,0.18,Virtual Account,FALSE,2023-09-13,1,Double Flag
+608,28,Male,Healthcare,144883,2023-07-30,2024-05-08 10:37,12,260.47,Beauty,0.95,Mobile,TRUE,2024-02-19,0,Nike
+609,63,Male,Healthcare,146602,2020-08-30,2024-05-06 0:59,2,375.08,Women's Clothing,2.28,Credit Card,FALSE,2023-10-17,1,Double Flag
+610,22,Female,Finance,70146,2020-12-19,2024-05-04 1:40,24,397.96,Beauty,2.52,Virtual Account,TRUE,2024-01-11,1,Gucci
+611,29,Female,Education,92356,2020-10-14,2024-05-07 17:25,11,75.86,Men's Clothing,1.19,Mobile,TRUE,2023-12-01,0,Daks
+612,67,Female,Finance,67404,2023-01-28,2024-05-06 20:48,4,361.41,Shoes,2.84,Mobile,FALSE,2023-11-11,1,Gucci
+613,59,Male,Finance,182572,2020-06-02,2024-05-03 1:56,11,129.22,Women's Clothing,2.29,App,FALSE,2024-04-05,0,Nike
+614,36,Male,Technology,103015,2021-01-09,2024-05-04 20:02,6,347.54,Luxury,3.5,App,FALSE,2024-02-06,1,Daks
+615,69,Male,Services,112482,2024-02-15,2024-05-04 1:33,11,180.28,Luxury,1.12,Virtual Account,TRUE,2023-11-07,0,Gucci
+616,31,Female,Healthcare,163026,2022-08-30,2024-05-05 2:44,23,37.54,Beauty,2.02,Virtual Account,TRUE,2024-01-05,1,Nike
+617,50,Female,Education,180318,2019-12-11,2024-05-08 4:59,8,88.96,Luxury,1.23,Mobile,TRUE,2024-04-25,0,Double Flag
+618,28,Female,Services,160639,2023-04-22,2024-05-02 21:38,16,323.35,Golf,2.57,App,FALSE,2023-10-12,1,Nike
+619,42,Male,Finance,58370,2023-10-24,2024-05-03 14:58,24,327.75,Golf,0.65,Credit Card,FALSE,2023-10-26,1,Gucci
+620,30,Female,Technology,140786,2021-04-25,2024-05-01 14:10,4,173.75,Shoes,0.97,Virtual Account,TRUE,2024-04-24,0,Nike
+621,36,Female,Education,63438,2022-10-19,2024-05-03 9:45,10,132.23,Golf,0.02,Credit Card,FALSE,2024-02-20,0,Daks
+622,53,Male,Education,123000,2021-04-11,2024-05-07 6:48,24,33.32,Bags/Accessories,3.81,App,TRUE,2024-03-31,1,Double Flag
+623,31,Male,Services,153145,2021-04-28,2024-05-05 19:51,18,129.53,Sports,0.83,App,FALSE,2023-05-29,0,Double Flag
+624,52,Male,Services,127613,2020-12-26,2024-05-05 13:45,17,466.68,Beauty,0.48,Mobile,TRUE,2023-11-28,0,Gucci
+625,45,Female,Finance,154688,2019-08-19,2024-05-07 12:13,17,375.85,Bags/Accessories,3.9,Virtual Account,FALSE,2023-06-13,1,Gucci
+626,26,Male,Technology,60975,2022-06-14,2024-05-04 17:31,1,117.63,Shoes,3.59,Mobile,TRUE,2023-08-07,1,Hazzys
+627,25,Male,Education,174690,2022-09-16,2024-05-03 15:25,12,112.2,Bags/Accessories,1.07,App,TRUE,2024-01-01,1,Gucci
+628,25,Female,Education,86978,2021-06-13,2024-05-03 19:08,2,136.66,Men's Clothing,1.35,Mobile,FALSE,2024-04-23,0,Nike
+629,30,Female,Technology,149629,2020-08-10,2024-05-08 21:57,6,23.95,Shoes,1.76,App,FALSE,2023-09-15,0,Daks
+630,57,Female,Finance,198588,2020-06-06,2024-05-01 11:16,9,205.2,Kids,2.55,Credit Card,TRUE,2024-05-03,0,Daks
+631,56,Female,Technology,140308,2022-11-18,2024-05-08 12:43,17,419.06,Golf,3.6,Credit Card,TRUE,2024-03-05,0,Double Flag
+632,68,Female,Finance,54841,2023-03-11,2024-05-07 1:47,24,450.36,Luxury,2.56,Virtual Account,FALSE,2023-06-16,0,Hazzys
+633,55,Male,Finance,172356,2020-04-15,2024-05-04 19:55,26,390.51,Kids,4.12,Credit Card,TRUE,2024-05-01,1,Double Flag
+634,30,Male,Technology,56728,2020-02-12,2024-05-08 19:56,3,238.6,Men's Clothing,0.16,Mobile,FALSE,2023-10-03,0,Nike
+635,18,Male,Healthcare,36201,2019-07-23,2024-05-07 3:34,9,104.9,Golf,3.49,App,FALSE,2024-02-04,1,Daks
+636,32,Female,Healthcare,50628,2021-02-17,2024-05-05 17:06,15,447.02,Luxury,2.77,Virtual Account,FALSE,2023-11-05,0,Gucci
+637,19,Male,Education,161471,2021-03-09,2024-05-05 22:13,28,330.51,Luxury,0.7,Mobile,FALSE,2023-12-04,0,Daks
+638,65,Female,Finance,66129,2023-05-08,2024-05-02 17:38,3,139.09,Men's Clothing,1.22,App,TRUE,2023-09-27,0,Nike
+639,38,Male,Finance,174875,2022-09-18,2024-05-03 23:24,18,78.32,Bags/Accessories,0.08,Mobile,TRUE,2024-01-02,0,Daks
+640,36,Male,Healthcare,165772,2021-12-11,2024-05-06 11:55,13,178.17,Kids,3.08,Virtual Account,FALSE,2023-08-01,1,Nike
+641,45,Female,Healthcare,107529,2019-11-17,2024-05-05 3:34,17,147.06,Women's Clothing,0.09,Virtual Account,FALSE,2023-12-25,1,Daks
+642,66,Male,Technology,173788,2023-04-05,2024-05-08 14:56,3,355.35,Bags/Accessories,3.26,App,TRUE,2024-02-20,0,Nike
+643,34,Female,Education,148546,2023-06-09,2024-05-02 21:19,26,331.04,Beauty,4.51,App,FALSE,2024-04-04,1,Nike
+644,27,Male,Services,69987,2020-08-19,2024-05-05 5:13,14,163.34,Kids,3.86,Mobile,TRUE,2023-08-30,0,Nike
+645,58,Male,Finance,48918,2023-05-05,2024-05-07 20:20,17,406.41,Beauty,1.57,Virtual Account,FALSE,2024-02-05,1,Nike
+646,22,Female,Services,66137,2023-12-22,2024-05-06 19:49,20,394.25,Kids,2.59,Virtual Account,FALSE,2023-06-12,0,Daks
+647,52,Female,Education,96011,2022-07-15,2024-05-05 10:50,4,153.42,Men's Clothing,4.01,Credit Card,TRUE,2023-07-21,0,Nike
+648,67,Female,Education,63536,2019-08-24,2024-05-06 20:45,18,136.3,Women's Clothing,0.2,Mobile,FALSE,2024-03-18,1,Daks
+649,22,Male,Finance,,2022-06-26,2024-05-05 22:18,15,171.87,Women's Clothing,3.83,App,TRUE,2023-08-17,1,Double Flag
+650,43,Female,Technology,110048,2021-08-02,2024-05-07 23:29,13,84.75,Bags/Accessories,1.07,App,FALSE,2024-04-09,1,Double Flag
+651,40,Male,Services,144480,2021-01-05,2024-05-04 4:12,12,415.26,Men's Clothing,1.05,Virtual Account,TRUE,2023-11-17,0,Hazzys
+652,49,Female,Healthcare,75840,2021-05-31,2024-05-08 18:37,29,482.57,Golf,1.22,App,FALSE,2024-02-26,1,Daks
+653,34,Female,Technology,143724,2021-04-30,2024-05-08 20:19,23,498.61,Sports,0.97,Credit Card,FALSE,2023-07-23,0,Gucci
+654,68,Female,Finance,193662,2023-07-28,2024-05-01 5:49,19,68.63,Men's Clothing,3.16,Credit Card,TRUE,2024-03-01,1,Daks
+655,54,Male,Finance,152091,2023-04-15,2024-05-02 11:46,16,333.98,Women's Clothing,0.27,Virtual Account,TRUE,2023-12-12,0,Nike
+656,40,Female,Services,139502,2023-12-07,2024-05-06 15:04,7,363.48,Luxury,3.6,App,TRUE,2024-04-10,0,Gucci
+657,42,Female,Education,126799,2022-10-08,2024-05-02 8:25,13,40.38,Kids,3.63,Credit Card,TRUE,2024-02-28,0,Hazzys
+658,60,Female,Education,131142,2019-05-26,2024-05-02 4:33,16,166.51,Kids,2.41,App,FALSE,2023-06-26,1,Hazzys
+659,64,Female,Healthcare,36029,2021-04-24,2024-05-08 21:28,22,32.69,Sports,2.79,Credit Card,FALSE,2024-01-10,1,Hazzys
+660,49,Female,Services,61248,2019-11-19,2024-05-06 15:46,9,264.86,Women's Clothing,1.44,Mobile,TRUE,2024-03-27,1,Double Flag
+661,23,Male,Technology,45891,2020-11-08,2024-05-02 22:54,2,175.34,Sports,4.15,Mobile,FALSE,2024-05-01,1,Gucci
+662,20,Female,Technology,178162,2021-10-21,2024-05-05 14:17,23,208.38,Men's Clothing,0.19,Mobile,TRUE,2023-06-17,1,Double Flag
+663,46,Female,Healthcare,180231,2020-11-18,2024-05-07 5:39,10,115.79,Kids,0.57,App,FALSE,2023-05-26,0,Hazzys
+664,29,Female,Finance,191687,2022-09-18,2024-05-01 13:35,16,114.7,Men's Clothing,4.64,Virtual Account,FALSE,2023-06-15,1,Nike
+665,30,Female,Technology,151306,2019-09-22,2024-05-01 2:11,29,277.96,Men's Clothing,2.3,Mobile,TRUE,2023-05-28,1,Nike
+666,31,Female,Education,51540,2021-05-25,2024-05-04 9:59,22,406.53,Golf,2.67,Virtual Account,FALSE,2023-07-19,1,Hazzys
+667,45,Female,Education,161375,2022-01-26,2024-05-02 20:45,3,279.95,Shoes,0.93,App,FALSE,2024-04-21,0,Hazzys
+668,22,Male,Services,48396,2023-10-09,2024-05-01 20:53,25,396.93,Kids,2.26,App,FALSE,2023-07-01,1,Nike
+669,57,Female,Technology,68276,2022-03-06,2024-05-05 22:41,6,420.31,Golf,3.74,Mobile,FALSE,2024-03-05,1,Daks
+670,37,Female,Healthcare,57370,2023-11-18,2024-05-08 20:22,28,90.94,Kids,2.11,Virtual Account,FALSE,2024-02-07,0,Daks
+671,28,Male,Finance,85423,2022-09-07,2024-05-07 5:07,6,64.3,Bags/Accessories,4.46,Virtual Account,TRUE,2023-08-29,1,Nike
+672,58,Female,Healthcare,,2021-12-08,2024-05-01 14:39,24,263.8,Golf,4.48,Virtual Account,FALSE,2023-09-15,0,Gucci
+673,23,Male,Education,118543,2021-08-07,2024-05-06 1:53,18,236.41,Sports,3.74,App,TRUE,2023-12-29,1,Gucci
+674,44,Female,Healthcare,75882,2022-09-11,2024-05-05 12:13,23,413.53,Men's Clothing,4.54,App,FALSE,2023-08-09,1,Nike
+675,38,Male,Services,64889,2021-04-26,2024-05-04 12:56,27,367.23,Women's Clothing,3.15,Mobile,TRUE,2024-04-13,1,Daks
+676,56,Female,Technology,70263,2022-09-05,2024-05-01 22:51,1,278.8,Luxury,3.01,Credit Card,TRUE,2024-04-24,1,Nike
+677,20,Male,Finance,118599,2020-07-18,2024-05-07 7:59,13,301.05,Sports,1.01,Virtual Account,FALSE,2024-03-01,1,Double Flag
+678,33,Female,Education,72755,2021-12-19,2024-05-03 12:49,29,44.21,Beauty,2.9,Credit Card,FALSE,2023-07-19,1,Double Flag
+679,65,Female,Services,88885,2022-05-28,2024-05-03 4:56,19,404.3,Golf,2.54,Mobile,TRUE,2023-07-22,0,Hazzys
+680,44,Female,Technology,199743,2022-06-28,2024-05-04 6:38,26,27.57,Luxury,4.09,App,TRUE,2023-10-30,1,Double Flag
+681,56,Male,Services,128542,2022-08-23,2024-05-05 2:06,7,190.56,Golf,4.17,Mobile,TRUE,2024-05-02,0,Nike
+682,43,Male,Technology,84961,2024-04-01,2024-05-07 9:16,24,154.04,Men's Clothing,1.84,Virtual Account,FALSE,2023-05-29,0,Daks
+683,34,Female,Healthcare,40903,2019-10-11,2024-05-07 5:03,20,498.17,Bags/Accessories,3.4,Mobile,TRUE,2024-03-02,0,Daks
+684,20,Male,Education,133730,2020-05-29,2024-05-06 23:17,17,470.24,Luxury,1.13,App,TRUE,2024-01-12,1,Hazzys
+685,68,Female,Services,110630,2022-06-06,2024-05-03 0:22,24,195.73,Beauty,4.69,Virtual Account,TRUE,2024-02-21,1,Hazzys
+686,54,Male,Education,199354,2022-01-28,2024-05-02 6:16,2,133.37,Kids,0.73,Virtual Account,TRUE,2024-04-04,1,Daks
+687,28,Male,Finance,93969,2021-04-10,2024-05-08 14:04,0,149.89,Shoes,3.79,Credit Card,TRUE,2024-02-12,1,Hazzys
+688,30,Female,Education,169962,2021-12-06,2024-05-04 9:16,24,187.28,Kids,1.65,Virtual Account,FALSE,2023-06-23,0,Hazzys
+689,28,Male,Finance,56114,2022-05-22,2024-05-05 5:50,28,432.8,Kids,2.34,App,TRUE,2024-01-09,0,Hazzys
+690,19,Female,Services,85294,2020-07-29,2024-05-01 15:40,8,351.12,Kids,0.57,Mobile,FALSE,2023-12-26,1,Gucci
+691,67,Female,Finance,33761,2019-08-05,2024-05-07 6:34,1,238.62,Beauty,4.67,Credit Card,TRUE,2024-04-20,0,Daks
+692,40,Male,Services,35228,2023-05-18,2024-05-07 23:59,23,2900,Men's Clothing,3.54,Virtual Account,FALSE,2024-05-01,0,Double Flag
+693,51,Female,Technology,36047,2020-04-05,2024-05-01 0:53,7,92.08,Women's Clothing,0.88,Virtual Account,FALSE,2023-12-17,1,Nike
+694,59,Male,Education,177629,2019-11-26,2024-05-02 23:23,4,414.78,Beauty,1.8,App,FALSE,2023-08-06,1,Daks
+695,56,Female,Healthcare,111400,2020-04-02,2024-05-03 9:40,13,191.58,Golf,4.33,Credit Card,TRUE,2024-04-19,1,Double Flag
+696,19,Female,Healthcare,117893,2020-05-14,2024-05-02 1:32,20,417.66,Men's Clothing,4.55,App,TRUE,2023-05-23,0,Double Flag
+697,30,Male,Healthcare,121143,2019-11-23,2024-05-07 16:51,18,310.3,Kids,3.97,Mobile,FALSE,2024-04-23,1,Daks
+698,66,Male,Education,151034,2022-11-09,2024-05-06 15:35,10,259.98,Luxury,2.8,Mobile,FALSE,2023-10-28,1,Gucci
+699,65,Female,Education,60313,2023-09-23,2024-05-09 1:41,29,47.01,Luxury,4.1,App,FALSE,2023-09-25,0,Nike
+700,32,Female,Healthcare,76962,2022-09-29,2024-05-08 3:30,10,119.44,Kids,3.29,Credit Card,FALSE,2023-12-18,0,Nike
+701,64,Male,Services,107227,2021-02-05,2024-05-05 3:56,6,247.89,Sports,1.39,Credit Card,TRUE,2023-07-27,1,Double Flag
+702,54,Female,Technology,35263,2023-06-12,2024-05-08 20:03,7,415.19,Bags/Accessories,0.52,Virtual Account,FALSE,2024-01-02,0,Nike
+703,36,Male,Education,168264,2020-08-09,2024-05-06 7:41,5,254.85,Bags/Accessories,0.78,Mobile,FALSE,2023-05-26,0,Nike
+704,66,Male,Education,52222,2023-10-13,2024-05-01 13:16,15,146.59,Women's Clothing,3.93,App,TRUE,2023-09-22,0,Double Flag
+705,38,Female,Healthcare,192723,2020-04-10,2024-05-03 0:26,23,329.26,Sports,0.42,App,FALSE,2024-01-23,0,Nike
+706,45,Female,Technology,111402,2020-07-16,2024-05-04 19:46,2,186.74,Men's Clothing,4.56,Mobile,TRUE,2024-04-09,1,Daks
+707,55,Female,Technology,135784,2020-11-21,2024-05-05 10:34,27,359.3,Kids,3.26,Credit Card,FALSE,2024-03-05,1,Nike
+708,58,Male,Healthcare,128629,2023-07-09,2024-05-03 2:16,6,132.38,Beauty,0.73,Credit Card,FALSE,2024-03-27,1,Nike
+709,69,Female,Services,,2020-01-31,2024-05-08 5:49,2,268.49,Luxury,2.58,App,TRUE,2023-08-05,1,Daks
+710,40,Female,Education,141123,2023-02-07,2024-05-03 11:26,4,34.83,Shoes,1.94,Virtual Account,FALSE,2023-05-22,0,Nike
+711,44,Male,Education,50594,2021-05-08,2024-05-02 7:44,17,371.66,Luxury,4.1,Virtual Account,FALSE,2023-09-24,0,Hazzys
+712,21,Male,Services,109803,2022-05-07,2024-05-03 22:29,29,103.31,Golf,3.25,Virtual Account,FALSE,2023-06-07,0,Hazzys
+713,40,Female,Education,110295,2021-05-31,2024-05-06 9:36,6,290.09,Shoes,4.69,Virtual Account,FALSE,2023-10-11,1,Nike
+714,47,Female,Education,79786,2023-04-16,2024-05-02 11:03,4,192.12,Women's Clothing,3.42,Virtual Account,TRUE,2023-07-16,0,Gucci
+715,67,Male,Technology,160217,2023-01-13,2024-05-04 17:38,10,3926.1,Bags/Accessories,3.31,Credit Card,TRUE,2024-03-04,1,Daks
+716,69,Male,Technology,92250,2021-08-31,2024-05-04 4:32,7,114.34,Sports,0.98,App,TRUE,2024-03-15,0,Gucci
+717,32,Male,Healthcare,187383,2020-04-14,2024-05-08 20:24,26,382.59,Men's Clothing,1.41,Virtual Account,FALSE,2023-10-31,0,Nike
+718,28,Female,Education,183797,2021-02-07,2024-05-04 3:49,5,470.69,Men's Clothing,3.18,App,FALSE,2023-08-08,0,Gucci
+719,50,Female,Services,177875,2021-07-13,2024-05-04 4:29,18,56.03,Shoes,3.7,Virtual Account,FALSE,2023-09-01,1,Daks
+720,51,Male,Healthcare,37354,2020-09-27,2024-05-06 22:40,29,488.97,Beauty,4.38,Mobile,TRUE,2023-06-30,1,Gucci
+721,50,Female,Healthcare,53519,2022-12-11,2024-05-07 16:53,0,412.51,Golf,3.48,Mobile,FALSE,2023-10-17,1,Nike
+722,53,Male,Services,82033,2020-07-06,2024-05-07 12:46,0,402.2,Beauty,3.76,Virtual Account,FALSE,2024-02-22,1,Double Flag
+723,26,Male,Technology,118269,2020-10-07,2024-05-03 15:55,28,263.07,Bags/Accessories,2.85,App,TRUE,2023-09-05,0,Daks
+724,45,Female,Education,154314,2020-01-20,2024-05-08 6:24,7,478.75,Sports,2.7,App,FALSE,2023-08-26,1,Daks
+725,20,Female,Services,150476,2019-08-07,2024-05-08 9:36,29,233.31,Women's Clothing,3.64,App,TRUE,2024-02-18,1,Nike
+726,37,Male,Education,163324,2023-03-20,2024-05-08 15:02,6,352.61,Sports,3.18,Mobile,TRUE,2023-11-03,1,Gucci
+727,34,Male,Finance,105675,2023-10-26,2024-05-04 15:29,6,295.7,Beauty,3.63,Mobile,TRUE,2024-03-03,0,Daks
+728,41,Female,Services,183789,2020-06-09,2024-05-03 8:05,15,451.71,Kids,2.58,Virtual Account,TRUE,2023-08-17,0,Daks
+729,20,Male,Services,148749,2022-06-29,2024-05-03 0:24,29,277.54,Women's Clothing,3.67,Virtual Account,FALSE,2023-08-09,1,Daks
+730,29,Female,Finance,80076,2023-11-09,2024-05-01 6:57,29,376.73,Shoes,1.25,Credit Card,FALSE,2024-01-27,0,Gucci
+731,65,Male,Technology,120241,2021-12-30,2024-05-05 11:49,15,293.54,Luxury,4.25,App,TRUE,2024-05-03,1,Double Flag
+732,60,Male,Technology,91237,2019-10-28,2024-05-09 0:51,8,422.57,Shoes,2.33,Credit Card,TRUE,2024-02-27,1,Gucci
+733,31,Female,Education,70799,2021-02-07,2024-05-02 19:26,18,60.34,Golf,1.09,Credit Card,FALSE,2024-01-15,1,Daks
+734,26,Female,Services,46919,2021-03-18,2024-05-08 21:50,1,371.34,Beauty,2.58,Mobile,FALSE,2024-02-24,0,Gucci
+735,40,Male,Finance,190364,2020-11-23,2024-05-06 9:26,18,145.61,Shoes,2.19,Mobile,FALSE,2024-01-04,0,Double Flag
+736,46,Male,Technology,49834,2024-03-23,2024-05-03 9:44,0,54.75,Women's Clothing,4.11,Credit Card,TRUE,2023-05-31,0,Hazzys
+737,20,Female,Finance,32758,2020-04-29,2024-05-03 10:25,17,31.29,Women's Clothing,1.97,Virtual Account,TRUE,2023-10-14,0,Nike
+738,68,Female,Finance,118548,2020-02-11,2024-05-07 9:16,3,477.6,Women's Clothing,2.67,Credit Card,TRUE,2023-09-04,1,Gucci
+739,19,Male,Education,125229,2021-10-23,2024-05-07 14:27,27,93.96,Sports,4.01,App,TRUE,2024-03-06,1,Nike
+740,38,Male,Healthcare,199072,2020-07-23,2024-05-02 15:37,23,224.69,Sports,0.65,App,FALSE,2023-10-04,1,Hazzys
+741,22,Female,Finance,167472,2021-11-25,2024-05-07 14:39,8,346.65,Women's Clothing,1.24,Credit Card,FALSE,2023-08-04,1,Daks
+742,62,Female,Healthcare,56025,2021-12-13,2024-05-02 9:32,0,397.97,Kids,0.28,Mobile,TRUE,2024-04-02,1,Hazzys
+743,38,Male,Finance,158807,2023-02-14,2024-05-03 12:28,14,106.07,Beauty,0.23,App,TRUE,2024-03-01,0,Hazzys
+744,56,Male,Technology,63971,2019-08-15,2024-05-01 23:51,6,424.83,Luxury,3.71,Mobile,TRUE,2023-06-15,0,Hazzys
+745,45,Female,Technology,78942,2020-10-27,2024-05-08 3:10,24,64.38,Luxury,1.09,Mobile,FALSE,2023-06-04,1,Hazzys
+746,30,Male,Education,160069,2022-05-29,2024-05-04 5:17,29,427.77,Shoes,4.74,Credit Card,FALSE,2023-07-28,1,Double Flag
+747,40,Male,Education,118979,2024-03-27,2024-05-07 0:34,29,463.57,Sports,4.23,Credit Card,TRUE,2023-05-10,0,Hazzys
+748,57,Female,Healthcare,51866,2024-04-20,2024-05-08 21:18,3,366.7,Sports,1.19,Mobile,FALSE,2024-03-07,0,Double Flag
+749,46,Male,Technology,136561,2023-07-08,2024-05-01 5:45,8,150.48,Bags/Accessories,0.55,Credit Card,FALSE,2023-10-13,0,Hazzys
+750,56,Male,Education,136364,2022-08-21,2024-05-08 2:49,22,108.18,Golf,1.69,Mobile,TRUE,2024-03-07,1,Gucci
+751,46,Female,Finance,45223,2022-03-26,2024-05-04 20:39,28,432.5,Sports,2.36,App,FALSE,2023-05-24,1,Gucci
+752,26,Female,Technology,175030,2019-09-26,2024-05-06 22:36,14,434.61,Luxury,4.67,Virtual Account,TRUE,2024-05-04,0,Nike
+753,34,Female,Finance,192533,2020-04-21,2024-05-02 6:15,10,226.54,Golf,1.06,Virtual Account,TRUE,2023-07-30,0,Hazzys
+754,37,Male,Education,157674,2020-11-28,2024-05-05 0:09,7,51.25,Kids,1.05,Credit Card,FALSE,2024-02-25,0,Hazzys
+755,63,Male,Finance,193604,2020-07-09,2024-05-07 15:21,16,32.12,Men's Clothing,3.3,Mobile,TRUE,2023-12-30,0,Hazzys
+756,21,Female,Finance,107253,2020-11-19,2024-05-05 11:54,4,206.13,Golf,3.85,Credit Card,TRUE,2023-05-11,1,Daks
+757,49,Female,Services,96909,2021-01-08,2024-05-03 9:10,23,459.32,Beauty,0.27,App,FALSE,2023-11-30,0,Daks
+758,28,Female,Healthcare,86193,2024-04-22,2024-05-06 20:20,25,59.7,Beauty,2,App,FALSE,2024-05-08,0,Nike
+759,38,Male,Technology,173779,2020-08-14,2024-05-06 4:45,10,282.64,Kids,4.28,Virtual Account,FALSE,2024-05-08,0,Gucci
+760,46,Male,Healthcare,146706,2023-03-01,2024-05-05 7:20,2,157.36,Kids,4.64,Virtual Account,TRUE,2023-09-13,0,Double Flag
+761,50,Female,Healthcare,76479,2021-05-18,2024-05-02 6:29,6,392.12,Kids,4.84,Virtual Account,FALSE,2024-01-15,0,Hazzys
+762,64,Female,Healthcare,163384,2023-11-03,2024-05-08 23:26,25,300.42,Women's Clothing,3.11,App,FALSE,2023-05-10,0,Double Flag
+763,18,Female,Healthcare,101116,2020-02-16,2024-05-07 10:09,15,292.31,Luxury,1.88,Mobile,TRUE,2024-04-17,1,Double Flag
+764,45,Male,Technology,135702,2019-05-22,2024-05-05 0:05,7,296.22,Beauty,3.18,Credit Card,TRUE,2023-11-17,0,Double Flag
+765,45,Male,Services,64611,2023-04-25,2024-05-07 6:54,3,315.39,Golf,2.75,Credit Card,TRUE,2024-04-29,0,Nike
+766,55,Male,Technology,82706,2020-06-20,2024-05-07 16:02,15,100.79,Beauty,0.1,App,TRUE,2024-04-22,0,Hazzys
+767,69,Female,Services,192168,2020-06-22,2024-05-02 7:02,11,80.39,Shoes,3.23,Virtual Account,FALSE,2023-09-26,0,Gucci
+768,20,Female,Technology,82459,2019-07-17,2024-05-03 7:16,28,310.94,Sports,0.14,Mobile,TRUE,2023-06-30,0,Double Flag
+769,41,Female,Technology,141134,2024-01-12,2024-05-07 16:34,10,327.67,Sports,0.8,App,TRUE,2024-02-06,1,Nike
+770,45,Female,Finance,84114,2019-09-18,2024-05-09 0:30,13,276.73,Shoes,4.2,Credit Card,FALSE,2023-11-07,0,Daks
+771,58,Male,Finance,104321,2019-09-03,2024-05-01 15:34,8,415.53,Kids,3.65,Virtual Account,TRUE,2024-01-21,1,Nike
+772,56,Male,Finance,174624,2022-05-19,2024-05-04 16:12,11,83.54,Bags/Accessories,3.73,Virtual Account,FALSE,2023-10-12,1,Hazzys
+773,28,Female,Healthcare,41787,2022-07-23,2024-05-06 15:39,14,348.68,Bags/Accessories,4.26,Virtual Account,TRUE,2023-10-06,1,Hazzys
+774,56,Female,Services,67796,2023-10-23,2024-05-04 3:48,24,390.1,Shoes,4.38,Virtual Account,FALSE,2024-03-30,0,Daks
+775,22,Female,Education,102796,2024-04-09,2024-05-04 5:11,5,233.46,Men's Clothing,1.17,Virtual Account,FALSE,2023-12-02,0,Nike
+776,47,Female,Finance,52059,2020-08-11,2024-05-01 17:33,28,322.8,Bags/Accessories,4.63,Credit Card,FALSE,2023-07-24,0,Nike
+777,55,Male,Technology,196631,2024-04-23,2024-05-05 11:40,6,132.18,Men's Clothing,1.35,Mobile,FALSE,2024-03-06,0,Gucci
+778,49,Female,Technology,105140,2020-12-01,2024-05-05 4:14,19,404.46,Kids,4.7,Mobile,TRUE,2023-05-21,0,Daks
+779,56,Female,Technology,115542,2019-07-03,2024-05-01 17:28,21,325.36,Kids,1.49,Virtual Account,TRUE,2023-11-15,0,Daks
+780,30,Female,Education,181457,2021-08-07,2024-05-05 22:10,22,336.2,Golf,2.21,Credit Card,FALSE,2023-08-10,0,Double Flag
+781,56,Female,Education,160957,2020-01-08,2024-05-01 22:17,14,373.32,Luxury,1.08,Credit Card,TRUE,2023-11-13,1,Daks
+782,28,Male,Technology,152086,2019-06-01,2024-05-04 5:53,27,98.37,Luxury,2.65,Mobile,FALSE,2024-02-23,1,Gucci
+783,61,Female,Finance,122633,2021-09-20,2024-05-01 13:47,27,97.4,Luxury,1.1,Virtual Account,TRUE,2023-09-25,0,Hazzys
+784,50,Male,Technology,42437,2021-10-02,2024-05-05 2:36,25,461.45,Shoes,3.12,Virtual Account,FALSE,2023-05-31,1,Daks
+785,45,Male,Healthcare,68776,2021-10-22,2024-05-05 5:09,2,456.46,Shoes,4.8,Virtual Account,FALSE,2023-05-14,0,Double Flag
+786,33,Female,Healthcare,54079,2021-07-29,2024-05-03 5:58,4,77.3,Women's Clothing,3.75,Virtual Account,TRUE,2024-02-21,0,Hazzys
+787,50,Male,Healthcare,190747,2023-09-18,2024-05-05 5:43,12,248.64,Bags/Accessories,3.69,Virtual Account,FALSE,2023-08-27,0,Daks
+788,54,Female,Finance,118298,2024-03-08,2024-05-06 23:26,4,143.82,Kids,4.51,Credit Card,TRUE,2023-12-09,0,Nike
+789,51,Male,Healthcare,41638,2019-11-21,2024-05-05 1:53,5,297.85,Men's Clothing,2.64,Virtual Account,TRUE,2023-09-15,0,Nike
+790,45,Female,Education,,2021-07-24,2024-05-04 21:37,11,29.97,Bags/Accessories,4.02,App,FALSE,2023-12-02,1,Hazzys
+791,69,Female,Education,199570,2020-09-08,2024-05-02 15:35,8,486.43,Bags/Accessories,3.69,App,TRUE,2023-09-26,1,Nike
+792,58,Female,Technology,66958,2023-02-01,2024-05-04 7:11,2,61.97,Kids,0.81,Credit Card,TRUE,2023-08-29,1,Double Flag
+793,31,Female,Services,175161,2024-04-05,2024-05-04 2:44,2,235.61,Sports,1.2,Virtual Account,TRUE,2023-06-25,1,Nike
+794,20,Male,Education,105155,2020-05-16,2024-05-05 9:37,10,334.03,Beauty,2.08,Virtual Account,FALSE,2023-06-02,1,Gucci
+795,47,Male,Services,103091,2023-06-19,2024-05-05 21:46,29,335.95,Luxury,1.37,App,FALSE,2023-07-30,1,Nike
+796,26,Male,Technology,68280,2020-09-25,2024-05-05 21:26,21,422.01,Luxury,2.89,Credit Card,TRUE,2023-11-10,1,Double Flag
+797,61,Female,Healthcare,142104,2019-10-20,2024-05-08 6:23,5,74.13,Sports,0.82,App,FALSE,2024-05-07,0,Gucci
+798,68,Male,Education,64947,2024-02-24,2024-05-07 2:25,1,433.06,Beauty,4.22,App,TRUE,2024-01-02,1,Daks
+799,39,Male,Technology,33711,2023-12-29,2024-05-06 11:09,6,107,Shoes,0.43,Virtual Account,TRUE,2023-12-31,1,Double Flag
+800,66,Male,Healthcare,75259,2019-09-15,2024-05-01 0:40,9,60.77,Sports,4.79,App,TRUE,2023-11-28,1,Gucci
+801,19,Male,Education,80756,2021-02-05,2024-05-08 2:34,20,329.85,Women's Clothing,2.5,Credit Card,TRUE,2023-12-11,0,Nike
+802,20,Male,Education,177226,2020-10-23,2024-05-07 8:54,20,109.3,Luxury,0.89,App,FALSE,2023-08-14,1,Nike
+803,35,Male,Technology,113427,2023-04-03,2024-05-02 16:18,23,481.22,Luxury,2.67,App,TRUE,2024-03-13,0,Daks
+804,54,Female,Finance,190698,2023-06-28,2024-05-05 23:30,13,30.06,Shoes,0.45,Credit Card,FALSE,2023-10-04,1,Gucci
+805,21,Male,Technology,155442,2020-04-14,2024-05-04 12:56,5,399.66,Sports,4.82,Credit Card,FALSE,2023-07-31,0,Nike
+806,41,Male,Services,155097,2020-10-03,2024-05-07 2:38,26,247.57,Sports,2.93,Virtual Account,FALSE,2023-10-06,0,Daks
+807,61,Female,Finance,54740,2024-04-01,2024-05-02 22:49,14,447.87,Men's Clothing,3.94,Credit Card,TRUE,2024-01-27,0,Gucci
+808,40,Female,Finance,66491,2024-02-24,2024-05-06 8:31,1,473.54,Kids,1.22,Mobile,TRUE,2023-10-14,1,Nike
+809,29,Male,Education,144630,2024-04-26,2024-05-01 17:43,22,441.63,Bags/Accessories,0.07,App,FALSE,2023-09-11,1,Daks
+810,61,Female,Education,58998,2021-04-21,2024-05-08 23:18,20,204,Kids,1.26,Virtual Account,TRUE,2023-11-24,0,Hazzys
+811,39,Female,Healthcare,31304,2019-10-02,2024-05-08 11:01,26,26.28,Golf,1.94,App,TRUE,2023-07-02,1,Daks
+812,67,Male,Technology,43618,2020-01-25,2024-05-01 21:15,2,181.69,Women's Clothing,4.94,App,TRUE,2023-07-08,0,Daks
+813,25,Female,Healthcare,196232,2019-11-14,2024-05-01 13:38,17,196.63,Women's Clothing,1.63,App,TRUE,2024-01-27,1,Double Flag
+814,67,Female,Services,137509,2020-02-24,2024-05-05 0:43,17,239.75,Women's Clothing,3.96,App,TRUE,2023-05-12,1,Gucci
+815,44,Female,Finance,42706,2022-02-01,2024-05-04 1:53,20,448.57,Men's Clothing,2.71,Mobile,TRUE,2023-09-28,0,Nike
+816,34,Female,Services,94803,2021-08-04,2024-05-01 21:24,28,161.23,Golf,0.91,Credit Card,TRUE,2023-09-09,1,Nike
+817,19,Female,Technology,58915,2022-05-25,2024-05-03 23:39,9,102.58,Women's Clothing,1,Credit Card,FALSE,2023-11-23,1,Daks
+818,56,Female,Services,163770,2021-11-15,2024-05-07 0:37,0,304.75,Bags/Accessories,0.11,App,FALSE,2024-03-31,1,Double Flag
+819,60,Female,Technology,113885,2022-11-03,2024-05-01 15:49,10,262.86,Beauty,4.26,Virtual Account,TRUE,2023-05-09,0,Double Flag
+820,21,Male,Services,107212,2020-01-05,2024-05-07 10:33,3,290.94,Luxury,2.51,Virtual Account,TRUE,2023-05-23,1,Gucci
+821,34,Male,Services,95582,2022-04-01,2024-05-05 0:53,29,245.67,Luxury,2.44,Mobile,FALSE,2023-05-29,0,Gucci
+822,31,Female,Finance,94812,2024-04-11,2024-05-05 7:50,1,256.21,Luxury,1.89,Credit Card,TRUE,2023-05-22,0,Gucci
+823,21,Female,Healthcare,171213,2020-10-18,2024-05-03 0:21,22,363.88,Luxury,0.06,Virtual Account,TRUE,2023-05-11,0,Hazzys
+824,58,Female,Healthcare,118701,2022-11-21,2024-05-01 4:56,13,360.45,Beauty,2.96,Credit Card,FALSE,2023-11-01,1,Hazzys
+825,48,Male,Finance,194423,2023-11-13,2024-05-02 6:14,19,199.55,Women's Clothing,1.84,Virtual Account,TRUE,2024-03-20,0,Double Flag
+826,42,Female,Technology,188446,2021-07-20,2024-05-07 3:44,27,29.49,Beauty,2.25,App,TRUE,2024-01-27,0,Hazzys
+827,25,Male,Services,120370,2020-08-21,2024-05-07 16:07,6,229.49,Shoes,3.6,App,FALSE,2023-09-22,0,Hazzys
+828,31,Female,Education,37512,2022-08-25,2024-05-08 5:10,16,360.08,Beauty,0.85,App,TRUE,2024-03-19,0,Double Flag
+829,56,Male,Technology,177961,2022-09-25,2024-05-02 8:25,13,288.86,Shoes,2.96,App,TRUE,2023-10-22,1,Nike
+830,27,Female,Healthcare,84861,2019-11-24,2024-05-02 21:29,10,217.86,Beauty,0.77,App,TRUE,2023-05-23,0,Nike
+831,27,Male,Healthcare,75229,2022-09-25,2024-05-05 12:25,7,422.18,Women's Clothing,1.4,Mobile,TRUE,2024-01-11,1,Gucci
+832,43,Male,Healthcare,177566,2020-04-05,2024-05-06 13:38,4,243.41,Women's Clothing,2.31,App,TRUE,2024-04-03,0,Nike
+833,38,Female,Services,90225,2022-03-28,2024-05-05 21:20,27,190.01,Sports,0.05,App,TRUE,2024-02-22,0,Gucci
+834,38,Male,Education,94090,2020-08-05,2024-05-05 16:15,6,173.35,Sports,3.6,Mobile,FALSE,2024-03-02,0,Hazzys
+835,29,Male,Technology,77225,2022-05-16,2024-05-06 7:05,23,72.85,Women's Clothing,2.04,Virtual Account,TRUE,2023-05-24,1,Daks
+836,62,Female,Services,154747,2021-10-20,2024-05-07 14:23,25,308.5,Luxury,0.85,App,FALSE,2024-03-03,1,Daks
+837,39,Female,Services,117860,2022-03-26,2024-05-08 19:52,26,31.52,Luxury,4.28,Credit Card,TRUE,2023-08-22,1,Double Flag
+838,21,Male,Healthcare,168500,2019-11-06,2024-05-07 13:34,0,371.03,Women's Clothing,0.79,Credit Card,FALSE,2024-04-12,0,Hazzys
+839,19,Male,Services,33228,2024-03-20,2024-05-08 0:53,15,236.69,Luxury,2.39,Virtual Account,FALSE,2023-10-08,1,Double Flag
+840,23,Female,Services,39825,2020-06-13,2024-05-05 0:47,16,469.5,Kids,1.82,Mobile,FALSE,2023-06-22,1,Daks
+841,22,Female,Finance,66606,2020-10-13,2024-05-02 1:36,16,245.61,Luxury,2.9,Mobile,TRUE,2024-01-02,1,Nike
+842,38,Female,Finance,169232,2023-05-08,2024-05-04 10:03,3,108.56,Sports,4.82,Mobile,FALSE,2023-05-11,1,Hazzys
+843,29,Male,Technology,159714,2022-09-12,2024-05-02 8:51,25,457.83,Golf,2.84,App,FALSE,2023-12-05,1,Double Flag
+844,38,Male,Healthcare,75828,2021-08-13,2024-05-05 4:27,8,86.28,Shoes,1.55,App,FALSE,2023-10-07,1,Gucci
+845,46,Male,Technology,149089,2020-10-25,2024-05-06 4:17,12,306.65,Shoes,1.3,Credit Card,FALSE,2023-07-25,1,Double Flag
+846,46,Female,Healthcare,52910,2023-07-14,2024-05-04 10:22,23,145.82,Men's Clothing,4.73,Mobile,TRUE,2023-10-07,1,Daks
+847,30,Male,Finance,67164,2024-01-25,2024-05-05 10:23,14,196.31,Golf,4.89,Credit Card,FALSE,2024-04-16,1,Nike
+848,41,Female,Technology,167442,2020-01-29,2024-05-06 21:22,2,402.49,Beauty,3.1,Virtual Account,TRUE,2023-08-18,1,Nike
+849,36,Female,Services,189367,2021-04-26,2024-05-02 12:19,28,481.42,Beauty,2.41,Virtual Account,TRUE,2023-11-16,0,Daks
+850,29,Male,Technology,59764,2019-07-07,2024-05-08 13:05,16,166.51,Golf,4.3,App,TRUE,2023-07-02,0,Daks
+851,52,Female,Services,30374,2022-05-03,2024-05-03 13:44,21,58.2,Shoes,0.6,Mobile,TRUE,2024-01-20,0,Daks
+852,33,Female,Technology,88523,2020-10-28,2024-05-05 22:31,20,450.39,Sports,0.07,App,FALSE,2023-07-03,0,Double Flag
+853,18,Male,Services,187569,2020-08-15,2024-05-02 6:53,18,158.99,Bags/Accessories,3.14,Virtual Account,TRUE,2023-11-05,0,Hazzys
+854,26,Female,Healthcare,103435,2022-05-17,2024-05-07 15:32,26,299.21,Shoes,0.25,Virtual Account,TRUE,2023-10-22,1,Daks
+855,35,Female,Healthcare,166634,2022-01-29,2024-05-02 17:54,18,219.13,Sports,2.25,Virtual Account,FALSE,2024-02-29,0,Nike
+856,50,Female,Services,55129,2021-05-30,2024-05-06 10:11,8,204.11,Golf,3.64,Mobile,FALSE,2023-05-18,0,Daks
+857,25,Female,Education,48503,2023-03-27,2024-05-06 18:29,28,282.09,Beauty,1.29,Mobile,TRUE,2023-12-08,0,Double Flag
+858,32,Male,Services,153492,2023-06-02,2024-05-08 8:28,17,84.2,Kids,1.43,Virtual Account,FALSE,2024-04-06,0,Daks
+859,43,Male,Education,122195,2023-02-05,2024-05-05 23:19,20,66.66,Shoes,1.58,App,FALSE,2024-04-11,0,Daks
+860,54,Male,Healthcare,118847,2023-03-25,2024-05-02 2:19,17,394.03,Sports,1.4,Credit Card,TRUE,2024-03-11,0,Gucci
+861,65,Female,Healthcare,167451,2023-07-08,2024-05-08 9:22,23,104.78,Women's Clothing,3.19,Mobile,TRUE,2023-10-11,0,Nike
+862,24,Female,Services,187085,2019-12-04,2024-05-09 0:51,12,52.2,Women's Clothing,3.78,Mobile,TRUE,2023-06-01,1,Nike
+863,47,Male,Healthcare,37766,2021-12-15,2024-05-01 15:59,25,86.14,Kids,3.23,Credit Card,FALSE,2023-09-23,0,Gucci
+864,31,Female,Healthcare,117050,2019-11-23,2024-05-07 9:54,15,107.2,Beauty,2.37,App,TRUE,2023-12-06,0,Nike
+865,37,Female,Healthcare,35915,2024-01-31,2024-05-02 16:28,4,312,Beauty,2.72,Mobile,FALSE,2024-01-19,1,Gucci
+866,18,Female,Technology,114479,2023-01-06,2024-05-01 17:55,12,207.76,Sports,3.47,Credit Card,TRUE,2024-01-25,0,Double Flag
+867,41,Female,Education,167555,2021-04-10,2024-05-08 8:43,23,227.66,Kids,3.04,Credit Card,TRUE,2023-09-12,0,Gucci
+868,54,Male,Services,149650,2023-12-29,2024-05-05 18:23,9,438.17,Golf,1.02,App,TRUE,2024-02-28,0,Gucci
+869,46,Male,Finance,122796,2023-02-07,2024-05-02 21:50,11,57.61,Shoes,2.65,App,TRUE,2023-06-13,0,Gucci
+870,53,Male,Technology,169446,2023-05-06,2024-05-07 19:43,1,172.17,Luxury,0.76,App,FALSE,2024-03-20,1,Double Flag
+871,21,Female,Technology,42164,2022-05-08,2024-05-04 1:34,4,108.31,Luxury,3.28,Virtual Account,TRUE,2023-11-18,0,Nike
+872,31,Female,Education,65894,2020-04-30,2024-05-05 17:24,2,495.58,Beauty,0.47,Mobile,FALSE,2023-05-12,1,Nike
+873,40,Female,Education,196494,2022-02-21,2024-05-04 22:38,21,98.82,Sports,3.41,Mobile,TRUE,2023-11-22,1,Gucci
+874,30,Male,Technology,78221,2020-02-19,2024-05-05 23:54,3,65.16,Sports,4.73,Mobile,FALSE,2023-11-28,1,Gucci
+875,39,Male,Services,123154,2020-10-12,2024-05-06 20:21,27,271.49,Beauty,0.72,Mobile,TRUE,2023-11-11,0,Hazzys
+876,57,Female,Education,144277,2020-07-01,2024-05-01 19:40,22,289.77,Women's Clothing,1.69,App,FALSE,2023-10-08,0,Gucci
+877,56,Female,Finance,42199,2023-01-09,2024-05-04 22:00,0,60.99,Beauty,4.34,Mobile,FALSE,2023-07-17,1,Double Flag
+878,30,Female,Finance,96032,2019-05-09,2024-05-01 21:50,4,249.03,Sports,4.89,Credit Card,FALSE,2023-05-25,1,Daks
+879,47,Male,Services,78633,2019-07-12,2024-05-06 20:00,13,373.72,Kids,3.45,Credit Card,FALSE,2024-01-24,0,Double Flag
+880,57,Male,Finance,94536,2020-07-03,2024-05-06 14:37,26,348.19,Golf,2.77,Credit Card,TRUE,2024-05-04,1,Double Flag
+881,29,Female,Healthcare,51977,2023-06-27,2024-05-02 2:57,5,103.55,Golf,0.56,Credit Card,FALSE,2023-12-11,0,Nike
+882,35,Female,Education,139050,2020-01-21,2024-05-05 7:16,6,201.66,Women's Clothing,0.93,Virtual Account,TRUE,2023-11-08,0,Daks
+883,33,Male,Education,66846,2023-09-18,2024-05-07 1:20,23,145.5,Sports,4.34,Credit Card,TRUE,2023-05-12,1,Daks
+884,51,Female,Technology,89138,2020-04-25,2024-05-01 21:18,4,277.83,Men's Clothing,2.01,Credit Card,TRUE,2023-09-19,1,Nike
+885,59,Female,Services,107891,2021-08-25,2024-05-04 4:30,21,138.1,Luxury,3.03,App,FALSE,2024-04-22,0,Nike
+886,31,Female,Education,165143,2022-07-27,2024-05-02 5:18,27,120.23,Sports,0.33,App,TRUE,2023-06-25,1,Hazzys
+887,33,Male,Healthcare,65244,2021-07-31,2024-05-08 1:34,5,157.08,Men's Clothing,0.59,Credit Card,FALSE,2023-10-03,1,Nike
+888,43,Female,Education,53476,2022-04-17,2024-05-08 9:00,25,285.73,Women's Clothing,2.51,Credit Card,FALSE,2023-10-28,0,Daks
+889,24,Female,Education,152979,2020-08-15,2024-05-01 14:12,12,271.4,Golf,1.56,App,FALSE,2024-03-12,1,Nike
+890,26,Male,Finance,116857,2023-03-30,2024-05-07 0:13,18,480.65,Women's Clothing,3.41,Virtual Account,TRUE,2023-07-23,1,Gucci
+891,38,Female,Technology,133328,2023-03-26,2024-05-02 5:49,17,231.62,Men's Clothing,0.93,App,TRUE,2023-12-01,0,Hazzys
+892,26,Male,Finance,114628,2021-08-20,2024-05-07 11:35,13,403.76,Men's Clothing,0.42,Credit Card,FALSE,2023-11-23,0,Gucci
+893,25,Female,Education,61884,2022-02-08,2024-05-04 0:58,26,140.56,Golf,4.33,App,FALSE,2023-05-25,1,Hazzys
+894,69,Male,Services,197136,2023-01-19,2024-05-04 18:18,22,145.56,Beauty,0.41,Virtual Account,TRUE,2024-02-26,0,Gucci
+895,26,Male,Education,50610,2021-06-13,2024-05-01 23:49,6,473.36,Sports,0.58,Credit Card,FALSE,2024-03-28,1,Double Flag
+896,59,Male,Healthcare,126142,2023-08-30,2024-05-07 18:31,14,185.11,Sports,0.47,Virtual Account,TRUE,2023-12-11,1,Nike
+897,46,Male,Services,161727,2020-10-07,2024-05-02 17:21,8,252.6,Beauty,3.57,Mobile,TRUE,2023-08-11,0,Nike
+898,39,Female,Finance,88670,2022-09-07,2024-05-04 10:16,27,394.84,Bags/Accessories,4.87,Mobile,FALSE,2024-02-19,0,Hazzys
+899,19,Female,Finance,165190,2020-07-02,2024-05-06 17:51,17,497.61,Golf,0.81,App,FALSE,2024-01-01,1,Nike
+900,54,Female,Finance,49934,2021-11-11,2024-05-02 15:55,19,291.82,Sports,4.57,Credit Card,TRUE,2023-11-28,1,Gucci
+901,27,Female,Finance,166095,2019-12-23,2024-05-02 16:48,2,369.77,Golf,3.62,App,TRUE,2023-06-13,1,Daks
+902,46,Female,Finance,68176,2022-08-15,2024-05-04 11:55,7,433.98,Men's Clothing,3.72,Virtual Account,FALSE,2023-06-04,1,Hazzys
+903,40,Female,Education,78693,2024-03-09,2024-05-07 7:37,2,290.06,Men's Clothing,3.16,App,FALSE,2023-08-30,1,Nike
+904,44,Female,Services,116390,2019-11-18,2024-05-06 22:03,8,40.21,Sports,2.26,Credit Card,TRUE,2023-12-11,0,Nike
+905,20,Female,Finance,190876,2022-10-14,2024-05-06 10:46,11,244.21,Beauty,2.06,App,FALSE,2023-05-26,0,Hazzys
+906,23,Female,Technology,91458,2020-06-27,2024-05-03 18:35,18,84.44,Beauty,3.64,Credit Card,FALSE,2023-05-21,1,Nike
+907,42,Male,Technology,65376,2023-12-25,2024-05-02 4:10,7,250.72,Women's Clothing,3.04,Mobile,FALSE,2024-03-21,0,Daks
+908,29,Male,Education,145952,2023-05-06,2024-05-08 16:03,23,181.57,Golf,2.55,Virtual Account,TRUE,2024-01-07,0,Daks
+909,33,Female,Education,174838,2022-09-20,2024-05-06 12:12,4,295.54,Shoes,4.53,Credit Card,TRUE,2024-01-17,1,Daks
+910,69,Male,Education,138136,2022-06-10,2024-05-06 1:56,4,123.44,Women's Clothing,4.82,App,TRUE,2024-02-16,1,Nike
+911,42,Male,Healthcare,128119,2023-04-29,2024-05-02 14:26,28,405.51,Sports,3.12,Credit Card,FALSE,2023-10-10,1,Gucci
+912,58,Female,Technology,137400,2022-03-14,2024-05-02 9:00,28,1176.6,Kids,0.66,App,FALSE,2024-02-03,0,Hazzys
+913,19,Female,Services,137610,2019-05-26,2024-05-03 14:45,25,170.98,Women's Clothing,3.8,Virtual Account,FALSE,2024-04-23,1,Daks
+914,55,Male,Services,59009,2020-03-29,2024-05-02 21:02,0,207.8,Women's Clothing,4.55,App,TRUE,2023-06-08,0,Daks
+915,34,Male,Healthcare,103351,2021-09-02,2024-05-05 10:38,6,205.23,Women's Clothing,1.72,Mobile,TRUE,2023-11-16,0,Hazzys
+916,30,Female,Education,142434,2019-11-24,2024-05-08 15:57,22,457.89,Luxury,1.86,Virtual Account,TRUE,2024-01-13,1,Double Flag
+917,37,Female,Technology,133614,2023-07-21,2024-05-07 18:56,18,327.36,Kids,0.83,Mobile,TRUE,2024-01-08,0,Gucci
+918,48,Male,Technology,52310,2022-04-13,2024-05-01 17:06,2,143.45,Men's Clothing,0.01,Credit Card,TRUE,2023-06-27,0,Nike
+919,33,Male,Finance,166998,2023-11-24,2024-05-03 13:48,1,301.32,Men's Clothing,2.89,Credit Card,TRUE,2023-12-13,1,Gucci
+920,27,Female,Finance,114764,2023-08-25,2024-05-04 13:35,16,122.89,Beauty,1.44,Mobile,FALSE,2024-01-11,1,Nike
+921,65,Female,Education,63208,2021-05-26,2024-05-03 15:57,2,394.16,Women's Clothing,0.02,Virtual Account,TRUE,2023-08-11,1,Hazzys
+922,66,Female,Services,33949,2022-05-12,2024-05-07 8:02,3,483.34,Sports,1.65,App,FALSE,2023-10-25,1,Gucci
+923,51,Female,Healthcare,154255,2020-03-05,2024-05-08 20:46,14,216,Men's Clothing,3.01,Virtual Account,FALSE,2023-08-17,1,Nike
+924,58,Male,Technology,77611,2020-05-19,2024-05-03 13:09,15,227.76,Bags/Accessories,1.39,App,FALSE,2023-07-25,0,Daks
+925,57,Male,Services,104088,2022-05-17,2024-05-04 12:06,17,473.74,Sports,4.14,App,TRUE,2023-12-21,0,Daks
+926,42,Male,Services,83567,2023-08-19,2024-05-07 21:16,4,118.56,Beauty,4.79,Mobile,TRUE,2023-05-18,0,Hazzys
+927,38,Male,Education,140646,2023-04-01,2024-05-05 20:05,25,25.92,Shoes,4.89,App,TRUE,2024-05-07,1,Gucci
+928,29,Female,Services,159208,2022-11-27,2024-05-04 6:09,16,167.82,Women's Clothing,1.22,Credit Card,TRUE,2024-04-12,1,Nike
+929,35,Male,Education,65811,2023-09-04,2024-05-09 1:40,5,179.54,Shoes,2.95,App,TRUE,2023-06-30,0,Nike
+930,52,Male,Finance,,2021-02-22,2024-05-04 23:19,27,92.95,Sports,4.32,Credit Card,FALSE,2023-09-25,0,Daks
+931,26,Female,Finance,182218,2019-08-16,2024-05-06 3:11,17,396.91,Kids,3.12,Mobile,FALSE,2023-09-12,1,Daks
+932,58,Male,Technology,36207,2024-01-24,2024-05-05 3:11,27,337.28,Luxury,3.57,Mobile,FALSE,2024-02-01,1,Gucci
+933,20,Male,Finance,135201,2022-12-05,2024-05-02 20:42,15,312.13,Luxury,4.58,App,TRUE,2023-06-05,1,Double Flag
+934,69,Male,Education,193242,2020-03-18,2024-05-08 7:38,23,136.63,Kids,3.29,Mobile,TRUE,2023-06-09,0,Daks
+935,69,Female,Technology,76873,2021-09-10,2024-05-07 15:23,14,27.76,Beauty,0.57,App,TRUE,2024-02-20,0,Hazzys
+936,40,Male,Services,69717,2021-07-31,2024-05-04 15:54,26,275.47,Men's Clothing,1.06,App,TRUE,2023-05-21,1,Daks
+937,37,Male,Finance,89817,2019-08-09,2024-05-06 22:53,29,369.04,Sports,3.26,Virtual Account,FALSE,2023-11-12,1,Double Flag
+938,23,Male,Technology,67355,2023-01-06,2024-05-05 9:01,24,441.82,Beauty,3.13,Credit Card,TRUE,2024-01-14,1,Daks
+939,37,Female,Services,67492,2020-05-28,2024-05-02 14:18,19,46.26,Women's Clothing,4.28,Mobile,TRUE,2023-09-22,1,Hazzys
+940,65,Male,Education,111143,2022-10-11,2024-05-04 16:37,25,280.28,Women's Clothing,1.15,Virtual Account,FALSE,2023-12-31,1,Gucci
+941,57,Male,Finance,132106,2024-04-09,2024-05-04 15:27,8,345.9,Men's Clothing,1.06,Virtual Account,FALSE,2024-01-07,0,Double Flag
+942,26,Female,Technology,48856,2022-04-21,2024-05-04 8:54,14,249.34,Sports,3.24,Mobile,TRUE,2023-11-09,1,Double Flag
+943,45,Female,Technology,149835,2023-03-12,2024-05-01 5:40,20,79.15,Beauty,2.67,Mobile,FALSE,2024-03-06,1,Double Flag
+944,41,Male,Technology,81537,2022-12-23,2024-05-05 13:37,25,56.82,Shoes,2.71,Mobile,TRUE,2024-04-24,0,Daks
+945,64,Male,Healthcare,169546,2021-06-27,2024-05-02 22:09,12,366.41,Golf,2.8,Mobile,FALSE,2023-09-14,1,Hazzys
+946,21,Female,Finance,149958,2020-08-21,2024-05-07 0:54,3,453.44,Beauty,1.41,Virtual Account,TRUE,2024-04-21,0,Hazzys
+947,38,Male,Healthcare,167596,2023-02-12,2024-05-05 22:51,17,444.68,Bags/Accessories,1.96,Mobile,FALSE,2023-10-02,1,Double Flag
+948,59,Male,Education,173191,2022-10-26,2024-05-01 3:07,8,151.88,Kids,1.14,Credit Card,TRUE,2023-07-30,0,Double Flag
+949,48,Male,Services,138500,2021-09-08,2024-05-08 16:09,6,59.27,Golf,2.42,Virtual Account,FALSE,2023-09-23,1,Gucci
+950,40,Male,Finance,101181,2024-01-08,2024-05-04 7:09,11,173.35,Kids,3.87,Virtual Account,FALSE,2023-11-30,0,Nike
+951,56,Female,Healthcare,40916,2020-07-27,2024-05-02 21:15,22,105.29,Kids,0.27,Virtual Account,TRUE,2023-07-10,1,Gucci
+952,21,Male,Healthcare,33357,2022-03-05,2024-05-01 8:42,10,414.23,Women's Clothing,4.52,Virtual Account,TRUE,2023-05-19,0,Nike
+953,24,Male,Services,37156,2022-11-24,2024-05-06 1:12,7,2004.3,Luxury,3.4,Virtual Account,TRUE,2023-10-18,1,Double Flag
+954,36,Male,Technology,76085,2024-04-16,2024-05-03 20:24,20,247.4,Golf,1.58,Credit Card,TRUE,2023-12-01,0,Hazzys
+955,53,Female,Healthcare,39258,2022-08-16,2024-05-07 12:11,1,420.39,Men's Clothing,1.01,App,FALSE,2024-04-18,1,Hazzys
+956,27,Male,Services,94005,2023-04-15,2024-05-03 22:44,16,464.38,Golf,0.07,Credit Card,TRUE,2023-11-09,0,Hazzys
+957,23,Male,Services,39851,2019-06-19,2024-05-05 9:16,18,41.61,Women's Clothing,1.95,Mobile,FALSE,2024-04-15,1,Hazzys
+958,68,Male,Finance,113920,2022-07-17,2024-05-03 8:18,27,155.1,Shoes,4.42,Mobile,FALSE,2023-09-20,0,Hazzys
+959,48,Female,Technology,92391,2021-12-06,2024-05-03 9:12,6,181.12,Luxury,0.95,Mobile,FALSE,2023-05-14,0,Nike
+960,52,Male,Education,175568,2021-11-27,2024-05-06 4:36,11,244.08,Beauty,4.86,App,FALSE,2024-01-30,0,Gucci
+961,66,Female,Services,54809,2021-06-14,2024-05-04 7:23,15,381.4,Women's Clothing,1.4,Credit Card,FALSE,2023-09-25,1,Double Flag
+962,53,Male,Finance,76514,2020-10-11,2024-05-02 7:50,4,481.67,Sports,4.64,Mobile,FALSE,2024-05-03,1,Nike
+963,41,Female,Services,170258,2021-10-08,2024-05-02 3:55,17,451.43,Women's Clothing,0.31,Mobile,TRUE,2024-04-06,0,Daks
+964,32,Female,Technology,195386,2023-02-20,2024-05-08 1:51,17,398.95,Women's Clothing,4.57,Credit Card,TRUE,2024-03-23,0,Hazzys
+965,48,Female,Services,136068,2024-01-20,2024-05-01 7:12,23,125.24,Golf,4.46,App,TRUE,2023-09-30,0,Hazzys
+966,28,Male,Finance,92613,2023-05-24,2024-05-05 19:32,25,258.6,Bags/Accessories,1.15,Credit Card,FALSE,2023-08-05,1,Daks
+967,40,Male,Education,105523,2021-09-24,2024-05-01 18:35,27,257.05,Golf,1.43,App,TRUE,2023-08-02,1,Double Flag
+968,53,Male,Services,49468,2021-03-05,2024-05-03 8:49,0,286.48,Sports,0.83,App,FALSE,2024-03-24,1,Hazzys
+969,51,Male,Healthcare,78676,2021-02-02,2024-05-01 16:10,23,269.34,Men's Clothing,1.25,App,FALSE,2023-09-02,0,Gucci
+970,60,Female,Services,144565,2023-07-10,2024-05-03 21:51,7,296.57,Women's Clothing,4.22,App,FALSE,2024-04-03,0,Hazzys
+971,32,Female,Education,126830,2022-10-28,2024-05-02 14:36,27,143.57,Sports,3.52,Virtual Account,FALSE,2023-06-30,0,Gucci
+972,57,Male,Education,101846,2023-12-22,2024-05-08 2:40,13,465.68,Beauty,1.11,Mobile,TRUE,2023-06-30,1,Daks
+973,57,Female,Services,49822,2020-11-20,2024-05-07 23:58,11,229.23,Women's Clothing,0.94,Virtual Account,TRUE,2024-02-11,0,Double Flag
+974,29,Female,Services,192958,2023-04-17,2024-05-03 18:18,19,31.68,Kids,1.56,App,FALSE,2024-01-09,1,Nike
+975,20,Female,Technology,44580,2020-07-12,2024-05-05 15:37,17,95.14,Men's Clothing,4.81,Credit Card,FALSE,2023-11-27,1,Double Flag
+976,64,Male,Technology,110453,2022-09-22,2024-05-03 11:42,29,427.19,Shoes,2.49,App,FALSE,2023-05-28,1,Daks
+977,41,Female,Technology,111787,2024-03-30,2024-05-04 16:13,20,321.94,Golf,4.26,Virtual Account,FALSE,2024-03-25,1,Gucci
+978,52,Male,Finance,139146,2021-11-05,2024-05-07 16:00,21,257.99,Bags/Accessories,0.85,Virtual Account,TRUE,2023-10-02,0,Daks
+979,46,Male,Services,60880,2020-07-16,2024-05-06 9:29,29,470.91,Kids,3.48,Credit Card,TRUE,2024-01-08,0,Double Flag
+980,25,Female,Services,167770,2022-08-16,2024-05-04 21:03,16,36.9,Women's Clothing,2.84,Virtual Account,TRUE,2024-04-05,1,Hazzys
+981,58,Male,Healthcare,145892,2023-02-07,2024-05-04 4:00,14,232.13,Kids,0.01,Credit Card,TRUE,2023-07-10,0,Gucci
+982,36,Male,Services,130664,2021-08-19,2024-05-09 0:41,26,68.77,Shoes,4.9,Credit Card,FALSE,2024-04-09,0,Gucci
+983,53,Male,Services,154821,2023-11-17,2024-05-05 1:56,1,282.83,Men's Clothing,2.25,Mobile,FALSE,2023-11-28,1,Gucci
+984,39,Male,Finance,91194,2023-03-23,2024-05-02 13:22,9,422.77,Men's Clothing,0,Credit Card,FALSE,2023-10-05,1,Hazzys
+985,30,Female,Technology,32809,2021-09-02,2024-05-05 6:09,12,465.71,Sports,3.15,Credit Card,TRUE,2024-02-23,0,Daks
+986,26,Female,Education,193415,2022-12-29,2024-05-04 21:00,26,316.59,Bags/Accessories,1.97,App,FALSE,2024-01-15,1,Double Flag
+987,27,Male,Healthcare,167423,2023-05-14,2024-05-04 15:20,5,357.49,Women's Clothing,4.53,Mobile,TRUE,2024-04-14,1,Gucci
+988,58,Female,Services,127086,2022-09-13,2024-05-05 21:31,27,178.73,Bags/Accessories,4.14,App,TRUE,2023-05-16,0,Nike
+989,37,Male,Education,165537,2022-04-12,2024-05-08 17:40,14,216.6,Women's Clothing,4.05,App,FALSE,2023-11-29,1,Hazzys
+990,43,Male,Services,167407,2019-11-27,2024-05-06 9:19,28,166.18,Men's Clothing,0.15,Credit Card,TRUE,2023-06-12,1,Nike
+991,27,Male,Services,133649,2023-02-22,2024-05-01 22:43,29,477.01,Kids,3.31,App,FALSE,2023-12-07,0,Daks
+992,56,Male,Services,70311,2021-06-16,2024-05-02 17:53,4,41.54,Beauty,3.5,Mobile,FALSE,2023-09-21,0,Double Flag
+993,27,Female,Technology,35196,2020-10-22,2024-05-03 8:51,24,276.86,Shoes,2.85,Credit Card,FALSE,2023-12-17,1,Hazzys
+994,40,Female,Technology,163337,2023-12-06,2024-05-02 19:15,22,164.86,Sports,4.09,App,TRUE,2024-01-21,1,Gucci
+995,68,Male,Healthcare,116360,2019-07-24,2024-05-08 20:00,14,324.23,Bags/Accessories,4.53,Virtual Account,TRUE,2023-07-24,1,Hazzys
+996,67,Male,Finance,190816,2019-10-30,2024-05-03 13:40,9,338.71,Kids,1.57,Virtual Account,FALSE,2024-04-12,0,Daks
+997,51,Female,Finance,125842,2020-03-25,2024-05-02 15:25,10,410.85,Kids,3.34,Virtual Account,TRUE,2024-04-25,0,Gucci
+998,32,Male,Technology,118434,2019-07-06,2024-05-04 3:38,14,192.35,Beauty,4.1,Mobile,TRUE,2023-06-15,1,Nike
+999,64,Male,Services,64658,2021-03-19,2024-05-05 3:06,18,26.93,Kids,4.68,Mobile,FALSE,2023-08-21,0,Hazzys
+1000,63,Female,Healthcare,37665,2023-05-31,2024-05-04 20:14,11,62.96,Beauty,3.09,Mobile,TRUE,2024-01-23,1,Nike

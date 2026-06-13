@@ -1,0 +1,25 @@
+﻿<Window x:Class="DemoCodeFrist.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoCodeFrist"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
+
+            <TextBlock Text="Mã Khóa Học:" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtMaKH" Height="30" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Tên Khóa Học:" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtTenKH" Height="30" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Thời Gian Học (giờ):" Margin="0,0,0,5"/>
+            <TextBox x:Name="txtThoiGian" Height="30" Margin="0,0,0,10"/>
+
+            <Button Content="Thêm Khóa Học" Height="40" Click="BtnThem_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

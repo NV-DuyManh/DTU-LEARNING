@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-10-29T08:10:21.661Z",
+    "end": "2025-10-29T08:10:27.468Z",
+    "duration": 5807,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9c7d3cc8-6a35-429c-86fc-dd44a163e5e8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Test_31.cy.js",
+      "file": "cypress\\e2e\\Test_31.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3238bac1-950e-4e59-b0b1-09a032333795",
+          "title": "Quadratic Equation Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Case 31: a=1, b=-3, c=2 <=> 1x² - 3x + 2 = 0",
+              "fullTitle": "Quadratic Equation Test Case 31: a=1, b=-3, c=2 <=> 1x² - 3x + 2 = 0",
+              "timedOut": null,
+              "duration": 5762,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(baseUrl);\ncy.get('#term-a').clear().type('1');\ncy.get('#term-b').clear().type('-3');\ncy.get('#term-c').clear().type('2');\ncy.get('#root-1').should('have.value', '2.00');\ncy.get('#root-2').should('have.value', '1.00');\ncy.get('#delta').should('have.value', '1.00');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '2.00', but the value was '1.00'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '2.00', but the value was '1.00'\n    at Context.eval (webpack:///./cypress/e2e/Test_31.cy.js:8:22)",
+                "diff": "- '1.00'\n+ '2.00'\n"
+              },
+              "uuid": "7f4cf06e-9141-45ec-ad0f-1b39634a610e",
+              "parentUUID": "3238bac1-950e-4e59-b0b1-09a032333795",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "7f4cf06e-9141-45ec-ad0f-1b39634a610e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 5762,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.3.0"
+    }
+  }
+}

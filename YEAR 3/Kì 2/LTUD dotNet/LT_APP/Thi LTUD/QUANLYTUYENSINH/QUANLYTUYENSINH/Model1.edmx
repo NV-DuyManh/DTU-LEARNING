@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QUANLYTUYENSINHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="NGANHHOC">
+          <Key>
+            <PropertyRef Name="MaNganh" />
+          </Key>
+          <Property Name="MaNganh" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="TenNganh" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="THISINH">
+          <Key>
+            <PropertyRef Name="MaTS" />
+          </Key>
+          <Property Name="MaTS" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="HoTen" Type="nvarchar" MaxLength="50" />
+          <Property Name="NgaySinh" Type="date" />
+          <Property Name="DiemThi" Type="float" />
+          <Property Name="MaNganh" Type="nvarchar" MaxLength="10" />
+        </EntityType>
+        <Association Name="FK_THISINH_NGANHHOC">
+          <End Role="NGANHHOC" Type="Self.NGANHHOC" Multiplicity="0..1" />
+          <End Role="THISINH" Type="Self.THISINH" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NGANHHOC">
+              <PropertyRef Name="MaNganh" />
+            </Principal>
+            <Dependent Role="THISINH">
+              <PropertyRef Name="MaNganh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QUANLYTUYENSINHModelStoreContainer">
+          <EntitySet Name="NGANHHOC" EntityType="Self.NGANHHOC" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="THISINH" EntityType="Self.THISINH" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_THISINH_NGANHHOC" Association="Self.FK_THISINH_NGANHHOC">
+            <End Role="NGANHHOC" EntitySet="NGANHHOC" />
+            <End Role="THISINH" EntitySet="THISINH" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QUANLYTUYENSINHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="NGANHHOC">
+          <Key>
+            <PropertyRef Name="MaNganh" />
+          </Key>
+          <Property Name="MaNganh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TenNganh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="THISINH" Relationship="Self.FK_THISINH_NGANHHOC" FromRole="NGANHHOC" ToRole="THISINH" />
+        </EntityType>
+        <EntityType Name="THISINH">
+          <Key>
+            <PropertyRef Name="MaTS" />
+          </Key>
+          <Property Name="MaTS" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="HoTen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+          <Property Name="DiemThi" Type="Double" />
+          <Property Name="MaNganh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="NGANHHOC" Relationship="Self.FK_THISINH_NGANHHOC" FromRole="THISINH" ToRole="NGANHHOC" />
+        </EntityType>
+        <Association Name="FK_THISINH_NGANHHOC">
+          <End Role="NGANHHOC" Type="Self.NGANHHOC" Multiplicity="0..1" />
+          <End Role="THISINH" Type="Self.THISINH" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NGANHHOC">
+              <PropertyRef Name="MaNganh" />
+            </Principal>
+            <Dependent Role="THISINH">
+              <PropertyRef Name="MaNganh" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QUANLYTUYENSINHEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="NGANHHOC" EntityType="Self.NGANHHOC" />
+          <EntitySet Name="THISINH" EntityType="Self.THISINH" />
+          <AssociationSet Name="FK_THISINH_NGANHHOC" Association="Self.FK_THISINH_NGANHHOC">
+            <End Role="NGANHHOC" EntitySet="NGANHHOC" />
+            <End Role="THISINH" EntitySet="THISINH" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QUANLYTUYENSINHModelStoreContainer" CdmEntityContainer="QUANLYTUYENSINHEntities">
+          <EntitySetMapping Name="NGANHHOC">
+            <EntityTypeMapping TypeName="QUANLYTUYENSINHModel.NGANHHOC">
+              <MappingFragment StoreEntitySet="NGANHHOC">
+                <ScalarProperty Name="MaNganh" ColumnName="MaNganh" />
+                <ScalarProperty Name="TenNganh" ColumnName="TenNganh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="THISINH">
+            <EntityTypeMapping TypeName="QUANLYTUYENSINHModel.THISINH">
+              <MappingFragment StoreEntitySet="THISINH">
+                <ScalarProperty Name="MaTS" ColumnName="MaTS" />
+                <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+                <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+                <ScalarProperty Name="DiemThi" ColumnName="DiemThi" />
+                <ScalarProperty Name="MaNganh" ColumnName="MaNganh" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

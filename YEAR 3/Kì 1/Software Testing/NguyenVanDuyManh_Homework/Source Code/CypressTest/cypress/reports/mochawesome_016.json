@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-10-29T08:09:52.843Z",
+    "end": "2025-10-29T08:09:53.962Z",
+    "duration": 1119,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7eab0226-8d3a-4daa-8e7f-043dbf56cd6f",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Test_24.cy.js",
+      "file": "cypress\\e2e\\Test_24.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2c1babc8-3b12-4ad1-bfb3-5fedaef0853d",
+          "title": "Quadratic Equation Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Case 24: a=0, b=0, c=0 <=> 0x² + 0x + 0 = 0",
+              "fullTitle": "Quadratic Equation Test Case 24: a=0, b=0, c=0 <=> 0x² + 0x + 0 = 0",
+              "timedOut": null,
+              "duration": 1068,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(baseUrl);\ncy.get('#term-a').clear().type('0');\ncy.get('#term-b').clear().type('0');\ncy.get('#term-c').clear().type('0');\ncy.get('#root-1').should('have.value', '∞');\ncy.get('#root-2').should('have.value', '∞');\ncy.get('#delta').should('have.value', '—');",
+              "err": {},
+              "uuid": "317daf1d-e74f-4934-b4a2-29b842424533",
+              "parentUUID": "2c1babc8-3b12-4ad1-bfb3-5fedaef0853d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "317daf1d-e74f-4934-b4a2-29b842424533"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1068,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.3.0"
+    }
+  }
+}

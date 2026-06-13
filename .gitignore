@@ -25,3 +25,22 @@ YEAR 1/Visio - Visual - Draw/Visual Paradigm for UML 10.0/
 .settings/
 .classpath
 .project
+
+# Bỏ qua thư mục chứa thư viện siêu nặng của Node.js
+node_modules/
+
+# Bỏ qua cấu hình editor (Visual Studio Code / Cursor)
+.vscode/
+
+# Bỏ qua file dịch và cache của Python
+__pycache__/
+*.pyc
+
+# Bỏ qua thư mục chứa file upload test dưới local
+backend-node/uploads/
+
+# Bỏ qua file video nặng
+*.mp4
+*.mkv
+*.avi
+*.mp4

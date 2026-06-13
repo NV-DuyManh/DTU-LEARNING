@@ -1,0 +1,643 @@
+{
+  "stats": {
+    "suites": 10,
+    "tests": 10,
+    "passes": 6,
+    "pending": 0,
+    "failures": 4,
+    "testsRegistered": 10,
+    "passPercent": 60,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2025-10-18T07:49:15.759Z",
+    "end": "2025-10-18T07:53:57.773Z",
+    "duration": 282014
+  },
+  "results": [
+    {
+      "uuid": "f94e85e4-62a4-4820-b47f-2ffe3d2ef19b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test2.cy.js",
+      "file": "cypress\\e2e\\test2.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a0a4c96b-4e2f-4fd5-abfd-e79374242f93",
+          "title": "Quadratic Equation Solver",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should solve equation x² + 2x - 4 = 0",
+              "fullTitle": "Quadratic Equation Solver should solve equation x² + 2x - 4 = 0",
+              "timedOut": null,
+              "duration": 2431,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://127.0.0.1:5500/index.html');\n// nhập hệ số\ncy.get('#term-a').clear().type('1');\ncy.get('#term-b').clear().type('2');\ncy.get('#term-c').clear().type('-4');\n// kiểm tra nghiệm (theo app)\ncy.get('#root-1').should('have.value', '-2.00');\ncy.get('#root-2').should('have.value', '0.00');\n// kiểm tra delta\ncy.get('#delta').should('have.value', '4.00');\n// kiểm tra tọa độ đỉnh\ncy.get('#vertex').should('have.value', '-1.00 , -1.00');",
+              "err": {},
+              "uuid": "23a96381-2cc1-4f42-98ee-da01e4086377",
+              "parentUUID": "a0a4c96b-4e2f-4fd5-abfd-e79374242f93",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "23a96381-2cc1-4f42-98ee-da01e4086377"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2431,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "a1ecfd2e-a0a1-4e0c-95c6-10926491e9cf",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test3.cy.js",
+      "file": "cypress\\e2e\\test3.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c25a2ff3-6684-4fa8-8886-9b2463f21d0d",
+          "title": "Quadratic Equation Solver",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should solve equation x² + 2x - 3 = 0",
+              "fullTitle": "Quadratic Equation Solver should solve equation x² + 2x - 3 = 0",
+              "timedOut": null,
+              "duration": 5493,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://127.0.0.1:5500/index.html');\n// nhập hệ số a=1, b=2, c=-3\ncy.get('#term-a').clear().type('1');\ncy.get('#term-b').clear().type('2');\ncy.get('#term-c').clear().type('-3');\n// kiểm tra nghiệm (đúng thứ tự app hiển thị)\ncy.get('#root-1').should('have.value', '-3.00');\ncy.get('#root-2').should('have.value', '1.00');\n// kiểm tra delta\ncy.get('#delta').should('have.value', '16.00');\n// kiểm tra tọa độ đỉnh\ncy.get('#vertex').should('have.value', '-1.00 , -4.00');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '-3.00', but the value was '-2.00'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '-3.00', but the value was '-2.00'\n    at Context.eval (webpack:///./cypress/e2e/test3.cy.js:11:22)",
+                "diff": "- '-2.00'\n+ '-3.00'\n"
+              },
+              "uuid": "bff24fd8-8b32-408f-b0e7-2817c459b073",
+              "parentUUID": "c25a2ff3-6684-4fa8-8886-9b2463f21d0d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "bff24fd8-8b32-408f-b0e7-2817c459b073"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 5493,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "59732900-e901-41a1-a130-6b6e4ec1e308",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test4.cy.js",
+      "file": "cypress\\e2e\\test4.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6b36f274-65af-4f29-badc-24177bfb5aa9",
+          "title": "Quadratic Equation Solver",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should solve equation x² + 2x - 3 = 0",
+              "fullTitle": "Quadratic Equation Solver should solve equation x² + 2x - 3 = 0",
+              "timedOut": null,
+              "duration": 5458,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://127.0.0.1:5500/index.html');\n// nhập hệ số a=1, b=2, c=-3\ncy.get('#term-a').clear().type('1');\ncy.get('#term-b').clear().type('2');\ncy.get('#term-c').clear().type('-3');\n// kiểm tra nghiệm\ncy.get('#root-1').should('have.value', '1');\ncy.get('#root-2').should('have.value', '-3');\n// kiểm tra delta\ncy.get('#delta').should('have.value', '16');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '1', but the value was '-2.00'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '1', but the value was '-2.00'\n    at Context.eval (webpack:///./cypress/e2e/test4.cy.js:11:22)",
+                "diff": "- '-2.00'\n+ '1'\n"
+              },
+              "uuid": "9590c4c9-5749-4568-8cdb-f9d75868cd83",
+              "parentUUID": "6b36f274-65af-4f29-badc-24177bfb5aa9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "9590c4c9-5749-4568-8cdb-f9d75868cd83"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 5458,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "a7a16c69-4e8e-43cb-bba6-47fc853485da",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test5.cy.js",
+      "file": "cypress\\e2e\\test5.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6792c582-2960-41e4-802b-f9234f619020",
+          "title": "Quadratic Equation Solver",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should solve equation x² + 2x - 4 = 0",
+              "fullTitle": "Quadratic Equation Solver should solve equation x² + 2x - 4 = 0",
+              "timedOut": null,
+              "duration": 1964,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://127.0.0.1:5500/index.html');\n// nhập hệ số\ncy.get('#term-a').clear().type('1');\ncy.get('#term-b').clear().type('2');\ncy.get('#term-c').clear().type('-4');\n// kiểm tra nghiệm (theo app)\ncy.get('#root-1').should('have.value', '-2.00');\ncy.get('#root-2').should('have.value', '0.00');\n// kiểm tra delta\ncy.get('#delta').should('have.value', '4.00');\n// kiểm tra tọa độ đỉnh\ncy.get('#vertex').should('have.value', '-1.00 , -1.00');",
+              "err": {},
+              "uuid": "ed03e4d3-0149-4fc7-b32a-28ce4250e2b3",
+              "parentUUID": "6792c582-2960-41e4-802b-f9234f619020",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ed03e4d3-0149-4fc7-b32a-28ce4250e2b3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1964,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "4b18280e-e85b-4c9a-9d82-2bea7428b0a2",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test1.cy.js",
+      "file": "cypress\\e2e\\test1.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1b37f4b3-62ea-4a83-ad31-ded3e30dfd06",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "passes",
+              "fullTitle": "template spec passes",
+              "timedOut": null,
+              "duration": 836,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://example.cypress.io');",
+              "err": {},
+              "uuid": "b708f806-7263-4053-8abb-e240082ad3dc",
+              "parentUUID": "1b37f4b3-62ea-4a83-ad31-ded3e30dfd06",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b708f806-7263-4053-8abb-e240082ad3dc"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 836,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "38faeff8-71e0-4aac-b982-95f388aa6e7f",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test2.cy.js",
+      "file": "cypress\\e2e\\test2.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7d755b94-c8a6-4619-99d6-9073b5678352",
+          "title": "Quadratic Equation Solver",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should solve equation x² + 2x - 4 = 0",
+              "fullTitle": "Quadratic Equation Solver should solve equation x² + 2x - 4 = 0",
+              "timedOut": null,
+              "duration": 2602,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://127.0.0.1:5500/index.html');\n// nhập hệ số\ncy.get('#term-a').clear().type('1');\ncy.get('#term-b').clear().type('2');\ncy.get('#term-c').clear().type('-4');\n// kiểm tra nghiệm (theo app)\ncy.get('#root-1').should('have.value', '-2.00');\ncy.get('#root-2').should('have.value', '0.00');\n// kiểm tra delta\ncy.get('#delta').should('have.value', '4.00');\n// kiểm tra tọa độ đỉnh\ncy.get('#vertex').should('have.value', '-1.00 , -1.00');",
+              "err": {},
+              "uuid": "3304aa86-5370-4a9a-bfda-eab87431b4a0",
+              "parentUUID": "7d755b94-c8a6-4619-99d6-9073b5678352",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3304aa86-5370-4a9a-bfda-eab87431b4a0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2602,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "e1a95bad-3b7f-462d-a766-149752d517fa",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test3.cy.js",
+      "file": "cypress\\e2e\\test3.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4a06ab59-2e61-4943-9102-a3e3924ba7c7",
+          "title": "Quadratic Equation Solver",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should solve equation x² + 2x - 3 = 0",
+              "fullTitle": "Quadratic Equation Solver should solve equation x² + 2x - 3 = 0",
+              "timedOut": null,
+              "duration": 5768,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://127.0.0.1:5500/index.html');\n// nhập hệ số a=1, b=2, c=-3\ncy.get('#term-a').clear().type('1');\ncy.get('#term-b').clear().type('2');\ncy.get('#term-c').clear().type('-3');\n// kiểm tra nghiệm (đúng thứ tự app hiển thị)\ncy.get('#root-1').should('have.value', '-3.00');\ncy.get('#root-2').should('have.value', '1.00');\n// kiểm tra delta\ncy.get('#delta').should('have.value', '16.00');\n// kiểm tra tọa độ đỉnh\ncy.get('#vertex').should('have.value', '-1.00 , -4.00');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '-3.00', but the value was '-2.00'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '-3.00', but the value was '-2.00'\n    at Context.eval (webpack:///./cypress/e2e/test3.cy.js:11:22)",
+                "diff": "- '-2.00'\n+ '-3.00'\n"
+              },
+              "uuid": "c8ec473b-52f4-43d0-97c9-ef9277de82f6",
+              "parentUUID": "4a06ab59-2e61-4943-9102-a3e3924ba7c7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c8ec473b-52f4-43d0-97c9-ef9277de82f6"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 5768,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "94d51dd7-c507-48e4-91be-3fbb29816a80",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test4.cy.js",
+      "file": "cypress\\e2e\\test4.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d65dec5a-69cc-45f7-ad77-5c4782679576",
+          "title": "Quadratic Equation Solver",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should solve equation x² + 2x - 3 = 0",
+              "fullTitle": "Quadratic Equation Solver should solve equation x² + 2x - 3 = 0",
+              "timedOut": null,
+              "duration": 5691,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://127.0.0.1:5500/index.html');\n// nhập hệ số a=1, b=2, c=-3\ncy.get('#term-a').clear().type('1');\ncy.get('#term-b').clear().type('2');\ncy.get('#term-c').clear().type('-3');\n// kiểm tra nghiệm\ncy.get('#root-1').should('have.value', '1');\ncy.get('#root-2').should('have.value', '-3');\n// kiểm tra delta\ncy.get('#delta').should('have.value', '16');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '1', but the value was '-2.00'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<input#root-1>' to have value '1', but the value was '-2.00'\n    at Context.eval (webpack:///./cypress/e2e/test4.cy.js:11:22)",
+                "diff": "- '-2.00'\n+ '1'\n"
+              },
+              "uuid": "b0757c35-5301-43b5-9dd0-2332f0633bc5",
+              "parentUUID": "d65dec5a-69cc-45f7-ad77-5c4782679576",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "b0757c35-5301-43b5-9dd0-2332f0633bc5"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 5691,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "44d8fc77-98d2-4a5a-8e71-ebeb8de3551b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test5.cy.js",
+      "file": "cypress\\e2e\\test5.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d5e11559-ce93-4fb5-8d32-811704f4f3ef",
+          "title": "Quadratic Equation Solver",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should solve equation x² + 2x - 4 = 0",
+              "fullTitle": "Quadratic Equation Solver should solve equation x² + 2x - 4 = 0",
+              "timedOut": null,
+              "duration": 2100,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://127.0.0.1:5500/index.html');\n// nhập hệ số\ncy.get('#term-a').clear().type('1');\ncy.get('#term-b').clear().type('2');\ncy.get('#term-c').clear().type('-4');\n// kiểm tra nghiệm (theo app)\ncy.get('#root-1').should('have.value', '-2.00');\ncy.get('#root-2').should('have.value', '0.00');\n// kiểm tra delta\ncy.get('#delta').should('have.value', '4.00');\n// kiểm tra tọa độ đỉnh\ncy.get('#vertex').should('have.value', '-1.00 , -1.00');",
+              "err": {},
+              "uuid": "8657d696-547b-4d23-8cf7-9573ae443131",
+              "parentUUID": "d5e11559-ce93-4fb5-8d32-811704f4f3ef",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8657d696-547b-4d23-8cf7-9573ae443131"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2100,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "fdf6e4da-9cf6-4293-94b9-d8f86cb13497",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test1.cy.js",
+      "file": "cypress\\e2e\\test1.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "53a1c288-6147-42f9-a51d-5dd3fc41c1c7",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "passes",
+              "fullTitle": "template spec passes",
+              "timedOut": null,
+              "duration": 932,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://example.cypress.io');",
+              "err": {},
+              "uuid": "7c891a80-bf4f-4241-890f-50918913eaad",
+              "parentUUID": "53a1c288-6147-42f9-a51d-5dd3fc41c1c7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7c891a80-bf4f-4241-890f-50918913eaad"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 932,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.3.0"
+    }
+  }
+}

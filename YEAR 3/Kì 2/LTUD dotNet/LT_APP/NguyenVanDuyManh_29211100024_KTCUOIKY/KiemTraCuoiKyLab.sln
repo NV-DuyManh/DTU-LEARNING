@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.36324.19
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiemTraCuoiKyLab", "KiemTraCuoiKyLab\KiemTraCuoiKyLab.csproj", "{ABF0509F-CD15-4737-AAD7-4A81227B1F3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABF0509F-CD15-4737-AAD7-4A81227B1F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF0509F-CD15-4737-AAD7-4A81227B1F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF0509F-CD15-4737-AAD7-4A81227B1F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF0509F-CD15-4737-AAD7-4A81227B1F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E274FA5-A86D-4358-83DF-446851AB7ECB}
+	EndGlobalSection
+EndGlobal

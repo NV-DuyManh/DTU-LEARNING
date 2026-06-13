@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="769ba9ea23f444179fb48a6a5b189618" Name="Diagram1" ZoomLevel="39">
+        <EntityTypeShape EntityType="QLSinhVienModel.SinhVien" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSinhVienModel.ghe" Width="1.5" PointX="7.875" PointY="13.25" />
+        <EntityTypeShape EntityType="QLSinhVienModel.lichchieu" Width="1.5" PointX="7.875" PointY="9.625" />
+        <EntityTypeShape EntityType="QLSinhVienModel.nguoidung" Width="1.5" PointX="3.375" PointY="6.875" />
+        <EntityTypeShape EntityType="QLSinhVienModel.phim" Width="1.5" PointX="5.625" PointY="6.5" />
+        <EntityTypeShape EntityType="QLSinhVienModel.phongchieu" Width="1.5" PointX="5.625" PointY="13.125" />
+        <EntityTypeShape EntityType="QLSinhVienModel.sanpham" Width="1.5" PointX="5.625" PointY="16.25" />
+        <EntityTypeShape EntityType="QLSinhVienModel.theloai" Width="1.5" PointX="3.375" PointY="4.375" />
+        <AssociationConnector Association="QLSinhVienModel.FK_Ghe_Phong" />
+        <AssociationConnector Association="QLSinhVienModel.FK_Lich_Phim" />
+        <AssociationConnector Association="QLSinhVienModel.FK_Lich_Phong" />
+        <AssociationConnector Association="QLSinhVienModel.FK_Lich_User" />
+        <AssociationConnector Association="QLSinhVienModel.FK_Phim_User" />
+        <AssociationConnector Association="QLSinhVienModel.FK_Phong_User" />
+        <AssociationConnector Association="QLSinhVienModel.FK_SanPham_User" />
+        <AssociationConnector Association="QLSinhVienModel.FK_Phim_TheLoai" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

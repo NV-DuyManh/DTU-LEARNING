@@ -1,0 +1,79 @@
+﻿    <Window x:Class="Demo11.MainWindow"
+            Loaded="Window_Loaded"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:Demo11"
+            mc:Ignorable="d"
+            Title="MainWindow" Height="450" Width="800">
+        <Grid Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <GroupBox Margin="5" Grid.Row="0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="0" Margin="5">ID Vật Tư: </Label>
+                    <Label Grid.Column="0" Grid.Row="1" Margin="5">Mã Vật Tư:</Label>
+                    <Label Grid.Column="0" Grid.Row="2" Margin="5">Tên Vật Tư:</Label>
+                    <TextBox Name="tbMaVT" Grid.Column="1" Grid.Row="1" Margin="5"></TextBox>
+                    <TextBox Name="tbTenVT" Grid.Column="1" Grid.Row="2" Margin="5"></TextBox>
+                    <Button Grid.Column="2" Grid.Row="0" Width="60" Margin="5" Click="Button_Click_4">Đếm</Button>
+                    <TextBox Name="tbDem" Grid.Column="3" Grid.Row="0" Width="100" Margin="5"></TextBox>
+                    <ComboBox Name="cbNSX" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="1" Margin="5" SelectionChanged="CbNSX_SelectionChanged"></ComboBox>
+                    <DatePicker Name="dpNgay" Grid.Column="4" Grid.Row="0" Margin="5"></DatePicker>
+                </Grid>
+            </GroupBox>
+            <GroupBox Margin="5" Grid.Row="1">
+                <StackPanel Margin="5" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button Margin="5" Width="60" Height="30" Click="Button_Click">Thêm</Button>
+                    <Button Margin="5" Width="60" Height="30" Click="Button_Click_1">Sửa</Button>
+                    <Button Margin="5" Width="60" Height="30" Click="Button_Click_2">Xoá</Button>
+                    <Button Margin="5" Width="60" Height="30" Click="Button_Click_3">Load Lại</Button>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Margin="5" Grid.Row="2">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Margin="5">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0">Tìm kiếm vật tư:</Label>
+                            <TextBox Name="tbTim" Grid.Column="1" Margin="5"></TextBox>
+                            <Button Grid.Column="2" Margin="5" Height="30" Width="80" Click="Button_Click_5">Tìm kiếm</Button>
+                        </Grid>
+                    </StackPanel>
+                    <DataGrid Name="dgVT" Grid.Row="1" Margin="5" AutoGenerateColumns="False" SelectionChanged="DgVT_SelectionChanged">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Width="*" Header="Mã Vật Tư" Binding="{Binding MaVatTu}"></DataGridTextColumn>
+                            <DataGridTextColumn Width="*" Header="Tên Vật Tư" Binding="{Binding TenVatTu}"></DataGridTextColumn>
+                            <DataGridTextColumn Width="*" Header="Ngày Sản Xuất" Binding="{Binding NgaySanXuat}"></DataGridTextColumn>
+                            <DataGridTextColumn Width="*" Header="Mã NSX" Binding="{Binding MaNSX}"></DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+          
+            </GroupBox>
+        </Grid>
+    </Window>

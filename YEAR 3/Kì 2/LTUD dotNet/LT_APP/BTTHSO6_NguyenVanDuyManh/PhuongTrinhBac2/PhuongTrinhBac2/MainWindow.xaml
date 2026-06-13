@@ -1,0 +1,23 @@
+﻿<Window x:Class="PhuongTrinhBac2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhuongTrinhBac2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="500">
+    <Grid>
+        <Label Content="GIẢI PHƯƠNG TRÌNH BẬC HAI" HorizontalAlignment="Left" Margin="105,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+        <Label Content="Hệ số a:" HorizontalAlignment="Left" Margin="47,70,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="soA" HorizontalAlignment="Left" Height="23" Margin="141,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163"/>
+        <Label Content="Hệ số b:" HorizontalAlignment="Left" Margin="47,112,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="soB" HorizontalAlignment="Left" Height="23" Margin="141,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163"/>
+        <Label Content="Hệ số c:" HorizontalAlignment="Left" Margin="47,162,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="soC" HorizontalAlignment="Left" Height="23" Margin="141,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="163"/>
+        <Label Content="Kết quả:" HorizontalAlignment="Left" Margin="47,208,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="ketQua" HorizontalAlignment="Left" Height="59" Margin="141,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="297"/>
+        <Button Name="giai" Content="Giải" HorizontalAlignment="Left" Margin="141,297,0,0" VerticalAlignment="Top" Width="75" Click="giai_Click"/>
+        <Button Name="xoa" Content="Xoá" HorizontalAlignment="Left" Margin="260,297,0,0" VerticalAlignment="Top" Width="75" Click="xoa_Click"/>
+        <Button Name="thoat" Content="Thoát" HorizontalAlignment="Left" Margin="363,296,0,0" VerticalAlignment="Top" Width="75" Click="thoat_Click"/>
+    </Grid>
+</Window>

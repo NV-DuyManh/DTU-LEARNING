@@ -1,0 +1,65 @@
+﻿<Window x:Class="Demo14.MainWindow"
+        Loaded="Window_Loaded"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo14"
+        mc:Ignorable="d"
+        Title="Quản lý sản phẩm" Height="450" Width="800">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <GroupBox Grid.Row="0" Margin="5" Header="Thông tin sản phẩm">
+            <Grid Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Margin="5" Grid.Column="0" Grid.Row="0">Mã SP:</Label>
+                <Label Margin="5" Grid.Column="0" Grid.Row="1">Tên SP:</Label>
+                <Label Margin="5" Grid.Column="0" Grid.Row="2">Ngày nhập:</Label>
+                <Label Margin="5" Grid.Column="2" Grid.Row="0">Loại SP:</Label>
+                <Label Margin="5" Grid.Column="2" Grid.Row="1">Tháng bảo hành:</Label>
+                <TextBox Name="tbMaSP"  Margin="5" Grid.Column="1" Grid.Row="0"></TextBox>
+                <TextBox Name="tbTenSP"  Margin="5" Grid.Column="1" Grid.Row="1"></TextBox>
+                <DatePicker Name="dpNgay"  Margin="5" Grid.Column="1" Grid.Row="2"></DatePicker>
+                <ComboBox Name="cbLoaiSP"  Margin="5" Grid.Column="3" Grid.Row="0" SelectionChanged="CbLoaiSP_SelectionChanged"></ComboBox>
+                <StackPanel Name="spBaoHanh" Margin="5" Grid.Column="3" Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center">
+                    <RadioButton Name="bh6" Margin="5" IsChecked="True">6 tháng</RadioButton>
+                    <RadioButton Name="bh12" Margin="5">12 tháng</RadioButton>
+                    <RadioButton Name="bh24" Margin="5">24 tháng</RadioButton>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <DataGrid Name="dgSP"  Margin="5" Grid.Row="1" AutoGenerateColumns="False" SelectionChanged="DgSP_SelectionChanged" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="*" Header="Mã SP" Binding="{Binding MaSP}"></DataGridTextColumn>
+                <DataGridTextColumn Width="*" Header="Tên SP" Binding="{Binding TenSP}"></DataGridTextColumn>
+                <DataGridTextColumn Width="*" Header="Ngày nhập" Binding="{Binding NgayNhap}"></DataGridTextColumn>
+                <DataGridTextColumn Width="*" Header="Mã Loại" Binding="{Binding MaLoai}"></DataGridTextColumn>
+                <DataGridTextColumn Width="*" Header="Bảo hành (Tháng)" Binding="{Binding BaoHanh}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Margin="5" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Margin="5" Width="60" Height="25" Click="Button_Click">Thêm</Button>
+            <Button Margin="5" Width="60" Height="25" Click="Button_Click_1">Sửa</Button>
+            <Button Margin="5" Width="60" Height="25" Click="Button_Click_2">Xoá</Button>
+            <Button Margin="5" Width="60" Height="25" Click="Button_Click_3">Làm mới</Button>
+            <Button Margin="5" Width="60" Height="25" Click="Button_Click_4" >Tìm</Button>
+            <TextBox Name="tbTim" Margin="5" Width="100" Height="25"></TextBox>
+            <Button Margin="5" Width="60" Height="25" Click="Button_Click_5" >Đếm</Button>
+            <TextBox Name="tbDem" Margin="5" Width="100" Height="25"></TextBox>
+        </StackPanel>
+    </Grid>
+</Window>

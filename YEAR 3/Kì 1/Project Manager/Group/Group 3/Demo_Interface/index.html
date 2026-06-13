@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhishShield - Hệ thống phát hiện website lừa đảo</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      body.dark {
+        background: linear-gradient(135deg, #020617 0%, #0f172a 100%);
+        color: #e2e8f0;
+      }
+
+      body.light {
+        background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+        color: #1e293b;
+      }
+
+      .container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      /* AUTH SCREEN */
+      .auth-screen {
+        width: 100%;
+        max-width: 450px;
+        text-align: center;
+      }
+
+      .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+
+      .shield-icon {
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 12px;
+        background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+        opacity: 0.7;
+        margin-bottom: 40px;
+        line-height: 1.6;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
+        padding: 32px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      body.light .card {
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+        text-align: left;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 0.9rem;
+      }
+
+      input[type="text"],
+      input[type="password"],
+      textarea {
+        width: 100%;
+        padding: 12px 16px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.05);
+        color: inherit;
+        font-size: 1rem;
+        transition: all 0.3s;
+      }
+
+      body.light input[type="text"],
+      body.light input[type="password"],
+      body.light textarea {
+        background: rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      input:focus,
+      textarea:focus {
+        outline: none;
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+      }
+
+      .btn {
+        width: 100%;
+        padding: 14px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s;
+        margin-bottom: 12px;
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+        color: white;
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(37, 99, 235, 0.4);
+      }
+
+      .btn-secondary {
+        background: rgba(255, 255, 255, 0.1);
+        color: inherit;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      body.light .btn-secondary {
+        background: rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      .btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.15);
+      }
+
+      body.light .btn-secondary:hover {
+        background: rgba(0, 0, 0, 0.1);
+      }
+
+      .link-btn {
+        background: none;
+        border: none;
+        color: #3b82f6;
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 0.9rem;
+        margin-top: 16px;
+      }
+
+      .link-btn:hover {
+        color: #2563eb;
+      }
+
+      .error-msg {
+        background: rgba(239, 68, 68, 0.2);
+        color: #fca5a5;
+        padding: 12px;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        font-size: 0.9rem;
+        border: 1px solid rgba(239, 68, 68, 0.3);
+      }
+
+      .success-msg {
+        background: rgba(34, 197, 94, 0.2);
+        color: #86efac;
+        padding: 12px;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        font-size: 0.9rem;
+        border: 1px solid rgba(34, 197, 94, 0.3);
+      }
+
+      /* DASHBOARD */
+      .dashboard {
+        display: none;
+        width: 100%;
+        min-height: 100vh;
+      }
+
+      .dashboard.active {
+        display: block;
+      }
+
+      .topbar {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        padding: 16px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      body.light .topbar {
+        background: rgba(255, 255, 255, 0.9);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      .topbar-left {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .topbar-logo {
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+      }
+
+      .topbar-title {
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+
+      .topbar-right {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .user-info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 16px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+      }
+
+      body.light .user-info {
+        background: rgba(0, 0, 0, 0.05);
+      }
+
+      .btn-logout {
+        padding: 8px 16px;
+        background: rgba(239, 68, 68, 0.2);
+        color: #fca5a5;
+        border: 1px solid rgba(239, 68, 68, 0.3);
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.3s;
+      }
+
+      .btn-logout:hover {
+        background: rgba(239, 68, 68, 0.3);
+      }
+
+      .main-content {
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        gap: 24px;
+        padding: 24px;
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 1024px) {
+        .main-content {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .panel {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
+        padding: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      body.light .panel {
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      .panel-title {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      textarea {
+        min-height: 80px;
+        resize: vertical;
+      }
+
+      .checkbox-group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 20px;
+      }
+
+      input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+      }
+
+      .result-container {
+        margin-top: 24px;
+        padding: 20px;
+        border-radius: 12px;
+        border: 2px solid;
+        animation: slideIn 0.3s ease;
+      }
+
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .result-safe {
+        background: rgba(34, 197, 94, 0.1);
+        border-color: #22c55e;
+        color: #86efac;
+      }
+
+      .result-warning {
+        background: rgba(234, 179, 8, 0.1);
+        border-color: #eab308;
+        color: #fde047;
+      }
+
+      .result-danger {
+        background: rgba(239, 68, 68, 0.1);
+        border-color: #ef4444;
+        color: #fca5a5;
+      }
+
+      .result-score {
+        font-size: 3rem;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 16px;
+      }
+
+      .result-label {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+
+      .rules-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .rules-list li {
+        padding: 10px;
+        margin-bottom: 8px;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 6px;
+        font-size: 0.9rem;
+      }
+
+      body.light .rules-list li {
+        background: rgba(0, 0, 0, 0.05);
+      }
+
+      .history-list {
+        list-style: none;
+        padding: 0;
+        max-height: 400px;
+        overflow-y: auto;
+      }
+
+      .history-item {
+        padding: 12px;
+        margin-bottom: 8px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s;
+        border-left: 4px solid;
+      }
+
+      body.light .history-item {
+        background: rgba(0, 0, 0, 0.05);
+      }
+
+      .history-item:hover {
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateX(4px);
+      }
+
+      body.light .history-item:hover {
+        background: rgba(0, 0, 0, 0.1);
+      }
+
+      .history-item.safe {
+        border-left-color: #22c55e;
+      }
+
+      .history-item.warning {
+        border-left-color: #eab308;
+      }
+
+      .history-item.danger {
+        border-left-color: #ef4444;
+      }
+
+      .history-url {
+        font-weight: 600;
+        margin-bottom: 4px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .history-meta {
+        font-size: 0.8rem;
+        opacity: 0.7;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .tabs {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      body.light .tabs {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      .tab {
+        padding: 10px 20px;
+        background: none;
+        border: none;
+        color: inherit;
+        opacity: 0.6;
+        cursor: pointer;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+        transition: all 0.3s;
+      }
+
+      .tab.active {
+        opacity: 1;
+        border-bottom-color: #2563eb;
+      }
+
+      .tab-content {
+        display: none;
+      }
+
+      .tab-content.active {
+        display: block;
+      }
+
+      .guide-text {
+        line-height: 1.8;
+        opacity: 0.8;
+      }
+
+      .guide-text h3 {
+        margin-top: 16px;
+        margin-bottom: 8px;
+        color: #3b82f6;
+      }
+
+      .settings-group {
+        margin-bottom: 24px;
+      }
+
+      .settings-label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.05);
+        color: inherit;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      body.light select {
+        background: rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="dark">
+    <!-- AUTH SCREEN -->
+    <div class="container" id="authScreen">
+      <div class="auth-screen">
+        <div class="logo-container">
+          <div class="shield-icon">🛡️</div>
+        </div>
+        <h1>PhishShield</h1>
+        <p class="subtitle">
+          Hệ thống phát hiện website lừa đảo thông minh - Bảo vệ bạn khỏi các
+          mối đe dọa trực tuyến
+        </p>
+
+        <div class="card" id="loginCard">
+          <div id="authMessage"></div>
+          <div class="form-group">
+            <label for="username">Tên đăng nhập</label>
+            <input type="text" id="username" placeholder="Nhập tên đăng nhập" />
+          </div>
+          <div class="form-group">
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" placeholder="Nhập mật khẩu" />
+          </div>
+          <div class="form-group hidden" id="confirmPasswordGroup">
+            <label for="confirmPassword">Xác nhận mật khẩu</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Nhập lại mật khẩu"
+            />
+          </div>
+          <button class="btn btn-primary" id="loginBtn">Đăng nhập</button>
+          <button class="btn btn-secondary" id="signupBtn">Đăng ký</button>
+          <button class="btn btn-secondary" id="guestBtn">
+            Tiếp tục với chế độ khách
+          </button>
+          <button class="link-btn hidden" id="switchToLoginBtn">
+            Đã có tài khoản? Đăng nhập
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="dashboard" id="dashboard">
+      <div class="topbar">
+        <div class="topbar-left">
+          <div class="topbar-logo">🛡️</div>
+          <div class="topbar-title">PhishShield</div>
+        </div>
+        <div class="topbar-right">
+          <div class="user-info">
+            <span>👤</span>
+            <span id="currentUser">Guest</span>
+          </div>
+          <button class="btn-logout" id="logoutBtn">Đăng xuất</button>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <!-- Panel trái: Kiểm tra URL -->
+        <div class="panel">
+          <h2 class="panel-title">🔍 Kiểm tra URL lừa đảo</h2>
+          <div class="form-group">
+            <label for="urlInput">Nhập URL cần kiểm tra</label>
+            <textarea
+              id="urlInput"
+              placeholder="https://example.com"
+            ></textarea>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="strictMode" />
+            <label for="strictMode"
+              >Chế độ nghiêm ngặt (tăng độ nhạy phát hiện)</label
+            >
+          </div>
+          <button class="btn btn-primary" id="analyzeBtn">
+            🔎 Phân tích URL
+          </button>
+
+          <div id="resultContainer"></div>
+        </div>
+
+        <!-- Panel phải: Lịch sử & Cài đặt -->
+        <div class="panel">
+          <div class="tabs">
+            <button class="tab active" data-tab="history">Lịch sử</button>
+            <button class="tab" data-tab="guide">Hướng dẫn</button>
+            <button class="tab" data-tab="settings">Cài đặt</button>
+          </div>
+
+          <div class="tab-content active" id="history">
+            <ul class="history-list" id="historyList">
+              <li style="text-align: center; opacity: 0.5; padding: 40px 0">
+                Chưa có lịch sử kiểm tra
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-content" id="guide">
+            <div class="guide-text">
+              <h3>📊 Các mức độ rủi ro</h3>
+              <p>
+                <strong style="color: #22c55e">An toàn (0-30):</strong> URL có
+                vẻ đáng tin cậy, ít dấu hiệu nghi ngờ.
+              </p>
+              <p>
+                <strong style="color: #eab308">Nghi ngờ (31-70):</strong> URL có
+                một số dấu hiệu đáng lo ngại, cần thận trọng.
+              </p>
+              <p>
+                <strong style="color: #ef4444">Rất nguy hiểm (71-100):</strong>
+                URL có nhiều dấu hiệu lừa đảo, không nên truy cập.
+              </p>
+
+              <h3>⚠️ Lưu ý quan trọng</h3>
+              <p>
+                Hệ thống này chỉ mang tính chất tham khảo, dựa trên các quy tắc
+                phát hiện cơ bản. Không thay thế các giải pháp bảo mật chuyên
+                nghiệp.
+              </p>
+              <p>
+                Luôn cảnh giác với các URL lạ, đặc biệt là những URL yêu cầu
+                thông tin cá nhân, mật khẩu, hoặc thông tin tài chính.
+              </p>
+            </div>
+          </div>
+
+          <div class="tab-content" id="settings">
+            <div class="settings-group">
+              <label class="settings-label">🎨 Giao diện</label>
+              <select id="themeSelect">
+                <option value="dark">Tối (Dark)</option>
+                <option value="light">Sáng (Light)</option>
+              </select>
+            </div>
+            <div class="settings-group">
+              <label class="settings-label">⚙️ Độ nhạy phát hiện</label>
+              <select id="sensitivitySelect">
+                <option value="relaxed">Thoải mái</option>
+                <option value="normal" selected>Bình thường</option>
+                <option value="strict">Nghiêm ngặt</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // ============================================
+      // QUẢN LÝ NGƯỜI DÙNG & XÁC THỰC (AUTH)
+      // ============================================
+
+      const authScreen = document.getElementById("authScreen");
+      const dashboard = document.getElementById("dashboard");
+      const authMessage = document.getElementById("authMessage");
+      const usernameInput = document.getElementById("username");
+      const passwordInput = document.getElementById("password");
+      const confirmPasswordInput = document.getElementById("confirmPassword");
+      const confirmPasswordGroup = document.getElementById(
+        "confirmPasswordGroup"
+      );
+      const loginBtn = document.getElementById("loginBtn");
+      const signupBtn = document.getElementById("signupBtn");
+      const guestBtn = document.getElementById("guestBtn");
+      const switchToLoginBtn = document.getElementById("switchToLoginBtn");
+      const logoutBtn = document.getElementById("logoutBtn");
+      const currentUserSpan = document.getElementById("currentUser");
+
+      let isSignupMode = false;
+
+      // Hàm chuyển sang chế độ ĐĂNG KÝ
+      function switchToSignupMode() {
+        isSignupMode = true;
+        confirmPasswordGroup.classList.remove("hidden");
+        switchToLoginBtn.classList.remove("hidden");
+        loginBtn.textContent = "Đăng ký tài khoản";
+        signupBtn.classList.add("hidden");
+      }
+
+      // Hàm chuyển sang chế độ ĐĂNG NHẬP
+      function switchToLoginMode() {
+        isSignupMode = false;
+        confirmPasswordGroup.classList.add("hidden");
+        switchToLoginBtn.classList.add("hidden");
+        loginBtn.textContent = "Đăng nhập";
+        signupBtn.classList.remove("hidden");
+        signupBtn.textContent = "Đăng ký";
+      }
+
+      // Kiểm tra xem đã đăng nhập chưa
+      function checkAuth() {
+        const currentUser = localStorage.getItem("currentUser");
+        if (currentUser) {
+          showDashboard(currentUser);
+        }
+      }
+
+      // Nút Đăng ký: chỉ dùng để CHUYỂN MODE
+      signupBtn.addEventListener("click", () => {
+        switchToSignupMode();
+      });
+
+      // Link chuyển về đăng nhập
+      switchToLoginBtn.addEventListener("click", () => {
+        switchToLoginMode();
+        authMessage.innerHTML = "";
+      });
+
+      // Nút Đăng nhập / Đăng ký tài khoản (tùy mode)
+      loginBtn.addEventListener("click", () => {
+        if (isSignupMode) {
+          handleSignup();
+        } else {
+          handleLogin();
+        }
+      });
+
+      // Xử lý đăng nhập
+      function handleLogin() {
+        const username = usernameInput.value.trim();
+        const password = passwordInput.value;
+
+        if (!username || !password) {
+          showAuthMessage("Vui lòng nhập đầy đủ thông tin!", "error");
+          return;
+        }
+
+        // Lấy danh sách người dùng từ localStorage
+        const users = JSON.parse(localStorage.getItem("users") || "{}");
+
+        if (users[username] && users[username] === password) {
+          showAuthMessage("Đăng nhập thành công!", "success");
+          setTimeout(() => {
+            localStorage.setItem("currentUser", username);
+            showDashboard(username);
+          }, 500);
+        } else {
+          showAuthMessage("Tên đăng nhập hoặc mật khẩu không đúng!", "error");
+        }
+      }
+
+      // Xử lý đăng ký
+      function handleSignup() {
+        const username = usernameInput.value.trim();
+        const password = passwordInput.value;
+        const confirmPassword = confirmPasswordInput.value;
+
+        if (!username || !password || !confirmPassword) {
+          showAuthMessage("Vui lòng nhập đầy đủ thông tin!", "error");
+          return;
+        }
+
+        if (password.length < 6) {
+          showAuthMessage("Mật khẩu phải có ít nhất 6 ký tự!", "error");
+          return;
+        }
+
+        if (password !== confirmPassword) {
+          showAuthMessage("Mật khẩu xác nhận không khớp!", "error");
+          return;
+        }
+
+        const users = JSON.parse(localStorage.getItem("users") || "{}");
+
+        if (users[username]) {
+          showAuthMessage("Tên đăng nhập đã tồn tại!", "error");
+          return;
+        }
+
+        users[username] = password;
+        localStorage.setItem("users", JSON.stringify(users));
+
+        showAuthMessage(
+          "Đăng ký thành công! Vui lòng đăng nhập bằng tài khoản vừa tạo.",
+          "success"
+        );
+
+        // Xóa mật khẩu khỏi input cho an toàn
+        passwordInput.value = "";
+        confirmPasswordInput.value = "";
+
+        // Sau một chút thời gian, tự động chuyển về chế độ đăng nhập
+        setTimeout(() => {
+          switchToLoginMode();
+        }, 1200);
+      }
+
+      // Tiếp tục với chế độ khách
+      guestBtn.addEventListener("click", () => {
+        showDashboard("Guest");
+      });
+
+      // Đăng xuất
+      logoutBtn.addEventListener("click", () => {
+        localStorage.removeItem("currentUser");
+        currentUserSpan.textContent = "Guest";
+        authScreen.style.display = "flex";
+        dashboard.classList.remove("active");
+        usernameInput.value = "";
+        passwordInput.value = "";
+        confirmPasswordInput.value = "";
+        authMessage.innerHTML = "";
+
+        // Nếu đang ở mode signup thì chuyển lại về mode login
+        if (isSignupMode) {
+          switchToLoginMode();
+        }
+      });
+
+      function showAuthMessage(message, type) {
+        authMessage.innerHTML = `<div class="${
+          type === "error" ? "error-msg" : "success-msg"
+        }">${message}</div>`;
+      }
+
+      function showDashboard(username) {
+        currentUserSpan.textContent = username;
+        authScreen.style.display = "none";
+        dashboard.classList.add("active");
+      }
+
+      // ============================================
+      // HỆ THỐNG PHÁT HIỆN PHISHING
+      // ============================================
+
+      const urlInput = document.getElementById("urlInput");
+      const strictModeCheckbox = document.getElementById("strictMode");
+      const analyzeBtn = document.getElementById("analyzeBtn");
+      const resultContainer = document.getElementById("resultContainer");
+      const historyList = document.getElementById("historyList");
+      const sensitivitySelect = document.getElementById("sensitivitySelect");
+
+      let history = [];
+      let currentResult = null;
+
+      // Phân tích URL
+      analyzeBtn.addEventListener("click", () => {
+        const url = urlInput.value.trim();
+
+        if (!url) {
+          alert("Vui lòng nhập URL!");
+          return;
+        }
+
+        const result = analyzeURL(url);
+        currentResult = result;
+        displayResult(result);
+        addToHistory(result);
+      });
+
+      function analyzeURL(url) {
+        const rules = [];
+        let riskScore = 0;
+        const isStrict = strictModeCheckbox.checked;
+        const sensitivity = sensitivitySelect.value;
+
+        // Hệ số tăng điểm dựa trên độ nhạy
+        let multiplier = 1;
+        if (sensitivity === "relaxed") multiplier = 0.7;
+        if (sensitivity === "strict") multiplier = 1.5;
+        if (isStrict) multiplier *= 1.3;
+
+        // Rule 1: Độ dài URL quá dài
+        if (url.length > 80) {
+          const score = Math.min(25, (url.length - 80) / 2) * multiplier;
+          riskScore += score;
+          rules.push(
+            `URL quá dài (${url.length} ký tự) - có thể đang cố che giấu nội dung đáng ngờ`
+          );
+        }
+
+        // Rule 2: Ký tự đặc biệt bất thường
+        const specialChars = (url.match(/[@#$%^&*={}[\]\\|<>]/g) || []).length;
+        if (specialChars > 3) {
+          const score = Math.min(20, specialChars * 3) * multiplier;
+          riskScore += score;
+          rules.push(
+            `Xuất hiện ${specialChars} ký tự đặc biệt bất thường trong URL`
+          );
+        }
+
+        // Kiểm tra ký tự đặc biệt trong domain
+        const domainMatch = url.match(/^(?:https?:\/\/)?([^/]+)/);
+        if (domainMatch) {
+          const domain = domainMatch[1];
+          const domainSpecialChars = (
+            domain.match(/[@#$%^&*={}[\]\\|<>]/g) || []
+          ).length;
+          if (domainSpecialChars > 0) {
+            riskScore += 25 * multiplier;
+            rules.push("Domain chứa ký tự đặc biệt đáng ngờ");
+          }
+        }
+
+        // Rule 3: Chuỗi ký tự lặp lại
+        const repeatingChars = url.match(/(.)\1{3,}/g);
+        if (repeatingChars) {
+          riskScore += 15 * multiplier;
+          rules.push(
+            `URL chứa chuỗi ký tự lặp lại bất thường (${repeatingChars[0]})`
+          );
+        }
+
+        // Rule 4: Định dạng giao thức sai
+        if (url.startsWith("https:///")) {
+          riskScore += 40 * multiplier;
+          rules.push(
+            "URL ở dạng https:/// - rất đáng ngờ (giao thức sai chuẩn)"
+          );
+        } else if (!url.match(/^https?:\/\//)) {
+          riskScore += 20 * multiplier;
+          rules.push("Định dạng giao thức không chuẩn (thiếu http/https)");
+        }
+
+        // Rule 5: Quá nhiều dấu gạch ngang hoặc dấu chấm
+        if (domainMatch) {
+          const domain = domainMatch[1];
+          const dashCount = (domain.match(/-/g) || []).length;
+          const dotCount = (domain.match(/\./g) || []).length;
+
+          if (dashCount > 3) {
+            riskScore += Math.min(20, dashCount * 4) * multiplier;
+            rules.push(
+              `Domain có quá nhiều dấu gạch ngang (${dashCount}) - thường dùng để giả mạo`
+            );
+          }
+
+          if (dotCount > 4) {
+            riskScore += Math.min(15, dotCount * 3) * multiplier;
+            rules.push(`Domain có quá nhiều phân đoạn (${dotCount} dấu chấm)`);
+          }
+        }
+
+        // Rule 6: Từ khóa lừa đảo
+        const phishingKeywords = [
+          "login",
+          "verify",
+          "update",
+          "secure",
+          "free",
+          "bonus",
+          "gift",
+          "claim",
+          "account",
+          "suspended",
+          "confirm",
+        ];
+        const brandKeywords = [
+          "facebook",
+          "google",
+          "paypal",
+          "bank",
+          "amazon",
+          "microsoft",
+          "apple",
+        ];
+
+        const urlLower = url.toLowerCase();
+        let keywordCount = 0;
+        let brandFound = false;
+
+        phishingKeywords.forEach((keyword) => {
+          if (urlLower.includes(keyword)) keywordCount++;
+        });
+
+        brandKeywords.forEach((brand) => {
+          if (urlLower.includes(brand)) brandFound = true;
+        });
+
+        if (keywordCount >= 2 && brandFound) {
+          riskScore += 30 * multiplier;
+          rules.push(
+            `URL chứa từ khóa nhạy cảm kết hợp tên thương hiệu - dấu hiệu phishing`
+          );
+        } else if (keywordCount >= 3) {
+          riskScore += 20 * multiplier;
+          rules.push(
+            `URL chứa nhiều từ khóa thường gặp trong chiến dịch lừa đảo`
+          );
+        }
+
+        // Rule 7: IP address thay vì domain
+        if (url.match(/https?:\/\/\d+\.\d+\.\d+\.\d+/)) {
+          riskScore += 25 * multiplier;
+          rules.push("URL sử dụng địa chỉ IP thay vì tên miền - rất đáng ngờ");
+        }
+
+        // Rule 8: TLD đáng ngờ
+        const suspiciousTLDs = [
+          ".tk",
+          ".ml",
+          ".ga",
+          ".cf",
+          ".gq",
+          ".xyz",
+          ".top",
+        ];
+        suspiciousTLDs.forEach((tld) => {
+          if (urlLower.includes(tld)) {
+            riskScore += 15 * multiplier;
+            rules.push(`Sử dụng tên miền cấp cao đáng ngờ (${tld})`);
+          }
+        });
+
+        // Giới hạn điểm tối đa là 100
+        riskScore = Math.min(100, Math.round(riskScore));
+
+        // Phân loại mức độ
+        let level = "safe";
+        let levelText = "Có vẻ an toàn";
+        if (riskScore > 70) {
+          level = "danger";
+          levelText = "Rất nguy hiểm";
+        } else if (riskScore > 30) {
+          level = "warning";
+          levelText = "Nghi ngờ";
+        }
+
+        return {
+          url,
+          score: riskScore,
+          level,
+          levelText,
+          rules,
+          timestamp: new Date().toLocaleString("vi-VN"),
+        };
+      }
+
+      function displayResult(result) {
+        let rulesHTML = "";
+        if (result.rules.length > 0) {
+          rulesHTML =
+            '<ul class="rules-list">' +
+            result.rules.map((rule) => `<li>⚠️ ${rule}</li>`).join("") +
+            "</ul>";
+        } else {
+          rulesHTML =
+            '<p style="text-align: center; opacity: 0.7;">Không phát hiện dấu hiệu đáng ngờ rõ ràng</p>';
+        }
+
+        resultContainer.innerHTML = `
+            <div class="result-container result-${result.level}">
+                <div class="result-score">${result.score}</div>
+                <div class="result-label">${result.levelText}</div>
+                <strong>Chi tiết phân tích:</strong>
+                ${rulesHTML}
+            </div>
+        `;
+      }
+
+      function addToHistory(result) {
+        history.unshift(result);
+        if (history.length > 20) history.pop();
+
+        renderHistory();
+      }
+
+      function renderHistory() {
+        if (history.length === 0) {
+          historyList.innerHTML =
+            '<li style="text-align: center; opacity: 0.5; padding: 40px 0;">Chưa có lịch sử kiểm tra</li>';
+          return;
+        }
+
+        historyList.innerHTML = history
+          .map(
+            (item, index) => `
+            <li class="history-item ${item.level}" data-index="${index}">
+                <div class="history-url">${
+                  item.url.length > 50
+                    ? item.url.substring(0, 50) + "..."
+                    : item.url
+                }</div>
+                <div class="history-meta">
+                    <span>${item.levelText} (${item.score})</span>
+                    <span>${item.timestamp}</span>
+                </div>
+            </li>
+        `
+          )
+          .join("");
+
+        // Thêm sự kiện click cho mỗi item
+        document.querySelectorAll(".history-item").forEach((item) => {
+          item.addEventListener("click", () => {
+            const index = parseInt(item.dataset.index);
+            displayResult(history[index]);
+          });
+        });
+      }
+
+      // ============================================
+      // TABS & SETTINGS
+      // ============================================
+
+      document.querySelectorAll(".tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const tabName = tab.dataset.tab;
+
+          document
+            .querySelectorAll(".tab")
+            .forEach((t) => t.classList.remove("active"));
+          document
+            .querySelectorAll(".tab-content")
+            .forEach((c) => c.classList.remove("active"));
+
+          tab.classList.add("active");
+          document.getElementById(tabName).classList.add("active");
+        });
+      });
+
+      // Theme switching
+      const themeSelect = document.getElementById("themeSelect");
+
+      // Load saved theme
+      const savedTheme = localStorage.getItem("theme") || "dark";
+      document.body.className = savedTheme;
+      themeSelect.value = savedTheme;
+
+      themeSelect.addEventListener("change", (e) => {
+        const theme = e.target.value;
+        document.body.className = theme;
+        localStorage.setItem("theme", theme);
+      });
+
+      // Load saved sensitivity
+      const savedSensitivity = localStorage.getItem("sensitivity") || "normal";
+      sensitivitySelect.value = savedSensitivity;
+
+      sensitivitySelect.addEventListener("change", (e) => {
+        localStorage.setItem("sensitivity", e.target.value);
+      });
+
+      // Khởi tạo
+      checkAuth();
+    </script>
+  </body>
+</html>
