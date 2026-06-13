@@ -1,5 +1,0 @@
-D:\Visio - Visual - Draw\Visual code\khung\khung\obj\Debug\khung.csproj.AssemblyReference.cache
-D:\Visio - Visual - Draw\Visual code\khung\khung\obj\Debug\khung.Form1.resources
-D:\Visio - Visual - Draw\Visual code\khung\khung\obj\Debug\khung.Properties.Resources.resources
-D:\Visio - Visual - Draw\Visual code\khung\khung\obj\Debug\khung.csproj.GenerateResource.cache
-D:\Visio - Visual - Draw\Visual code\khung\khung\obj\Debug\khung.csproj.CoreCompileInputs.cache
