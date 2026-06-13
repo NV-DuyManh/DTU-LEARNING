@@ -1,0 +1,183 @@
+#include <iostream>
+#include<vector>
+using namespace std;
+
+class Employee {
+	protected:
+		string name;
+		int paymentPerHour;
+	public:
+		Employee(){
+		}
+		Employee(string name, int paymentPerHour){
+			this->name = name;
+			this->paymentPerHour = paymentPerHour;
+		}
+		virtual ~Employee(){
+		}
+		string getName(){
+			return this->name;
+		}
+		int getPaymentPerHour(){
+			return this->paymentPerHour;
+		}
+		void setName(string name){
+			this->name= name;
+		}
+		void setPaymentPerHour(int paymentPerHour){
+			this->paymentPerHour = paymentPerHour;
+		}
+		virtual void Input(){
+			fflush(stdin);
+			cout<<"Nhap ten: ";
+			getline(cin, this->name);
+			cout<<"Nhap tien nhan duoc: ";
+			cin>>this->paymentPerHour;
+		}
+		virtual void Output(){
+			cout<<"Ten: "<<this->name<<endl;
+			cout<<"Tien nhan duoc: "<<this->paymentPerHour<<endl;
+		}
+		virtual float CalculateSalary() = 0;
+}; 
+
+class PartTimeEmployee : public Employee{
+	private:
+		float workingHours;
+	public:
+		PartTimeEmployee(){
+		}
+		PartTimeEmployee(string name, int paymentPerHour, float workingHours):Employee(name, paymentPerHour){
+			this->workingHours = workingHours;
+		}
+		~PartTimeEmployee(){
+		}
+		float getWorkingHours(){
+			return this->workingHours;
+		}
+		void setWorkingHours(float workingHours){
+			this->workingHours = workingHours;
+		}
+		void Input(){
+			fflush(stdin);
+			Employee::Input();
+			cout <<"Nhap gio lam viec: ";
+			cin>>this->workingHours;
+		}
+		void Output(){
+			Employee::Output();
+			cout<<"Gio lam viec: "<<this->workingHours<<endl;
+		}
+		float CalculateSalary(){
+			return this->workingHours * this->paymentPerHour;
+		}
+};
+
+class FullTimeEmployee : public Employee{
+	public:
+		FullTimeEmployee(){
+		}
+		~FullTimeEmployee(){
+		}
+		float CalculateSalary(){
+			return 8* this->paymentPerHour;
+		}
+};
+
+class EmployeeManager {
+	private:
+		vector<Employee*>ds;
+	public:
+		EmployeeManager(){
+		}
+		~EmployeeManager(){
+			for(int i=0; i<ds.size();i++){
+				delete ds[i];
+			}
+			ds.clear();
+		}
+		void NhapDs(){
+			while(true){
+				cout <<"\t\tNhap tuy chon:"<<endl;
+				cout <<"\t1.Nhap PartTimeEmployee "<<endl;
+				cout <<"\t2.Nhap FullTimeEmployee "<<endl;
+				cout <<"\t3.Thoat"<<endl;
+				int luachon;
+				cout <<"Nhap lua chon: ";
+				cin>>luachon;
+				if(luachon == 1){
+					Employee *btg = new PartTimeEmployee();
+					btg->Input();
+					ds.push_back(btg);
+				}else if(luachon == 2){
+					Employee *ttg = new FullTimeEmployee();
+					ttg->Input();
+					ds.push_back(ttg);
+				}else if(luachon == 3){
+					break;
+				}else{
+					cout <<"Lua chon khong dung, nhap lai";
+				}
+			}
+		}
+		void XuatDs(){
+			for(int i=0;i<ds.size();i++){
+				cout <<"Thong tin nhan vien thu "<<i+1<<" la: "<<endl;
+				ds[i]->Output();
+			}
+		}
+		
+		void Menu(){
+			while(true){
+				cout<<"\t\t===Menu==="<<endl;
+				cout<<"\t1.Them viec lam "<<endl;
+				cout<<"\t2.Hien thi tat ca nhan vien"<<endl;
+				cout<<"\t3.Hien thi tong luong nhan vien toan thoi gian"<<endl;
+				cout<<"\t4.Sap xep nhan vien theo ten"<<endl;
+				cout<<"\t5.Thoat"<<endl;
+				int nhap;
+				cout <<"Nhap lua chon: ";
+				cin>>nhap;
+				if(nhap == 1){
+					NhapDs();
+				}else if(nhap == 2){
+					XuatDs();
+				}else if(nhap == 3){
+					cout << "Tong luong nhan vien toan thoi gian: " << tongluong() << endl;
+				}else if(nhap == 4){
+					SapXep();
+				}else if(nhap == 5){
+					break;
+				}else{
+					cout <<"Lua chon khong dung, nhap lai";
+				}
+			}
+		}
+		float tongluong(){
+			float totalSalary = 0;
+			for (int i=0;i<ds.size();i++) {
+				if (dynamic_cast<FullTimeEmployee*>(ds[i])) {  
+					totalSalary += ds[i]->CalculateSalary();
+				}
+			}
+			return totalSalary;
+		}
+		void SapXep() {
+            for (int i = 0; i < ds.size() - 1; i++) {
+                for (int j = 0; j < ds.size() - i - 1; j++) {
+                    if (ds[j]->getName()> ds[j + 1]->getName()) {
+                        swap(ds[j], ds[j + 1]);
+                    }
+                }
+            }
+            XuatDs(); 
+        }
+};
+
+int main(){
+	EmployeeManager *a = new EmployeeManager();
+	a->Menu();
+	delete a;
+	return 0;
+}
+

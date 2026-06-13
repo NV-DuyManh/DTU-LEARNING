@@ -1,0 +1,10 @@
+#install4j response file for Visual Paradigm for UML 10.0
+#Sun Dec 15 20:22:06 ICT 2024
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.languageId=en
+sys.fileAssociation.launchers$StringArray="3"
+sys.programGroupName=Visual Paradigm
+sys.adminRights$Boolean=true
+sys.installationDir=D\:\\CMU-SE 214\\Visual Paradigm for UML 10.0
+sys.fileAssociation.extensions$StringArray="vpp"

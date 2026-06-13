@@ -1,0 +1,5 @@
+$parameter.t_prepare($args.get("property"))##
+## ===== Output =====
+$parameter.t_getFinal()##
+$parameter.t_getTypeName($rootClass)$parameter.t_getGeneric($rootClass)$parameter.t_getTypeModifier()##
+$parameter.t_getParameterName()

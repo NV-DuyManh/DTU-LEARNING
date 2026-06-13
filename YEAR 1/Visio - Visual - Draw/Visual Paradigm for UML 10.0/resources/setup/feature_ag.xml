@@ -1,0 +1,58 @@
+<Features edition="Enterprise">
+	<Feature name="Draw all UML 2.4 diagrams" link="http://www.visual-paradigm.com/product/ag/provides/structuralmodeling.jsp">
+		<Edition name="Enterprise"/>
+		<Edition name="Standard"/>
+	</Feature>
+	<Feature name="Model data structure with ERD" link="http://www.visual-paradigm.com/product/ag/provides/dbmodeling.jsp">
+		<Edition name="Enterprise"/>
+		<Edition name="Standard"/>
+	</Feature>
+	<Feature name="Business process modeling" link="http://www.visual-paradigm.com/product/ag/provides/bpmodeling.jsp">
+		<Edition name="Enterprise"/>
+		<Edition name="Standard"/>
+	</Feature>
+	<Feature name="SysML modeling" link="http://www.visual-paradigm.com/product/ag/provides/sysml.jsp">
+		<Edition name="Enterprise"/>
+		<Edition name="Standard"/>
+	</Feature>
+	<Feature name="Screen mockup" link="http://www.visual-paradigm.com/product/ag/provides/screenmockup.jsp">
+		<Edition name="Enterprise"/>
+		<Edition name="Standard"/>
+	</Feature>
+	<Feature name="Team collaboration" link="http://www.visual-paradigm.com/product/ag/provides/teamwork.jsp">
+		<Edition name="Enterprise"/>
+		<Edition name="Standard"/>
+	</Feature>
+	<Feature name="Manage glossary" link="http://www.visual-paradigm.com/product/ag/provides/glossary.jsp">
+		<Edition name="Enterprise"/>
+		<Edition name="Standard"/>
+	</Feature>
+	<Feature name="Brainstorming" link="http://www.visual-paradigm.com/product/ag/provides/brainstorming.jsp">
+		<Edition name="Enterprise"/>
+		<Edition name="Standard"/>
+	</Feature>
+	<Feature name="Zachman Framework" link="http://www.visual-paradigm.com/product/ag/provides/enterprisearchitecture.jsp#zachmanframework">
+		<Edition name="Enterprise"/>
+	</Feature>
+	<Feature name="Archimate" link="http://www.visual-paradigm.com/product/ag/provides/enterprisearchitecture.jsp#archimatediagram">
+		<Edition name="Enterprise"/>
+	</Feature>
+	<Feature name="Business Motivation Model" link="http://www.visual-paradigm.com/product/ag/provides/enterprisearchitecture.jsp#businessmotivation">
+		<Edition name="Enterprise"/>
+	</Feature>
+	<Feature name="Precise impact analysis - Analysis Diagram" link="http://www.visual-paradigm.com/product/ag/provides/impactanalysis.jsp#analysis">
+		<Edition name="Enterprise"/>
+	</Feature>
+	<Feature name="Macro impact analysis - Matrix" link="http://www.visual-paradigm.com/product/ag/provides/impactanalysis.jsp#matrix">
+		<Edition name="Enterprise"/>
+	</Feature>
+	<Feature name="Animate business process" link="http://www.visual-paradigm.com/product/ag/provides/simulation.jsp#animacian">
+		<Edition name="Enterprise"/>
+	</Feature>
+	<Feature name="Simulate business process" link="http://www.visual-paradigm.com/product/ag/provides/simulation.jsp#simulatebp">
+		<Edition name="Enterprise"/>
+	</Feature>
+	<Feature name="Advanced use case modeling" link="http://www.visual-paradigm.com/product/ag/provides/usecasedetails.jsp">
+		<Edition name="Enterprise"/>
+	</Feature>
+</Features>

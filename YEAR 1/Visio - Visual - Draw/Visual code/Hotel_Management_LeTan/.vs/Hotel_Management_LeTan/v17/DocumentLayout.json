@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|d:\\visio - visual - draw\\visual code\\hotel_management_letan\\hotel_management_letan\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\hotel_management_letan\\theodoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\theodoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\hotel_management_letan\\chuanbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\chuanbi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\hotel_management_letan\\thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\hotel_management_letan\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\hotel_management_letan\\kiemtra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\kiemtra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\hotel_management_letan\\frmcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\frmcheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\hotel_management_letan\\frmcheckin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\frmcheckin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\hotel_management_letan\\updatedv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\updatedv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\hotel_management_letan\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC4D9B74-F10B-40AE-B0CF-AD7D4A3EBD23}|Hotel_Management_LeTan\\Hotel_Management_LeTan.csproj|solutionrelative:hotel_management_letan\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Theodoi.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Theodoi.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\Theodoi.cs",
+              "ToolTip": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Theodoi.cs [Design]",
+              "RelativeToolTip": "Hotel_Management_LeTan\\Theodoi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:17:45.876Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Voucher.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Voucher.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\Voucher.cs",
+              "ToolTip": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Voucher.cs [Design]",
+              "RelativeToolTip": "Hotel_Management_LeTan\\Voucher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:18:08.893Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Thongtinkh.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Thongtinkh.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\Thongtinkh.cs",
+              "ToolTip": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Thongtinkh.cs [Design]",
+              "RelativeToolTip": "Hotel_Management_LeTan\\Thongtinkh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:17:58.971Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chuanbi.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Chuanbi.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\Chuanbi.cs",
+              "ToolTip": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Chuanbi.cs [Design]",
+              "RelativeToolTip": "Hotel_Management_LeTan\\Chuanbi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:16:45.497Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\frmLogin.cs",
+              "ToolTip": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmLogin.cs [Design]",
+              "RelativeToolTip": "Hotel_Management_LeTan\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:17:18.567Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Kiemtra.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Kiemtra.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\Kiemtra.cs",
+              "ToolTip": "D:\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Kiemtra.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Kiemtra.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:16:52.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmCheckout.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmCheckout.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\frmCheckout.cs",
+              "ToolTip": "D:\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmCheckout.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmCheckout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:17:16.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmCheckin.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmCheckin.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\frmCheckin.cs",
+              "ToolTip": "D:\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmCheckin.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmCheckin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:17:12.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Updatedv.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Updatedv.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\Updatedv.cs",
+              "ToolTip": "D:\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Updatedv.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\Updatedv.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:18:04.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Visio - Visual - Draw\\Visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmMain.cs",
+              "RelativeDocumentMoniker": "Hotel_Management_LeTan\\frmMain.cs",
+              "ToolTip": "D:\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmMain.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\CMU-SE 214\\visual code\\Hotel_Management_LeTan\\Hotel_Management_LeTan\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:17:22.274Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

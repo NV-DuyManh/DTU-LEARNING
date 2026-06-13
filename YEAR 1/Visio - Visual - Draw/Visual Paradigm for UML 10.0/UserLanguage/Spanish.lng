@@ -1,0 +1,2539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserLanguage>
+	<WordSet>
+		<Word key="Adapter file" value="Adapter file"/>
+		<Word key="Add" value="A\u00f1adir"/>
+		<Word key="Add Bookmark" value="A\u00f1adir Marcador"/>
+		<Word key="Align Shapes" value="Alinear Formas"/>
+		<Word key="Anti-aliasing" value="Suavizado"/>
+		<Word key="Association implementation: " value="Association implementation:"/>
+		<Word key="Author" value="Autor"/>
+		<Word key="Branch" value="Divisi\u00f3n"/>
+		<Word key="Browse" value="Examinar"/>
+		<Word key="Browse File" value="Buscar Archivo"/>
+		<Word key="Column Name" value="Nombre de columna"/>
+		<Word key="Commit" value="Asignar"/>
+		<Word key="Configure Nicknames" value="Configurar Nombres de Usuarios"/>
+		<Word key="Configure Programming Language" value="Configurar Lenguaje de Programaci\u00f3n"/>
+		<Word key="Configure Requirements" value="Configurar Requerimientos"/>
+		<Word key="Configure Stereotypes" value="Configurar Estereotipos"/>
+		<Word key="Connection" value="conexi\u00f3n"/>
+		<Word key="Connector background" value="Connector background"/>
+		<Word key="Database Configuration" value="Configuraci\u00f3n de la Base de Datos"/>
+		<Word key="Default attribute type" value="Tipo de atributo predefinido"/>
+		<Word key="Default operation return type" value="Tipo de operaci\u00f3n de retorno predefinida"/>
+		<Word key="Default parameter type" value="Tipo de par\u00e1metro predefinido"/>
+		<Word key="Diagram background" value="Fondo de Diagrama"/>
+		<Word key="Distribute Shapes" value="Distribuir Formas"/>
+		<Word key="ERwin Project (XML)" value="Proyecto ERwin (XML)"/>
+		<Word key="Encoding" value="Codificaci\u00f3n"/>
+		<Word key="Encoding" value="Codificaci\u00f3n"/>
+		<Word key="Engine" value="Motor"/>
+		<Word key="Enterprise Object Framework" value="Enterprise Object Framework"/>
+		<Word key="Excel" value="Excel"/>
+		<Word key="File path" value="Ruta de archivo"/>
+		<Word key="Fill" value="Llenar"/>
+		<Word key="Find" value="Buscar"/>
+		<Word key="Font" value="Fuente"/>
+		<Word key="Format" value="Formatos"/>
+		<Word key="Generate Code" value="Generar C\u00f3digo"/>
+		<Word key="Generate Database" value="Generar Base de Datos"/>
+		<Word key="Generate HTML Report" value="Generar Reporte HTML"/>
+		<Word key="Generate PDF Report" value="Generar Reporte PDF"/>
+		<Word key="Generate Table of Figures" value="Generate Table of Figures"/>
+		<Word key="Generate Word Report" value="Generar Reporte en Word"/>
+		<Word key="Getter/Setter Visibility" value="Visibilidad de Accesores/Modificadores"/>
+		<Word key="Grid Color" value="Color de cuadr\u00edcula"/>
+		<Word key="Grid Setting" value="Configuraci\u00f3n de Cuadr\u00edcula"/>
+		<Word key="Grid visible" value="Cuadr\u00edcula Visible"/>
+		<Word key="Height" value="Altura"/>
+		<Word key="IDE Integration" value="Integraci\u00f3n IDE"/>
+		<Word key="Import" value="Importar"/>
+		<Word key="Import Workspace" value="Importar Area de Trabajo"/>
+		<Word key="Instant Generator" value="Generador Instant\u00e1neo"/>
+		<Word key="Instant Reverse" value="Inversi\u00f3n Instant\u00e1nea"/>
+		<Word key="Jump to Diagram" value="Saltar a Diagrama"/>
+		<Word key="Jump to Element" value="Saltar a Elemento"/>
+		<Word key="Jump to Element in Active Diagram" value="Saltar a Elemento en Diagrama Activo"/>
+		<Word key="Keyword" value="Palabra Clave"/>
+		<Word key="Language" value="Idioma"/>
+		<Word key="Language" value="Idioma"/>
+		<Word key="Line" value="L\u00ednea"/>
+		<Word key="Look and feel" value="Aspecto"/>
+		<Word key="Measurement Unit" value="Unidad de Medida"/>
+		<Word key="Merge" value="Combinar"/>
+		<Word key="Name" value="Nombre"/>
+		<Word key="No sort" value="No Ordenar"/>
+		<Word key="Open Teamwork Client" value="Abrir Cliente de Equipo de Trabajo"/>
+		<Word key="Options" value="Opciones"/>
+		<Word key="Organize Bookmarks" value="Organizar Marcadores"/>
+		<Word key="Other" value="Otro"/>
+		<Word key="Output Path" value="Ruta de salida"/>
+		<Word key="Output destination" value="Destino de salida"/>
+		<Word key="Path" value="Ruta"/>
+		<Word key="Plain text" value="Texto sin Formato"/>
+		<Word key="Project Publisher" value="Project Publisher"/>
+		<Word key="Project" value="Proyecto"/>
+		<Word key="Quick Print" value="Impresi\u00f3n R\u00e1pida"/>
+		<Word key="Quote SQL Identifier" value="Citar Identificador SQL"/>
+		<Word key="Rank" value="Categor\u00eda"/>
+		<Word key="Rational Model" value="Modelo Racional"/>
+		<Word key="Rename" value="Cambiar nombre"/>
+		<Word key="Report Writer" value="Escritor de Informes"/>
+		<Word key="Reverse DDL" value="Invertir DDL"/>
+		<Word key="Reverse Database" value="Invertir Base de Datos"/>
+		<Word key="Reverse Enterprise Object Framework" value="Invertir Enterprise Object Framework"/>
+		<Word key="Reverse Hibernate" value="Invertir Hibernar"/>
+		<Word key="Reverse Java Classes" value="Invertir Clases Java"/>
+		<Word key="Round the shape" value="Alrededor de la Forma"/>
+		<Word key="Save Project as" value="Guardar Proyecto como"/>
+		<Word key="Select Schema" value="Select Schema"/>
+		<Word key="Set as default" value="Establecer como predefinido"/>
+		<Word key="Shape Editor" value="Editor de Forma"/>
+		<Word key="Stereotypes" value="Estereotipos"/>
+		<Word key="Stereotypes" value="Estereotipos"/>
+		<Word key="Switch Workspace" value="Cambiar Area de Trabajo"/>
+		<Word key="Tagged values" value="Valores Etiquetados"/>
+		<Word key="Telelogic Rhapsody Project" value="Proyecto Telelogic Rhapsody"/>
+		<Word key="Title" value="T\u00edtulo"/>
+		<Word key="Un-check all" value="Deseleccionar Todo"/>
+		<Word key="Width" value="Ancho"/>
+		<Word key="Wrapping Servlet Request" value="Solicitud en Servlet de Encapsulamiento"/>
+		<Word key="About" value="Acerca de"/>
+		<Word key="CPU Information" value="Informaci\u00f3n del CPU"/>
+		<Word key="CPU Name" value="Nombre del CPU"/>
+		<Word key="Check out the latest information of" value="Echa un vistazo a la informaci\u00f3n m\u00e1s reciente de"/>
+		<Word key="Contact Information" value="Informaci\u00f3n de Contacto"/>
+		<Word key="Environment" value="Entorno"/>
+		<Word key="Export Log File" value="Exportar Archivo de Registro"/>
+		<Word key="Feedback" value="Comentarios y Sugerencias"/>
+		<Word key="File Encoding" value="Codificaci\u00f3n de Archivo"/>
+		<Word key="File Information" value="Informaci\u00f3n del Archivo"/>
+		<Word key="General Information" value="Informaci\u00f3n General"/>
+		<Word key="Home page" value="P\u00e1gina Web"/>
+		<Word key="Info" value="Informaci\u00f3n"/>
+		<Word key="Key" value="Clave"/>
+		<Word key="License" value="Licencia"/>
+		<Word key="OS Information" value="Informaci\u00f3n del Sistema Operativo"/>
+		<Word key="OS Name" value="Nombre del Sistema Operativo"/>
+		<Word key="OS Patch Level" value="Nivel de Parche del Sistema Operativo"/>
+		<Word key="Region Information" value="Informaci\u00f3n de Regi\u00f3n"/>
+		<Word key="User Country" value="Pa\u00eds del Usuario"/>
+		<Word key="User Language" value="Idioma del Usuario"/>
+		<Word key="VM Information" value="Informaci\u00f3n de Entorno de Ejecuci\u00f3n"/>
+		<Word key="VM Name" value="Nombre de Entorno de Ejecuci\u00f3n"/>
+		<Word key="VM Vendor" value="Proveedor del Entorno de Ejecuci\u00f3n"/>
+		<Word key="Value" value="Valor"/>
+		<Word key="Stop" value="Detener"/>
+		<Word key="Lock diagram when playing" value="Bloquear diagrama mientras reproduce"/>
+		<Word key="Forward" value="Adelante"/>
+		<Word key="Components" value="Componentes"/>
+		<Word key="Unlock" value="Desbloquear"/>
+		<Word key="Diagram Locked" value="Diagrama Bloqueado"/>
+		<Word key="Business Process Animacian" value="Procesos de Negocio Animacian"/>
+		<Word key="Show invalid paths" value="Mostrar rutas no v\u00e1lidas"/>
+		<Word key="Play" value="Reproducir"/>
+		<Word key="Dim other path" value="Atenuar otra ruta"/>
+		<Word key="Paths" value="Rutas"/>
+		<Word key="Pause" value="Pausa"/>
+		<Word key="Filter Configuration" value="Configuraci\u00f3n de Filtro"/>
+		<Word key="Animacian" value="Animacian"/>
+		<Word key="{0} Paths" value="{0} Rutas"/>
+		<Word key="Minimize when play" value="Minimizar cuando reproduce"/>
+		<Word key="Backward" value="Retroceder"/>
+		<Word key="Configure Nickname" value="Configurar Nombre"/>
+		<Word key="Configure and select nickname of the current project." value="Configurar y seleccionar nombre del proyecto actual."/>
+		<Word key="Open Selected Bookmark" value="Abrir Marcador Seleccionado"/>
+		<Word key="Move down" value="Bajar"/>
+		<Word key="Nickname of Project" value="Nombre de Proyecto"/>
+		<Word key="Edit Property" value="Editar Propiedad"/>
+		<Word key="Move up" value="Subir"/>
+		<Word key="Add Folder" value="A\u00f1adir Carpeta"/>
+		<Word key="Move to Folder" value="Mover a la Carpeta"/>
+		<Word key="Association" value="Asocaci\u00f3n"/>
+		<Word key="Business Process Diagram" value="Diagrama de Procesos de Negocio"/>
+		<Word key="Cancel End Event" value="Cancelar Evento de Finalizaci\u00f3n"/>
+		<Word key="Cancel Intermediate Event" value="Cancelar Evento Intermedio"/>
+		<Word key="Compensation End Event" value="Compensaci\u00f3n Evento de Finalizaci\u00f3n"/>
+		<Word key="Complex Decision/Merge" value="Decisi\u00f3n Compleja/Combinaci\u00f3n"/>
+		<Word key="Data Object" value="Objeto de Datos"/>
+		<Word key="Data-Based Exclusive Decision/Merge (XOR)" value="Decisi\u00f3n Exclusiva/Combinaci\u00f3n (O Exclusivo) basado en datos"/>
+		<Word key="Default Sequence Flow" value="Flujo de Secuencia Predeterminado"/>
+		<Word key="Embedded Sub-Process" value="Sub-Proceso Incrustado"/>
+		<Word key="End Event" value="Evento de Finalizaci\u00f3n"/>
+		<Word key="Error End Event" value="Error Evento de Finalizaci\u00f3n"/>
+		<Word key="Error Intermediate Event" value="Error Evento Intermedio"/>
+		<Word key="Event-Based Exclusive Decision/Merge (XOR)" value="Decisi\u00f3n Exclusiva/Combinaci\u00f3n (O Exclusivo) basado en eventos"/>
+		<Word key="Expression Sequence Flow" value="Expresi\u00f3n secuencia de flujo"/>
+		<Word key="Gateway" value="Puerta de Enlace"/>
+		<Word key="Group" value="Grupo"/>
+		<Word key="Horizontal Pool" value="Contenedor Gr\u00e1fico Horizontal"/>
+		<Word key="Inclusive Decision/Merge (OR)" value="Decisi\u00f3n Inclusiva / Combinaci\u00f3n (O)"/>
+		<Word key="Independent Sub-Process" value="Sub-Proceso Independiente"/>
+		<Word key="Intermediate Event" value="Evento Intermedio"/>
+		<Word key="Lane" value="Partici\u00f3n"/>
+		<Word key="Link End Event" value="Enlace Evento de Finalizaci\u00f3n"/>
+		<Word key="Link Intermediate Event" value="Enlace Evento Intermedio"/>
+		<Word key="Link Start Event" value="Enlace Evento de Comienzo"/>
+		<Word key="Manual Task" value="Tarea Manual"/>
+		<Word key="Message End Event" value="Mensaje Evento de Finalizaci\u00f3n"/>
+		<Word key="Message Flow" value="Flujo de Mensajes"/>
+		<Word key="Message Intermediate Event" value="Mensaje Evento Intermedio"/>
+		<Word key="Message Start Event" value="Mensaje Evento de Comienzo"/>
+		<Word key="Multiple End Event" value="Evento de Finalizaci\u00f3n M\u00faltiple"/>
+		<Word key="Multiple Intermediate Event" value="Evento Intermedio M\u00faltiple"/>
+		<Word key="Multiple Start Event" value="Evento de Comienzo M\u00faltiple"/>
+		<Word key="Parallel Fork/Join (AND)" value="Bifurcaci\u00f3n Paralela/Acoplamientos (Y)"/>
+		<Word key="Receive Task" value="Recibir Tarea"/>
+		<Word key="Reference Sub-Process" value="Sub-Proceso de Referencia"/>
+		<Word key="Reference Task" value="Tarea de Referencia"/>
+		<Word key="Rule Intermediate Event" value="Evento Intermedio Tipo Regla"/>
+		<Word key="Rule Start Event" value="Evento de Comienzo Tipo Regla"/>
+		<Word key="Script Task" value="Tarea Secuencia de Comandos"/>
+		<Word key="Send Task" value="Enviar Tarea"/>
+		<Word key="Sequence Flow" value="Secuencia de Flujo"/>
+		<Word key="Service Task" value="Tarea de Servicio"/>
+		<Word key="Start Event" value="Evento de Comienzo"/>
+		<Word key="Sub-Process" value="Sub-Proceso"/>
+		<Word key="Task" value="Tarea"/>
+		<Word key="Terminate End Event" value="Terminar Evento de Finalizaci\u00f3n"/>
+		<Word key="Text Annotation" value="Anotaci\u00f3n de Texto"/>
+		<Word key="Timer Intermediate Event" value="Evento Intermedio Tipo Temporizador"/>
+		<Word key="Timer Start Event" value="Evento de Comienzo Tipo Temporizador"/>
+		<Word key="To-Direction Association" value="Asociaci\u00f3n en direcci\u00f3n hacia"/>
+		<Word key="User Task" value="Tarea del Usuario"/>
+		<Word key="Vertical Pool" value="Contenedor Gr\u00e1fico Vertical"/>
+		<Word key="Vertical Scrollbar" value="Barra de Desplazamiento Vertical"/>
+		<Word key="Vertical Swimlane" value="Swimlane Vertical"/>
+		<Word key="XOR Operator" value="Operador O Exclusivo"/>
+		<Word key="Sequence/Message Flow -&gt; Intermediate Event" value="Secuencia/Flujo de Mensajes -&gt; Evento Intermedio"/>
+		<Word key="Sequence Flow -&gt; Sub-Process" value="Flujo de Secuencia -&gt; Sub-Proceso"/>
+		<Word key="New Intermediate Event" value="Nuevo Evento Intermedio"/>
+		<Word key="Sequence/Message Flow -&gt; Task" value="Secuencia/Flujo de Mensajes -&gt; Tarea"/>
+		<Word key="Sequence Flow -&gt; Task" value="Flujo de Secuencia -&gt; Tarea"/>
+		<Word key="Accept Time Event Action" value="Aceptar Acci\u00f3n de Evento de Tiempo"/>
+		<Word key="Sequence/Message Flow -&gt; Gateway" value="Secuencia/Flujo de Mensajes -&gt; Puerta de Enlace"/>
+		<Word key="Sequence/Message Flow -&gt; Sub-Process" value="Secuencia/Flujo de Mensajes -&gt; Sub-Proceso"/>
+		<Word key="Compensation Intermediate Event" value="Compensaci\u00f3n de Evento Intermedio"/>
+		<Word key="Business Process Diagram Overview" value="Descripci\u00f3n de Diagrama de Procesos de Negocio"/>
+		<Word key="Create of Task &quot;{0}&quot;" value="Creaci\u00f3n de Tarea &quot;{0}&quot;"/>
+		<Word key="Signal Start Event" value="Se\u00f1al de Evento de Inicio"/>
+		<Word key="Form Sub-Process Diagram" value="Formar Diagrama de Sub-Proceso"/>
+		<Word key="Convert to Sub-Process" value="Convertir a Sub-Proceso"/>
+		<Word key="Signal End Event" value="Se\u00f1al de Evento Final"/>
+		<Word key="Auto Stretch Pools" value="Contenedores Gr\u00e1ficos Ajustables Autom\u00e1ticamente"/>
+		<Word key="Conditional Intermediate Event" value="Evento Intermedio Condicional"/>
+		<Word key="Show ID of Elements" value="Mostrar Identificaci\u00f3n de los Elementos"/>
+		<Word key="Data-Based Gateway Markers Visible" value="Marcadores de Puerta de Enlace Basados en Datos Visibles"/>
+		<Word key="Signal Intermediate Event" value="Se\u00f1al de Evento Intermedio"/>
+		<Word key="Show Lane Header" value="Mostrar Cabecera de Partici\u00f3n"/>
+		<Word key="Create Group (BPMN)" value="Crear Grupo (BPMN)"/>
+		<Word key="Invalid Connection Detected" value="Conexi\u00f3n no v\u00e1lida Detectado"/>
+		<Word key="Invalid connection detected, please select an option below to resolve it" value="Conexi\u00f3n no v\u00e1lida detectado, por favor, seleccione una de las siguientes opciones para resolverlo"/>
+		<Word key="Correct invalid connections" value="Corregir nulas conexiones"/>
+		<Word key="Perform?" value="Realizar?"/>
+		<Word key="Use this as default and do not ask me again" value="Utilizar esto como predeterminado y no volver a preguntar"/>
+		<Word key="(You can change this option later in Options &gt; Diagramming &gt; Business Process &gt; Invalid Connection Handling)" value="(Puede cambiar esta opci\u00f3n m\u00e1s adelante en Opciones &gt; Diagramaci\u00f3n &gt; Proceso de Negocio &gt; Manejando conexiones no v\u00e1lidas)"/>
+		<Word key="Change to Message Flow" value="Mensaje de cambio de flujo"/>
+		<Word key="Change to Sequence Flow" value="Secuencia de cambio de flujo"/>
+		<Word key="Internal Type Name Suffix" value="Sufijo de Nombre Tipo Interno"/>
+		<Word key="After package declaration" value="Despu\u00e9s de la declaraci\u00f3n de paquete"/>
+		<Word key="Getter/Setter Visibility" value="Visibilidad de accesores/modificadores"/>
+		<Word key="Please specify the source path for reverse code." value="Por favor especifique la ruta de origen para invertir c\u00f3digo."/>
+		<Word key="Method declaration" value="Declaraci\u00f3n de m\u00e9todo"/>
+		<Word key="Internal Type Name Suffix" value="Sufijo de Nombre Tipo Interno"/>
+		<Word key="Custom Code Style" value="Estilo de C\u00f3digo Personalizado"/>
+		<Word key="Property Code Style" value="Estilo de C\u00f3digo de Propiedad"/>
+		<Word key="Auto create state diagram" value="Auto crear diagrama de estados"/>
+		<Word key="Ignore Selected" value="Ignorar Seleccionados"/>
+		<Word key="Auto create class model" value="Auto crear modelo de clases"/>
+		<Word key="Default parameter type" value="Tipo de par\u00e1metro predefinido"/>
+		<Word key="Attribute Prefix" value="Prefijo de Atributo"/>
+		<Word key="Add Data Type to Selected Language" value="A\u00f1adir Tipo de Datos a Idioma Seleccionado"/>
+		<Word key="Change Default Package of" value="Cambiar Paquete Predefinido de"/>
+		<Word key="Realize all Interfaces" value="Darse cuenta de todas las Interfaces"/>
+		<Word key="Before package declaration" value="Antes de la declaraci\u00f3n de paquete"/>
+		<Word key="Constructor declaration" value="Declaraci\u00f3n de constructor"/>
+		<Word key="Before field declaration" value="Antes de la declaraci\u00f3n de campo"/>
+		<Word key="Compiled Directory" value="Directorio Compilado"/>
+		<Word key="Generate try/catch" value="Generar captura de excepciones con sentencias &quot;try/catch&quot;"/>
+		<Word key="Generate this parameter" value="Generar este par\u00e1metro"/>
+		<Word key="Return" value="Regresar"/>
+		<Word key="Ignore Classes" value="Ignorar Clases"/>
+		<Word key="Auto Generate" value="Auto Generar"/>
+		<Word key="Definition" value="Definici\u00f3n"/>
+		<Word key="Parameter Prefix" value="Prefijo de Par\u00e1metro"/>
+		<Word key="Source Directory" value="Directorio Fuente"/>
+		<Word key="Please enter the data type name" value="Por favor introduzca el nombre del tipo de datos"/>
+		<Word key="Attribute Prefix" value="Prefijo del Atributo"/>
+		<Word key="Indentation size" value="Tama\u00f1o de sangr\u00eda"/>
+		<Word key="Before inner type declaration" value="Antes de declaraci\u00f3n de tipo interior"/>
+		<Word key="Please specify the folder to generate code. The code generator will update your code according to your class diagram. Your implement will be retained." value="Por favor especifique la carpeta para generar c\u00f3digo. El generador de c\u00f3digo actualizar\u00e1 su c\u00f3digo de acuerdo a su diagrama de clase. Su aplicaci\u00f3n se mantendr\u00e1."/>
+		<Word key="Generate state machine code" value="Generar c\u00f3digo de m\u00e1quina de estados"/>
+		<Word key="Add All" value="A\u00f1adir Todos"/>
+		<Word key="Before method declaration" value="Antes de declaraci\u00f3n de m\u00e9todo"/>
+		<Word key="Indentation policy" value="Pol\u00edtica de sangr\u00eda"/>
+		<Word key="Selected classes will be ignored in code generation." value="Clases seleccionadas ser\u00e1n ignoradas en la generaci\u00f3n de c\u00f3digo."/>
+		<Word key="Accessing Type Name" value="Acceso a Nombre de Tipo"/>
+		<Word key="Browse output directory after generate" value="Examinar directorio de salida despu\u00e9s de generar"/>
+		<Word key="Auto create transition operations" value="Auto crear operaciones de transici\u00f3n"/>
+		<Word key="Before first declaration" value="Antes de la primera declaraci\u00f3n"/>
+		<Word key="Same line" value="Misma l\u00ednea"/>
+		<Word key="Operation" value="Operaci\u00f3n"/>
+		<Word key="Fully-Qualified" value="Totalmente calificado"/>
+		<Word key="Ignored Classes " value="Clases Ignoradas"/>
+		<Word key="Classpath Configuration" value="Configuraci\u00f3n de Ruta de Clases"/>
+		<Word key="No valid class found!" value="\u00a1No se encontr\u00f3 clase v\u00e1lida!"/>
+		<Word key="This Parameter Name" value="Nombre de Este Par\u00e1metro"/>
+		<Word key="Attribute prefix" value="Prefijo del atributo"/>
+		<Word key="After import declaration" value="Despu\u00e9s de declaraci\u00f3n de importaci\u00f3n"/>
+		<Word key="Default operation return type" value="Tipo de operaci\u00f3n de retorno predefinida"/>
+		<Word key="Before import declaration " value="Antes de declaraci\u00f3n de importaci\u00f3n"/>
+		<Word key="Reverse source on demand (You can drag and drop from Class Repository to diagram to reverse)" value="Invertir fuente a petici\u00f3n (Usted puede arrastrar y soltar del Repositorio de Clase a diagrama para invertir)"/>
+		<Word key="Number of lines to empty body" value="N\u00famero de l\u00edneas a cuerpo vac\u00edo"/>
+		<Word key="Programming Language" value="Lenguaje de Programaci\u00f3n"/>
+		<Word key="Source Folder" value="Carpeta Fuente"/>
+		<Word key="Generate lower case package" value="Generar paquete de min\u00fasculas"/>
+		<Word key="EJB Class Code Details" value="Detalles de C\u00f3digo de Clase EJB"/>
+		<Word key="Ignored Classes" value="Clases Omitidas"/>
+		<Word key="Before import declaration" value="Antes de declaraci\u00f3n de importaci\u00f3n"/>
+		<Word key="Loaded Model" value="Modelo Cargado"/>
+		<Word key="Dependent Model Elements" value="Elementos Modelo Dependientes"/>
+		<Word key="Total loaded {0} model(s)." value="Total de modelo(s) cargados {0}."/>
+		<Word key="Master View" value="Vista Principal"/>
+		<Word key="This will cause lots of diagram/model elements to be loaded and may take a long time, are you sure?" value="Esto har\u00e1 que que se carguen lotes de diagramas/elementos modelo y puede tomar mucho tiempo, \u00bfest\u00e1 usted seguro?"/>
+		<Word key="Address" value="Direcci\u00f3n"/>
+		<Word key="Master View" value="Vista Maestra"/>
+		<Word key="This will cause lots of diagram/model elements to be loaded and may take a long time, are you sure?" value="Esto har\u00e1 que se carguen muchos elementos de modelo/diagrama y puede tardar mucho tiempo, \u00bfest\u00e1 usted seguro?"/>
+		<Word key="Bullets" value="Vi\u00f1etas"/>
+		<Word key="Clear Formats" value="Borrar Formatos"/>
+		<Word key="Font Size" value="Tama\u00f1o de Fuente"/>
+		<Word key="HTML" value="HTML"/>
+		<Word key="Insert" value="Insertar"/>
+		<Word key="Insert Column on Left" value="Insertar Columna a la Izquiera"/>
+		<Word key="Insert Column on Right" value="Insertar Columna a la Derecha"/>
+		<Word key="Insert Row Above" value="Insertar Fila Encima"/>
+		<Word key="Insert Row Below" value="Insertar Fila Debajo"/>
+		<Word key="Insert Table" value="Insertar Tabla"/>
+		<Word key="Insert image" value="Insertar imagen"/>
+		<Word key="Numbering" value="Numeraci\u00f3n"/>
+		<Word key="Remove" value="Eliminar"/>
+		<Word key="Remove Column" value="Eliminar Columna"/>
+		<Word key="Remove Row" value="Eliminar Fila"/>
+		<Word key="Underline" value="Subrayado"/>
+		<Word key="DataStore" value="Dep\u00f3sitos de Datos"/>
+		<Word key="Process" value="Proceso"/>
+		<Word key="Process Map" value="Mapa de Procesos"/>
+		<Word key="Data Flow -&gt; Process" value="Flujo de Datos -&gt; Proceso"/>
+		<Word key="Process Link" value="Enlace de Proceso"/>
+		<Word key="Receive" value="Recibir"/>
+		<Word key="Function" value="Funci\u00f3n"/>
+		<Word key="Branch -&gt; Node" value="Divisi\u00f3n -&gt; Nodo"/>
+		<Word key="Data Flow -&gt; Data Store" value="Flujo de Datos -&gt; Dep\u00f3sitos de Datos"/>
+		<Word key="Organization Unit Assignment" value="Asignaci\u00f3n de Unidad de Organizaci\u00f3n"/>
+		<Word key="Bidirectional Data Flow -&gt; Process" value="Flujo de Datos Bidireccional -&gt; Proceso"/>
+		<Word key="Bidirectional Data Flow" value="Flujo de Datos Bidireccional"/>
+		<Word key="External Entity" value="Entidad Externa"/>
+		<Word key="Process Path" value="Ruta de Proceso"/>
+		<Word key="Bidirectional Data Flow -&gt; Data Store" value="Flujo de Datos Bidireccional -&gt; Dep\u00f3sito de Datos"/>
+		<Word key="Information Flow -&gt; Information Resource" value="Flujo de Informaci\u00f3n -&gt; Recurso de Informaci\u00f3n"/>
+		<Word key="Process Link -&gt; Send" value="Enlace de Proceso -&gt; Enviar"/>
+		<Word key="Process Link -&gt; Process" value="Enlace de Proceso -&gt; Proceso"/>
+		<Word key="And Operator" value="Operador &quot;Y&quot;"/>
+		<Word key="Organization Unit" value="Unidad de Organizaci\u00f3n"/>
+		<Word key="Information Resource" value="Recurso de Informaci\u00f3n"/>
+		<Word key="Bidirectional Data Flow -&gt; External Entity" value="Flujo de Datos Bidireccional -&gt; Entidad Externa"/>
+		<Word key="Data Flow -&gt; External Entity" value="Flujo de Datos -&gt; Entidad Externa"/>
+		<Word key="Process Link -&gt; Receive" value="Enlace de Proceso -&gt; Recibir"/>
+		<Word key="Information Flow" value="Flujo de Informaci\u00f3n"/>
+		<Word key="Or Operator" value="Operador &quot;O&quot;"/>
+		<Word key="MindMap" value="Mapa Mental"/>
+		<Word key="Activity Diagram" value="Diagrama de Actividad"/>
+		<Word key="Basic Diagram" value="Diagrama B\u00e1sico"/>
+		<Word key="Business Process Diagram" value="Diagrama de Procesos de Negocio"/>
+		<Word key="Business Process Modeling" value="Modelado de Procesos de Negocio"/>
+		<Word key="CRC Card Diagram" value="Diagrama de Tarjetas CRC (clase, responsabilidad y colaboraci\u00f3n)"/>
+		<Word key="Cancel" value="Cancelar"/>
+		<Word key="Class Diagram" value="Diagrama de Clases"/>
+		<Word key="Class Repository" value="Repositorio de Clases"/>
+		<Word key="Close" value="Cerrar"/>
+		<Word key="Communication Diagram" value="Diagrama de Comunicaci\u00f3n"/>
+		<Word key="Component Diagram" value="Diagrama de Componentes"/>
+		<Word key="Composite Structure Diagram" value="Diagrama de Estructura Compuesta"/>
+		<Word key="Configure" value="Configurar"/>
+		<Word key="Data Flow Diagram" value="Diagrama de Flujo de Datos"/>
+		<Word key="Database Modeling" value="Modelado de Base de Datos"/>
+		<Word key="Deployment Diagram" value="Diagrama de Despliegue"/>
+		<Word key="Diagram Navigator" value="Navegaci\u00f3n de Diagramas"/>
+		<Word key="Diagram Overview" value="Descripci\u00f3n de Diagrama"/>
+		<Word key="Documentation" value="Documentaci\u00f3n"/>
+		<Word key="EJB Diagram" value="Diagrama de Componentes EJB"/>
+		<Word key="EPC Diagram" value="Diagrama EPC (Cadena de Procesos condicionados por Eventos)"/>
+		<Word key="Empty" value="Vac\u00edo"/>
+		<Word key="Entity Relationship Diagram" value="Diagrama Entidad - Relaci\u00f3n"/>
+		<Word key="Event-driven Process Chain Diagram" value="Diagrama Cadena de Procesos condicionados por Eventos"/>
+		<Word key="Generate State Machine Code" value="Generar C\u00f3digo de M\u00e1quina de Estados"/>
+		<Word key="Height" value="Altura"/>
+		<Word key="Interaction Overview Diagram" value="Diagrama de Interacci\u00f3n Global"/>
+		<Word key="Logical View" value="Vista L\u00f3gica"/>
+		<Word key="Message" value="Mensaje"/>
+		<Word key="Mind Mapping Diagram" value="Diagrama de Mapa Mental"/>
+		<Word key="Model Explorer" value="Modelo Explorador"/>
+		<Word key="Modified" value="Modificado"/>
+		<Word key="New Activity Diagram" value="Nuevo Diagrama de Actividades"/>
+		<Word key="New Basic Diagram" value="Nuevo Diagrama B\u00e1sico"/>
+		<Word key="New Business Process Diagram" value="Nuevo Diagrama de Procesos de Negocio"/>
+		<Word key="New CRC Card Diagram" value="Nuevo Diagrama de Tarjetas CRC"/>
+		<Word key="New Class Diagram" value="Nuevo diagrama de Clases"/>
+		<Word key="New Communication Diagram" value="Nuevo Diagrama de Comunicaci\u00f3n"/>
+		<Word key="New Component Diagram" value="Nuevo Diagrama de Componentes"/>
+		<Word key="New Composite Structure Diagram" value="Nuevo Diagrama de Estructura Compuesta"/>
+		<Word key="New Data Flow Diagram" value="Nuevo diagrama de flujo de datos"/>
+		<Word key="New Deployment Diagram" value="Nuevo Diagrama de Despliegue"/>
+		<Word key="New Diagram" value="Nuevo Diagrama"/>
+		<Word key="New Diagram" value="Nuevo Diagrama"/>
+		<Word key="New Diagrams" value="Nuevos Diagramas"/>
+		<Word key="New EJB Diagram" value="Nuevo Diagrama de Componentes EJB"/>
+		<Word key="New EPC Diagram" value="Nuevo Diagrama EPC (Cadena de Procesos condicionados por Eventos)"/>
+		<Word key="New Entity Relationship Diagram" value="Nuevo Diagrama Entidad - Relaci\u00f3n"/>
+		<Word key="New Event-driven Process Chain Diagram" value="Nuevo Diagrama de Cadena de Procesos condicionados por Eventos"/>
+		<Word key="New Interaction Overview Diagram" value="Nuevo Diagrama de Interacci\u00f3n Global"/>
+		<Word key="New Mind Mapping Diagram" value="Nuevo Diagrama de Mapa Mental"/>
+		<Word key="New Model Element" value="Nuevo Elemento de Modelo"/>
+		<Word key="New ORM Diagram" value="Nuevo Diagrama ORM (Mapeo Relacional de Objetos)"/>
+		<Word key="New Object Diagram" value="Nuevo Diagrama de Objetos"/>
+		<Word key="New Organization Chart" value="Nuevo Organigrama"/>
+		<Word key="New Overview Diagram" value="Nuevo Diagrama Global"/>
+		<Word key="New Package Diagram" value="Nuevo Diagrama de Paquetes"/>
+		<Word key="New Process Map Diagram" value="Nuevo Diagrama del Mapa de Procesos"/>
+		<Word key="New Project" value="Nuevo Proyecto"/>
+		<Word key="New Requirement Diagram" value="Nuevas Diagrama de Requerimientos"/>
+		<Word key="New Sequence Diagram" value="Nuevo Diagrama de Secuencia"/>
+		<Word key="New State Machine Diagram" value="Nuevo Diagrama de M\u00e1quina de Estados"/>
+		<Word key="New Textual Analysis" value="Nuevo An\u00e1lisis Textual"/>
+		<Word key="New Timing Diagram" value="Nuevo Diagrama de Tiempos"/>
+		<Word key="New Use Case Diagram" value="Nuevo Diagrama de Casos de Uso"/>
+		<Word key="New User Interface" value="Nueva Interfaz de usuario"/>
+		<Word key="No" value="No"/>
+		<Word key="No Recent Projects" value="No Proyectos Recientes"/>
+		<Word key="OK" value="OK"/>
+		<Word key="ORM Diagram" value="Diagrama ORM (Mapeo Relacional de Objetos)"/>
+		<Word key="Object Diagram" value="Diagrama de Objetos"/>
+		<Word key="Open project from file" value="Abrir proyecto de archivo"/>
+		<Word key="Organization Chart" value="Organigrama"/>
+		<Word key="Others" value="Otros"/>
+		<Word key="Overview Diagram" value="Diagrama Global"/>
+		<Word key="Package Diagram" value="Diagrama de paquetes"/>
+		<Word key="Page" value="P\u00e1gina"/>
+		<Word key="Paste" value="Pegar"/>
+		<Word key="Process Map Diagram" value="Diagrama de Mapa de Procesos"/>
+		<Word key="Project opened" value="Proyecto abierto"/>
+		<Word key="Property" value="Propiedad"/>
+		<Word key="Recent Projects" value="Proyectos recientes"/>
+		<Word key="Refresh" value="Actualizar"/>
+		<Word key="Requirement Diagram" value="Diagrama de Requerimientos"/>
+		<Word key="Requirements Capturing" value="Captura de requerimientos"/>
+		<Word key="Reset" value="Restablecer"/>
+		<Word key="Reverse State Machine Code" value="Invertir C\u00f3digo de M\u00e1quina de Estados"/>
+		<Word key="Sequence Diagram" value="Diagrama de Secuencia"/>
+		<Word key="Start Page" value="P\u00e1gina de inicio"/>
+		<Word key="State Machine Diagram" value="Diagrama de M\u00e1quina de Estados"/>
+		<Word key="Stencil" value="Patr\u00f3n"/>
+		<Word key="Textual Analysis" value="An\u00e1lisis Textual"/>
+		<Word key="Timing Diagram" value="Diagrama de Tiempos"/>
+		<Word key="Today" value="Hoy"/>
+		<Word key="UML Diagrams" value="Diagramas UML (Lenguaje Unificado de Modelado)"/>
+		<Word key="Unknow reason" value="Raz\u00f3n desconocida"/>
+		<Word key="Update" value="Actualizar"/>
+		<Word key="Use Case Diagram" value="Diagrama de Casos de Uso"/>
+		<Word key="User Interface" value="Interfaz de usuario"/>
+		<Word key="Valid" value="V\u00e1lido"/>
+		<Word key="Welcome to" value="Bienvenido a"/>
+		<Word key="Width" value="Ancho"/>
+		<Word key="Wizards" value="Asistentes"/>
+		<Word key="Yes" value="S\u00ed"/>
+		<Word key="Yesterday" value="Ayer"/>
+		<Word key="unknown" value="desconocido"/>
+		<Word key="untitled" value="sin t\u00edtulo"/>
+		<Word key="Create State Machine Diagram" value="Crear Diagrama de M\u00e1quina de Estados"/>
+		<Word key="Move Selected Model Element Up" value="Mover Elemento de Modelo Seleccionado Arriba"/>
+		<Word key="Test Case" value="Caso de Prueba"/>
+		<Word key="Do you want to save the project?" value="\u00bfDesea grabar el proyecto?"/>
+		<Word key="Anti-Aliasing" value="Suavizado"/>
+		<Word key="Monthly" value="Mensual"/>
+		<Word key="Generate Diagram" value="Generar Diagrama"/>
+		<Word key="You will be asked to select classes to generate, define details of generated tables, and provide information for database connection." value="Se le solicitar\u00e1 seleccionar las clases a generar, definir los detalles de tablas generadas, y proporcionar informaci\u00f3n para la conexi\u00f3n a la base de datos."/>
+		<Word key="HomeStead" value="HomeStead"/>
+		<Word key="Show Stereotypes" value="Mostrar Estereotipos"/>
+		<Word key="Go to Next Folder Visited" value="Ir a la Siguiente Carpeta Visitada"/>
+		<Word key="Un-check All" value="Deseleccionar Todo"/>
+		<Word key="Sort by Type" value="Ordenar por Tipo"/>
+		<Word key="Button" value="Bot\u00f3n"/>
+		<Word key="workspace" value="\u00e1rea de trabajo"/>
+		<Word key="What is generate diagram summary" value="\u00bfQu\u00e9 es generar un resumen del diagrama"/>
+		<Word key="Full" value="Total"/>
+		<Word key="Please specify the path of the file to be reversed." value="Favor especificar la ruta del archivo a ser invertido."/>
+		<Word key="Create Business Process Diagram" value="Diagrama de Procesos de Negocio"/>
+		<Word key="Diagram" value="Diagrama"/>
+		<Word key="Mind Mapping Diagram Overview" value="Descripci\u00f3n de Diagrama de Mapa Mental"/>
+		<Word key="Engine" value="Motor"/>
+		<Word key="Show Operations" value="Mostrar Operaciones"/>
+		<Word key="What is generate diagrams?" value="\u00bfQu\u00e9 es generar diagramas?"/>
+		<Word key="Auto relocate connector" value="Conector de reubicaci\u00f3n autom\u00e1tica"/>
+		<Word key="Export to Database" value="Exportar a Base de Datos"/>
+		<Word key="Show Extension Point" value="Mostrar Punto de Extensi\u00f3n"/>
+		<Word key="Create Overview Diagram" value="Crear Diagrama Global"/>
+		<Word key="Create ORM Diagram" value="Crear Diagrama ORM (Mapeo Relacional de Objetos)"/>
+		<Word key="Type" value="Tipo"/>
+		<Word key="Create Entity Relationship Diagram" value="Crear Diagrama Entidad - Relaci\u00f3n"/>
+		<Word key="Create EPC Diagram" value="Diagrama EPC (Cadena de Procesos condicionados por Eventos)"/>
+		<Word key="Always show reference and sub-diagram resource" value="Mostrar siempre referencia y recursos de sub-diagrama"/>
+		<Word key="Overview" value="Descripci\u00f3n"/>
+		<Word key="Diagram Info Shape" value="Formas para Informaci\u00f3n en Diagrama"/>
+		<Word key="Big Icon" value="Icono Grande"/>
+		<Word key="Add Selected" value="A\u00f1adir Seleccionado"/>
+		<Word key="Low" value="Bajo"/>
+		<Word key="Import an existing workspace to reuse its default settings,&#10;user interface perspectives and other preferences." value="Importar una \u00e1rea de trabajo existente para reutilizar sus configuraciones predefinidas, perspectivas de interfaz de usuario y otras preferencias."/>
+		<Word key="Create Organization Chart" value="Crear Organigrama"/>
+		<Word key="Gesture Pen" value="L\u00e1piz de Gestos"/>
+		<Word key="What is generate table of contents?" value="\u00bfQu\u00e9 es generar tabla de contenidos?"/>
+		<Word key="Create Component Diagram" value="Crear Diagrama de Componentes"/>
+		<Word key="XMI Version" value="Versi\u00f3n XMI"/>
+		<Word key="Package" value="Paquete"/>
+		<Word key="Select previous" value="Seleccionar previo"/>
+		<Word key="Parameter prefix" value="Prefijo de par\u00e1metro"/>
+		<Word key="XML document(*.xml)" value="documento XML(*.xml)"/>
+		<Word key="Label" value="Etiqueta"/>
+		<Word key="Polygon" value="Pol\u00edgono"/>
+		<Word key="Create Process Map Diagram" value="Crear Diagrama de Mapa de Procesos"/>
+		<Word key="Show Package Name Style" value="Mostrar Estilo de Nombre de Paquete"/>
+		<Word key="HTML Source" value="Fuente HTML"/>
+		<Word key="Create Activity Diagram" value="Crear Diagrama de Actividad"/>
+		<Word key="Zoom 100%" value="Zoom 100%"/>
+		<Word key="Unspecified" value="No especificado"/>
+		<Word key="Text Field" value="Campo de Texto"/>
+		<Word key="Create Data Flow Diagram" value="Crear Diagrama de Flujo de Datos"/>
+		<Word key="Customize Sort by Type" value="Personalizar Ordenar por Tipo"/>
+		<Word key="Create Timing Diagram" value="Crear Diagrama de Tiempos"/>
+		<Word key="Spinner" value="Zona de Selecci\u00f3n Num\u00e9rica"/>
+		<Word key="Username" value="Nombre de Usuario"/>
+		<Word key="Create Basic Diagram" value="Crear Diagrama B\u00e1sico"/>
+		<Word key="Slider" value="Deslizador"/>
+		<Word key="Edit" value="Editar"/>
+		<Word key="Copy within" value="Copiar dentro de"/>
+		<Word key="Box Shape" value="Forma de Recuadro"/>
+		<Word key="Export Style" value="Exportar Estilo"/>
+		<Word key="Minimize" value="Minimizar"/>
+		<Word key="Create Package Diagram" value="Crear Diagrama de Paquetes"/>
+		<Word key="Diagram Info" value="Informaci\u00f3n del Diagrama"/>
+		<Word key="What is Shape Type Style?" value="\u00bfQu\u00e9 es Estilo de Tipo de Forma?"/>
+		<Word key="Create Message" value="Crear Mensaje"/>
+		<Word key="Permission" value="Permiso"/>
+		<Word key="Follow center" value="Seguir centro"/>
+		<Word key="Sort by Name" value="Ordenar por Nombre"/>
+		<Word key="Show Name" value="Mostrar Nombre"/>
+		<Word key="Click Next to continue." value="Haga clic en Siguiente para continuar."/>
+		<Word key="Author" value="Autor"/>
+		<Word key="Show" value="Mostrar"/>
+		<Word key="Duplicate Selected Language" value="Duplicar Idioma Seleccionado"/>
+		<Word key="Import Excel" value="Importar Excel"/>
+		<Word key="Fill" value="Llenar"/>
+		<Word key="What is generate diagram properties" value="Qu\u00e9 es generar propiedades de diagrama"/>
+		<Word key="false" value="falso"/>
+		<Word key="Create Textual Analysis" value="Crear An\u00e1lisis Textual"/>
+		<Word key="Apply to All Diagrams" value="Aplicar a Todos los Diagramas"/>
+		<Word key="Fit Visible" value="Ajustar a Visible"/>
+		<Word key="Never show" value="Nunca mostrar"/>
+		<Word key="Combo Box" value="Cuadro Combinado"/>
+		<Word key="NoPreview" value="Vista Previa No Disponible"/>
+		<Word key="Go to Last Folder Visited" value="Ir a Ultima Carpeta Visitada"/>
+		<Word key="Unit" value="Unidad"/>
+		<Word key="Generic Resource" value="Recurso Gen\u00e9rico"/>
+		<Word key="Horizontal Scrollbar" value="Barra de Desplazamiento Horizontal"/>
+		<Word key="On every start" value="En cada inicio"/>
+		<Word key="Computer Name" value="Nombre de Computadora"/>
+		<Word key="Output destination" value="Destino de salida"/>
+		<Word key="File path" value="Ruta de archivo"/>
+		<Word key="Create" value="Crear"/>
+		<Word key="Tree" value="Arbol"/>
+		<Word key="Make All Selectable" value="Hacer Todo Seleccionable"/>
+		<Word key="Create Sequence Diagram" value="Crear Diagrama de Secuencia"/>
+		<Word key="Overwrite file" value="Sobrescribir el archivo"/>
+		<Word key="Main" value="Principal"/>
+		<Word key="Check All Tables" value="Marcar Todas las Tablas"/>
+		<Word key="Number of selected Diagrams" value="N\u00famero de Diagramas seleccionados"/>
+		<Word key="Sample of Table of Contents." value="Muestra de una Tabla de Contenido."/>
+		<Word key="Box Shape with Keyword" value="Forma de Recuadro con Palabra Clave"/>
+		<Word key="Data Flow" value="Flujo de Datos"/>
+		<Word key="Separator" value="Separador"/>
+		<Word key="Table" value="Tabla"/>
+		<Word key="Export Excel" value="Exportar a Excel"/>
+		<Word key="Available" value="Disponible"/>
+		<Word key="Text Box" value="Recuadro de Texto"/>
+		<Word key="Export for UML2" value="Exportar para UML2"/>
+		<Word key="Create Mind Mapping Diagram" value="Crear Diagrama de Mapa Mental"/>
+		<Word key="What is generate models/diagrams link?" value="\u00bfQu\u00e9 es generar un v\u00ednculo a diagramas/modelos?"/>
+		<Word key="Deselect All" value="Deseleccionar todo"/>
+		<Word key="Compile to DLL" value="Compilar a DLL"/>
+		<Word key="Hide Attributes" value="Ocultar Atributos"/>
+		<Word key="Add Language" value="A\u00f1adir Idioma"/>
+		<Word key="Create Object Diagram" value="Crear Diagrama de Objeto"/>
+		<Word key="Alphabetical View" value="Ver por Orden Alfab\u00e9tico"/>
+		<Word key="Hide Operations" value="Ocultar Operaciones"/>
+		<Word key="Gray" value="Gris"/>
+		<Word key="Not fixed" value="No fijo"/>
+		<Word key="What is Model Explorer?" value="\u00bfQu\u00e9 es Modelo Explorador?"/>
+		<Word key="Please enter the host and port." value="Por favor introduzca el host y el puerto."/>
+		<Word key="Overwrite" value="Sobrescribir"/>
+		<Word key="Select Zoom" value="Seleccionar Zoom"/>
+		<Word key="What is generate diagram summary?" value="\u00bfQu\u00e9 es generar resumen de diagrama?"/>
+		<Word key="Radio Button" value="Bot\u00f3n de Opci\u00f3n"/>
+		<Word key="Insert page break after element" value="Insertar salto de p\u00e1gina despu\u00e9s del elemento"/>
+		<Word key="Basic" value="B\u00e1sico"/>
+		<Word key="Package" value="Paquete"/>
+		<Word key="Customize" value="Personalizar"/>
+		<Word key="Up" value="Arriba"/>
+		<Word key="Image Shape" value="Forma de Imagen"/>
+		<Word key="root" value="ra\u00edz"/>
+		<Word key="Center" value="Centro"/>
+		<Word key="Model Types" value="Tipos de Modelo"/>
+		<Word key="default package" value="paquete predefinido"/>
+		<Word key="Generate Diagram Summary" value="Generar Resumen de Diagrama"/>
+		<Word key="Export to XML" value="Exportar a XML"/>
+		<Word key="Part" value="Parte"/>
+		<Word key="Please specify the path of the file to export." value="Por favor especificar la ruta del archivo a exportar."/>
+		<Word key="Weekly" value="Semanal"/>
+		<Word key="Add Model Element" value="A\u00f1adir Elemento de Modelo"/>
+		<Word key="Sample of Table of Figures." value="Muestra de Tabla de Figuras."/>
+		<Word key="Total" value="Total"/>
+		<Word key="Add Selected Folder" value="A\u00f1adir Carpeta Seleccionada"/>
+		<Word key="Next line" value="Siguiente l\u00ednea"/>
+		<Word key="Data Flow Diagram Overview" value="Descripci\u00f3n de Diagrama de Flujo de Datos"/>
+		<Word key="Download" value="Descargar"/>
+		<Word key="Prompt" value="Aviso"/>
+		<Word key="Object" value="Objeto"/>
+		<Word key="Caption aligned Center" value="Leyenda alineada al Centro"/>
+		<Word key="Show as Label" value="Mostrar como Etiqueta"/>
+		<Word key="Within" value="Dentro de"/>
+		<Word key="Alternative" value="Alternativa"/>
+		<Word key="What is preserve image size?" value="\u00bfQu\u00e9 es preservar el tama\u00f1o de la imagen?"/>
+		<Word key="Caption aligned Bottom" value="Leyenda alineada abajo"/>
+		<Word key="Create Requirement Diagram" value="Crear Diagrama de Requisitos"/>
+		<Word key="Server name" value="Nombre del Servidor"/>
+		<Word key="Create User Interface" value="Crear Interfaz de Usuario"/>
+		<Word key="False" value="Falso"/>
+		<Word key="Create Use Case Diagram" value="Crear Diagrama de Casos de Uso"/>
+		<Word key="Real size" value="Tama\u00f1o real"/>
+		<Word key="Show Package Header" value="Mostrar Encabezado de Paquete"/>
+		<Word key="Note" value="Nota"/>
+		<Word key="Make All Non-Selectable" value="Hacer Todo No Seleccionable"/>
+		<Word key="Customize Visibility of Model Types" value="Personalizar Visibilidad de Tipos de Modelo"/>
+		<Word key="Use Case Display Option" value="Opci\u00f3n de Visualizaci\u00f3n de Casos de Uso"/>
+		<Word key="Password Field" value="Campo de Contrase\u00f1a"/>
+		<Word key="Export diagrams as images (export images may take long time)" value="Exportar diagramas como im\u00e1genes (exportar im\u00e1genes puede tardar mucho tiempo)"/>
+		<Word key="Show Below Caption" value="Mostrar Leyenda en parte Inferior"/>
+		<Word key="Text Area" value="\u00c1rea de Texto"/>
+		<Word key="Create CRC Card Diagram" value="Crear Diagrama de Tarjeta CRC (Clase \u2013 Responsabilidades \u2013 Colaboradores)"/>
+		<Word key="Light gray" value="Gris claro"/>
+		<Word key="Directional Generic Connector" value="Conector Direccional Gen\u00e9rico"/>
+		<Word key="Sweeper" value="Limpiador"/>
+		<Word key="What is generate diagram properties?" value="\u00bfQu\u00e9 es generar propiedades de diagrama?"/>
+		<Word key="All in one sheet" value="Todo en una hoja"/>
+		<Word key="Mind Mapping" value="Mapeo Mental"/>
+		<Word key="Show Tagged Values" value="Mostrar Valores Etiquetados"/>
+		<Word key="Use Case Specification" value="Especificaci\u00f3n de Casos de Uso"/>
+		<Word key="Generate Diagrams" value="Generar Diagramas"/>
+		<Word key="Primitive" value="Primitivo"/>
+		<Word key="Remarks" value="Comentarios"/>
+		<Word key="Vertical Scrollbar" value="Barra de Desplazamiento Vertical"/>
+		<Word key="Navigable" value="Navegable"/>
+		<Word key="Create EJB Diagram" value="Crear Diagrama EJB"/>
+		<Word key="Callout" value="Llamada"/>
+		<Word key="Server" value="Servido"/>
+		<Word key="Usage" value="Uso"/>
+		<Word key="Launch MS Word" value="Lanzar MS Word"/>
+		<Word key="Select Files" value="Seleccionar Archivos"/>
+		<Word key="High" value="Alto"/>
+		<Word key="Never" value="Nunca"/>
+		<Word key="What is copy reference files?" value="Qu\u00e9 es copiar archivos de referencia?"/>
+		<Word key="Next &gt;" value="Siguiente &gt;"/>
+		<Word key="What is shape type style?" value="\u00bfQu\u00e9 es estilo de tipo de forma?"/>
+		<Word key="Zoom" value="Zoom"/>
+		<Word key="Shape" value="Forma"/>
+		<Word key="Welcome Page" value="P\u00e1gina de Bienvenida"/>
+		<Word key="All Next Line" value="Todo Siguiente L\u00ednea"/>
+		<Word key="Ant File" value="Archivo Ant"/>
+		<Word key="Wizards" value="Asistentes"/>
+		<Word key="Subsystem" value="Subsistema"/>
+		<Word key="Show State/Activity Diagram Node Caption" value="Mostrar Leyenda de Nodo de Diagrama de Actividad/Estado"/>
+		<Word key="&lt;No parent model&gt;" value="&lt;No modelo padre&gt;"/>
+		<Word key="Rectangle" value="Rect\u00e1ngulo"/>
+		<Word key="Data Store" value="Almac\u00e9n de Datos"/>
+		<Word key="Browse" value="Examinar"/>
+		<Word key="Daily" value="Diariamente"/>
+		<Word key="Box Shape with Icon" value="Forma de Recuadro con Icono"/>
+		<Word key="Auto Flush" value="Vaciado Autom\u00e1tico"/>
+		<Word key="Oval" value="Oval"/>
+		<Word key="Copy with frame" value="Copiar con marco"/>
+		<Word key="On" value="Encendido"/>
+		<Word key="True" value="Verdadero"/>
+		<Word key="Documentation Type Preview" value="Vista Previa de Tipo de Documentaci\u00f3n"/>
+		<Word key="Select View" value="Seleccionar Ver"/>
+		<Word key="Within Package Tab" value="Dentro de Pesta\u00f1a de Paquete"/>
+		<Word key="Format Line" value="L\u00ednea de Formato"/>
+		<Word key="Diagram per sheet" value="Diagrama por hoja"/>
+		<Word key="Export project" value="Exportar proyecto"/>
+		<Word key="Time Format Pattern" value="Patr\u00f3n de Formato de Hora"/>
+		<Word key="Scrollbar" value="Barra de Desplazamiento"/>
+		<Word key="Show Non-empty Attributes" value="Mostrar Atributos No Vac\u00edos"/>
+		<Word key="Search" value="Buscar"/>
+		<Word key="What is Diagram Navigator?" value="\u00bfQu\u00e9 es el Navegador de Diagrama?"/>
+		<Word key="Check All Views" value="Marcar Todas las Vistas"/>
+		<Word key="Hide" value="Ocultar"/>
+		<Word key="Date Format Pattern" value="Patr\u00f3n de Formato de Fecha"/>
+		<Word key="Display as Robustness Analysis icon in Sequence Diagram" value="Visualizar como icono de An\u00e1lisis de Robustez en Diagrama de Secuencia"/>
+		<Word key="Metallic" value="Met\u00e1lico"/>
+		<Word key="Actor Display Option" value="Opci\u00f3n de Visualizaci\u00f3n de Actor"/>
+		<Word key="List" value="Lista"/>
+		<Word key="Export Project" value="Exportar Proyecto"/>
+		<Word key="Allow modify" value="Permitir modificar"/>
+		<Word key="No Sort" value="No Ordenar"/>
+		<Word key="Select next" value="Seleccionar siguiente"/>
+		<Word key="Within Package Body" value="Dentro de Cuerpo del Paquete"/>
+		<Word key="Follow parent" value="Seguir padre"/>
+		<Word key="Visual Studio 2005 project" value="proyecto Visual Studio 2005"/>
+		<Word key="Selector" value="Selector"/>
+		<Word key="Create Interaction Overview Diagram" value="Crear Diagrama General de Interacci\u00f3n"/>
+		<Word key="search" value="buscar"/>
+		<Word key="C# Project File" value="Archivo de Proyecto C#"/>
+		<Word key="Edit Enumeration" value="Editar Enumeraci\u00f3n"/>
+		<Word key="true" value="verdadero"/>
+		<Word key="Generate Diagram Properties" value="Generar Propiedades de Diagrama"/>
+		<Word key="Please select the diagrams to export, and specify the folder where you want to save the files. By selecting &quot;Export project&quot;, all models in the project will be exported, otherwise, only models used by the selected diagrams will be exported." value="Por favor seleccione los diagramas a exportar, y especificar la carpeta donde quiere grabar los archivos. Al seleccionar &quot;Exportar proyecto&quot;, todos los modelos en el proyecto se exportar\u00e1n, en caso contrario, s\u00f3lo los modelos utilizados por los diagramas seleccionados ser\u00e1n exportados."/>
+		<Word key="Off" value="Apagado"/>
+		<Word key="Disabled" value="Deshabilitado"/>
+		<Word key="(Language in use)" value="(Idioma en uso)"/>
+		<Word key="Auto fit shapes size" value="Ajuste autom\u00e1tico de tama\u00f1o de formas"/>
+		<Word key="Auto update" value="Actualizaci\u00f3n autom\u00e1tica"/>
+		<Word key="Hide All Attributes" value="Ocultar Todos los Atributos"/>
+		<Word key="Down" value="Bajar"/>
+		<Word key="Use this as the default and do not ask again" value="Usar este como predefinido y no volver a preguntar"/>
+		<Word key="Model Explorer View" value="Ver Modelo Explorador"/>
+		<Word key="Point Eraser" value="Borrador"/>
+		<Word key="Select Language" value="Seleccionar Idioma"/>
+		<Word key="Category" value="Categor\u00eda"/>
+		<Word key="Hostname" value="Nombre de Host"/>
+		<Word key="Line" value="L\u00ednea"/>
+		<Word key="Tabbed Header" value="Encabezado con pesta\u00f1as"/>
+		<Word key="Create Communication Diagram" value="Crear Diagrama de Comunicaci\u00f3n"/>
+		<Word key="Model" value="Modelo"/>
+		<Word key="Format Arrow Head" value="Formato de Punta de Flecha"/>
+		<Word key="Enabled" value="Activado"/>
+		<Word key="Model type per sheet" value="Tipo de modelo por hoja"/>
+		<Word key="Overwrite all" value="Sobreescribir todo"/>
+		<Word key="UML version" value="Versi\u00f3n UML"/>
+		<Word key="Create Composite Structure Diagram" value="Crear Diagrama de Estructura Compuesta"/>
+		<Word key="Exported" value="Exportado"/>
+		<Word key="NormalColor" value="Color Normal"/>
+		<Word key="Create Deployment Diagram" value="Crear Diagrama de Despliegue"/>
+		<Word key="Show" value="Mostrar"/>
+		<Word key="Categorized View" value="Vista Categorizada"/>
+		<Word key="Create diagrams to this project" value="Crear diagramas a este proyecto"/>
+		<Word key="Panel" value="Panel"/>
+		<Word key="Show Driver and Dialect Fields" value="Mostrar Campos de Controlador y Dialecto"/>
+		<Word key="Medium" value="Medio"/>
+		<Word key="Date Time" value="Fecha Hora"/>
+		<Word key="Region" value="Regi\u00f3n"/>
+		<Word key="Invalid Host/Port" value="Host/Puerto Inv\u00e1lido"/>
+		<Word key="Lock" value="Bloquear"/>
+		<Word key="System" value="Sistema"/>
+		<Word key="Samples" value="Muestras"/>
+		<Word key="Advanced Settings" value="Configuraci\u00f3n Avanzada"/>
+		<Word key="Background Color" value="Color de Fondo"/>
+		<Word key="Follow attribute" value="Seguir atributo"/>
+		<Word key="Checkbox" value="Recuadro de selecci\u00f3n"/>
+		<Word key="User-Defined Tags" value="Etiquetas Definidas por el Usuario"/>
+		<Word key="Insert Row/Column" value="Insertar Fila/Columna"/>
+		<Word key="Export Active Diagram to Excel" value="Exportar Diagrama Activo a Excel"/>
+		<Word key="Visual Studio 2003 project" value="proyecto Visual Studio 2003"/>
+		<Word key="Launch Editor" value="Lanzar Editor"/>
+		<Word key="Auto" value="Autom\u00e1tico"/>
+		<Word key="Small Icon" value="Icono Peque\u00f1o"/>
+		<Word key="Name" value="Nombre"/>
+		<Word key="Check All" value="Marcar Todo"/>
+		<Word key="What is generate reference link?" value="\u00bfQu\u00e9 es generar v\u00ednculo de referencia?"/>
+		<Word key="Create Class Diagram" value="Crear Diagrama de Clases"/>
+		<Word key="Copy with Frame Preview" value="Copiar con Vista Preliminar de Marco"/>
+		<Word key="Clear" value="Limpiar"/>
+		<Word key="Font Name" value="Nombre de Fuente"/>
+		<Word key="Black" value="Negro"/>
+		<Word key="Link" value="V\u00ednculo"/>
+		<Word key="Create Database" value="Crear Base de Datos"/>
+		<Word key="Common" value="Com\u00fan"/>
+		<Word key="Move Selected Model Element Down" value="Mover Elemento Seleccionado Abajo"/>
+		<Word key="Line" value="L\u00ednea"/>
+		<Word key="Advanced Options for Java Code Generation" value="Opciones Avanzadas para Generaci\u00f3n de C\u00f3digo Java"/>
+		<Word key="Document" value="Documento"/>
+		<Word key="All Same Line" value="Todo en la Misma L\u00ednea"/>
+		<Word key=", please wait" value=", por favor espere"/>
+		<Word key="Company" value="Compa\u00f1\u00eda"/>
+		<Word key="Toggle Button" value="Bot\u00f3n Biestado"/>
+		<Word key="Data Store Node" value="Nodo de Almac\u00e9n de Datos"/>
+		<Word key="What is generate table of figures?" value="\u00bfQu\u00e9 es generar tabla de figuras?"/>
+		<Word key="Browse File" value="Buscar Archivo"/>
+		<Word key="inches" value="pulgadas"/>
+		<Word key="Copy with border" value="Copiar con borde"/>
+		<Word key="Column name" value="Nombre de columna"/>
+		<Word key="Build" value="Construir"/>
+		<Word key="Parent model" value="Modelo padre"/>
+		<Word key="Double click turning point to erase it!" value="\u00a1Haga doble clic en punto de inflexi\u00f3n para borrarlo!"/>
+		<Word key="Back" value="Parte posterior"/>
+		<Word key="Save Text File" value="Guardar Archivo de Texto"/>
+		<Word key="Remove selected" value="Eliminar seleccionado"/>
+		<Word key="Generate diagram image" value="Generar imagen del diagrama"/>
+		<Word key="Estimate size" value="Estimaci\u00f3n de tama\u00f1o"/>
+		<Word key="Input File" value="Archivo de Entrada"/>
+		<Word key="Export Style" value="Exportar Estilo"/>
+		<Word key="Waiting" value="Esperando"/>
+		<Word key="Fit" value="Ajustar"/>
+		<Word key="Acquire Increment" value="Adquirir Incremento"/>
+		<Word key="Enumeration Attribute" value="Atributo de Enumeraci\u00f3n"/>
+		<Word key="Edit Selected Data Type" value="Editar Tipo de Datos Seleccionados"/>
+		<Word key="Properties of the diagram will be generated." value="Se generar\u00e1n propiedades del diagrama."/>
+		<Word key="UML version" value="Versi\u00f3n UML"/>
+		<Word key="Icon path" value="Ruta de icono"/>
+		<Word key="ALL" value="TODOS"/>
+		<Word key="Custom" value="A la medidau"/>
+		<Word key="Export Style" value="Exportar Estilo"/>
+		<Word key="Presentation options" value="Opciones de Presentaci\u00f3n"/>
+		<Word key="Color" value="Color"/>
+		<Word key="Background Color" value="Color de Fondo"/>
+		<Word key="No." value="No."/>
+		<Word key="Symbol" value="S\u00edmbolo"/>
+		<Word key="Manage Project" value="Gestionar Proyecto"/>
+		<Word key="Transparent" value="Transparente"/>
+		<Word key="Create From Other CASE Tools" value="Crear de Otras Herramientas CASE"/>
+		<Word key="Right click" value="Haga clic derecho"/>
+		<Word key="Documentation Attribute" value="Atributo de Documentaci\u00f3n"/>
+		<Word key="Substitution" value="Sustituci\u00f3n"/>
+		<Word key="Multi-line Text Attribute" value="Atributo de Texto de M\u00faltiples l\u00edneas"/>
+		<Word key="Status" value="Estatus"/>
+		<Word key="User-Defined" value="Definido por el Usuario"/>
+		<Word key="Manage Template" value="Manejar Plantilla"/>
+		<Word key="Relocate" value="Reubicar"/>
+		<Word key="Stencil Options" value="Opciones de Patr\u00f3n"/>
+		<Word key="Default Attribute Type" value="Tipo de Atributo Predefinido"/>
+		<Word key="Stencil Options" value="Opciones de Patr\u00f3n"/>
+		<Word key="Other Diagrams" value="Otros Diagramas"/>
+		<Word key="&lt; Back" value="&lt;Anterior"/>
+		<Word key="Scenario" value="Escenario"/>
+		<Word key="New Project Structure" value="Estructura de Nuevo Proyecto"/>
+		<Word key="File &quot;" value="Archivo &quot;"/>
+		<Word key="Default Parameter Type" value="Tipo de Par\u00e1metro Predefinido"/>
+		<Word key="Parent" value="Padre"/>
+		<Word key="Represents" value="Representa"/>
+		<Word key="Change the programming language of this project. After the programming language is changed, the default Data Types' name will be changed to match the language." value="Cambiar el idioma de programaci\u00f3n de este proyecto. Despu\u00e9s de que se haya cambiado el idioma de programaci\u00f3n, los nombres de los tipos de datos predefinidos ser\u00e1n cambiados para que coincidan con el idioma."/>
+		<Word key="&quot; does not exist." value="&quot; no existe."/>
+		<Word key="Name Only" value="S\u00f3lo Nombre"/>
+		<Word key="Selected" value="Seleccionado"/>
+		<Word key="Finish" value="Finalizar"/>
+		<Word key="Open" value="Abrir"/>
+		<Word key="Double click" value="Hacer doble clic"/>
+		<Word key="Hyperlink" value="Hiperv\u00ednculo"/>
+		<Word key="Description" value="Descripci\u00f3n"/>
+		<Word key="Opaque" value="Opaco"/>
+		<Word key="Find Text" value="Buscar Texto"/>
+		<Word key="Remove Item" value="Eliminar Item"/>
+		<Word key="White" value="Blanco"/>
+		<Word key="Responsibilities" value="Responsabilidades"/>
+		<Word key="Work Flow" value="Flujo de Trabajo"/>
+		<Word key="Requirements" value="Requisitos"/>
+		<Word key="Add Stencil" value="A\u00f1adir Patr\u00f3n"/>
+		<Word key="Selection Font" value="Selecci\u00f3n de Fuente"/>
+		<Word key="Reverse" value="Invertir"/>
+		<Word key="Transparency" value="Transparencia"/>
+		<Word key="Not Specified" value="No Especificado"/>
+		<Word key="Not specified" value="No especificado"/>
+		<Word key="Text Attribute" value="Atributo del Texto"/>
+		<Word key="File path" value="Ruta de archivo"/>
+		<Word key="HTML Attribute" value="Atributo HTML"/>
+		<Word key="Next" value="Siguiente"/>
+		<Word key="Save as template" value="Guardar como plantilla"/>
+		<Word key="Make Selected Available" value="Hacer disponible lo seleccionado"/>
+		<Word key="Zoom ratio" value="Ratio de Zoom"/>
+		<Word key="Move" value="Mover"/>
+		<Word key="Select" value="Seleccionar"/>
+		<Word key="No template" value="Sin plantilla"/>
+		<Word key="Save as Template" value="Guardar como Plantilla"/>
+		<Word key="Background" value="Fondo"/>
+		<Word key="Visio Shape" value="Forma de Visio"/>
+		<Word key="Same Product" value="Mismo Producto"/>
+		<Word key="Auto Fit Size" value="Tama\u00f1o de Ajuste Autom\u00e1tico"/>
+		<Word key="Save Text As" value="Guardar Texto como"/>
+		<Word key="Order" value="Orden"/>
+		<Word key="Switch to Diagram View" value="Camiar a Vista de Diagrama"/>
+		<Word key="Customized" value="Personalizado"/>
+		<Word key="Progress Bar" value="Barra de Progreso"/>
+		<Word key="Edit Property Values of Diagram" value="Editar Valores de Propiedad de Diagrama"/>
+		<Word key="Edit Property Values of Use Case &quot;{0}&quot;" value="Editar Valores de Propiedad de Casos de Uso &quot;{0}&quot;"/>
+		<Word key="Create From Template" value="Crear Desde Plantilla"/>
+		<Word key="Standard" value="Est\u00e1ndar"/>
+		<Word key="Comment" value="Comentario"/>
+		<Word key="Result" value="Resultado"/>
+		<Word key="Show Sub Diagrams" value="Mostrar Sub Diagramas"/>
+		<Word key="Show View" value="Mostrar Vista"/>
+		<Word key="Destination" value="Destino"/>
+		<Word key="Add Existing Diagram" value="A\u00f1adir Diagrama Existente"/>
+		<Word key="&lt;HTML&gt;Default attribute&lt;BR&gt;type: &lt;/HTML&gt;" value="Atributo por defecto tipo &lt;BR&gt; en &lt;HTML&gt; : &lt;/ HTML&gt;"/>
+		<Word key="Creating diagram, please wait" value="Creando diagrama, por favor espere"/>
+		<Word key="Select in" value="Seleccione en"/>
+		<Word key="Import an existing workspace to reuse its default settings,&#10;user interface perspectives and other preferences." value="Importar un \u00e1rea de trabajo existente para reutilizar su configuraci\u00f3n predefinida, perspectivas de interfaz de usuario y otras preferencias."/>
+		<Word key="Auto synchronized" value="Auto sincronizado"/>
+		<Word key="No preview available." value="No hay vista previa disponible."/>
+		<Word key="Creating connector models" value="Creando modelos de conector"/>
+		<Word key="Data" value="Datos"/>
+		<Word key="Resolving relationships" value="Resolviendo relaciones"/>
+		<Word key="Template directory" value="Directorio de plantillas"/>
+		<Word key="Views" value="Vistas"/>
+		<Word key="Generator Output" value="Salida del Generador"/>
+		<Word key="Processing preview" value="Vista previa de procesamiento"/>
+		<Word key="Sort Child by Name" value="Ordenar Hijo por Nombre"/>
+		<Word key="Calculate" value="Calcular"/>
+		<Word key="Models" value="Modelos"/>
+		<Word key="Show below Caption" value="Mostrar Leyenda abajo"/>
+		<Word key="No Grouping" value="No agrupar"/>
+		<Word key="Do you want to mark &quot;{0}&quot; stopped?" value="\u00bfDesea marcar &quot;{0}&quot; detenido?"/>
+		<Word key="Tab" value="Ficha"/>
+		<Word key="Select diagram for synchronize" value="Seleccione diagrama para sincronizar"/>
+		<Word key="Finished" value="Terminado"/>
+		<Word key="Grid Color" value="Color de la Cuadr\u00edcula"/>
+		<Word key="Open Diagrams" value="Abrir Diagramas"/>
+		<Word key="Analyzing existing diagram elements" value="Analizando los elementos de diagrama existente"/>
+		<Word key="Resolving other relationships" value="Resolviendo otras relaciones"/>
+		<Word key="Detach from Parent" value="Separar de los Padres"/>
+		<Word key="ID" value="Identificaci\u00f3n"/>
+		<Word key="Prompt to confirm overwrite file" value="Aviso para confirmar sobreescribir el archivo"/>
+		<Word key="&lt;HTML&gt;Invalid char&lt;BR&gt;replacement: &lt;/HTML&gt;" value="Sustituci\u00f3n &lt;BR&gt; de car\u00e1cter no v\u00e1lido en &lt;HTML&gt;: &lt;/ HTML&gt;"/>
+		<Word key="Look and feel" value="Aspecto y estilo"/>
+		<Word key="Go to View" value="Ir a Vista"/>
+		<Word key="Handling presentation options" value="Manejando opciones de presentaci\u00f3n"/>
+		<Word key="This is Professional Edition feature, would you like to evaluate this feature?" value="Este es una caracter\u00edstica de Edici\u00f3n Professional, \u00bfLe gustar\u00eda evaluar esta caracter\u00edstica?"/>
+		<Word key="to" value="a"/>
+		<Word key="Creating shape models" value="Creando modelos de forma"/>
+		<Word key="No Preview" value="Sin Vista Previa"/>
+		<Word key="Update to" value="Actualizar a"/>
+		<Word key="Diagram Element" value="Elemento de Diagrama"/>
+		<Word key="Use this option as default and don't ask again" value="Utilice esta opci\u00f3n por defecto y no volver a preguntar"/>
+		<Word key="Using an existing diagram" value="Utilizando un diagrama existente"/>
+		<Word key="Foreground Color" value="Color de Primer Plano"/>
+		<Word key="Handling containments" value="Manipulando dep\u00f3sitos"/>
+		<Word key="Phrase" value="Frase"/>
+		<Word key="Waiting for connection" value="Esperando conexi\u00f3n"/>
+		<Word key="Sort Child by Type" value="Ordenar Hijo por Tipo"/>
+		<Word key="New Model" value="Nuevo Modelo"/>
+		<Word key="Procedures" value="Procedimientos"/>
+		<Word key="Create new diagram" value="Crear nuevo diagrama"/>
+		<Word key="Create Diagram" value="Crear Diagrama"/>
+		<Word key="Add View" value="Agregar Vista"/>
+		<Word key="Compact" value="Compacto"/>
+		<Word key="Model Type(s)" value="Tipo(s) de Modelo"/>
+		<Word key="Model(s)" value="Modelo(s)"/>
+		<Word key="This dialog can be turned off in Option" value="Este di\u00e1logo puede ser desactivado en la Opci\u00f3n"/>
+		<Word key="Model Element" value="Elemento Modelo"/>
+		<Word key="Input a new name." value="Introduzca un nombre nuevo."/>
+		<Word key="Sorting" value="Ordenando"/>
+		<Word key="Source" value="Fuente"/>
+		<Word key="Show Data Types" value="Mostrar Tipos de Datos"/>
+		<Word key="Are you sure you want to remove model element" value="\u00bfEst\u00e1s seguro de que desea eliminar elemento modelo?"/>
+		<Word key="Are you sure you want to remove?" value="\u00bfEst\u00e1s seguro de que desea eliminar?"/>
+		<Word key="Advanced Options" value="Opciones Avanzadas"/>
+		<Word key="Encoding" value="Codificaci\u00f3n"/>
+		<Word key="Output Path" value="Ruta de Salida"/>
+		<Word key="Font" value="Fuente"/>
+		<Word key="Unamed" value="Sin nombre"/>
+		<Word key="Creating shape" value="Creando forma"/>
+		<Word key="Signal" value="Se\u00f1al"/>
+		<Word key="Rule" value="Regla"/>
+		<Word key="Edit References" value="Editar Referencias"/>
+		<Word key="Import an existing workspace to reuse its default settings,user interface perspectives and other preferences." value="Importar un \u00e1rea de trabajo existente para reutilizar su configuraci\u00f3n predeterminada,"/>
+		<Word key="&lt;All&gt;" value="&lt;Todos&gt;"/>
+		<Word key="Multiplicity" value="Multiplicidad"/>
+		<Word key="Creating connectors" value="Creando conectores"/>
+		<Word key="Show/Hide Diagram Elements" value="Mostrar/Ocultar Elementos de Diagrama"/>
+		<Word key="Loop" value="Bucle"/>
+		<Word key="Add File" value="Agregar Archivo"/>
+		<Word key="Add Diagram" value="Agregar Diagrama"/>
+		<Word key="Not available" value="No disponible"/>
+		<Word key="Script" value="Conjunto de instrucciones"/>
+		<Word key="By Reference" value="Por Referencia"/>
+		<Word key="No options available" value="No hay opciones disponibles"/>
+		<Word key="Associating connectors" value="Asociando conectores"/>
+		<Word key="Please specify destination directory" value="Por favor especifique directorio de destino"/>
+		<Word key="OR" value="O"/>
+		<Word key="Magnet Shapes" value="Formas Magneto"/>
+		<Word key="Manual" value="Manual"/>
+		<Word key="Service" value="Servicio"/>
+		<Word key="Done" value="Hecho"/>
+		<Word key="Error" value="Error"/>
+		<Word key="Font Bold" value="Fuente Negrita"/>
+		<Word key="Magnet" value="Magneto"/>
+		<Word key="Add URL" value="A\u00f1adir URL"/>
+		<Word key="Directory" value="Directorio"/>
+		<Word key="Hide by Shape Type" value="Ocultar por Tipo de Forma"/>
+		<Word key="Binded Type" value="Tipo Enlazado"/>
+		<Word key="Show Dialog" value="Mostrar Cuadro de Di\u00e1logo"/>
+		<Word key="Location" value="Ubicaci\u00f3n"/>
+		<Word key="File name" value="Nombre de archivo"/>
+		<Word key="Speed" value="Velocidad"/>
+		<Word key="AND" value="Y"/>
+		<Word key="of" value="de"/>
+		<Word key="Total Time" value="Tiempo Total"/>
+		<Word key="Time" value="Tiempo"/>
+		<Word key="Option" value="Opci\u00f3n"/>
+		<Word key="Save to workspace" value="Guardar en \u00e1rea de trabajo"/>
+		<Word key="Switch to Diagram" value="Cambiar a Diagrama"/>
+		<Word key="Save to directory" value="Guardar en directorio"/>
+		<Word key="Timer" value="Temporizador"/>
+		<Word key="Complex" value="Complejo"/>
+		<Word key="Font Italic" value="Fuente Cursiva"/>
+		<Word key="Entity Bean Primary Key Class" value="Clase de Clave Principal de Bean de Entidad"/>
+		<Word key="Requirement" value="Requisito"/>
+		<Word key="Relationship" value="Relaci\u00f3n"/>
+		<Word key="Entity" value="Entidad"/>
+		<Word key="Entity Bean Primary Key Link" value="Enlace de Clave Principal de Entidad Bean"/>
+		<Word key="Message-Driven Bean" value="Bean Motivado por Mensaje"/>
+		<Word key="Session Bean" value="Bean de Sesi\u00f3n"/>
+		<Word key="Entity Relationship" value="Entidad - Relaci\u00f3n"/>
+		<Word key="Generic Connector" value="Conector Gen\u00e9rico"/>
+		<Word key="Generic Shape" value="Forma Gen\u00e9rica"/>
+		<Word key="Entity Bean" value="Bean de Entidad"/>
+		<Word key="Please specify the path of file to import." value="Por favor especificar la ruta de archivo que desea importar."/>
+		<Word key="Model Element only" value="Solo Elemento Modelo"/>
+		<Word key="Import Color and Font" value="Importar Color y Fuente"/>
+		<Word key="Import from XMI" value="Importar desde XMI"/>
+		<Word key="Other CASE Tools Project" value="Otro Proyecto de Herramientas CASE"/>
+		<Word key="Rose import mode" value="Modo de Importaci\u00f3n Rose"/>
+		<Word key="Import Rhapsody" value="Importar Rhapsody"/>
+		<Word key="Import Use Case Model from MS Word" value="Importar Modelo de Casos de Uso de MS Word"/>
+		<Word key="Import Rational Software Architect UML Model" value="Importar Modelo de Rational Software Architect UML"/>
+		<Word key="Model and diagram" value="Modelo y diagrama"/>
+		<Word key="Model only" value="S\u00f3lo modelo"/>
+		<Word key="Import mode" value="Modo de importaci\u00f3n"/>
+		<Word key="Import Requirements" value="Requisitos de Importaci\u00f3n"/>
+		<Word key="Please select the type of CASE tool file to import." value="Por favor seleccione el tipo de archivo de herramienta CASE que desea importar."/>
+		<Word key="Import existing project" value="Importar proyecto existente"/>
+		<Word key="Import a rose project to the new VP-UML project." value="Importar un proyecto rose al nuevo proyecto VP-UML."/>
+		<Word key="Import Stencil" value="Importar Patr\u00f3n"/>
+		<Word key="Model Element Attribute" value="Atributo de Elemento Modelo"/>
+		<Word key="AllFusion ERwin Data Modeler Project Importer" value="Importador de Proyecto de AllFusion Erwin Data Modeler"/>
+		<Word key="Model Element and Diagram" value="Elemento Modelo y Diagrama"/>
+		<Word key="Import from Rose" value="Importaci\u00f3n desde Rose"/>
+		<Word key="Import file " value="Importar archivo"/>
+		<Word key="Import a XMI project to the new VP-UML project" value="Importar un proyecto XMI al nuevo proyecto VP-UML"/>
+		<Word key="Import Rose Option" value="Importar Opci\u00f3n Rose"/>
+		<Word key="Please specify the path of the file to import." value="Por favor especifique la ruta de acceso del archivo que desea importar."/>
+		<Word key="Please specify the path of the XML file (or folder contains XML files) to import." value="Por favor, especifique la ruta de acceso del archivo XML (o carpeta que contiene los archivos XML) que desea importar."/>
+		<Word key="Model Type Per Sheet" value="Tipo de Modelo Por Hoja"/>
+		<Word key="Export View to XML" value="Exportar Vista a XML"/>
+		<Word key="Import Visio" value="Importar Visio"/>
+		<Word key="Import View from XML" value="Importar Vista de XML"/>
+		<Word key="Import Rational Diagram (.dnx)" value="Importar Diagrama Racional (.dnx)"/>
+		<Word key="Export to Excel" value="Exportar a Excel"/>
+		<Word key="Import Rational DNX" value="Importar DNX Racional"/>
+		<Word key="Export {0} Project" value="Exportar {0} Proyectos"/>
+		<Word key="Import {0} Project" value="Importar {0} Proyectos"/>
+		<Word key="Rational DNX" value="DNX Racional"/>
+		<Word key="Import file" value="Importar archivo"/>
+		<Word key="Import NetBeans UML Project" value="Importar Proyecto NetBeans UML"/>
+		<Word key="NetBeans UML Project" value="Proyecto NetBeans UML"/>
+		<Word key=".NET dll or exe files" value="archivos .NET dll o exe"/>
+		<Word key="ActionScript" value="ActionScript"/>
+		<Word key="Ada 9x Source" value="Fuente Ada 9x"/>
+		<Word key="Ada 9x Source File (*.ada, *.adb, *.ads)" value="Archivo Fuente Ada 9x (*.ada, *.adb, *.ads)"/>
+		<Word key="C++ Source" value="Fuente C++"/>
+		<Word key="CORBA IDL Source" value="Fuente CORBA IDL"/>
+		<Word key="PHP 5.0 Source" value="Fuente PHP 5,0"/>
+		<Word key="Python Source" value="Fuente Python"/>
+		<Word key="XML Schema" value="XML Schema"/>
+		<Word key="Vector" value="Vector"/>
+		<Word key="Invalid char replacement" value="Sustituci\u00f3n de car\u00e1cter no v\u00e1lido"/>
+		<Word key="Generate association operations" value="Generar operaciones de asociaci\u00f3n"/>
+		<Word key="TreeSet" value="TreeSet (Estructura de Arbol)"/>
+		<Word key="LinkedList" value="LinkedList (Lista Vinculada)"/>
+		<Word key="Select elements for code generation" value="Seleccione los elementos para generaci\u00f3n de c\u00f3digo"/>
+		<Word key="Generate unnamed attribute" value="Generar atributo sin nombre"/>
+		<Word key="LinkedHashSet" value="LinkedHashSet (Estructura de C\u00f3digos Hash Vinculada)"/>
+		<Word key="ArrayList" value="ArrayList (Lista de Objetos)"/>
+		<Word key="HashSet" value="HashSet (Estructura de C\u00f3digos Hash)"/>
+		<Word key="Implement abstract operations" value="Implementar operaciones abstractas"/>
+		<Word key="Unnamed attribute" value="Atributo sin nombre"/>
+		<Word key="Advanced Options for XML Schema Code Generation" value="Opciones Avanzadas para Generaci\u00f3n de C\u00f3digo Esquema XML"/>
+		<Word key="JDK Version" value="Versi\u00f3n JDK"/>
+		<Word key="Association implementation" value="Implementaci\u00f3n de asociaci\u00f3n"/>
+		<Word key="Generate Ant build file" value="Generar archivo Ant build"/>
+		<Word key="PriorityQueue" value="PriorityQueue (Cola de Prioridad)"/>
+		<Word key="Add ZIP files" value="A\u00f1adir archivos en formato ZIP"/>
+		<Word key="Add source folder" value="Agregar carpeta de origen"/>
+		<Word key="Add JARs" value="A\u00f1adir Archivos JAR"/>
+		<Word key="Add Source Folder" value="Agregar Carpeta de Origen"/>
+		<Word key="Update Type" value="Tipo de Actualizaci\u00f3n"/>
+		<Word key="Remove default self reference parameter" value="Eliminar par\u00e1metro de auto referencia predefinido"/>
+		<Word key="Reverse source on demand" value="Invertir fuente a solicitud"/>
+		<Word key="JARs, source and class folders on the instant reverse path" value="Archivos JAR, carpetas de origen y carpetas de clases en ruta invertida instant\u00e1nea"/>
+		<Word key="Add ZIPs" value="A\u00f1adir archivos ZIP"/>
+		<Word key="Add class folder" value="A\u00f1adir carpeta de clases"/>
+		<Word key="Treat directory as package" value="Tratar directorio como un paquete"/>
+		<Word key="Add JAR files" value="A\u00f1adir archivos JAR"/>
+		<Word key="Replace duplicate class(es)" value="Reemplazar clase(s) duplicada(s)"/>
+		<Word key="Update duplicate class(es)" value="Actualizar clase(s) duplicada(s)"/>
+		<Word key="Remove '$' prefix" value="Eliminar prefijo'$'"/>
+		<Word key="Add Class Folder" value="A\u00f1adir Carpeta de Clases"/>
+		<Word key="1st Host" value="1er. Servidor"/>
+		<Word key="2nd Host" value="2do. Servidor"/>
+		<Word key="3rd Host" value="3er. Servidor"/>
+		<Word key="4th Host" value="4to. Servidor"/>
+		<Word key="All Keys" value="Todas las Claves"/>
+		<Word key="Delete the license key" value="Eliminar la clave de licencia"/>
+		<Word key="Evaluation Copy" value="Copia de Evaluaci\u00f3n"/>
+		<Word key="Expired Keys" value="Claves Vencidas"/>
+		<Word key="Expiry Date" value="Fecha de Vencimiento"/>
+		<Word key="Export Floating License" value="Exportar Licencia Flotante"/>
+		<Word key="Floating License" value="Licencia Flotante"/>
+		<Word key="Import Floating License" value="Importar Licencia Flotante"/>
+		<Word key="Import license key" value="Importar Clave de Licencia"/>
+		<Word key="License Key Manager" value="Administrador de Claves de Licencia"/>
+		<Word key="License Keys" value="Claves de Licencia"/>
+		<Word key="Product" value="Producto"/>
+		<Word key="Remove All Keys" value="Eliminar Todas las Claves"/>
+		<Word key="Request Key" value="Solicitar Clave"/>
+		<Word key="Show All Keys" value="Mostrar Todas las Claves"/>
+		<Word key="Show All Products' License Keys" value="Mostrar las Claves de Licencia de Todos los Productos"/>
+		<Word key="Show Expired Keys" value="Mostrar Claves Vencidas"/>
+		<Word key="Show Expired License Keys" value="Mostrar las Claves de Licencia Vencidas"/>
+		<Word key="Test Connection" value="Prueba de Conexi\u00f3n"/>
+		<Word key="User Name" value="Nombre de Usuario"/>
+		<Word key="Version" value="Versi\u00f3n"/>
+		<Word key="View Keys" value="Ver Claves"/>
+		<Word key="Floating license key is exported from server" value="La Clave de licencia flotante es exportada desde el servidor"/>
+		<Word key="Import Floating License Key" value="Importar clave de licencia flotante"/>
+		<Word key="Test connection success." value="\u00c9xito en prueba de conexi\u00f3n."/>
+		<Word key="This License Key has not expired. Are you sure you want to delete?" value="Esta clave de licencia no ha vencido. \u00bfEst\u00e1 seguro de que desea eliminarla?"/>
+		<Word key="A valid license key needs to be imported before you can run the program. A license key file has an extension of &quot;.zvpl&quot;. You can either get an evaluation key (expires in one month) if you have selected the request key option while downloading the software, or you can acquire a permanent license key by purchasing the software." value="Una clave de licencia v\u00e1lida tiene que ser importada antes de poder ejecutar el programa. Un archivo de la clave de licencia tiene una extensi\u00f3n de &quot;. Zvpl&quot;. Usted puede obtener ya sea una clave de evaluaci\u00f3n (expira en un mes) si ha seleccionado la opci\u00f3n solicitud de clave al descargar el software, o bien puede adquirir una clave de licencia permanente por la compra de software."/>
+		<Word key="Import License Key" value="Importar Clave de Licencia"/>
+		<Word key="Import Floating License Keys Success" value="Exito en Importar Claves de Licencia Flotante"/>
+		<Word key="Select the Floating License Key(s)" value="Seleccionar la(s) Clave(s) de Licencia Flotante"/>
+		<Word key="Visual Paradigm's Floating License allows you to deliver development software to every developer in your organization without paying for unique licenses for each. Just purchase enough number of licenses, all developers will be able to run the Visual Paradigm products as long as the number of concurrent users does not exceed the number of licenses purchased." value="La Licencia Flotante de Visual Paradigm le permite entregar desarrollo de software a cada desarrollador en su organizaci\u00f3n sin tener que pagar por licencias \u00fanicas para cada uno de ellos. S\u00f3lo compre el suficiente n\u00famero de licencias, todos los desarrolladores ser\u00e1n capaces de ejecutar los productos de Visual Paradigm, siempre y cuando el n\u00famero de usuarios simult\u00e1neos no supere el n\u00famero de licencias adquiridas."/>
+		<Word key="Export Floating License" value="Exportar Licencia Flotante"/>
+		<Word key="Access Code" value="C\u00f3digo de Acceso"/>
+		<Word key="Active Diagram to Excel" value="Diagrama Activo a Excel"/>
+		<Word key="Delete License Key" value="Eliminar Clave de Licencia"/>
+		<Word key="Testing connection" value="Probando conexi\u00f3n"/>
+		<Word key="Tag" value="Marcador"/>
+		<Word key="New DB Trigger" value="Desancadenador de nueva base de datos"/>
+		<Word key="Show Model Explorer" value="Mostrar Modelo Explorador"/>
+		<Word key="EJB Database Configuration" value="Configuraci\u00f3n de Base de Datos EJB"/>
+		<Word key="New DB Procedure" value="Procedimiento de Nueva Base de Datos"/>
+		<Word key="Distribute by Vertical Centers" value="Distribuir por los Centros VerticalesDistribuir por los Centros Verticales"/>
+		<Word key="ORM Reverse Hibernate" value="Invertir Hibernaci\u00f3n de Mapeo Objeto Relacional (ORM)"/>
+		<Word key="Align Same Height" value="Alinear a la misma altura"/>
+		<Word key="Show Grid" value="Mostrar Cuadr\u00edcula"/>
+		<Word key="Show Stencil" value="Mostrar Patr\u00f3n"/>
+		<Word key="Swap with Message Below" value="Intercambiar con Mensaje Siguiente"/>
+		<Word key="Show Documentation" value="Mostrar Documentaci\u00f3n"/>
+		<Word key="EJB Reverse Database" value="Invertir Base de Datos EJB"/>
+		<Word key="Binding" value="Uni\u00f3n"/>
+		<Word key="EJB Generate Code" value="Generar C\u00f3digo EJB"/>
+		<Word key="Conflicts" value="Conflictos"/>
+		<Word key="New DB Column" value="Columna de Nueva Base de Datos"/>
+		<Word key="EJB Generate Deployment Descriptor" value="Generar Descriptor de Despliegue EJB"/>
+		<Word key="Show Class Repository" value="Mostrar Clase Repositorio"/>
+		<Word key="ORM Synchronize to Entity Relationship Diagram" value="Sincronizar ORM a Diagrama Entidad Relaci\u00f3n"/>
+		<Word key="Show Command Bars" value="Mostrar Barras de Comandos"/>
+		<Word key="Show Property" value="Mostrar Propiedad"/>
+		<Word key="Show Generic Resources Only" value="Mostrar \u00danicamente los Recursos Gen\u00e9ricos"/>
+		<Word key="EJB Application Server Configuration" value="Configuraci\u00f3n de Servidor para aplicaciones EJB"/>
+		<Word key="ORM Reverse Java Classes" value="Invertir Clases Java de ORM"/>
+		<Word key="Alignment" value="Alineaci\u00f3n"/>
+		<Word key="Keys" value="Claves"/>
+		<Word key="Show Diagram Navigator" value="Mostrar Navegador de Diagrama"/>
+		<Word key="Show Resources" value="Mostrar los Recursos"/>
+		<Word key="ORM Reverse Database" value="Invertir Ingenier\u00eda de Base de Datos ORM"/>
+		<Word key="ORM Generate Code" value="Generar C\u00f3digo ORM"/>
+		<Word key="Show Group Resources" value="Mostrar Recursos del Grupo"/>
+		<Word key="Validate Model" value="Validar Modelo"/>
+		<Word key="Align Same With" value="Alinear Igual Con"/>
+		<Word key="Show Message" value="Mostrar Mensaje"/>
+		<Word key="ORM Generate Database" value="Generar Base de Datos ORM"/>
+		<Word key="Tile Windows" value="Ventanas en Mosaico"/>
+		<Word key="EJB Generate Database" value="Generar Base de Datos EJB"/>
+		<Word key="Distribute Horizontally" value="Distribuir Horizontalmente"/>
+		<Word key="Show Diagram Overview" value="Mostrar Descripci\u00f3n de Diagrama"/>
+		<Word key="New Template Parameter" value="Par\u00e1metro de Nueva Plantilla"/>
+		<Word key="New Attribute" value="Nuevo Atributo"/>
+		<Word key="Install Visio Integration" value="Instalar Integraci\u00f3n Visio"/>
+		<Word key="ORM Database Configuration" value="Configuraci\u00f3n de Base de Datos ORM"/>
+		<Word key="Distribute Vertically" value="Distribuir Verticalmente"/>
+		<Word key="Distribute by Left Edges" value="Distribuir por los Bordes Izquierdos"/>
+		<Word key="Maintenance Project Template" value="Plantilla de Proyecto de Mantenimiento"/>
+		<Word key="EJB Synchronize to EJB Diagram" value="Sincronizar EJB a Diagrama EJB"/>
+		<Word key="Distribute by Horizontal Centers" value="Distribuir por los Centros Horizontales"/>
+		<Word key="Swap with Message Above" value="Intercambiar con Mensaje de Arriba"/>
+		<Word key="New Operation" value="Nueva Operaci\u00f3n"/>
+		<Word key="EJB Synchronize to Entity Relationship Diagram" value="Sincronizar EJB a Diagrama Entidad Relaci\u00f3n"/>
+		<Word key="Restore Command" value="Restaurar Comando"/>
+		<Word key="Cascade Windows" value="Ventanas en Cascada"/>
+		<Word key="New Business Workflow Diagram" value="Nuevo Diagrama de Flujo de Trabajo Empresarial"/>
+		<Word key="ORM Reverse Enterprise Object Framework" value="ORM Invertir Marco de Objetos Empresariales"/>
+		<Word key="Distribute by Top Edges" value="Distribuir por los Bordes Superiores"/>
+		<Word key="Zoom 100% (Actual)" value="Zoom 100% (real)"/>
+		<Word key="EJB Wizard" value="Asistente de EJB"/>
+		<Word key="Distribute by Bottom Edges" value="Distribuir por los bordes inferiores"/>
+		<Word key="Show ORM" value="Mostrar ORM (Mapeo Objeto Relacional)"/>
+		<Word key="Unbind Command" value="Comando Desligar"/>
+		<Word key="Show Logical View" value="Mostrar Vista L\u00f3gica"/>
+		<Word key="ORM Synchronize to Class Diagram" value="Sincronizar ORM a Diagrama de Clases"/>
+		<Word key="Save Project as Template" value="Guardar Proyecto como Plantilla"/>
+		<Word key="Configure Programme Language" value="Configurar Lenguaje de Programa"/>
+		<Word key="Distribute by Right Edges" value="Distribuir por los Bordes Derechos"/>
+		<Word key="Align Same Width and Height" value="Alinear Mismo Ancho y Altura"/>
+		<Word key="Update to Model" value="Actualizar al Modelo"/>
+		<Word key="Show Extra Resources" value="Mostrar Recursos Adicionales"/>
+		<Word key="Zoom Fit to Window" value="Zoom Ajustar a la Ventana"/>
+		<Word key="Tree Style" value="Estilo de \u00c1rbol"/>
+		<Word key="Orthogonal Style" value="Estilo Ortogonal"/>
+		<Word key="Auto Layout" value="Dise\u00f1o Autom\u00e1tico"/>
+		<Word key="Route Connectors (Orthogonal)" value="Conectores de Ruta (Ortogonal)"/>
+		<Word key="Hierarchical" value="Jer\u00e1rquico"/>
+		<Word key="Laying out diagram" value="Dise\u00f1ando diagrama"/>
+		<Word key="Circular Style" value="Estilo Circular"/>
+		<Word key="Run Last Layout Style -" value="Ejecutar Ultimo Estilo de Dise\u00f1o -"/>
+		<Word key="Hierarchical Style" value="Estilo Jer\u00e1rquico"/>
+		<Word key="Route Connectors (Organic)" value="Conectores de Ruta (Org\u00e1nicos)"/>
+		<Word key="Organic Style" value="Estilo Org\u00e1nico"/>
+		<Word key="&lt;Empty&gt;" value="&lt;Vac\u00edo&gt;"/>
+		<Word key="Add Bookmark" value="A\u00f1adir Marcador"/>
+		<Word key="Align Shapes" value="Alinear Formas"/>
+		<Word key="Bookmarks" value="Marcadores"/>
+		<Word key="Bottom" value="Inferior"/>
+		<Word key="By Bottom Edges" value="Por los Bordes Inferiores"/>
+		<Word key="By Horizontal Centers" value="Por sus Centros en forma Horizontal"/>
+		<Word key="By Left Edges" value="Por sus Bordes Izquierdos"/>
+		<Word key="By Right Edges" value="Por sus Bordes Derechos"/>
+		<Word key="By Top Edges" value="Por sus Bordes Superiores"/>
+		<Word key="By Vertical Centers" value="Por sus Centros en forma Vertical"/>
+		<Word key="Change From/To Shape" value="Cambiar Forma De/A"/>
+		<Word key="Copy" value="Copiar"/>
+		<Word key="Cut" value="Cortar"/>
+		<Word key="Default Copy" value="Copia por defecto"/>
+		<Word key="Delete" value="Borrar"/>
+		<Word key="Delete View Only" value="Eliminar S\u00f3lo Ver"/>
+		<Word key="Deselect" value="Desmarcar"/>
+		<Word key="Distribute Shapes" value="Distribuir Formas"/>
+		<Word key="Duplicate" value="Duplicar"/>
+		<Word key="Find" value="Buscar"/>
+		<Word key="Group" value="Grupo"/>
+		<Word key="Horizontal Center" value="Centro Horizontal"/>
+		<Word key="Horizontally" value="Horizontalmente"/>
+		<Word key="Jump to Diagram" value="Saltar a Diagrama"/>
+		<Word key="Jump to Element" value="Saltar a Elemento"/>
+		<Word key="Jump to Element in Active Diagram" value="Saltar a Elemento en Diagrama Activo"/>
+		<Word key="Jump to Element" value="Saltar a Elemento"/>
+		<Word key="Left" value="Izquierdo"/>
+		<Word key="Organize Bookmarks" value="Organizar Marcadores"/>
+		<Word key="Paste Model Element" value="Pegar Elemento de Modelo"/>
+		<Word key="Paste View" value="Pegar Vista"/>
+		<Word key="Redo" value="Rehacer"/>
+		<Word key="Repeat Create Shape" value="Repetir Crear Forma"/>
+		<Word key="Right" value="Derecho"/>
+		<Word key="Same Height" value="Misma Altura"/>
+		<Word key="Same Width" value="Mismo Ancho"/>
+		<Word key="Same Width and Height" value="Mismo Ancho y Altura"/>
+		<Word key="Select All" value="Seleccionar Todo"/>
+		<Word key="Select All of Same Type" value="Seleccionar Todo del Mismo Tipo"/>
+		<Word key="Select Inverse" value="Invertir Selecci\u00f3n"/>
+		<Word key="To Clipboard as Image (EMF)" value="Al Portapapeles como Imagen (EMF)"/>
+		<Word key="To Clipboard as Image (JPG)" value="Al Portapapeles como Imagen (JPG)"/>
+		<Word key="To Clipboard as XML" value="Al Portapapeles como XML"/>
+		<Word key="Top" value="Superior"/>
+		<Word key="Undo" value="Deshacer"/>
+		<Word key="Ungroup" value="Desagrupar"/>
+		<Word key="Ungroup All" value="Desagrupar Todo"/>
+		<Word key="Vertical Center" value="Centro Vertical"/>
+		<Word key="Vertically" value="Verticalmente"/>
+		<Word key="Within VP-UML EE" value="Dentro de VP-UML EE"/>
+		<Word key="Active Diagram as Image" value="Diagrama Activo como Imagen"/>
+		<Word key="Close Project" value="Cerrar Proyecto"/>
+		<Word key="Diagrams as Image" value="Diagrama como Imagen"/>
+		<Word key="ERwin Project (XML)" value="Proyecto ERwin (XML)"/>
+		<Word key="Exit" value="Salir"/>
+		<Word key="Export" value="Exportar"/>
+		<Word key="Export VP-UML Project" value="Exportar Proyecto VP-UML"/>
+		<Word key="Export XMI" value="Exportar XMI"/>
+		<Word key="Export XML" value="Exportar XML"/>
+		<Word key="Export as Image" value="Exportar como Imagen"/>
+		<Word key="File" value="Archivo"/>
+		<Word key="Import" value="Import&#10;ar"/>
+		<Word key="Import Telelogic Rhapsody Project" value="Importar Proyecto Telelogic Rhapsody"/>
+		<Word key="Import Telelogic System Architect" value="Importar Telelogic System Architect"/>
+		<Word key="Import" value="Importar"/>
+		<Word key="MS Word to Use Case Model Element" value="MS Word para Elemento del Modelo de Caso de Uso"/>
+		<Word key="Maintain Project Templates" value="Mantener Plantillas de Proyecto"/>
+		<Word key="Open Project" value="Abrir Proyecto"/>
+		<Word key="Print Active Diagram" value="Imprimir Diagrama Activo"/>
+		<Word key="Print" value="Imprimir"/>
+		<Word key="Project Properties" value="Propiedades del Proyecto"/>
+		<Word key="Quick Print" value="Impresi\u00f3n R\u00e1pida"/>
+		<Word key="Quick Print" value="Impresi\u00f3n R\u00e1pida"/>
+		<Word key="Rational Model" value="Modelo Racional"/>
+		<Word key="Rational Model" value="Modelo Racional"/>
+		<Word key="Reopen" value="Reabrir"/>
+		<Word key="Rose Project" value="Proyecto Rose"/>
+		<Word key="Save Project" value="Guardar Proyecto"/>
+		<Word key="Save Project as" value="Guardar Proyecto como"/>
+		<Word key="Save as Project Template" value="Guardar como Plantilla de Proyecto"/>
+		<Word key="Selection as Image" value="Selecci\u00f3n como Imagen"/>
+		<Word key="Switch Workspace" value="Cambiar Area de Trabajo"/>
+		<Word key="Switch Workspace" value="Cambiar Area de Trabajo"/>
+		<Word key="Telelogic Rhapsody Project" value="Proyecto Telelogic Rhapsody"/>
+		<Word key="Telelogic System Architect" value="Telelogic System Architect"/>
+		<Word key="Use Case Model to MS Word" value="Modelos de Casos de Uso a MS Word"/>
+		<Word key="VP-UML Project" value="Proyecto VP-UML"/>
+		<Word key="XMI" value="XMI"/>
+		<Word key="XML" value="XML"/>
+		<Word key="About Visual Paradigm for UML Enterprise Edition" value="Acerca de Visual Paradigm para UML Enterprise Edition"/>
+		<Word key="Help" value="Ayuda"/>
+		<Word key="Maintenance" value="Mantenimiento"/>
+		<Word key="Mouse Gestures" value="Gestos del Rat\u00f3n"/>
+		<Word key="Online Support" value="Asistencia en l\u00ednea"/>
+		<Word key="Repair Project" value="Reparar Proyecto"/>
+		<Word key="Visual Paradigm Home Page" value="P\u00e1gina Web de Visual Paradigm"/>
+		<Word key="Visual Paradigm for UML Enterprise Edition Help" value="Ayuda de Visual Paradigm para UML Enterprise Edition"/>
+		<Word key="Visual Paradigm on the Web" value="Visual Paradigm en la Web"/>
+		<Word key="Show Loaded Models" value="Mostrar Modelos Cargados"/>
+		<Word key="About {0}" value="Acerca de {0}"/>
+		<Word key="Configure Programming Language" value="Configurar Lenguaje de Programaci\u00f3n"/>
+		<Word key="Configure Requirements" value="Configurar Requerimientos"/>
+		<Word key="Configure Stereotypes" value="Configurar Estereotipos"/>
+		<Word key="DB-VA SQL" value="DB-VA SQL"/>
+		<Word key="Generate Code" value="Generar C\u00f3digo"/>
+		<Word key="Generate HTML Report" value="Generar Reporte HTML"/>
+		<Word key="Generate PDF Report" value="Generar Reporte PDF"/>
+		<Word key="Generate Word Report" value="Generar Reporte en Word"/>
+		<Word key="IDE Integration" value="Integraci\u00f3n IDE"/>
+		<Word key="Instant Generator" value="Generador Instant\u00e1neo"/>
+		<Word key="Instant Reverse" value="Inversi\u00f3n Instant\u00e1nea"/>
+		<Word key="Java Round-trip" value="Java Bidireccional"/>
+		<Word key="Key Manager" value="Administrador de Claves"/>
+		<Word key="Object-Relational Mapping (ORM)" value=" Mapeo Relacional de Objetos (ORM)"/>
+		<Word key="Options" value="Opciones"/>
+		<Word key="Project Publisher" value="Project Publisher"/>
+		<Word key="Report" value="Reporte"/>
+		<Word key="Report Writer" value="Escritor de Informes"/>
+		<Word key="Reverse Code" value="C\u00f3digo de Inversi\u00f3n"/>
+		<Word key="Reverse DDL" value="Invertir DDL"/>
+		<Word key="Shape Editor" value="Editor de Forma"/>
+		<Word key="State Machine Code" value="C\u00f3digo de M\u00e1quina de Estado"/>
+		<Word key="Teamwork" value="Trabajo en Equipo"/>
+		<Word key="Tools" value="Herramientas"/>
+		<Word key="Update to Code" value="Actualizar a C\u00f3digo"/>
+		<Word key="Update to Model Element" value="Actualizar a Elemento de Modelo"/>
+		<Word key="Use Case Scheduling" value="Secuenciar Casos de Uso"/>
+		<Word key="Visio Integration" value="Integraci\u00f3n Visio"/>
+		<Word key="Configure Nicknames" value="Configurar Nombres de Usuarios"/>
+		<Word key="Default" value="Predefinido"/>
+		<Word key="Drawing" value="Ilustraci\u00f3n"/>
+		<Word key="Extra Resources" value="Recursos Extra"/>
+		<Word key="Full Screen" value="Pantalla Completa"/>
+		<Word key="Generic Resources Only" value="S\u00f3lo Recursos Gen\u00e9ricos"/>
+		<Word key="Grid" value="Cuadr\u00edcula"/>
+		<Word key="Group Resources" value="Recursos del Grupo"/>
+		<Word key="Informative" value="Informativo"/>
+		<Word key="Manage Perspectives" value="Manejar Perspectivas"/>
+		<Word key="Nicknames" value="Nombres de Usuarios"/>
+		<Word key="Open Perspective" value="Abrir Perspectiva"/>
+		<Word key="Original" value="Original"/>
+		<Word key="Panes" value="Paneles/Vistas"/>
+		<Word key="Reset Perspective to Default" value="Restablecer Perspectiva a Predefinido"/>
+		<Word key="Resource" value="Recurso"/>
+		<Word key="Resource Centric" value="Centrado en Recursos"/>
+		<Word key="Resources" value="Recursos"/>
+		<Word key="Save Perspective as" value="Guardar Perspectiva como"/>
+		<Word key="Snap to Grid" value="Ajuste a la Cuadr\u00edcula"/>
+		<Word key="View" value="Vista"/>
+		<Word key="Zoom 100% (Actual Size)" value="Zoom 100% (Tama\u00f1o Actual)"/>
+		<Word key="Zoom In" value="Acercamiento"/>
+		<Word key="Zoom Out" value="Reducci\u00f3n"/>
+		<Word key="Zoom to Region" value="Zoom a Region"/>
+		<Word key="Cascade" value="Cascada"/>
+		<Word key="Close Active Diagram" value="Cerrar Diagrama Activo"/>
+		<Word key="Close All Diagrams" value="Cerrar Todos los Diagramas"/>
+		<Word key="Close Other Diagrams" value="Cerrar Otros Diagramas"/>
+		<Word key="Navigate" value="Navegar"/>
+		<Word key="Next Diagram" value="Siguiente Diagrama"/>
+		<Word key="Previous Diagram" value="Diagrama Anterior"/>
+		<Word key="Switch to Diagram" value="Cambiar a Diagrama"/>
+		<Word key="Tile" value="Mosaico"/>
+		<Word key="Window" value="Ventana"/>
+		<Word key="Delete no referenced model element" value="Eliminar elemento modelo no referenciado"/>
+		<Word key="Show Component Option" value="Mostrar Opci\u00f3n de Componente"/>
+		<Word key="Presentation Options" value="Opciones de Presentaci\u00f3n"/>
+		<Word key="EJB Annotation" value="Anotaci\u00f3n EJB"/>
+		<Word key="American" value="Americano"/>
+		<Word key="Show transition trigger" value="Mostrar activador de transici\u00f3n"/>
+		<Word key="Ignore words with numbers" value="Ignorar palabras con n\u00fameros"/>
+		<Word key="Show Partition Handle (Activity Diagram)" value="Mostrar Indicador de Partici\u00f3n (Diagrama de Actividad)"/>
+		<Word key="Example" value="Ejemplo"/>
+		<Word key="out" value="fuera"/>
+		<Word key="Show Activities type icon (diagram-based)" value="Mostrar icono de tipo de Actividades (basado en diagrama)"/>
+		<Word key="User Path" value="Ruta de Usuario"/>
+		<Word key="After package declaration" value="Despu\u00e9s de la declaraci\u00f3n de paquete"/>
+		<Word key="Generate blank model element" value="Generar elemento de modelo en blanco"/>
+		<Word key="Measurement Unit" value="Unidad de Medida"/>
+		<Word key="Show Instant Reverse Form Diagram dialog after Instant Reverse" value="Mostrar di\u00e1logo de Diagrama de Forma Inversa Instant\u00e1nea despu\u00e9s de Inversi\u00f3n Instant\u00e1nea"/>
+		<Word key="Export with frame" value="Exportar con marco"/>
+		<Word key="Show template parameter" value="Mostrar par\u00e1metro de plantilla"/>
+		<Word key="Template name" value="Nombre de plantilla"/>
+		<Word key="Show grid" value="Mostrar cuadr\u00edcula"/>
+		<Word key="Date Time Format" value="Formato de Fecha y Hora"/>
+		<Word key="Auto Create Initial State" value="Estado Inicial de Creaci\u00f3n Autom\u00e1tica"/>
+		<Word key="Text anti-aliasing" value="Suavizado de Texto"/>
+		<Word key="Delete without ask" value="Eliminar sin preguntar"/>
+		<Word key="Sort by type" value="Ordenar por tipo"/>
+		<Word key="Proxy Setting" value="Configuraci\u00f3n Proxy"/>
+		<Word key="Auto create Use Case Description from default template" value="Creaci\u00f3n autom\u00e1tica de Descripci\u00f3n de Casos de Uso de plantilla predefinida"/>
+		<Word key="Before first declaration" value="Antes de primera declaraci\u00f3n"/>
+		<Word key="Oblique" value="Oblicuo"/>
+		<Word key="File Types" value="Tipos de Archivo"/>
+		<Word key="Shape line format" value="Formato de l\u00ednea de forma"/>
+		<Word key="Show user path" value="Mostrar ruta de usuario"/>
+		<Word key="Behavior" value="Comportamiento"/>
+		<Word key="Project" value="Proyecto"/>
+		<Word key="Show edges" value="Mostrar bordes"/>
+		<Word key="Round the Shape" value="Alrededor de la Forma"/>
+		<Word key="Default parameter direction" value="Direcci\u00f3n del par\u00e1metro predefinido"/>
+		<Word key="Auto rename" value="Cambiar de nombre autom\u00e1ticamente"/>
+		<Word key="Default pin from connection point" value="Pin predefinido de punto de conexi\u00f3n"/>
+		<Word key="Language" value="Idioma"/>
+		<Word key="ID Generator" value="Generador de Identificaci\u00f3n"/>
+		<Word key="Show Export/Import Teamwork project" value="Mostrar opci\u00f3n Exportar/Importar proyecto de Equipo de Trabajo"/>
+		<Word key="Show stereotype of message in Sequence Diagram and Communication Diagram (diagram-based)" value="Mostrar estereotipo de mensaje en Diagrama de Secuencia y en Diagrama de Comunicaci\u00f3n (basado en diagrama)"/>
+		<Word key="Show operation parameter name" value="Mostrar nombre de par\u00e1metro de operaci\u00f3n"/>
+		<Word key="Show sub diagrams" value="Mostrar sub diagramas"/>
+		<Word key="Always Hide" value="Ocultar Siempre"/>
+		<Word key="Show attribute getter/setter" value="Mostrar atributo accesores/modificadores"/>
+		<Word key="Auto save project" value="Grabar automaticamente proyecto"/>
+		<Word key="Browse output directory after generate code" value="Localizar directorio destino despu\u00e9s de generar c\u00f3digo"/>
+		<Word key="Show foreign key name" value="Mostrar nombre de clave exterior"/>
+		<Word key="Business Process" value="Proceso de Negocio"/>
+		<Word key="Show message completion documentation" value="Mostrar mensaje de finalizaci\u00f3n de documentaci\u00f3n"/>
+		<Word key="Show diagram alignment guide" value="Mostrar gu\u00eda de alineaci\u00f3n de diagrama"/>
+		<Word key="Connect Gateway with Flow Object in Different Pool" value="Conectar Puerta de Acceso con Objeto de Flujo en Diferente Contenedor Gr\u00e1fico"/>
+		<Word key="Auto create transition methods" value="Creaci\u00f3n Autom\u00e1tica de m\u00e9todos de transici\u00f3n"/>
+		<Word key="Synchronize updated operations to subclasses" value="Sincronizar las operaciones actualizadas a subclases"/>
+		<Word key="Re-generate transition methods" value="Generar nuevamente m\u00e9todos de transici\u00f3n"/>
+		<Word key="Activity and State" value="Actividad y Estado"/>
+		<Word key="Expand parent delay (second)" value="Demora en ampliar padre (segundo)"/>
+		<Word key="Documentation Type" value="Tipo de Documentaci\u00f3n"/>
+		<Word key="Graphics anti-aliasing" value="Suavizado de gr\u00e1ficos"/>
+		<Word key="Shape fill format" value="Formato de relleno de forma"/>
+		<Word key="Class" value="Clase"/>
+		<Word key="Capitalize" value="Escribir con may\u00fasculas"/>
+		<Word key="Browser Name" value="Nombre del Navegador"/>
+		<Word key="return" value="retornar"/>
+		<Word key="Add import statement instead of using fully qualified type name" value="A\u00f1adir enunciado de importaci\u00f3n en lugar de utilizar nombre de tipo totalmente calificado"/>
+		<Word key="Connection Point Style" value="Estilo de Punto de Conexi\u00f3n"/>
+		<Word key="Case insensitive" value="No distingue entre may\u00fasculas y min\u00fasculas"/>
+		<Word key="Wrap member" value="Encapsular miembro"/>
+		<Word key="Curve" value="Curva"/>
+		<Word key="Connector foreground" value="Conector de primer plano"/>
+		<Word key="Show to role visibility" value="Mostrar a visibilidad de rol"/>
+		<Word key="Support multiple-line attribute" value="Admitir atributo de m\u00faltiples lineas"/>
+		<Word key="Clear Opposite Side Content in Flow of Event" value="Borrar Contenido de Lado Opuesto en Flujo de Evento"/>
+		<Word key="Enable auto expand parent" value="Activar ampliaci\u00f3n autom\u00e1tica de padre"/>
+		<Word key="Show operation option" value="Mostrar opci\u00f3n de operaci\u00f3n"/>
+		<Word key="Data Type" value="Tipo de Datos"/>
+		<Word key="Show to role name" value="Mostrar a nombre de rol"/>
+		<Word key="Create shape for parent model of dragged class/package" value="Crear forma para modelo padre de clase/paquete arrastrado"/>
+		<Word key="Add Data Stores External Entities to Decomposed DFD" value="A\u00f1adir Entidades Externas Almacenes de Datos a Diagrama de Flujo de Datos (DFD) Descompuesto"/>
+		<Word key="Open exported image file" value="Abrir archivo de imagen exportado"/>
+		<Word key="Method declaration" value="Declaraci\u00f3n de m\u00e9todo"/>
+		<Word key="Remember Import Decision" value="Recordar Decisi\u00f3n de Importaci\u00f3n"/>
+		<Word key="Show Caption (Activity Diagram)" value="Mostrar Leyenda (Diagrama de Actividad)"/>
+		<Word key="Interaction" value="Interacci\u00f3n"/>
+		<Word key="inout" value="dentro fuera"/>
+		<Word key="Expand Group" value="Ampliar Grupo"/>
+		<Word key="Generate Table of Contents" value="Generar Tabla de Contenido"/>
+		<Word key="Blank Lines within Class Declarations" value="L\u00edneas en Blanco dentro de Declaraciones de Clase"/>
+		<Word key="Show activations in Sequence Diagram (diagram-based)" value="Mostrar activaciones en Diagrama de Secuencia (basado en diagrama)"/>
+		<Word key="Plain Text" value="Texto sin Formato"/>
+		<Word key="Confirm delete shape" value="Confirmar eleminar forma"/>
+		<Word key="Show type option" value="Mostrar opci\u00f3n de tipo"/>
+		<Word key="Wrap class member" value="Encapsular miembro de clase"/>
+		<Word key="Enable spell checking" value="Activar correcci\u00f3n ortogr\u00e1fica"/>
+		<Word key="Round Rectilinear" value="Rectil\u00edneo Redondeado"/>
+		<Word key="Default location (in pixel)" value="Ubicaci\u00f3n predefinida (in p\u00edxeles)"/>
+		<Word key="The selected Web browser will be used by default when Web pages URL are opened, although some applications may always use the external browser." value="El navegador Web seleccionado se usar\u00e1 como predefinido cuando se abran p\u00e1ginas Web URL, aunque algunas aplicaciones pueden usar siempre el navegador externo."/>
+		<Word key="from Specific to General" value="de Espec\u00edfico a General"/>
+		<Word key="Show direction" value="Mostrar direcci\u00f3n"/>
+		<Word key="Before method declaration" value="Antes de declaraci\u00f3n de m\u00e9todo"/>
+		<Word key="Synchronization" value="Sincronizaci\u00f3n"/>
+		<Word key="Show public only" value="Mostrar s\u00f3lo p\u00fablico"/>
+		<Word key="Show attribute option" value="Mostrar opci\u00f3n de atributo"/>
+		<Word key="Show column type" value="Mostrar tipo de columna"/>
+		<Word key="Initial Shape Size When Set to Display Image" value="Tama\u00f1o de Forma Inicial cuando sea Configurado para Mostrar Imagen"/>
+		<Word key="Create generalization direction" value="Crear direcci\u00f3n de generalizaci\u00f3n"/>
+		<Word key="Prefix" value="Prefijo"/>
+		<Word key="Decapitalize" value="Convertir primera letra de may\u00fasculas a min\u00fasculas"/>
+		<Word key="Sort by name" value="Ordenar por nombre"/>
+		<Word key="Shape Selection Detection" value="Detecci\u00f3n de Selecci\u00f3n de Forma"/>
+		<Word key="Show from multiplicity" value="Mostrar de multiplicidad"/>
+		<Word key="Show name" value="Mostrar nombre"/>
+		<Word key="Show data types" value="Mostrar tipos de datos"/>
+		<Word key="Global Pallet Option" value="Opci\u00f3n de Paleta Global"/>
+		<Word key="Delay of show Quick Preview in Diagram Tree (second)" value="Retraso en mostrar Vista Previa R\u00e1pida en Arbol de Diagrama (segundo)"/>
+		<Word key="Overwrite Flow of Events when Synchronize from Sequence Diagram" value="Sobreescribir Flujo de Eventos cuando se Sincronice de Diagrama de Secuencia"/>
+		<Word key="Display as Robustness Analysis icon" value="Mostrar como icono de An\u00e1lisis de Robustez"/>
+		<Word key="British" value="Brit\u00e1nico"/>
+		<Word key="Show ID option" value="Mostrar opci\u00f3n Identificaci\u00f3n"/>
+		<Word key="Suffix" value="Sufijo"/>
+		<Word key="Show Attributes" value="Mostrar Atributos"/>
+		<Word key="Path" value="Ruta"/>
+		<Word key="Show association name" value="Mostrar nombre de asociaci\u00f3n"/>
+		<Word key="Canadian" value="Canadiense"/>
+		<Word key="Quote SQL Identifier" value="Citar Identificador SQL"/>
+		<Word key="Generate diagram from ORM wizards" value="Generar diagrama de asistentes ORM (Mapeo Relacional de Objetos)"/>
+		<Word key="Invalid Connection Handling" value="Manejando conexiones no v\u00e1lidas"/>
+		<Word key="Auto save interval (mins)" value="Intervalo de grabaci\u00f3n autom\u00e1tica (mins)"/>
+		<Word key="Indentation" value="Sangr\u00eda"/>
+		<Word key="Don't delete" value="No suprimir"/>
+		<Word key="Ignore all" value="Ignorar todo"/>
+		<Word key="Generate annotation in code convention" value="Generar anotaci\u00f3n en convenci\u00f3n de c\u00f3digo"/>
+		<Word key="Login name" value="Identificador del Usuario"/>
+		<Word key="Code" value="C\u00f3digo"/>
+		<Word key="Before inner type declaration" value="Antes de declaraci\u00f3n de tipo interna"/>
+		<Word key="Show project path in Diagram Navigator" value="Mostrar ruta de proyecto en Navegador de Diagrama"/>
+		<Word key="Synchronize Name" value="Sincronizar Nombre"/>
+		<Word key="Auto fit size (diagram-based)" value="Ajuste autom\u00e1tico de tama\u00f1o (basado en diagrama)"/>
+		<Word key="Scale" value="Escala"/>
+		<Word key="Lower case" value="Min\u00fasculas"/>
+		<Word key="Confirm close project" value="Confirmar cierre de proyecto"/>
+		<Word key="Support multiple-line class name" value="Admite nombre de clase de m\u00faltiples l\u00edneas"/>
+		<Word key="Presentation" value="Presentaci\u00f3n"/>
+		<Word key="Show all" value="Mostrar todos"/>
+		<Word key="If the file type has no application specified, it will be opened by the system." value="Si el archivo no tiene aplicaci\u00f3n especificada, ser\u00e1 abierto por el sistema."/>
+		<Word key="Copy as image with frame" value="Copiar como imagen con marco"/>
+		<Word key="Show shape content when dragging" value="Mostrar contenido de forma cuando se arrastre"/>
+		<Word key="Copy as XML with RTF style" value="Copiar como XML con estilo RTF"/>
+		<Word key="Generate Sample Code" value="Generar C\u00f3digo de Muestra"/>
+		<Word key="Other" value="Otro"/>
+		<Word key="Show sequence number in sequence diagram" value="Mostrar n\u00famero de secuencia en diagrama de secuencia"/>
+		<Word key="Indentation policy" value="Pol\u00edtica de sangr\u00eda"/>
+		<Word key="Tool Tips of Class and Package" value="Herramienta de Ayuda Visual de Clase y Paquete"/>
+		<Word key="Show attribute multiplicity" value="Mostrar atributo multiplicidad"/>
+		<Word key="Appearance" value="Apariencia"/>
+		<Word key="Remove method body after changed to abstract method" value="Eliminar cuerpo de m\u00e9todo despu\u00e9s de cambiarse a m\u00e9todo abstracto"/>
+		<Word key="Existing Blank Lines" value="L\u00edneas en Blanco Existentes"/>
+		<Word key="Enable non-supported feature" value="Activar caracter\u00edstica no admitida"/>
+		<Word key="Show group resources" value="Mostrar los recursos del grupo"/>
+		<Word key="Show generic resources only" value="Mostrar \u00fanicamente los recursos gen\u00e9ricos"/>
+		<Word key="Show resources" value="Mostrar los recursos"/>
+		<Word key="General" value="General"/>
+		<Word key="Before import declaration" value="Antes de declaraci\u00f3n de importaci\u00f3n"/>
+		<Word key="Default generate diagram type from scenario" value="Generar por defecto tipo de diagrama de escenario"/>
+		<Word key="Always Show Reference and Sub Diagram Resource" value="Mostrar Siempre Referencia y Recursos de Sub Diagrama"/>
+		<Word key="Class Diagram to ERD Column Name" value="Diagrama de Clases a Nombre de Columna de Diagrama Entidad - Relaci\u00f3n ERD"/>
+		<Word key="Language Name" value="Nombre de Idioma"/>
+		<Word key="ERD to Class Diagram Class Name" value="ERD a Nombre de Clase de Diagrama de Clase"/>
+		<Word key="Auto create Initial State on State Diagram" value="Creaci\u00f3n Autom\u00e1tica de Estado Inicial en Diagrama de Estado"/>
+		<Word key="Show extra column properties" value="Mostrar propiedades de columna extra"/>
+		<Word key="Default Visibility" value="Visibilidad Predefinida"/>
+		<Word key="Auto realize interface" value="Reconocer interfaz autom\u00e1ticamente"/>
+		<Word key="Cancel move" value="Cancelar mover"/>
+		<Word key="Printing" value="Impresi\u00f3n"/>
+		<Word key="System default" value="Predefinido del sistema"/>
+		<Word key="ERD to Class Diagram Attribute Name" value="ERD a Nombre de Atributo de Diagrama de Clase"/>
+		<Word key="Use gradient color when print diagrams" value="Usar gradiente de color al imprimir diagramas"/>
+		<Word key="Export comment to database" value="Exportar comentario a base de datos"/>
+		<Word key="Round Oblique" value="Oblicuo redondeado"/>
+		<Word key="Use proxy" value="Usar proxy"/>
+		<Word key="Keyword and Icon" value="Palabra clave y Icono"/>
+		<Word key="Default Association End Navigable" value="Navegabilidad del Fin de Asociaci\u00f3n Predefinido"/>
+		<Word key="Diagram Navigator Sort Type" value="Tipo de Clasificaci\u00f3n en Navegador de Diagrama"/>
+		<Word key="Show rich text content in preview shape" value="Mostrar contenido de texto enriquecido en vista previa de forma"/>
+		<Word key="Overlapped with selection area" value="Superpuesto con \u00e1rea de selecci\u00f3n"/>
+		<Word key="Show messages operation signature in Sequence Diagram and Communication Diagram (diagram-based)" value="Mostrar mensajes de firma de operaci\u00f3n en Diagrama de Secuencia y en Diagrama de Comunicaci\u00f3n (basado en diagrama)"/>
+		<Word key="Before different kind declaration" value="Antes de declaraci\u00f3n de diferentes tipos"/>
+		<Word key="Languages" value="Idiomas"/>
+		<Word key="Edition" value="Edici\u00f3n"/>
+		<Word key="Show extra resources" value="Mostrar recursos adicionales"/>
+		<Word key="Precision" value="Precisi\u00f3n"/>
+		<Word key="Connect with Message Flow" value="Conectar con Flujo de Mensajes"/>
+		<Word key="Do not rename" value="No cambiar nombre"/>
+		<Word key="Show association stereotype" value="Mostrar estereotipo de asociaci\u00f3n"/>
+		<Word key="The file types option allows you to specify applications or commands to open files in different types." value="La opci\u00f3n de tipos de archivo te permite especificar aplicaciones o comandos para abrir archivos en diferentes tipos."/>
+		<Word key="Time Format" value="Formato de Hora"/>
+		<Word key="Show unlimited level in preview shape (May slower the diagram display)" value="Mostrar nivel ilimitado en vista preliminar de forma (puede poner m\u00e1s lenta la visualizaci\u00f3n del diagrama)"/>
+		<Word key="Add Covered Shapes as Children After Resize" value="A\u00f1adir Formas Incluidas como Hijos Despu\u00e9s de Redimensionar"/>
+		<Word key="After import declaration" value="Despu\u00e9s de declaraci\u00f3n de importaci\u00f3n"/>
+		<Word key="Use generic collections" value="Usar colecciones gen\u00e9ricas"/>
+		<Word key="Default pin to connection point" value="Pin predefinido a punto de conexi\u00f3n"/>
+		<Word key="Default HTML Documentation Font" value="Fuente de Documentaci\u00f3n HTML Predefinida"/>
+		<Word key="Generate try catch block" value="Generar bloque para capturar excepciones &quot;try catch&quot;"/>
+		<Word key="in" value="dentro"/>
+		<Word key="Time Sample" value="Muestra de Tiempo"/>
+		<Word key="Show row grid line within compartment of Classes in Class Diagram (diagram type-based)" value="Mostrar l\u00ednea de cuadr\u00edcula de fila dentro de compartimiento de clases en el diagrama de clases (basado en tipo de diagrama)"/>
+		<Word key="Auto-generate role name" value="Generar autom\u00e1ticamente nombre de rol"/>
+		<Word key="Open last project on startup" value="Abrir \u00faltimo proyecto en el arranque"/>
+		<Word key="Data Types" value="Tipos de Datos"/>
+		<Word key="Number of lines to empty body" value="N\u00famero de l\u00edneas a cuerpo vac\u00edo"/>
+		<Word key="Ignore words in UPPERCASE" value="Ignorar palabras en MAY\u00daSCULAS"/>
+		<Word key="Snap to grid" value="Ajustar a la cuadr\u00edcula"/>
+		<Word key="Display as stereotype icon" value="Mostrar como icono de estereotipo"/>
+		<Word key="Fit shape to image" value="Ajustar forma a la imagen"/>
+		<Word key="Prompt to specify user path" value="Avisar para especificar ruta del usuario"/>
+		<Word key="Preview" value="Vista previa"/>
+		<Word key="Show center" value="Mostrar Centro"/>
+		<Word key="Use Case Details" value="Detalles de Casos de Uso"/>
+		<Word key="from General to Specific" value="de General a Espec\u00edfico"/>
+		<Word key="Auto fit message completion size" value="Tama\u00f1o de finalizaci\u00f3n de mensaje de ajuste autom\u00e1tico"/>
+		<Word key="State Code Engine" value="Motor de C\u00f3digo de Estado"/>
+		<Word key="Show resources delay (second)" value="Mostrar demora de recursos (segundo)"/>
+		<Word key="Generate annotation on" value="Generar anotaci\u00f3n en"/>
+		<Word key="Name only" value="S\u00f3lo nombre"/>
+		<Word key="Import fully qualified type name for referenced type" value="Importar nombre de tipo totalmente calificado para tipo referenciado"/>
+		<Word key="Case sensitive" value="Distingue entre may\u00fasculas y min\u00fasculas"/>
+		<Word key="ID Generator Format" value="Formato de Generador de Identificaci\u00f3n"/>
+		<Word key="Export with border" value="Exportar con borde"/>
+		<Word key="Use &quot;is&quot; prefix for getters that return boolean" value="Usar prefijo &quot;is&quot; para accesores que retornan valor booleano"/>
+		<Word key="Show parent style" value="Mostrar estilo de padre"/>
+		<Word key="Show row grid line within compartment of Entities/Views/Classes in ORM Diagram (diagram type-based)" value="Mostrar l\u00ednea de cuadr\u00edcula de fila dentro de compartimiento de Entidades/Vistas/Clases en Diagrama ORM (basado en tipo de diagrama)"/>
+		<Word key="Show owner of class/package" value="Mostrar propietario de clase/paquete"/>
+		<Word key="Show relationship connectors for dropped models" value="Mostrar conectores de relaci\u00f3n para modelos retirados"/>
+		<Word key="Alignment Guide" value="Gu\u00eda de Alineaci\u00f3n"/>
+		<Word key="Text File Encoding" value="Codificaci\u00f3n de Archivo de Texto"/>
+		<Word key="Brace Positions" value="Posiciones de Corchetes"/>
+		<Word key="Port" value="Puerto"/>
+		<Word key="Look and Feel" value="Aspecto"/>
+		<Word key="Office Exchange" value="Cambio de Oficina"/>
+		<Word key="Rectilinear" value="Rectil\u00edneo"/>
+		<Word key="Create new line key" value="Crear clave de nueva l\u00ednea"/>
+		<Word key="Ignore Internet and file address" value="Ignorar direcci\u00f3n de Internet y archivo"/>
+		<Word key="E-mail" value="Correo electr\u00f3nico"/>
+		<Word key="Always Show" value="Mostrar Siempre"/>
+		<Word key="Default attribute type" value="Tipo de atributo predefinido"/>
+		<Word key="Upper case" value="May\u00fasculas"/>
+		<Word key="Use model element assist" value="Usar asistencia de elemento modelo"/>
+		<Word key="Auto Save" value="Grabaci\u00f3n Autom\u00e1tica"/>
+		<Word key="Use" value="Usar"/>
+		<Word key="Foreign Key Pattern" value="Patr\u00f3n de Clave Exterior"/>
+		<Word key="Align column properties" value="Propiedades de alineaci\u00f3n de columnas"/>
+		<Word key="Insert page break" value="Insertar salto de p\u00e1gina"/>
+		<Word key="Model Generation" value="Generaci\u00f3n de Modelo"/>
+		<Word key="Class Diagram to ERD Table Name" value="Diagrama de Clases a Nombre de Tabla ERD"/>
+		<Word key="Array" value="Estructura de Datos"/>
+		<Word key="Show operation signature" value="Mostrar firma de operaci\u00f3n"/>
+		<Word key="Show association role stereotypes" value="Mostrar estereotipos de rol de asociaci\u00f3n"/>
+		<Word key="Size" value="Tama\u00f1o"/>
+		<Word key="Generate Import" value="Generar Importaci\u00f3n"/>
+		<Word key="Show sequence number in collaboration diagram" value="Mostrar n\u00famero de secuencia en diagrama de colaboraci\u00f3n"/>
+		<Word key="Sort tree with case sensitive" value="Ordenar \u00e1rbol distinguiendo entre may\u00fasculas y min\u00fasculas"/>
+		<Word key="Show convert Sub-Process/Task warning" value="Mostrar advertencia de conversi\u00f3n de Sub-Proceso/Tarea"/>
+		<Word key="Password" value="Contrase\u00f1a"/>
+		<Word key="None" value="Ninguno"/>
+		<Word key="Theme (for Office 2003 L&amp;F only)" value="Tema (solamente para Office 2003 L&amp;F)"/>
+		<Word key="New Lines" value="Nuevas L\u00edneas"/>
+		<Word key="Hide all" value="Ocultar todos"/>
+		<Word key="Ask" value="Preguntar"/>
+		<Word key="Property method" value="M\u00e9todo de propiedad"/>
+		<Word key="Default Copy Action" value="Acci\u00f3n de Copia Predefinida"/>
+		<Word key="Generate Sequence Diagram from Use Case Description Overwrite Existing Diagram" value="Generar Diagrama de Secuencia de Descripci\u00f3n de Casos de Uso Sobreescribir Diagrama Existente"/>
+		<Word key="Enum declaration" value="Declaraci\u00f3n de enumeraci\u00f3n"/>
+		<Word key="Use state name tab" value="Usar pesta\u00f1a de nombre de estado"/>
+		<Word key="Spell Checking" value="Correcci\u00f3n Ortogr\u00e1fica"/>
+		<Word key="Constructor declaration" value="Declaraci\u00f3n de Constructor"/>
+		<Word key="Code Synchronization" value="C\u00f3digo de Sincronizaci\u00f3n"/>
+		<Word key="Show carriage return character" value="Mostrar car\u00e1cter de retorno de carro"/>
+		<Word key="Default parameter type" value="Tipo de par\u00e1metro predefinido"/>
+		<Word key="Follow Center" value="Seguir Centro"/>
+		<Word key="Auto-synchronize role name" value="Sincronizaci\u00f3n autom\u00e1tica de nombre de rol"/>
+		<Word key="Model Explorer Sort Type" value="Tipo de Clasificaci\u00f3n en Explorador de Modelo"/>
+		<Word key="Diagram background" value="Fondo de Diagrama"/>
+		<Word key="Collection" value="Colecci\u00f3n"/>
+		<Word key="Auto Expand Parent When Moving Child" value="Ampliar Autom\u00e1ticamente Padre al Mover Hijos"/>
+		<Word key="Blank Lines in Compilation Unit" value="L\u00edneas en blanco en la unidad de compilaci\u00f3n"/>
+		<Word key="Field" value="Campo"/>
+		<Word key="Show Activation in Diagram Navigator" value="Mostrar Activaci\u00f3n en Navegador de Diagrama"/>
+		<Word key="Default operation return type" value="Tipo de operaci\u00f3n de retorno predefinida"/>
+		<Word key="Don't change" value="No cambiar"/>
+		<Word key="Show fully qualified class and package name in tool tip" value="Mostrar clase totalmente calificada y nombre de paquete en herramienta de ayuda visual"/>
+		<Word key="Diagramming" value="Diagramaci\u00f3n"/>
+		<Word key="Brace and Indentation" value="Corchetes y sangr\u00eda"/>
+		<Word key="Foreign key connector end points to associated column" value="Puntos finales de conector principal exterior a columna asociada"/>
+		<Word key="Update constructor after class renamed" value="Actualizar constructor despu\u00e9s de cambiar de nombre a clase"/>
+		<Word key="Auto hide resources delay (second)" value="Demora en ocultar autom\u00e1ticamente recursos (segundo)"/>
+		<Word key="Add Variables" value="A\u00f1adir Variables"/>
+		<Word key="Textual Analysis Highlight Option" value="Opci\u00f3n Resaltar An\u00e1lisis Textual"/>
+		<Word key="Extension" value="Extensi\u00f3n"/>
+		<Word key="Generate Diagram from Scenario Overwrite Existing Diagram" value="Generar Diagrama de Escenario Sobreescribir Diagrama Existente"/>
+		<Word key="Confirm delete diagram" value="Confirmar eliminar diagrama"/>
+		<Word key="Date Format" value="Formato de Fecha"/>
+		<Word key="The checked user language will be used." value="Se utilizar\u00e1 el idioma de usuario marcado."/>
+		<Word key="Format" value="Format&#10;o"/>
+		<Word key="Installed User Language" value="Idioma de Usuario Instalado"/>
+		<Word key="Relative" value="Relativo"/>
+		<Word key="Fully-qualified" value="Totalmente calificado"/>
+		<Word key="Class declaration" value="Declaraci\u00f3n de clase"/>
+		<Word key="Connect with Sequence Flow" value="Conectar con Flujo de Secuencia"/>
+		<Word key="Decimal Precision and Scale" value="Escala y Precisi\u00f3n Decimal"/>
+		<Word key="Fit image to shape" value="Ajustar la imagen a la forma"/>
+		<Word key="Show from role name" value="Mostrar de nombre de rol"/>
+		<Word key="Auto stretch pools" value="Contenedor gr\u00e1fico de estiramiento autom\u00e1tico"/>
+		<Word key="Inside selection area" value="Dentro de \u00e1rea de selecci\u00f3n"/>
+		<Word key="Show Lane Handle" value="Mostrar indicador de partici\u00f3n"/>
+		<Word key="Date Sample" value="Muestra de Fecha"/>
+		<Word key="Show attribute initial value" value="Mostrar valor inicial de atributo"/>
+		<Word key="Show package structure on model assist" value="Mostrar estructura de paquete en modo asistencia de modelo"/>
+		<Word key="Generate debug messages" value="Generar mensajes de depuraci\u00f3n"/>
+		<Word key="Connector" value="Conector"/>
+		<Word key="Backup level" value="Nivel de copia de seguridad"/>
+		<Word key="Show relationships" value="Mostrar las relaciones"/>
+		<Word key="Indentation size" value="Tama\u00f1o de sangr\u00eda"/>
+		<Word key="Show from role visibility" value="Mostrar de visibilidad de rol"/>
+		<Word key="Before field declaration" value="Antes de declaraci\u00f3n de campo"/>
+		<Word key="Application/Command" value="Aplicaci\u00f3n/Comando"/>
+		<Word key="Show row grid line within compartment of Entities/Views in ERD (diagram type-based)" value="Mostrar l\u00ednea de cuadr\u00edcula de fila dentro de compartimiento de Entidades/Vistas en Diagrama Entidad - Relaci\u00f3n ERD (basado en tipo de diagrama)"/>
+		<Word key="Launch viewer" value="Lanzar visor"/>
+		<Word key="Visibility style" value="Estilo de visibilidad"/>
+		<Word key="Add or remove user language." value="A\u00f1adir o eliminar idioma de usuario."/>
+		<Word key="Show class member stereotype" value="Mostrar estereotipo de miembro de clase"/>
+		<Word key="Java Collection" value="Colecci\u00f3n Java"/>
+		<Word key="Getter/Setter Visibility" value="Visibilidad de Accesores/Modificadores"/>
+		<Word key="Dictionary" value="Diccionario"/>
+		<Word key="Connector Style" value="Estilo de Conector"/>
+		<Word key="Icon" value="Icono"/>
+		<Word key="Synchronize transition methods" value="Sincronizar m\u00e9todos de transici\u00f3n"/>
+		<Word key="Before package declaration" value="Antes de declaraci\u00f3n de paquete"/>
+		<Word key="Show multiplicity constraints" value="Mostrar limitaciones de multiplicidad"/>
+		<Word key="Show Caption (State Machine Diagram)" value="Mostrar Leyenda (Diagrama de M\u00e1quina de Estados)"/>
+		<Word key="Show Copy to Clipboard as OLE" value="Mostrar Copiar al Portapapeles como OLE"/>
+		<Word key="Use default" value="Usar predefinido"/>
+		<Word key="Confirm becomes &lt;Enter&gt;" value="Confirmar se convierte en &lt;Intro&gt;"/>
+		<Word key="Check spelling as you type" value="Revisar ortograf\u00eda mientras escribe"/>
+		<Word key="Show to multiplicity" value="Mostrar a multiplicidad"/>
+		<Word key="Default Association End Visibility" value="Visibilidad de Fin de Asociaci\u00f3n Predefinido"/>
+		<Word key="Support HTML Attribute" value="Soporte para Atributos HTML"/>
+		<Word key="Host" value="Servidor"/>
+		<Word key="Warning on create ORM-Persistable Class in default package" value="Advertencia sobre crear Clase Persistente ORM en paquete predefinido"/>
+		<Word key="Association" value="Asociaci\u00f3n"/>
+		<Word key="Export as image with frame" value="Exportar como imagen con marco"/>
+		<Word key="Num of digits" value="N\u00famero de d\u00edgitos"/>
+		<Word key="Show attribute option" value="Mostrar opci\u00f3n de atributo"/>
+		<Word key="Stereotype support HTML tagged value" value="Valores etiquetados HTML soporte de estereotipos"/>
+		<Word key="Default system Web browser" value="Navegador Web predefinido por el sistema"/>
+		<Word key="Width" value="Ancho"/>
+		<Word key="Database Configuration" value="Configuraci\u00f3n de la Base de Datos"/>
+		<Word key="Generate Database" value="Generar Base de Datos"/>
+		<Word key="Generate ORM Code" value="Generar C\u00f3digo ORM"/>
+		<Word key="ORM Wizards" value="Asistentes de ORM"/>
+		<Word key="Reverse Database" value="Invertir Base de Datos"/>
+		<Word key="Reverse Enterprise Object Framework" value="Invertir Enterprise Object Framework"/>
+		<Word key="Reverse Hibernate" value="Invertir Hibernar"/>
+		<Word key="Reverse Java Classes" value="Invertir Clases Java"/>
+		<Word key="Synchronize to Class Diagram" value="Sincronizar a Diagrama de clase"/>
+		<Word key="Synchronize to Entity Relationship Diagram" value="Sincronizar a Diagrama Entidad - Relaci\u00f3n"/>
+		<Word key="set Default Driver" value="establecer Controlador Predefinido"/>
+		<Word key="Reverse Trigger" value="Invertir Activador"/>
+		<Word key="Generate Database" value="Generar Base de Datos"/>
+		<Word key="Column constraints display option" value="Opciones de visualizaci\u00f3n de limitaciones de columna"/>
+		<Word key="Select Stored Procedures" value="Seleccione procedimientos almacenados"/>
+		<Word key="Create ORM Implementation Class" value="Crear Clase de Implementaci\u00f3n ORM"/>
+		<Word key="You will be asked to provide information for database connection, select database tables, and define details of generated classes." value="Se le pedir\u00e1 que proporcione informaci\u00f3n para la conexi\u00f3n a la base de datos, seleccione los cuadros de base de datos, y definir los detalles de las clases generadas."/>
+		<Word key="Persistent API" value="Persistencia API"/>
+		<Word key="ORM Component Class" value="Clase Componente ORM"/>
+		<Word key="ORM-Persistable Class" value="Clase Persistente ORM"/>
+		<Word key="Mapping type for date" value="Tipo de asignaci\u00f3n para fecha"/>
+		<Word key="DSN" value="DSN (Nombre de Origen de Datos)"/>
+		<Word key="Timeout (seconds)" value="Tiempo de espera (segundos)"/>
+		<Word key="Driver" value="Controlador"/>
+		<Word key="All Schemas" value="Todos los esquemas"/>
+		<Word key="Database" value="Base de datos"/>
+		<Word key="Driver file" value="Archivo de controlador"/>
+		<Word key="Default Order Collection Type" value="Tipo de Colecci\u00f3n Ordenada en forma Predefinida"/>
+		<Word key="Drop Database" value="Eliminar Base de Datos"/>
+		<Word key="Select Schema " value="Seleccionar Esquema"/>
+		<Word key="Exception Handling" value="Manejo de Excepciones"/>
+		<Word key="Class-Entity Mapping" value="Mapeo Clase-Entidad"/>
+		<Word key="Available Tables" value="Cuadros Disponibles"/>
+		<Word key="Selected Tables" value="Cuadros Seleccionados"/>
+		<Word key="Driver Class" value="Clase de Controlador"/>
+		<Word key="Port number" value="N\u00famero de puerto"/>
+		<Word key="Update Database" value="Actualizar base de datos"/>
+		<Word key="Select Optional Jar" value="Seleccionar Jar Opcional"/>
+		<Word key="Select Primary Key" value="Seleccionar Clave Principal"/>
+		<Word key="Generate Code and Database from Class Diagram - Select Primary Key" value="Generar C\u00f3digo y Base de Datos de Diagrama de Clase - Seleccionar Clave Principal"/>
+		<Word key="Wrapping Servlet Request" value="Solicitud de encapsular el Servlet"/>
+		<Word key="Generate Database " value="Generar Base de Datos"/>
+		<Word key="Database name" value="Nombre de Base de Datos"/>
+		<Word key="User" value="Usuario"/>
+		<Word key="Deploy to" value="Desplegar en"/>
+		<Word key="Servlet Sample" value="Ejemplo de Servlet"/>
+		<Word key="Non Persistable Classes" value="Clases No Persistentes"/>
+		<Word key="You will be asked to define details of generated classes, and provide information for database connection." value="Se le pedir\u00e1 definir los detalles de las clases generadas, y proporcionar informaci\u00f3n para la conexi\u00f3n a la base de datos."/>
+		<Word key="Generate Code and Database From ERD - Class Details Configuration" value="Generar C\u00f3digo y Base de Datos de la Divisi\u00f3n de Diagrama Entidad - Relaci\u00f3n  de Emergencia - Configuraci\u00f3n de Detalles de Clase"/>
+		<Word key="Database:" value="Base de Datos:"/>
+		<Word key="Database Driver Description" value="Descripci\u00f3n de Controlador de Base de Datos"/>
+		<Word key="ORM Container" value="Contenedor ORM"/>
+		<Word key="Connection Pool Options" value="Opciones de Conexi\u00f3n a Contenedores Gr\u00e1ficos"/>
+		<Word key="Default Lazy Collection Initialization" value="Inicializaci\u00f3n de Colecci\u00f3n Perezosa Predefinida"/>
+		<Word key="Columns" value="Columnas"/>
+		<Word key="Batch (for Windows)" value="Batch (para Windows)"/>
+		<Word key="Proxy host" value="Nombre de Proxy"/>
+		<Word key="This wizard will help you generate Object-Relational Mapping (ORM) code and database from entity relationship diagram." value="Este asistente le ayudar\u00e1 a generar c\u00f3digo de Mapeo Relacional de Objetos (ORM) y base de datos de diagrama entidad - relaci\u00f3n."/>
+		<Word key="Selected Schema" value="Esquema Seleccionado"/>
+		<Word key="Public ID setter" value="Accesor Identificador P\u00fablico"/>
+		<Word key="Generate Code From Database - Selecting Schema" value="Generar C\u00f3digo de Base de Datos - Seleccionando Esquema"/>
+		<Word key="Generate Code and Database from Class Diagram - Database Configuration" value="Generar C\u00f3digo y Base de Datos de Diagrama de Clases - Configuraci\u00f3n de Base de Datos"/>
+		<Word key="Default Lazy Association" value="Asociaci\u00f3n Perezosa Predefinida"/>
+		<Word key="Upon completion, entity relationship diagram and class diagram will be added to your project, source code and required resources will be generated to the selected folder." value="Al terminar, se a\u00f1adir\u00e1n a su proyecto diagrama de entidad - relaci\u00f3n y diagrama de clases, se generar\u00e1 el c\u00f3digo fuente y los recursos requeridos en la carpeta seleccionada."/>
+		<Word key="Rows" value="Filas"/>
+		<Word key="Driver class" value="Clase de controlador"/>
+		<Word key="Generate Code and Database from Class Diagram - Generate Code" value="Generar C\u00f3digo y Base de Datos de Diagrama de Clases - Generar C\u00f3digo"/>
+		<Word key="Reverse Table" value="Invertir Cuadro"/>
+		<Word key="JBoss Application Server Template" value="Plantilla de JBoss Application Server"/>
+		<Word key="Generate ERD" value="Generar ERD (Diagrama Entidad - Relaci\u00f3n)"/>
+		<Word key="DSN" value="DSN (Nombre Origen de Datos)"/>
+		<Word key="Separate subclass mapping file" value="Subclase separada en archivo de mapeo"/>
+		<Word key="Select primary key" value="Seleccionar clave principal"/>
+		<Word key="Override toString Method" value="Anular m\u00e9todo &quot;toString&quot; (a cadena)"/>
+		<Word key="Maximum Connections" value="M\u00e1ximo de conexiones"/>
+		<Word key="Upon completion, class diagram will be added to your project, source code and required resources will be generated to the selected folder. The database can be manipulated directly through this wizard, and you can choose to generate a Data Definition Language (DDL) script." value="Al terminar, se a\u00f1adir\u00e1 a su proyecto el diagrama de clases, se generar\u00e1 el c\u00f3digo fuente y los recursos requeridos en la carpeta seleccionada. La base de datos puede manipularse directamente a trav\u00e9s de este asistente, y usted puede elegir generar un Data Definition Language (DDL) script."/>
+		<Word key="Embedded" value="Incrustado"/>
+		<Word key="Generate Code From Database - Class Details Configuration" value="Generar C\u00f3digo de Base de Datos - Configuraci\u00f3n de Detalles de Clase"/>
+		<Word key="Generate Mapping" value="Generar Mapeo"/>
+		<Word key="Database Setting" value="Configuraci\u00f3n de Base de Datos"/>
+		<Word key="Minimal" value="M\u00ednima"/>
+		<Word key="Generate Sample" value="Generar Muestra"/>
+		<Word key="Generate Code and Database from Class Diagram - Table Details Configuration" value="Generar C\u00f3digo y Base de Datos de Diagrama de Clases - Configuraci\u00f3n de Detalles de Cuadro"/>
+		<Word key="Generate Code From Database - Generate Code" value="Generar C\u00f3digo de Base de Datos - Generar C\u00f3digo"/>
+		<Word key="Connection string" value="Cadena de conexi\u00f3n"/>
+		<Word key="Idle Test Period (seconds)" value="Periodo de Prueba Inactivo (segundos)"/>
+		<Word key="Persistable Classes" value="Clases Persistentes"/>
+		<Word key="Available Tables:" value="Cuadros Disponibles:"/>
+		<Word key="Upon completion, entity relationship diagram will be added to your project, source code and required resources will be generated to the selected folder. The database can be manipulated directly through this wizard, and you can choose to generate a Data Definition Language (DDL) script." value="Al terminar, se a\u00f1adir\u00e1 a su proyecto el diagrama entidad - relaci\u00f3n, se generar\u00e1 el c\u00f3digo fuente y los recursos requeridos en la carpeta seleccionada. La base de datos puede manipularse directamente a trav\u00e9s de este asistente, y usted puede elegir generar lenguaje de programaci\u00f3n Data Definition Language (DDL)."/>
+		<Word key="Generate property constant" value="Generar propiedad constante"/>
+		<Word key="Connection type" value="Tipo de Conexi\u00f3n"/>
+		<Word key="Use connection pool" value="Utilice contenedor de conexi\u00f3n"/>
+		<Word key="Table Charset" value="Tabla de caracteres"/>
+		<Word key="Generate Code and Database From ERD - Database Configuration" value="Generar C\u00f3digo y Base de Datos de Diagrama Entidad - Relaci\u00f3n - Configuraci\u00f3n de Base de Datos"/>
+		<Word key="Stored Procedures" value="Procedimientos Almacenados"/>
+		<Word key="Generate .NET 2.0 Nullable Type" value="Generar Tipo . NET 2.0 Nullable"/>
+		<Word key="Shell Script (for Linux)" value="Programaci\u00f3n Shell (para Linux)"/>
+		<Word key="Selecting Tables" value="Selecci\u00f3n de Cuadros"/>
+		<Word key="Generate debug message" value="Generar mensaje de depuraci\u00f3n"/>
+		<Word key="Scripts" value="Lenguajes de programaci\u00f3n"/>
+		<Word key="User port" value="Puerto de usuario"/>
+		<Word key="Pool" value="Contenedor Gr\u00e1fico"/>
+		<Word key="Embedded Driver" value="Contenedor Incrustado"/>
+		<Word key="Default Driver" value="Controlador Predefinido"/>
+		<Word key="This wizard will help you generate Object-Relational Mapping (ORM) code from database tables." value="Este asistente le ayudar\u00e1 a generar c\u00f3digo de Mapeo Relacional de Objetos (ORM) de cuadros de base de datos."/>
+		<Word key="Association Handling" value="Manejo de Asociaci\u00f3n"/>
+		<Word key="Default Value" value="Valor Predefinido"/>
+		<Word key="Select a suitable driver" value="Seleccione un controlador adecuado"/>
+		<Word key="Sample" value="Muestra"/>
+		<Word key="Adapter Driver" value="Controlador de Adaptador"/>
+		<Word key="Database to Data Model" value="Base de Datos a Modelo de Datos"/>
+		<Word key="WebLogic Application Server 8.1/9.0 Template" value="Plantilla de WebLogic Application Server 8.1/9.0"/>
+		<Word key="JBoss Application Server Template (4.2.2 or above)" value="Plantilla de JBoss Application Server (4.2.2 o superior)"/>
+		<Word key="Select Schema" value="Seleccionar Esquema"/>
+		<Word key="Minimum Connections" value="Conexiones M\u00ednimas"/>
+		<Word key="Download driver" value="Descargar controlador"/>
+		<Word key="No. of table(s) found" value="No. de Cuadro(s) encontrados"/>
+		<Word key="Dialect" value="Dialecto"/>
+		<Word key="Include Database Driver" value="Incluir Controlador de Base de Datos"/>
+		<Word key="User name" value="Nombre de usuario"/>
+		<Word key="Select primary key:" value="Seleccionar clave principal:"/>
+		<Word key="C# Assembly Name" value="Nombre de Lenguaje C#"/>
+		<Word key="Connection" value="Conexi\u00f3n"/>
+		<Word key="Visual Paradigm Database Reverse" value="Base de Datos de Visual Paradigm Inversa"/>
+		<Word key="Output Path" value="Ruta de Salida"/>
+		<Word key="Connection URL" value="Direcci\u00f3n URL de conexi\u00f3n"/>
+		<Word key="Generate Code and Database From ERD - Generate Code" value="Generar C\u00f3digo y Base de Datos de Diagrama Entidad - Relaci\u00f3n - Generar C\u00f3digo"/>
+		<Word key="Adapter file" value="Archivo adaptador"/>
+		<Word key="Generate Code From Database - Database Configuration" value="Generar C\u00f3digo de Base de Datos - Configuraci\u00f3n de Base de Datos"/>
+		<Word key="Generate sample code" value="Generar c\u00f3digo de ejemplo"/>
+		<Word key="Columns" value="Columnas"/>
+		<Word key="Adapter File" value="Archivo Adaptador"/>
+		<Word key="Column" value="Columna"/>
+		<Word key=".NET Framework Directory" value="Directorio .NET Framework"/>
+		<Word key="Generate Code and Database from ERD" value="Generar C\u00f3digo y Base de Datos de Diagrama Entidad - Relaci\u00f3n"/>
+		<Word key="Visual Studio 2008 project" value="Proyecto Visual Studio 2008"/>
+		<Word key="Annotation type declaration " value="Declaraci\u00f3n tipo anotaci\u00f3n"/>
+		<Word key="Persistent Manager Package" value="Paquete Gestor de Persistencia"/>
+		<Word key="Error Handling" value="Manejo de Errores"/>
+		<Word key="Drop and Create Database" value="Borrar y Crear Base de Datos"/>
+		<Word key="Columns" value="Columnas"/>
+		<Word key="Data types" value="Tipos de datos"/>
+		<Word key=".NET Framework Version" value="Versi\u00f3n .NET Framework"/>
+		<Word key="Download or Update" value="Descargar o Actualizar"/>
+		<Word key="Cache Options" value="Opciones de Cach\u00e9"/>
+		<Word key="This wizard will help you generate Object-Relational Mapping (ORM) code and database from class diagram." value="Este asistente le ayudar\u00e1 a generar c\u00f3digo y base de datos de Mapeo Relacional de Objetos (ORM) de diagrama de clases."/>
+		<Word key="Connect Successful." value="Conectar con \u00e9xito."/>
+		<Word key="InnoDB (with constraint)" value="InnoDB (con limitaciones)"/>
+		<Word key="Primary Key" value="Clave Principal"/>
+		<Word key="Generate Criteria" value="Generar Criterios"/>
+		<Word key="Update only" value="S\u00f3lo actualizar"/>
+		<Word key="Persistent API return type" value="Tipo de Retorno Persistente API"/>
+		<Word key="Index" value="\u00cdndice"/>
+		<Word key="Reverse Stored Procedure" value="Invertir Procedimiento Almacenado"/>
+		<Word key="Selected Tables" value="Cuadros Seleccionados"/>
+		<Word key="Generate Code and Database from Class Diagram" value="Generar C\u00f3digo y Base de Datos de Diagrama de Clases"/>
+		<Word key="Generate Code From Database - Selecting Tables" value="Generar C\u00f3digo de Base de Datos - Seleccionar Cuadros"/>
+		<Word key="Default Un-Order Collection Type" value="Tipo de Colecci\u00f3n No Ordenada Predefinida"/>
+		<Word key="Password" value="Contrase\u00f1a"/>
+		<Word key="&lt;&lt;Embedded Driver&gt;&gt;" value="&lt;&lt;Controlador Incrustado&gt;&gt;"/>
+		<Word key="Connection Testing" value="Pruebas de Conexi\u00f3n"/>
+		<Word key="Mapping Type" value="Tipo de Mapeo"/>
+		<Word key="Connection" value="Conexi\u00f3n"/>
+		<Word key="Table Charset:" value="Tabla de Caracteres:"/>
+		<Word key="Selecting Classes" value="Selecci\u00f3n de Clases"/>
+		<Word key="Java Sample" value="Ejemplo de Java"/>
+		<Word key="Connection Time" value="Tiempo de Conexi\u00f3n"/>
+		<Word key="Generate Code from Database" value="Generar C\u00f3digo de Base de Datos"/>
+		<Word key="Generate Code and Database from Class Diagram - Selecting Classes" value="Generar C\u00f3digo y Base de Datos de Diagrama de Clases - Seleccionar Clases"/>
+		<Word key="Mapping File Column Order" value="Orden de Columna en Asignaci\u00f3n de Archivo"/>
+		<Word key="Generate Filter and Web Application Descriptior(web.xml)" value="Generar Filtro y Descriptor de Aplicaci\u00f3n Web (web.xml)"/>
+		<Word key="Row" value="Fila"/>
+		<Word key="Update driver" value="Actualizar controlador"/>
+		<Word key="Available Classes" value="Clases Disponibles"/>
+		<Word key="Generate DDL" value="Generar DDL"/>
+		<Word key="Flush Mode" value="Modo de Vaciado"/>
+		<Word key="WebSphere Application Server Community Edition 1.0 Template" value="Plantilla de WebSphere Application Server Community Editci\u00f3n 1.0"/>
+		<Word key="Stored Procedure ResultSet" value="Procedimiento Almacenado ResultSet"/>
+		<Word key="ORM Diagram Overview" value="Descripci\u00f3n Diagrama ORM"/>
+		<Word key="Attribute-Column Mapping" value="Mapeo de Columnas-Atributos"/>
+		<Word key="Unique of Column &quot;{0}&quot;" value="\u00danico de la columna &quot;{0}&quot;"/>
+		<Word key="Reversed Entities" value="Entidades invertidas"/>
+		<Word key="One or More" value="Uno o M\u00e1s"/>
+		<Word key="Change Show Relationships of Entity &quot;{0}&quot;" value="Cambiar Mostrar las Relaciones de la Entidad &quot;{0}&quot;"/>
+		<Word key="Group by Schema" value="Grupo por Esquema"/>
+		<Word key="Popup entities tree (can drag entities to diagram on demand)" value="Arbol de entidades emergente (puede arrastrar entidades a diagrama bajo demanda)"/>
+		<Word key="Column Constraints Presentation Option" value="Opci\u00f3n de Presentaci\u00f3n de Restricciones de Columna"/>
+		<Word key="Java Annotations" value="Anotaciones Java"/>
+		<Word key="Zero or More" value="Cero o M\u00e1s"/>
+		<Word key="Business Key" value="Clave de Negocios"/>
+		<Word key="Sync. to ERD" value="Sincronizar a Diagrama Entidad - Relaci\u00f3n"/>
+		<Word key="Do not form diagram with the reversed entities" value="No formar diagrama con entidades invertidas"/>
+		<Word key="ORM Class Detail" value="Detalle de Clase ORM (Mapeo Relacional de Objetos)"/>
+		<Word key="Form ER Diagram" value="Formar Diagrama ER (de relaci\u00f3n de entidad)"/>
+		<Word key="Exactly One" value="Exactamente Uno"/>
+		<Word key="Generate SQL" value="Generar SQL"/>
+		<Word key="Nullable" value="Anulable"/>
+		<Word key="Create of Column &quot;{0}&quot;" value="Crear de Columna &quot;{0}&quot;"/>
+		<Word key="Selecting Trigger" value="Seleccionando Activador"/>
+		<Word key="Unique" value="\u00danico"/>
+		<Word key="Split Table" value="Dividir Cuadro"/>
+		<Word key="Add Annotation" value="A\u00f1adir Anotaci\u00f3n"/>
+		<Word key="Indices" value="Indices"/>
+		<Word key="Create ERD" value="Crear Diagrama Entidad - Relaci\u00f3n"/>
+		<Word key="Drop" value="Soltar"/>
+		<Word key="New Column" value="Nueva Columna"/>
+		<Word key="Primary Key Pattern" value="Patr\u00f3n de Clave Principal"/>
+		<Word key="Drag and drop entities to diagram" value="Arrastre y suelte las entidades a diagrama"/>
+		<Word key="ORM Query" value="Consulta ORM (Mapeo Relacional de Objetos)"/>
+		<Word key="Schema" value="Esquema"/>
+		<Word key="Sort Columns" value="Ordenar Columnas"/>
+		<Word key="Convert to Normal Table" value="Convertir a Cuadro Normal"/>
+		<Word key="ResultSet" value="ResultSet (Conjunto de Resultados)"/>
+		<Word key="Show Foreign Key Relationship Names" value="Mostrar Nombres de Relaciones de Claves Externas"/>
+		<Word key="Relationship Specification" value="Especificaci\u00f3n de Relaci\u00f3n"/>
+		<Word key="Convert to Partial Table" value="Convertir a Tabla Parcial"/>
+		<Word key="Index column" value="Columna indizada"/>
+		<Word key="Discriminator column" value="Columna Discriminadora"/>
+		<Word key="Show Column User Type" value="Mostrar Columna Tipo de Usuario"/>
+		<Word key="Include in primary key" value="Incluir en clave primaria"/>
+		<Word key="Point Foreign Key End to Associated Column" value="Se\u00f1alar Final de Clave Externa a Columna Asociada"/>
+		<Word key="Move/Copy Columns" value="Mover/Copiar Columnas"/>
+		<Word key="Selecting Schemas" value="Seleccionando Esquemas"/>
+		<Word key="Show Entity Columns" value="Mostrar Columnas de Entidad"/>
+		<Word key="Convert to Array Table" value="Convertir a Cuadro de Lista"/>
+		<Word key="Identifying relationship" value="Identificando relaci\u00f3n"/>
+		<Word key="Form a new diagram with the reversed entities" value="Formar un nuevo diagrama con las entidades invertidas"/>
+		<Word key="Version column" value="Columa de versi\u00f3n"/>
+		<Word key="Foreign Key Column Mapping" value="Mapeo de Columna de Clave Externa"/>
+		<Word key="Ordered" value="Ordenado"/>
+		<Word key="Zero or One" value="Cero o Uno"/>
+		<Word key="Annotation" value="Anotaci\u00f3n"/>
+		<Word key="Foreign Key Relationship Pattern" value="Patr\u00f3n de Relaci\u00f3n de Clave Externa"/>
+		<Word key="Entity Specification" value="Especificaci\u00f3n de la Entidad"/>
+		<Word key="Edit Column &quot;{0}&quot;" value="Editar Columna &quot;{0}&quot;"/>
+		<Word key="Cardinality" value="Cardinalidad"/>
+		<Word key="Annotations" value="Anotaciones"/>
+		<Word key="Remove selection after drag to diagram" value="Eliminar la selecci\u00f3n despu\u00e9s de arrastrar al diagrama"/>
+		<Word key="Abstract-Persistable Class" value="Clase Astracta-Persistente"/>
+		<Word key="Sync. to association" value="Sincronizar a asociaci\u00f3n"/>
+		<Word key="ORM" value="ORM (Mapeo Relacional de Objetos)"/>
+		<Word key="DDL clauses" value="Cl\u00e1usulas DDL"/>
+		<Word key="Column Sort Type" value="Tipo de Ordenaci\u00f3n por Columna"/>
+		<Word key="Merge Tables" value="Combinar los Cuadros"/>
+		<Word key="JDBC Driver" value="Controlador JDBC"/>
+		<Word key="Primary Key Constraint Pattern" value="Patr\u00f3n de Limitaci\u00f3n de Clave Principal"/>
+		<Word key="Standalone Application" value="Aplicaci\u00f3n Independiente"/>
+		<Word key="Add reversed entities to {0}" value="A\u00f1adir entidades invertidas a {0}"/>
+		<Word key="Code and Database" value="C\u00f3digo y Base de Datos"/>
+		<Word key="Database only" value="Solo Base de datos"/>
+		<Word key="Data Model" value="Datos Modelo"/>
+		<Word key="Database Code Generation" value="Generaci\u00f3n de C\u00f3digo de Base de Datos"/>
+		<Word key="The driver file is the most up-to-date" value="El archivo del controlador es el m\u00e1s actualizado"/>
+		<Word key="JBoss Application Server" value="Servidor de Aplicaci\u00f3n Jboss"/>
+		<Word key="Download Driver" value="Descargar Controlador"/>
+		<Word key="Deploy To" value="Desplegar a"/>
+		<Word key="Estimated time left" value="Tiempo restante estimado"/>
+		<Word key="Update Database Driver" value="Actualizar Controlador de Base de Datos"/>
+		<Word key="WebLogic Application Server 8.1/9.0" value="Servidor para Aplicaci\u00f3n WebLogic 8.1/9.0"/>
+		<Word key="Export to database" value="Exportar a base de datos"/>
+		<Word key="Hibernate" value="Hibernar"/>
+		<Word key="JDBC Driver Class" value="Clase de Controlador JDBC"/>
+		<Word key="WebSphere Application Server Community Edition 1.0" value="Servidor para Aplicaci\u00f3n WebSphere Community Edition 1.0"/>
+		<Word key="JDBC Setting" value="Configuraci\u00f3n JDBC"/>
+		<Word key="Physical Model" value="Modelo F\u00edsico"/>
+		<Word key="JDBC Connection URL" value="Direcci\u00f3n URL de Conexi\u00f3n JDBC"/>
+		<Word key="Downloading Driver File" value="Descargando Archivo de Controlador"/>
+		<Word key="Generic Application Server" value="Servidor de Aplicaci\u00f3n Gen\u00e9rica"/>
+		<Word key="Annotation type declaration" value="Declaraci\u00f3n tipo Anotaci\u00f3n"/>
+		<Word key="Default Lazy Association Initialization" value="Inicializaci\u00f3n de Asociaci\u00f3n Perezosa Por Defecto"/>
+		<Word key="JDBC Driver Name" value="Nombre de Controlador JDBC"/>
+		<Word key="Conceptual Model" value="Modelo Conceptual"/>
+		<Word key="Logical Model" value="Modelo L\u00f3gico"/>
+		<Word key="Database Options" value="Opciones de Base de Datos"/>
+		<Word key="Code only" value="Solo C\u00f3digo"/>
+		<Word key="JBoss Application Server 4.2.2 or above" value="Servidor para Apliaci\u00f3n JBoss 4.2.2 o superior"/>
+		<Word key="Use Case Diagram Overview" value="Descripci\u00f3n Diagrama de Casos de Uso"/>
+		<Word key="Object Diagram Overview" value="Descripci\u00f3n Diagrama de Objetos"/>
+		<Word key="Interaction Overview Diagram Overview" value="Descripci\u00f3n de Diagrama de Interacci\u00f3n Global"/>
+		<Word key="Package Diagram Overview" value="Descripci\u00f3n Diagrama de Paquetes"/>
+		<Word key="Class Diagram Overview" value="Descripci\u00f3n de Diagrama de Clases"/>
+		<Word key="Organization Chart Overview" value="Descripci\u00f3n de Organigrama"/>
+		<Word key="Requirement Diagram Overview" value="Descripci\u00f3n de Diagrama de Requerimientos"/>
+		<Word key="Overview Diagram Overview" value="Descripci\u00f3n de Diagrama Global"/>
+		<Word key="Sequence Diagram Overview" value="Descripci\u00f3n de Diagrama de Secuencia"/>
+		<Word key="Entity Relationship Diagram Overview" value="Descripci\u00f3n de Diagrama Entidad - Relaci\u00f3n"/>
+		<Word key="Process Map Diagram Overview" value="Descripci\u00f3n de Diagrama de Mapa de Procesos"/>
+		<Word key="State Machine Diagram Overview" value="Descripci\u00f3n de Diagrama de M\u00e1quina de Estados"/>
+		<Word key="Basic Diagram Overview" value="Descripci\u00f3n de Diagrama B\u00e1sico"/>
+		<Word key="EJB Diagram Overview" value="Descripci\u00f3n Diagrama de Componentes EJB"/>
+		<Word key="Composite Structure Diagram Overview" value="Descripci\u00f3n Diagrama de Estructura Compuesta"/>
+		<Word key="Timing Diagram Overview" value="Descripci\u00f3n Diagrama de Tiempos"/>
+		<Word key="Activity Diagram Overview" value="Descripci\u00f3n Diagrama de Actividades"/>
+		<Word key="Communication Diagram Overview" value="Descripci\u00f3n Diagrama de Comunicaci\u00f3n"/>
+		<Word key="EPC Diagram Overview" value="Descripci\u00f3n Diagrama EPC (Cadena de Procesos condicionados por Eventos)"/>
+		<Word key="User Interface Overview" value="Descripci\u00f3n de Interfaz de Usuario"/>
+		<Word key="Deployment Diagram Overview" value="Descripci\u00f3n de Diagrama de Despliegue"/>
+		<Word key="Apply Design Pattern of Diagram" value="Aplicar Patr\u00f3n de Dise\u00f1o de Diagrama"/>
+		<Word key="Prompt when Apply Design Pattern" value="Preguntar cuando se Aplica Patr\u00f3n de Dise\u00f1o"/>
+		<Word key="Pattern Selection" value="Selecci\u00f3n de Patr\u00f3n"/>
+		<Word key="Fit Size" value="Ajustar Tama\u00f1o"/>
+		<Word key="Transit From" value="Tr\u00e1nsito De"/>
+		<Word key="Sub Diagrams" value="Sub Diagramas"/>
+		<Word key="Transparent" value="Transparente"/>
+		<Word key="Create Parent" value="Crear Padre"/>
+		<Word key="Add Existing Diagrams" value="A\u00f1adir Diagramas Existentes"/>
+		<Word key="Transit to New Diagram" value="Tr\u00e1nsito a Nuevo Diagrama"/>
+		<Word key="Copy as XML" value="Copiar como XML"/>
+		<Word key="Model Transitor" value="Modelo Transitor"/>
+		<Word key="Connection Point" value="Punto de conexi\u00f3n"/>
+		<Word key="Handi-Selection" value="Selecci\u00f3n Manual"/>
+		<Word key="Bring to Front" value="Traer al Frente"/>
+		<Word key="Auto Fit Shapes Size" value="Ajuste Autom\u00e1tico de Tama\u00f1o de Formas"/>
+		<Word key="Other Diagrams" value="Otros Diagramas"/>
+		<Word key="Select All Shapes Below" value="Seleccionar Todas las Formas que se encuentran abajo"/>
+		<Word key="Rename" value="Cambiar nombre"/>
+		<Word key="Paste Model" value="Pegar Modelo"/>
+		<Word key="Transit To" value="Tr\u00e1nsito A"/>
+		<Word key="Select in Tree" value="Seleccionar en Arbol"/>
+		<Word key="Add Shape" value="A\u00f1adir Forma"/>
+		<Word key="Send to Back" value="Enviar al Fondo"/>
+		<Word key="Show Other Views" value="Mostrar Otras Vistas"/>
+		<Word key="Layout" value="Esquema"/>
+		<Word key="Lock Diagram" value="Diagrama de Bloqueo"/>
+		<Word key="Selectable" value="Seleccionable"/>
+		<Word key="Select All Shapes Above" value="Seleccione Todas las Formas que est\u00e1n arriba"/>
+		<Word key="Send Backward" value="Enviar Atr\u00e1s"/>
+		<Word key="Grouping" value="Agrupar"/>
+		<Word key="Select All Shapes on the Left" value="Seleccione Todas las Formas de la Izquierda"/>
+		<Word key="Show Dependent Model Elements" value="Mostrar Elementos de Modelo Dependientes"/>
+		<Word key="Bring Forward" value="Traer Adelante"/>
+		<Word key="Select All Shapes on the Right" value="Seleccione Todas las Formas de la Derecha"/>
+		<Word key="Open Specification" value="Abrir Epecificaci\u00f3n"/>
+		<Word key="Order" value="Orden"/>
+		<Word key="Show Operation Option" value="Mostrar Opci\u00f3n de Operaci\u00f3n"/>
+		<Word key="package" value="paquete"/>
+		<Word key="Connector style" value="Estilo de conector"/>
+		<Word key="Related Model" value="Modelo Relacionado"/>
+		<Word key="Visible" value="Visible"/>
+		<Word key="Show Owner" value="Mostrar Propietario"/>
+		<Word key="Show tagged values" value="Mostrar valores etiquetados"/>
+		<Word key="public" value="p\u00fablico"/>
+		<Word key="Show Candidate Actors" value="Mostrar Actores Candidatos"/>
+		<Word key="Show Candidate Classes" value="Mostrar Clases Candidatas"/>
+		<Word key="Show Referenced Attributes" value="Mostrar Atributos Referenciados"/>
+		<Word key="Show Operation Template Parameters" value="Mostrar Par\u00e1metros de Plantilla de Operaci\u00f3n"/>
+		<Word key="Show Related Shapes" value="Mostrar Formas Relacionadas"/>
+		<Word key="Show column types" value="Mostrar tipos de columna"/>
+		<Word key="Reverse Message" value="Invertir Mensaje"/>
+		<Word key="parameter" value="par\u00e1metro"/>
+		<Word key="Show Attribute Option" value="Mostrar Opci\u00f3n de Atributo"/>
+		<Word key="Hide All" value="Ocultar Todo"/>
+		<Word key="Show/Hide" value="Mostrar/Ocultar"/>
+		<Word key="Show Candidate Work Flows" value="Mostrar Flujos de Trabajo Candidatos"/>
+		<Word key="Show initial attribute value" value="Mostrar valor inicial del atributo"/>
+		<Word key="Show Candidate Start Events" value="Mostrar Eventos de Inicio Candidatos"/>
+		<Word key="Show all user" value="Mostrar todos los usuarios"/>
+		<Word key="Show All Attributes" value="Mostrar Todos los Atributos"/>
+		<Word key="From Link" value="Desde Enlace"/>
+		<Word key="Visibility" value="Visibilidad"/>
+		<Word key="Show Candidate Activities" value="Mostrar Actividades Candidatas"/>
+		<Word key="UseCase" value="Casos de Uso"/>
+		<Word key="Show Inherited Attributes" value="Mostrar Atributos Heredados"/>
+		<Word key="Display as Robustness Analysis Icon" value="Mostrar como Icono de An\u00e1lisis de Robustez"/>
+		<Word key="Wrap Members" value="Encapsular Miembros"/>
+		<Word key="Configure Class Presentation Options" value="Configurar Opciones de Presentaci\u00f3n de Clase"/>
+		<Word key="Add Item" value="Agregar Elemento"/>
+		<Word key="Layout Diagram" value="Diagrama de Dise\u00f1o"/>
+		<Word key="Show Candidate Messages" value="Mostrar Mensajes Candidatos"/>
+		<Word key="Show Public Only" value="Mostrar S\u00f3lo P\u00fablico"/>
+		<Word key="Role Name" value="Nombre de Rol"/>
+		<Word key="Add selected" value="A\u00f1adir seleccionado"/>
+		<Word key="Send to" value="Enviar a"/>
+		<Word key="Show Unspecified Items" value="Mostrar Elementos No Especificados"/>
+		<Word key="Show Class Member Constraints" value="Mostrar Limitaciones del Miembro de Clase"/>
+		<Word key="Hide All Attributes and Operations" value="Ocultar Todos los Atributos y las Operaciones"/>
+		<Word key="Use Name Tab for States" value="Utilice la Etiqueta de Nombre para los Estados"/>
+		<Word key="From Link -&gt; Node" value="Desde Enlace -&gt; Nodo"/>
+		<Word key="Follow diagram" value="Seguir diagrama"/>
+		<Word key="Show Class Member Stereotype" value="Mostrar Estereotipo del Miembro de la Clase"/>
+		<Word key="Show Operation Signature" value="Mostrar Firma de Operaci\u00f3n"/>
+		<Word key="Show Candidate Sub-Processes" value="Mostrar Sub-Procesos Candidatos"/>
+		<Word key="Connection point" value="Punto de conexi\u00f3n"/>
+		<Word key="Show Candidate Packages" value="Mostrar Paquetes Candidatos"/>
+		<Word key="Active" value="Activo"/>
+		<Word key="Show Attribute Initial Value" value="Mostrar Valor Inicial del Atributo"/>
+		<Word key="Connection Point" value="Punto de Conexi\u00f3n"/>
+		<Word key="Stick Man" value="Hombrecito"/>
+		<Word key="Show Inherited Operations" value="Mostrar Operaciones Heredadas"/>
+		<Word key="Expand group" value="Expandir grupo"/>
+		<Word key="Show Candidate Use Cases" value="Mostrar Casos de Uso Candidatos"/>
+		<Word key="Form Diagram" value="Diagrama de Forma"/>
+		<Word key="Pallet Options Demo" value="Demo de Paleta de Opciones"/>
+		<Word key="From" value="Desde"/>
+		<Word key="Visibility Style" value="Estilo de Visibilidad"/>
+		<Word key="private" value="privado"/>
+		<Word key="Show Candidate Intermediate Events" value="Mostrar Eventos Intermediate Candidato"/>
+		<Word key="Connector Style Preview" value="Vista Previa de Estilo de Conector"/>
+		<Word key="Show Operation Parameter Direction" value="Mostrar Direcci\u00f3n de Par\u00e1metro de Operaci\u00f3n"/>
+		<Word key="Show Relationships" value="Mostrar Relaciones"/>
+		<Word key="Show Operation Parameter Name" value="Mostrar Nombre de Par\u00e1metro de Operaci\u00f3n"/>
+		<Word key="To" value="A"/>
+		<Word key="Show Template Parameters" value="Mostrar Par\u00e1metros de Plantilla"/>
+		<Word key="To Link -&gt; Node" value="Hasta Enlace -&gt; Nodo"/>
+		<Word key="Auto fit shapes size" value="Tama\u00f1o de formas de ajuste autom\u00e1tico"/>
+		<Word key="Show All" value="Mostrar Todos"/>
+		<Word key="Add Candidate Class" value="A\u00f1adir Clase Candidata"/>
+		<Word key="Show Candidate Actions" value="Mostrar Acciones Candidatas"/>
+		<Word key="Show Candidate Tasks" value="Mostrar Tareas Candidatas"/>
+		<Word key="Show Operation Properties" value="Mostrar Propiedades de Operaci\u00f3n"/>
+		<Word key="Add Existing Diagrams" value="Agregar Diagramas Existentes"/>
+		<Word key="Add Flow of Events" value="A\u00f1adir Flujo de Eventos"/>
+		<Word key="operation" value="operaci\u00f3n"/>
+		<Word key="Not Show" value="No Mostrar"/>
+		<Word key="Show Candidate Requirement" value="Mostrar Requerimiento Candidato"/>
+		<Word key="Display as Stereotype Icon" value="Mostrar como Icono de Estereotipo"/>
+		<Word key="Show Candidate End Events" value="Mostrar Eventos Finales Candidatos"/>
+		<Word key="protected" value="protegidos"/>
+		<Word key="Show Attribute Multiplicity" value="Mostrar Multiplicidad de Atributo"/>
+		<Word key="Show Option" value="Mostrar Opci\u00f3n"/>
+		<Word key="Show Default Package" value="Mostrar Paquete Predefinido"/>
+		<Word key="Scroll to" value="Desplazar a"/>
+		<Word key="Transit to" value="Transitar a"/>
+		<Word key="Reverse Connector" value="Invertir Conector"/>
+		<Word key="Apply Design Pattern" value="Aplicar Patr\u00f3n de Dise\u00f1o"/>
+		<Word key="Set as Master View" value="Establecer como Vista Principal"/>
+		<Word key="Transit from" value="Tr\u00e1nsito de"/>
+		<Word key="Define Design Pattern" value="Definir Patr\u00f3n de Dise\u00f1o"/>
+		<Word key="Send To" value="Enviar a"/>
+		<Word key="Reset Caption Position" value="Restablecer Posici\u00f3n de Leyenda"/>
+		<Word key="Copy to Clipboard as OLE" value="Copiar al Portapapeles como OLE"/>
+		<Word key="Copy within {0}" value="Copiar dentro de {0}"/>
+		<Word key="Copy to Clipboard as EMF" value="Copiar al Portapapeles como EMF"/>
+		<Word key="Copy to Clipboard as PDF" value="Copiar al Portapapeles en formato PDF"/>
+		<Word key="Copy to Clipboard as JPG" value="Copiar al Portapapeles como JPG"/>
+		<Word key="Finish Adjust Margin" value="Finalizar ajustar margen"/>
+		<Word key="Edit Header/Footer" value="Editar Encabezado/Pie de p\u00e1gina"/>
+		<Word key="From left to right" value="De izquierda a derecha"/>
+		<Word key="Multiple Page Mode" value="Modo P\u00e1ginas M\u00faltiples"/>
+		<Word key="Insert Page Number" value="Insertar N\u00famero de P\u00e1gina"/>
+		<Word key="Insert Diagram Name" value="Insertar Nombre de Diagrama"/>
+		<Word key="papers" value="documentos"/>
+		<Word key="Fit to pages" value="Ajustar a p\u00e1ginas"/>
+		<Word key="Select Font" value="Seleccionar Fuente"/>
+		<Word key="Use gradient color" value="Usar gradiente de color"/>
+		<Word key="Fit to" value="Ajustar a"/>
+		<Word key="No border" value="Sin marco"/>
+		<Word key="Fit to size" value="Ajustar a tama\u00f1o"/>
+		<Word key="Insert Project Name" value="Insertar Nombre de Proyecto"/>
+		<Word key="Page Style" value="Estilo de P\u00e1gina"/>
+		<Word key="Page numbers" value="N\u00fameros de p\u00e1gina"/>
+		<Word key="Border option" value="Opci\u00f3n de marco"/>
+		<Word key="The Percentage Of Page Overlaping" value="El porcentaje de Superposici\u00f3n de P\u00e1gina"/>
+		<Word key="Paper Place Style" value="Estilo de Colocaci\u00f3n de Papel"/>
+		<Word key="Diagram Ratio" value="Ratio de Diagrama"/>
+		<Word key="Change to Paper Base Layout" value="Cambiar a Orientaci\u00f3n en base al papel"/>
+		<Word key="Preview mode" value="Modo de vista previa"/>
+		<Word key="Page Height" value="Altura de P\u00e1gina"/>
+		<Word key="Overlapping" value="Superposici\u00f3n"/>
+		<Word key="Change to Diagram Base Layout" value="Cambiar a Orientaci\u00f3n en Base al Diagrama"/>
+		<Word key="Ratio" value="Ratio"/>
+		<Word key="Page Width" value="Ancho de P\u00e1gina"/>
+		<Word key="Adjust Margins" value="Ajustar los M\u00e1rgenes"/>
+		<Word key="Multiple Pages" value="P\u00e1ginas M\u00faltiples"/>
+		<Word key="Whole Page" value="Toda la P\u00e1gina"/>
+		<Word key="Margin" value="Margen"/>
+		<Word key="Close Print Preview" value="Cerrar Vista Previa de Impresi\u00f3n"/>
+		<Word key="diagrams, printing on" value="diagramas, impresi\u00f3n"/>
+		<Word key="With frame" value="Con marco"/>
+		<Word key="Insert File Name" value="Insertar Nombre de Archivo"/>
+		<Word key="With border" value="Con marco"/>
+		<Word key="Use Gradient Color" value="Usar Gradiente de Color"/>
+		<Word key="Print Range" value="Imprimir Rango"/>
+		<Word key="Page Setup" value="Configuraci\u00f3n de P\u00e1gina"/>
+		<Word key="Insert Time" value="Insertar Hora"/>
+		<Word key="Close Edit Header/Footer" value="Cerrar Edici\u00f3n de Encabezado/Pie de P\u00e1gina"/>
+		<Word key="Insert Date" value="Insertar Fecha"/>
+		<Word key="Close Multiple Page Mode" value="Cerrar Modo de P\u00e1ginas M\u00faltiples"/>
+		<Word key="Hide Clip Marks on Page" value="Ocultar marcas en la p\u00e1gina"/>
+		<Word key="Adjust Margin" value="Ajustar Margen"/>
+		<Word key="Pages" value="P\u00e1ginas"/>
+		<Word key="Multiple Page Options" value="Opciones de P\u00e1ginas M\u00faltiples"/>
+		<Word key="Insert Number of Pages" value="Insertar N\u00famero de P\u00e1ginas"/>
+		<Word key="Border Option" value="Opci\u00f3n de Marco"/>
+		<Word key="From top to bottom" value="De arriba a abajo"/>
+		<Word key="Show Clip Marks on Page" value="Mostrar las marcas clip en la p\u00e1gina"/>
+		<Word key="papers." value="documentos."/>
+		<Word key="Scaling" value="Escala"/>
+		<Word key="No Scaling" value="Sin Escala"/>
+		<Word key="Sort by id or name" value="Ordenar por n\u00famero de identificaci\u00f3n o nombre"/>
+		<Word key="Insert page number" value="Insertar n\u00famero de p\u00e1gina"/>
+		<Word key="Info header content" value="Informaci\u00f3n de contenido de cabecera"/>
+		<Word key="Align to Right" value="Alinear a la Derecha"/>
+		<Word key="Select target folder" value="Seleccionar carpeta de destino"/>
+		<Word key="Cover Page" value="Car\u00e1tula"/>
+		<Word key="LandScape" value="Apaisada"/>
+		<Word key="Organization name" value="Nombre de la organizaci\u00f3n"/>
+		<Word key="Generate navigable reference links." value="Generar v\u00ednculos de referencia navegables."/>
+		<Word key="Drill down effect for business sub-process:" value="Efecto desglose para sub-procesos de negocio:"/>
+		<Word key="Generate model elements/diagrams link" value="Generar v\u00ednculo a diagramas/elementos de modelo"/>
+		<Word key="Reset to Default" value="Restablecer a Valores Predefinidos"/>
+		<Word key="Select a folder to publish the project documentation to." value="Seleccione una carpeta para publicar la documentaci\u00f3n del proyecto."/>
+		<Word key="Preserve formatting" value="Preservar el formato"/>
+		<Word key="Project Publisher Options" value="Opciones de Project Publisher"/>
+		<Word key="Keywords" value="Palabras clave"/>
+		<Word key="Convert multiline model heading to single line" value="Convertir t\u00edtulos modelo multil\u00ednea a una sola l\u00ednea"/>
+		<Word key="Generate diagrams" value="Generar diagramas"/>
+		<Word key="Sub-diagrams" value="Sub-diagramas"/>
+		<Word key="Generate page footer" value="Generar pie de p\u00e1gina"/>
+		<Word key="Center Section" value="Secci\u00f3n Central"/>
+		<Word key="Generate Model/Diagram Link" value="Generar v\u00ednculo a Diagrama/Modelo"/>
+		<Word key="Generate front page" value="Generar car\u00e1tula"/>
+		<Word key="Title" value="T\u00edtulo"/>
+		<Word key="Author name" value="Nombre del Autor"/>
+		<Word key="Display in plain text" value="Presentar en texto sin formato"/>
+		<Word key="Logo scale" value="Escala de Logo"/>
+		<Word key="Show documentation when hover over a shape" value="Mostrar documentaci\u00f3n cuando se sit\u00fae sobre una forma"/>
+		<Word key="Generate only documentation in model element page" value="Generar documentaci\u00f3n s\u00f3lo en p\u00e1gina de elemento modelo"/>
+		<Word key="Generate PDF" value="Generar PDF"/>
+		<Word key="Open model specification page" value="Abrir p\u00e1gina de especificaci\u00f3n de modelo"/>
+		<Word key="Show footer separator" value="Mostrar separador de pie de p\u00e1gina"/>
+		<Word key="Insert time" value="Insertar hora"/>
+		<Word key="Cover Page Preview" value="Vista Previa de Car\u00e1tula"/>
+		<Word key="Insert report file name" value="Insertar nombre de archivo de informe"/>
+		<Word key="Align Center" value="Alinear al Centro"/>
+		<Word key="Align to Left" value="Alinear a la Izquierda"/>
+		<Word key="Follow general setting" value="Seguir configuraci\u00f3n general"/>
+		<Word key="Footer" value="Pie de p\u00e1gina"/>
+		<Word key="Insert user name" value="Introduzca nombre de usuario"/>
+		<Word key="Generate reference (file/URL) link" value="Generar v\u00ednculo de referencia (archivo/URL)"/>
+		<Word key="Generate TOC" value="Generar TOC"/>
+		<Word key="Info header" value="Informaci\u00f3n de Encabezado"/>
+		<Word key="Generate HTML" value="Generar HTML"/>
+		<Word key="Right Section" value="Secci\u00f3n Derecha"/>
+		<Word key="Insert project name" value="Introduzca nombre de proyecto"/>
+		<Word key="Page size" value="Tama\u00f1o de p\u00e1gina"/>
+		<Word key="Generate model element list in diagram page" value="Generar lista de elemento modelo en p\u00e1gina de diagrama"/>
+		<Word key="Preserve image size" value="Preservar tama\u00f1o de imagen"/>
+		<Word key="Logo image path" value="Ruta de imagen de logo"/>
+		<Word key="Page Margin" value="Margen de P\u00e1gina"/>
+		<Word key="Automatic" value="Autom\u00e1tico"/>
+		<Word key="Front Page" value="Car\u00e1tula"/>
+		<Word key="Graphics" value="Gr\u00e1ficos"/>
+		<Word key="Page Orientation" value="Orientaci\u00f3n de P\u00e1gina"/>
+		<Word key="Insert page count" value="Insertar contador de p\u00e1ginas"/>
+		<Word key="Generate page header" value="Generar encabezado de p\u00e1gina"/>
+		<Word key="Drill down effect for general models:" value="Efecto desglose para modelos generales:"/>
+		<Word key="Generate diagram summary" value="Generar resumen de diagrama"/>
+		<Word key="Skip heading for empty model element section" value="Saltar t\u00edtulo para secci\u00f3n de elemento modelo vac\u00edo"/>
+		<Word key="Header" value="Encabezado"/>
+		<Word key="Document Info" value="Informaci\u00f3n del Documento"/>
+		<Word key="Properties" value="Propiedadess"/>
+		<Word key="Generate diagram properties" value="Generar propiedades de diagrama"/>
+		<Word key="Output directory" value="Directorio de salida"/>
+		<Word key="Header/Footer" value="Encabezado/Pie de p\u00e1gina"/>
+		<Word key="Follow tree" value="Seguir \u00e1rbol"/>
+		<Word key="Select a diagram" value="Seleccionar un diagrama"/>
+		<Word key="Generate table of figures" value="Generar tabla de figuras"/>
+		<Word key="Copy reference files" value="Copiar archivos de referencia"/>
+		<Word key="Align to Center" value="Alinear al Centro"/>
+		<Word key="Sort element by" value="Ordenar por elemento"/>
+		<Word key="Generate Reference Link" value="Generar V\u00ednculo de Referencia"/>
+		<Word key="Show header separator" value="Mostrar separador de encabezado"/>
+		<Word key="Relationships" value="Relaciones"/>
+		<Word key="Portrait" value="Vertical"/>
+		<Word key="Make font size consistent with the rest of the report" value="Uniformice el tama\u00f1o de la fuente con el resto del informe"/>
+		<Word key="RTF content appearance" value="Apariencia de contenido RTF"/>
+		<Word key="Members" value="Miembros"/>
+		<Word key="Set as Default" value="Establecer como predefinido"/>
+		<Word key="Left Section" value="Secci\u00f3n Izquierda"/>
+		<Word key="Suppress details if duplicated" value="Suprimir detalles si se duplican"/>
+		<Word key="Generate cover page" value="Generar una car\u00e1tula"/>
+		<Word key="Add Image" value="A\u00f1adir imagen"/>
+		<Word key="Generate navigable model/diagram links." value="Generar v\u00ednculos navegables a diagrama/modelo."/>
+		<Word key="Generate Word" value="Generar Word"/>
+		<Word key="Open subdiagrams" value="Abrir subdiagrams"/>
+		<Word key="Children" value="Hijos"/>
+		<Word key="Shape type style" value="Estilo de tipo de forma"/>
+		<Word key="If this option is on, the referenced file will be copied to the $destination/references folder, and being referenced by the HTML report." value="Si esta opci\u00f3n est\u00e1 activada, el archivo de referencia ser\u00e1 copiado a la carpeta de destino/referencias, y ser\u00e1 referenciado por el informe HTML."/>
+		<Word key="Generate" value="Generar"/>
+		<Word key="Details" value="Detalles"/>
+		<Word key="Default diagram:" value="Diagrama predefinido:"/>
+		<Word key="Open process diagram page" value="Abrir p\u00e1gina de diagrama de proceso"/>
+		<Word key="Text" value="Texto"/>
+		<Word key="Generate table of contents" value="Generar tabla de contenidos"/>
+		<Word key="Insert date" value="Insertar fecha"/>
+		<Word key="Open references" value="Abrir referencias"/>
+		<Word key="Apply" value="Aplicar"/>
+		<Word key="Drill down effect for general models" value="Efecto desglose para modelos generales"/>
+		<Word key="Default diagram" value="Diagrama predefinido"/>
+		<Word key="Drill down effect for business sub-process" value="Efecto desglose para sub-proceso de negocio"/>
+		<Word key="Table of Contents" value="Tabla de Contenidos"/>
+		<Word key="Table of Figures" value="Tabla de Figuras"/>
+		<Word key="Grid size" value="Tama\u00f1o de cuadr\u00edcula"/>
+		<Word key="Leaf" value="Hoja"/>
+		<Word key="Diagram name" value="Nombre de diagrama"/>
+		<Word key="Business model" value="Modelo de negocio"/>
+		<Word key="Stereotypes" value="Estereotipos"/>
+		<Word key="Grid color" value="Color de cuadr\u00edcula"/>
+		<Word key="Constraints" value="Limitaciones"/>
+		<Word key="Comments" value="Comentarios"/>
+		<Word key="Relations" value="Relaciones"/>
+		<Word key="Summary" value="Resumen"/>
+		<Word key="All" value="Todo"/>
+		<Word key="Grid Setting" value="Configuraci\u00f3n de Cuadr\u00edcula"/>
+		<Word key="References" value="Referencias"/>
+		<Word key="Tagged Values" value="Valores Etiquetados"/>
+		<Word key="Abstract" value="Abstracto"/>
+		<Word key="Diagrams" value="Diagramas"/>
+		<Word key="Grid Visible" value="Cuadr\u00edcula Visible"/>
+		<Word key="Root" value="Ra\u00edz"/>
+		<Word key="Branch" value="Divisi\u00f3n"/>
+		<Word key="Commit" value="Asignar"/>
+		<Word key="Merge" value="Combinar"/>
+		<Word key="Open Teamwork Client" value="Abrir Cliente de Equipo de Trabajo"/>
+		<Word key="Revert" value="Regresar a"/>
+		<Word key="Switch" value="Intercambiar"/>
+		<Word key="Revision" value="Revisi\u00f3n"/>
+		<Word key="Perforce path" value="Ruta a Perforce"/>
+		<Word key="Current time" value="Hora actual"/>
+		<Word key="Log" value="Iniciar sesi\u00f3n"/>
+		<Word key="Please login to connect to the teamwork server." value="Por favor iniciar sesi\u00f3n para conectar con el servidor de trabajo en equipo."/>
+		<Word key="SVN path" value="Ruta a SVN"/>
+		<Word key="Check for Update" value="Examinar Actualizaci\u00f3n"/>
+		<Word key="Recheckout" value="Nueva Verificaci\u00f3n"/>
+		<Word key="Service name" value="Nombre del servicio"/>
+		<Word key="Login to the Teamwork Server" value="Inicar sesi\u00f3n en servidor de trabajo en equipo"/>
+		<Word key="All revisions except those merged" value="Todas las revisiones con excepci\u00f3n de las fusionadas"/>
+		<Word key="Create Branch" value="Crear Divisi\u00f3n"/>
+		<Word key="Import Teamwork Project" value="Importar Proyecto de Trabajo en Equipo"/>
+		<Word key="Export Teamwork Project" value="Exportar Proyecto de Trabajo en Equipo"/>
+		<Word key="CVS path" value="Ruta a CVS"/>
+		<Word key="Stay in branch" value="Permanecer en divisi\u00f3n"/>
+		<Word key="New Tag" value="Nueva Etiqueta"/>
+		<Word key="Create new project" value="Crear un nuevo proyecto"/>
+		<Word key="Server host" value="Nombre del Servidor"/>
+		<Word key="Project file" value="Archivo de proyecto"/>
+		<Word key="Project Details" value="Detalles del Proyecto"/>
+		<Word key="New Remote Folder" value="Nueva Carpeta Remota"/>
+		<Word key="Session" value="Sesi\u00f3n"/>
+		<Word key="Branch Name" value="Nombre de la Divisi\u00f3n"/>
+		<Word key="Projects" value="Proyectos"/>
+		<Word key="Preparing to commit, please wait" value="Prepar\u00e1ndose para consignaci\u00f3n de cambios, por favor espere"/>
+		<Word key="Delete Branch" value="Eliminar Divisi\u00f3n"/>
+		<Word key="Switch to" value="Cambiar a"/>
+		<Word key="&lt;Choose a previously entered comment&gt;" value="&lt;Seleccionar un comentario ingresado anteriormente&gt;"/>
+		<Word key="Checkout time" value="Hora de Comprobaci\u00f3n"/>
+		<Word key="The project is up-to-date." value="El proyecto est\u00e1 actualizado."/>
+		<Word key="Repositories" value="Repositorios"/>
+		<Word key="Logout" value="Cerrar sesi\u00f3n"/>
+		<Word key="Project description" value="Descripci\u00f3n del proyecto"/>
+		<Word key="Commit Project" value="Consignar cambios en Proyecto"/>
+		<Word key="Check Update" value="Compruebe Actualizaci\u00f3n"/>
+		<Word key="&lt;Unspecified&gt;" value="&lt;No especificado&gt;"/>
+		<Word key="New" value="Nuevo"/>
+		<Word key="Start working in branch" value="Empezar a trabajar en divisi\u00f3n"/>
+		<Word key="Checkout revision" value="Revisi\u00f3n de comprobaci\u00f3n"/>
+		<Word key="Checkout" value="Comprobaci\u00f3n"/>
+		<Word key="Tag created." value="Etiqueta creada."/>
+		<Word key="Please select a branch/tag to switch." value="Por favor, seleccione una divisi\u00f3n/etiqueta para cambiar."/>
+		<Word key="New Trunk" value="Nueva Troncal"/>
+		<Word key="URL" value="URL"/>
+		<Word key="Remember password" value="Recordar contrase\u00f1a"/>
+		<Word key="Repository " value="Repositorio"/>
+		<Word key="From revision" value="Desde la revisi\u00f3n"/>
+		<Word key="Please enter user name and password to login to the teamwork server." value="Por favor, introduzca nombre de usuario y contrase\u00f1a para ingresar a servidor de trabajo en equipo."/>
+		<Word key="Project name" value="Nombre del proyecto"/>
+		<Word key="Create Tag" value="Crear Etiquetas"/>
+		<Word key="Commit only" value="S\u00f3lo consignar cambios"/>
+		<Word key="Checkout branch" value="Comprobar Divisi\u00f3n"/>
+		<Word key="Login" value="Inicio de sesi\u00f3n"/>
+		<Word key="Tag Name" value="Nombre de Etiqueta"/>
+		<Word key="New Branch" value="Nueva Divisi\u00f3n"/>
+		<Word key="Force Commit Local Copy" value="Aplicar Cambios en Copia Local"/>
+		<Word key="Project name:" value="Nombre del proyecto:"/>
+		<Word key="Repository" value="Repositorio"/>
+		<Word key="Import Project to Repository" value="Importar Proyecto a Repositorio"/>
+		<Word key="To revision" value="A revisi\u00f3n"/>
+		<Word key="Up-to-date (local project not modified)" value="Actualizar (proyecto local no modificado)"/>
+		<Word key="Project description" value="Descripci\u00f3n del proyecto"/>
+		<Word key="Create folder for project" value="Crear carpeta para el proyecto"/>
+		<Word key="Has update (local project modified)" value="Ha actualizado (proyecto local modificado)"/>
+		<Word key="Teamwork Client" value="Cliente de trabajo en equipo"/>
+		<Word key="Please enter user name and password to login to the Subversion." value="Por favor, introduzca nombre de usuario y contrase\u00f1a para iniciar sesi\u00f3n en Subversion."/>
+		<Word key="Force Open Project" value="Aplicar en Proyecto Abierto"/>
+		<Word key="Import Project" value="Importar Proyecto"/>
+		<Word key="Reset Password" value="Restablecer Contrase\u00f1a"/>
+		<Word key="New Repository Location" value="Nueva Ubicaci\u00f3n del Repositorio"/>
+		<Word key="From project" value="Desde proyecto"/>
+		<Word key="Repair" value="Reparar"/>
+		<Word key="Create Blank Project" value="Crear Proyecto en Blanco"/>
+		<Word key="Revisions" value="Revisiones"/>
+		<Word key="Conflict only" value="S\u00f3lo conflicto"/>
+		<Word key="Repository path" value="Ruta del Repositorio"/>
+		<Word key="Histories" value="Historias"/>
+		<Word key="Update Project to" value="Actualizar Proyecto a"/>
+		<Word key="Commiting" value="Confirmando"/>
+		<Word key="Compare" value="Comparar"/>
+		<Word key="Not checked out." value="No verificado."/>
+		<Word key="Revision History" value="Historial de revisiones"/>
+		<Word key="Reading local modification" value="Leyendo modificaci\u00f3n local"/>
+		<Word key="Tag" value="Etiqueta"/>
+		<Word key="Teamwork Revert" value="Retroceder a Trabajo en Equipo"/>
+		<Word key="Teamwork Export" value="Exportar Trabajo en Equipo"/>
+		<Word key="Teamwork Switch" value="Cambiar Trabajo en Equipo"/>
+		<Word key="Teamwork Merge" value="Combinar Trabajo en Equipo"/>
+		<Word key="Teamwork Tag" value="Etiquetar Trabajo en Equipo"/>
+		<Word key="Teamwork Update Project" value="Proyecto de Actualizaci\u00f3n de Trabajo en Equipo"/>
+		<Word key="Teamwork Import" value="Importar Trabajo en Equipo"/>
+		<Word key="Teamwork Branch" value="Subdivisi\u00f3n de Trabajo en Equipo"/>
+		<Word key="Teamwork Commit" value="Ejecutar Trabajo en Equipo"/>
+		<Word key="Candidate Class View" value="Ver Clase Candidata"/>
+		<Word key="Problem Statement View" value="Vista de Enunciado de Problema"/>
+		<Word key="Fit Column" value="Ajustar Columna"/>
+		<Word key="Import Text File" value="Importar Archivo de Texto"/>
+		<Word key="Candidate Class" value="Clase Candidata"/>
+		<Word key="Extracted Text" value="Texto Extra\u00eddo"/>
+		<Word key="Problem Statement" value="Enunciado de Problema"/>
+		<Word key="Fit Size" value="Ajustar Tama\u00f1o"/>
+		<Word key="Data Dictionary View" value="Vista de Diccionario de Datos"/>
+		<Word key="Data Dictionary" value="Diccionario de Datos"/>
+		<Word key="Fit Table" value="Ajustar Cuadro"/>
+		<Word key="Fit Row" value="Ajustar Fila"/>
+		<Word key="Click to set highlight case sensitive" value="Haga clic para establecer distinci\u00f3n entre may\u00fasculas y min\u00fasculas"/>
+		<Word key="Font Hightlight Color" value="Color de Resaltado de Fuente"/>
+		<Word key="Align Bottom" value="Align Bottom"/>
+		<Word key="Align Horizontal Center" value="Align Horizontal Center"/>
+		<Word key="Align Left" value="Align Left"/>
+		<Word key="Align Right" value="Align Right"/>
+		<Word key="Align Top" value="Align Top"/>
+		<Word key="Align Vertical Center" value="Align Vertical Center"/>
+		<Word key="Auto Spell Check" value="Auto Spell Check"/>
+		<Word key="Bold" value="Bold"/>
+		<Word key="Copy to Clipboard as Image (EMF)" value="Copy to Clipboard as Image (EMF)"/>
+		<Word key="Copy to Clipboard as Image (JPG)" value="Copy to Clipboard as Image (JPG)"/>
+		<Word key="Copy to Clipboard as XML" value="Copy to Clipboard as XML"/>
+		<Word key="Copy within VP-UML EE" value="Copy within VP-UML EE"/>
+		<Word key="Distribute Shapes Horizontally" value="Distribute Shapes Horizontally"/>
+		<Word key="Distribute Shapes Vertically" value="Distribute Shapes Vertically"/>
+		<Word key="Distribute Shapes by Bottom Edges" value="Distribute Shapes by Bottom Edges"/>
+		<Word key="Distribute Shapes by Horizontal Centers" value="Distribute Shapes by Horizontal Centers"/>
+		<Word key="Distribute Shapes by Left Edges" value="Distribute Shapes by Left Edges"/>
+		<Word key="Distribute Shapes by Right Edges" value="Distribute Shapes by Right Edges"/>
+		<Word key="Distribute Shapes by Top Edges" value="Distribute Shapes by Top Edges"/>
+		<Word key="Distribute Shapes by Vertical Centers" value="Distribute Shapes by Vertical Centers"/>
+		<Word key="Export Active Diagram as Image" value="Export Active Diagram as Image"/>
+		<Word key="Export Diagram as Image" value="Export Diagram as Image"/>
+		<Word key="Export Selection as Image" value="Export Selection as Image"/>
+		<Word key="Export Use Case Model to MS Word" value="Export Use Case Model to MS Word"/>
+		<Word key="Font Color" value="Font Color"/>
+		<Word key="Format Copier" value="Format Copier"/>
+		<Word key="Import ERwin Project (XML)" value="Import ERwin Project (XML)"/>
+		<Word key="Import MS Word to Use Case Model Element" value="Import MS Word to Use Case Model Element"/>
+		<Word key="Import Rational Model" value="Import Rational Model"/>
+		<Word key="Import Rose Project" value="Import Rose Project"/>
+		<Word key="Import VP-UML Project" value="Import VP-UML Project"/>
+		<Word key="Import XMI" value="Import XMI"/>
+		<Word key="Import XML" value="Import XML"/>
+		<Word key="Italic" value="Italic"/>
+		<Word key="Nickname" value="Nickname"/>
+		<Word key="Print" value="Print"/>
+		<Word key="Class View" value="Vista de Clase"/>
+		<Word key="Collapse" value="Contraer"/>
+		<Word key="Database View" value="Vista de Base de Datos"/>
+		<Word key="Diagram Tree" value="Arbol de Diagrama"/>
+		<Word key="Diagram Tree View" value="Vista de Arbol de Diagrama"/>
+		<Word key="Expand" value="Expandir"/>
+		<Word key="Move Down" value="Bajar"/>
+		<Word key="Move Selected Diagram Down" value="Bajar Diagrama Seleccionado"/>
+		<Word key="Move Selected Diagram Up" value="Subir Diagrama Seleccionado"/>
+		<Word key="Move Up" value="Subir"/>
+		<Word key="No Sorting" value="Sin Clasificar"/>
+		<Word key="Refresh (F5)" value="Actualizar (F5)"/>
+		<Word key="Set Logical View Structure as Default" value="Establecer Estructura de Vista L\u00f3gica como Predeterminado"/>
+		<Word key="Show Diagram View" value="Mostrar Vista de Diagrama"/>
+		<Word key="Sort Diagram Element by Name" value="Clasificar Elemento de Diagrama por Nombre"/>
+		<Word key="Sort Diagram Element by Type" value="Clasificar Elemento de Diagrama por Tipo"/>
+		<Word key="Select In Diagram" value="Seleccionar en el Diagrama"/>
+		<Word key="Sort Class Diagram by name" value="Ordenar Diagrama de Clases por nombre"/>
+		<Word key="Navigation" value="Navegaci\u00f3n"/>
+		<Word key="Filter Model Element" value="Filtrar Elemento Modelo"/>
+		<Word key="Collapse All" value="Contraer Todo"/>
+		<Word key="Expand All" value="Expandir Todo"/>
+		<Word key="Create View in Active Diagram" value="Crear Vista en Diagrama Activo"/>
+		<Word key="Rank" value="Categor\u00eda"/>
+		<Word key="Fit Selected Row Height" value="Ajustar altura de fila seleccionada"/>
+		<Word key="Use Case Name" value="Nombre de Casos de Uso"/>
+		<Word key="Show ranks" value="Mostrar categor\u00edas"/>
+		<Word key="Justification" value="Justificaci\u00f3n"/>
+		<Word key="Fit All Rows Height" value="Ajustar Altura de Todas las Filas"/>
+		<Word key="Select None" value="Seleccionar Ninguno"/>
+		<Word key="Filter" value="Filtro"/>
+		<Word key="Visualize" value="Visualizar"/>
+		<Word key="Visualize Related Model Element" value="Visualizar los Elementos Modelo Relacionados"/>
+		<Word key="Inverse Selection" value="Invertir Selecci\u00f3n"/>
+		<Word key="A workspace is a directory where your" value="Una \u00e1rea de trabajo es un directorio donde su"/>
+		<Word key="Import Workspace" value="Importar Area de Trabajo"/>
+		<Word key="Please select the workspace directory to use." value="Favor seleccionar el directorio de \u00e1rea de trabajo a usar."/>
+		<Word key="Select a workspace" value="Seleccionar una \u00e1rea de trabajo"/>
+		<Word key="Workspace" value="Area de Trabajo"/>
+		<Word key="Workspace Launcher" value="Lanzador de Area de Trabajo"/>
+		<Word key="projects and settings are stored." value="est\u00e1n grabados los proyectos y configuraciones."/>
+		<Word key="To workspace" value="A Area de Trabajo"/>
+	</WordSet>
+	<Information name="Spanish" nameInEnglish="Spanish"/>
+</UserLanguage>
