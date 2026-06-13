@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITviec</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      background-color: green;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .khung {
+      background-color: white;
+      padding: 30px;
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gray;
+    }
+
+    .dong {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    select {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 16px;
+      background-color: #f2f2f2; 
+      border: 2px solid #4CAF50; 
+      border-radius: 4px;
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+    }
+
+    input[type="text"]:focus,
+    select:focus {
+      background-color: #e0f0ff; 
+      border-color: #007BFF;
+      box-shadow: 0 0 5px #007BFF;
+      outline: none;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      background-color: forestgreen;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .submit {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      background-color: green;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      transform: scale(1.1);
+      accent-color: green;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    button {
+      font-size: 20px;
+      background-color: green;
+      color: white;
+      padding: 10px;
+      width: 100%;
+      margin-top: 30px;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-submit:hover {
+      background-color: darkgreen;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="khung">
+    <form id="formItviec">
+      <div class="dong">
+        <label>Họ tên</label>
+        <input type="text" placeholder="Nhập tên của bạn" name="hoten" />
+      </div>
+
+      <div class="dong">
+        <label>Email</label>
+        <input type="text" placeholder="Nhập email của bạn" name="email" />
+      </div>
+
+      <div class="dong">
+        <label>Tuổi</label>
+        <input type="text" placeholder="Nhập tuổi" name="tuoi" />
+      </div>
+
+      <div class="dong">
+        <label>Hiện tại bạn đang là?</label>
+        <select name="nghenghiep">
+          <option>Học sinh/Sinh viên</option>
+          <option>Giáo viên</option>
+          <option>Giám đốc</option>
+          <option>CEO</option>
+        </select>
+      </div>
+
+      <div class="dong">
+        <label>Bạn sẽ giới thiệu ITViec với bạn bè chứ?</label>
+        <div>
+          <div style="margin-bottom: 4px;">
+            <input type="radio" name="gioithieu" value="Có" /> Có
+          </div>
+          <div style="margin-bottom: 4px;">
+            <input type="radio" name="gioithieu" value="Không" /> Không
+          </div>
+          <div>
+            <input type="radio" name="gioithieu" value="Có thể" /> Có thể
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 10px;">
+        <span>Ngôn ngữ lập trình và Framework bạn đã biết</span>
+        <span style="font-size: 12px;">(Có thể chọn nhiều đáp án)</span>
+      </div>
+      <div style="margin-bottom: 4px;">
+        <input type="checkbox" name="language" value="C" /> C
+      </div>
+      <div style="margin-bottom: 4px;">
+        <input type="checkbox" name="language" value="C++" /> C++
+      </div>
+      <div>
+        <input type="checkbox" name="language" value="C#" /> C#
+      </div>
+
+      <div class="dong" style="margin-top: 20px;">
+        <label>Bạn có câu hỏi gì cho ITViec không?</label>
+        <input type="text" placeholder="Nhập câu hỏi của bạn tại đây" name="cauhoi" style="height: 50px;" />
+      </div>
+
+      <div>
+        <button type="submit" class="btn-submit">SUBMID</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("formItviec").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Bạn đã đăng kí thành công!");
+      this.reset();
+    });
+  </script>
+</body>
+
+</html>

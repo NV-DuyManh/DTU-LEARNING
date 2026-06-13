@@ -10,3 +10,18 @@ YEAR 1/Visio - Visual - Draw/Visual Paradigm for UML 10.0/
 
 # Bỏ qua file rác hệ thống chung
 *.tmp
+
+# Bỏ qua thư mục build của C# / .NET
+[Bb]in/
+[Oo]bj/
+
+# Bỏ qua thư mục cấu hình workspace của Eclipse
+.metadata/
+
+# Bỏ qua file biên dịch của Java
+*.class
+
+# Bỏ qua bộ cấu hình của Eclipse IDE
+.settings/
+.classpath
+.project

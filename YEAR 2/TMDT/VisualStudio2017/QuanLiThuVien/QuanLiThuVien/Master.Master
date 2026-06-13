@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="QuanLiThuVien.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table style="width: 100%; border-collapse: collapse">
+                <tr>
+                    <td style =" border: 1px solid; width:30%">
+                        <h3>THỂ LOẠI</h3>
+                        <asp:Repeater ID="Repeater1" runat="server">
+                            <ItemTemplate>
+                                <a href ="Home.aspx?maloai=<%# Eval("id_loai") %>"><%# Eval("ten_loai") %></a> <br />
+                             </ItemTemplate>
+                        </asp:Repeater>
+
+                    </td>
+                    <td style =" border: 1px solid;width:50%"> <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                         </asp:ContentPlaceHolder></td>
+                    <td style =" border: 1px solid;width:20%">
+                        Số người truy cập: <%=Application["so_nguoi_online"] %>
+                        <br />
+                        Tổng số người truy cập: <%=Application["tong_so_nguoi_da_truy_cap"] %>
+                    </td>
+                </tr>
+               
+            </table>
+           
+        </div>
+    </form>
+</body>
+</html>

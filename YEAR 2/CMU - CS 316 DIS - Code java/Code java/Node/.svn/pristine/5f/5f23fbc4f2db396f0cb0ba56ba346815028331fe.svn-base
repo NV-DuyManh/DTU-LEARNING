@@ -1,0 +1,147 @@
+package Node;
+
+import java.util.*;
+
+class Node {
+	int data;
+	Node next;
+
+	Node(int x) {
+		data = x;
+		next = null;
+	}
+
+	Node(int x, Node t) {
+		data = x;
+		next = t;
+	}
+
+	public String toString() {
+		return data + "-->";
+	}
+}
+
+public class MYSLL2 {
+	Node head = null;
+
+	void nhap() {
+		int x;
+		Scanner kb = new Scanner(System.in);
+		Node cuoi=null;
+		head =null;
+		while(true) {
+			System.out.print("Nhập x để thêm vào ds:");
+			x=kb.nextInt();
+			if(x==0) {
+				break;
+			}
+			Node t = new Node(x);
+			if(head==null) {
+				head = cuoi=t;
+			}else {
+				cuoi.next = t;
+				cuoi=t;
+			}
+		}
+	}
+	
+	void themdau(int x) {
+		head = new Node(x, head);
+	}
+	
+	void themcuoi(int x) {
+		if(head ==null) {
+			head = new Node(x);
+		}else {
+			Node p = head;
+			while(p.next != null) {
+				p=p.next;
+			}
+			p.next = new Node(x);
+		}
+	}
+	
+	void chenk(int x, int k) {
+		if(k<0) {
+			System.out.println("\nVị trí chèn không hợp lệ");
+		}else if(k==0){
+			head = new Node(x,head);
+		}else {
+			int vt = 0;
+			Node p = head;
+			while(p!=null &&vt<k-1) {
+				vt++;
+				p=p.next;
+			}
+			if(p==null) {
+				System.out.println("\n Vị trí chèn không hợp lệ");
+			}else {
+				Node t = new Node(x, p.next);
+				p.next=t;
+			}
+		}
+	}
+	
+	void xoadau() {
+		if(head == null) {
+			System.out.println("\n Không xóa được!");
+		}else {
+			head = head.next;
+		}
+	}
+	void xoacuoi() {
+		if(head == null) {
+			System.out.println("\n Không xóa được!");
+		}else if(head.next==null) {
+			head = null;
+		}else {
+			Node p = head;
+			while(p.next!=null) {
+				p=p.next;
+			}
+			p.next = null;
+		}
+	}
+	void xoak(int k) {
+		if(head == null || k<0) {
+			System.out.println("\n Không xóa được!");
+		}else if(k==0) {
+			head = head.next;
+		}else {
+			int vt =0;
+			Node p = head;
+			while(p!=null && vt <k-1) {
+				p=p.next;
+				vt++;
+			}
+			if(p==null || p.next==null) {
+				System.out.println("Không xóa được");
+			}else {
+				p.next=p.next.next;
+			}
+			
+		}
+	}
+	void in() {
+		System.out.print("\nNội dung danh sách: \n==>");
+		Node p = head;
+		while (p != null) {
+			System.out.print(p);
+			p = p.next;
+		}
+		System.out.println("null\n");
+
+	}
+
+	public static void main(String[] args) {
+		MYSLL2 l = new MYSLL2();
+		l.nhap();
+	//	l.themdau(9);
+	//	l.themcuoi(100);
+	//	l.chenk(7, 2);
+		l.xoak(2);
+		l.in();
+		System.out.println("\nXong!");
+	}
+
+}

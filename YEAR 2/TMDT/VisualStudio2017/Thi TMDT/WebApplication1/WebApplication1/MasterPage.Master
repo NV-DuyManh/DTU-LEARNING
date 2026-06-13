@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WebApplication1.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table style="width: 100%; border-collapse:collapse">
+                <tr >
+                    <td style =" width: 20%; border:1px solid; vertical-align: top;text-align:center">
+                        <h3>CHỦ ĐỀ SÁCH</h3>
+                        <asp:Repeater ID="Repeater1" runat="server">
+                            <ItemTemplate>
+                                <a href="QLSACH.aspx?maloai=<%# Eval("MACHUDE") %>">
+                                  <p><u><i> <%# Eval("TENCHUDE") %></i></u></p>
+                                </a>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </td>
+                    <td style =" width: 40%; border:1px solid; vertical-align: top;text-align:center">
+                          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                          </asp:ContentPlaceHolder>
+                    </td>
+                    <td style =" width: 40%; border:1px solid; vertical-align: top;text-align:center">
+                        Thông tin đăng nhập
+                        <br />
+                        <br />
+                        Tên đăng nhập: <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        <br />
+&nbsp;&nbsp;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Mật khẩu: <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        <br />
+                        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+                            <asp:ListItem>Ghi nhớ mật khẩu</asp:ListItem>
+                        </asp:CheckBoxList>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button1" runat="server" Text="Đăng nhập" />
+                            <div style="text-align:left">
+                                <p>Số người truy cập là: <%= Application["SoNguoTruyCap"] %></p>
+                    </div>
+                        </td>
+                
+                </tr>
+              
+            </table>
+        </div>
+    </form>
+</body>
+</html>

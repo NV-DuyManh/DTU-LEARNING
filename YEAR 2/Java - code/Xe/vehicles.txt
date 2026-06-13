@@ -1,0 +1,6 @@
+All vehicles:
+This car has: 4 wheels, color: do, takes 0.5 hours to move the distance: 300.0 km, with speed 600 km/h and gas volume is 20.0
+This electrical bicycle has: 5 wheels, color: xanh, takes 7.142857142857143 hours to move the distance: 500.0 km and Recharge batteries
+
+The fastest vehicle is:
+This car has: 4 wheels, color: do, takes 0.5 hours to move the distance: 300.0 km, with speed 600 km/h and gas volume is 20.0

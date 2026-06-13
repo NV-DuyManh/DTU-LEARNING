@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WebApplication1.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table style="width: 100%;border-collapse:collapse">
+                <tr>
+                    <td style="border:1px solid;width:20%; text-align:center">
+                        <h3>DANH MỤC</h3>
+                        <asp:Repeater ID="Repeater1" runat="server">
+                            <ItemTemplate>
+                                <a href ="Home.aspx?MaLoai=<%# Eval("MaLoaiSP") %>"><%# Eval("TenLoaiSP") %></a><br />
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </td>
+
+                    <td style="border:1px solid;width:40%">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                   
+                    <td style="border:1px solid;width:40%">
+                         Thông tin đăng nhập
+                         <br />
+                         Tên đăng nhập: 
+                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                         <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Mật khẩu: <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        <asp:CheckBoxList ID="CheckBoxList1" runat="server" CssClass="auto-style1">
+                            <asp:ListItem>Ghi nhớ mật khẩu</asp:ListItem>
+                         </asp:CheckBoxList>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </form>
+</body>
+</html>
