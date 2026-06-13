@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<autoUninstall>
-<action className="com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction"/>
-<action className="com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction">
-<property name="extension" value=".vpp"/>
-<property name="executable" value="D:\CMU-SE 214\Visual Paradigm for UML 10.0\bin\Visual Paradigm for UML 10.0.exe"/>
-</action>
-<action className="com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction"/>
-</autoUninstall>

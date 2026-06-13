@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<shortcuts>&#10;&#9;
-	<shortcut id="vpuml_launcher" name="Visual Paradigm for UML 10.0" parent="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Paradigm" path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Paradigm\Visual Paradigm for UML 10.0.lnk"/>&#10;&#9;
-	<shortcut id="vpupdate" name="VP-UML Update 10.0" parent="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Paradigm" path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Paradigm\VP-UML Update 10.0.lnk"/>&#10;&#9;
-	<shortcut id="vpsuite_uninstall" name="Visual Paradigm for UML 10.0 Uninstaller" parent="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Paradigm" path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Paradigm\Visual Paradigm for UML 10.0 Uninstaller.lnk"/>&#10;
-</shortcuts>
